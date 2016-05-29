@@ -1,0 +1,429 @@
+.logoNav
+  position: relative
+  z-index: 123
+  padding: 10px
+  font-family: $font1
+  color: $logoText
+  float: left
+  width: 18%
+  a
+    color: $logoText
+  img
+    width: 75px
+
+header
+  width: 100%
+  background-color: $headerBack
+
+
+nav
+  position: relative
+  margin: 0 auto
+
+.nav
+  width: 1300px
+  margin: 0 auto
+
+#cssmenu
+  p
+    font-weight: 200
+    font-size: 25px
+
+@media (max-width: 780px)
+  #cssmenu
+    p
+      font-size: 16px
+
+#cssmenu
+  border: 0
+  list-style: none
+  line-height: 1
+  display: block
+  position: relative
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  z-index: 9999
+  ul
+    border: 0
+    list-style: none
+    line-height: 1
+    display: block
+    position: relative
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    li
+      border: 0
+      list-style: none
+      line-height: 1
+      display: block
+      position: relative
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      box-sizing: border-box
+      a
+        border: 0
+        list-style: none
+        line-height: 1
+        display: block
+        position: relative
+        -webkit-box-sizing: border-box
+        -moz-box-sizing: border-box
+        box-sizing: border-box
+  #head-mobile
+    border: 0
+    list-style: none
+    line-height: 1
+    display: block
+    position: relative
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+  &:after, > ul:after
+    content: "."
+    display: block
+    clear: both
+    visibility: hidden
+    line-height: 0
+    height: 0
+  #head-mobile
+    display: none
+  font-family: sans-serif
+  background: $navBack
+  > ul > li
+    float: left
+    > a
+      padding: 17px
+      font-size: 12px
+      letter-spacing: 1px
+      text-decoration: none
+      color: $topNavText
+      font-weight: 700
+    &:hover > a
+      color: $topNavTextHover
+  ul
+    li
+      &.active
+        a
+          color: #fff
+        &:hover
+          background: $navLiHover !important
+          -webkit-transition: background .3s ease
+          -ms-transition: background .3s ease
+          transition: background .3s ease
+        background: $navLiHover !important
+        -webkit-transition: background .3s ease
+        -ms-transition: background .3s ease
+        transition: background .3s ease
+      &.has-sub.active:hover
+        background: $navLiHover !important
+        -webkit-transition: background .3s ease
+        -ms-transition: background .3s ease
+        transition: background .3s ease
+    ul
+      position: absolute
+      left: -9999px
+      li
+        height: 0
+        -webkit-transition: all .25s ease
+        -ms-transition: all .25s ease
+        background: $navDd
+        transition: all .25s ease
+        &:hover
+          background-color: $navDdHover
+  > ul > li:hover
+    background: $navHover !important
+    -webkit-transition: background .3s ease
+    -ms-transition: background .3s ease
+    transition: background .3s ease
+  > ul > li.has-sub
+    > a
+      padding-right: 30px
+      &:after
+        position: absolute
+        top: 22px
+        right: 11px
+        width: 8px
+        height: 2px
+        display: block
+        background: #ddd
+        content: ''
+      &:before
+        position: absolute
+        top: 19px
+        right: 14px
+        display: block
+        width: 2px
+        height: 8px
+        background: #ddd
+        content: ''
+        -webkit-transition: all .25s ease
+        -ms-transition: all .25s ease
+        transition: all .25s ease
+    &:hover > a:before
+      top: 23px
+      height: 0
+  li:hover > ul
+    left: auto
+    > li
+      height: 35px
+  ul
+    ul
+      ul
+        margin-left: 100%
+        top: 0
+      li
+        a
+          border-bottom: 1px solid rgba(150, 150, 150, 0.15)
+          padding: 11px 15px
+          //prob
+          width: 300px
+          font-size: 12px
+          text-decoration: none
+          color: #ddd
+          font-weight: 400
+        &:last-child > a, &.last-item > a
+          border-bottom: 0
+        &:hover > a, a:hover
+          color: #fff
+        &.has-sub
+          > a
+            &:after
+              position: absolute
+              top: 16px
+              right: 11px
+              width: 8px
+              height: 2px
+              display: block
+              background: #ddd
+              content: ''
+            &:before
+              position: absolute
+              top: 13px
+              right: 14px
+              display: block
+              width: 2px
+              height: 8px
+              background: #ddd
+              content: ''
+              -webkit-transition: all .25s ease
+              -ms-transition: all .25s ease
+              transition: all .25s ease
+          &:hover
+            background: $navDdHover
+      > li.has-sub:hover > a:before
+        top: 17px
+        height: 0
+    li.has-sub ul li.has-sub ul li:hover
+      background: $navDd2Hover
+    ul ul li.active a
+      border-left: 1px solid #333
+  > ul
+    > li.has-sub > ul > li.active > a, ul > li.has-sub > ul > li.active > a
+      border-top: 1px solid #333
+
+@media screen and (max-width: 700px)
+  .logoNav
+    position: absolute
+    top: 0
+    left: 0
+    width: 80%
+    height: 46px
+    text-align: center
+    padding: 14px 0 0 0
+    float: none
+  .logo2
+    display: none
+  nav
+    width: 100%
+  #cssmenu
+    width: 100%
+    ul
+      width: 100%
+      display: none
+      li
+        width: 100%
+        border-top: 1px solid #444
+        &:hover
+          background: #363636
+      ul li
+        height: auto
+    li:hover > ul > li
+      height: auto
+    ul
+      li a
+        width: 100%
+        border-bottom: 0
+      ul
+        li
+          a
+            width: 100%
+            border-bottom: 0
+            padding-left: 25px
+          background: #333 !important
+          &:hover
+            background: #363636 !important
+        ul li a
+          padding-left: 35px
+        li
+          a
+            color: #ddd
+            background: none
+          &:hover > a, &.active > a
+            color: #fff
+        position: relative
+        left: 0
+        width: 100%
+        margin: 0
+        text-align: left
+        ul
+          position: relative
+          left: 0
+          width: 100%
+          margin: 0
+          text-align: left
+        > li.has-sub > a
+          &:after, &:before
+            display: none
+    > ul > li
+      float: none
+    > ul > li.has-sub > a
+      &:after, &:before
+        display: none
+    #head-mobile
+      display: block
+      padding: 23px
+      color: #ddd
+      font-size: 12px
+      font-weight: 700
+  .button
+    width: 55px
+    height: 46px
+    position: absolute
+    right: 0
+    top: 0
+    cursor: pointer
+    z-index: 12399994
+    &:after
+      position: absolute
+      top: 15px
+      right: 20px
+      display: block
+      height: 4px
+      width: 20px
+      border-top: 2px solid #dddddd
+      // border-bottom: 2px solid #dddddd
+      content: ''
+    &:before
+      -webkit-transition: all .3s ease
+      -ms-transition: all .3s ease
+      transition: all .3s ease
+      position: absolute
+      top: 23px
+      right: 20px
+      display: block
+      height: 2px
+      width: 20px
+      background: #ddd
+      content: ''
+    &.menu-opened
+      &:after
+        -webkit-transition: all .3s ease
+        -ms-transition: all .3s ease
+        transition: all .3s ease
+        top: 23px
+        border: 0
+        height: 2px
+        width: 19px
+        background: #fff
+        -webkit-transform: rotate(45deg)
+        -moz-transform: rotate(45deg)
+        -ms-transform: rotate(45deg)
+        -o-transform: rotate(45deg)
+        transform: rotate(45deg)
+      &:before
+        top: 23px
+        background: #fff
+        width: 19px
+        -webkit-transform: rotate(-45deg)
+        -moz-transform: rotate(-45deg)
+        -ms-transform: rotate(-45deg)
+        -o-transform: rotate(-45deg)
+        transform: rotate(-45deg)
+  #cssmenu
+    .submenu-button
+      position: absolute
+      z-index: 99
+      right: 0
+      top: 0
+      display: block
+      border-left: 1px solid #444
+      height: 46px
+      width: 46px
+      cursor: pointer
+      &.submenu-opened
+        background: #e86464
+    ul ul .submenu-button
+      height: 34px
+      width: 34px
+    .submenu-button:after
+      position: absolute
+      top: 22px
+      right: 19px
+      width: 8px
+      height: 2px
+      display: block
+      background: #ddd
+      content: ''
+    ul ul .submenu-button:after
+      top: 15px
+      right: 13px
+    .submenu-button
+      &.submenu-opened:after
+        background: #fff
+      &:before
+        position: absolute
+        top: 19px
+        right: 22px
+        display: block
+        width: 2px
+        height: 8px
+        background: #ddd
+        content: ''
+    ul ul .submenu-button:before
+      top: 12px
+      right: 16px
+    .submenu-button.submenu-opened:before
+      display: none
+    ul ul ul li.active a
+      border-left: none
+    > ul
+      > li.has-sub > ul > li.active > a, ul > li.has-sub > ul > li.active > a
+        border-top: none
+//
+// .mainLi
+//   background-color: #ccc
+@media (min-width: 700px)
+  #cssmenu
+    max-height: 96px
+    ul
+      li.mainLi
+        padding: 25px 0
+
+
+// Para que flote a la derecha en escritorio
+@media (min-width: 1350px)
+  #cssmenu
+    > ul
+      float: right
+
+@media (max-width: 780px)
+  .nav
+    max-width: 100%
+
+
+@media (max-width: 845px)
+  #cssmenu > ul > li > a
+    font-size: 10px
+    letter-spacing: 0px
