@@ -1,24 +1,65 @@
-<div class="container-fluid topHead">
+<!-- TOP BAR -->
+<div class="container-fluid topBar">
   <div class="container">
-    <div class="col-md-6 pull-left">
-        <img src="../../../skin/images/body/logos/weblogo.png" alt="" />
-    </div>
-    <div class="col-md-6">
-      <blockquote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-      </blockquote>
-    </div>
+    <nav class="navbar">
 
+      <!-- Top Left Menu  -->
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <div class="input-group topSearch">
+            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+            <input type="text" class="form-control" placeholder="Buscar..." aria-describedby="basic-addon1">
+          </div>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li> -->
+      </ul>
+      <form class="form-inline pull-xs-right">
+        <!-- <input class="form-control" type="text" placeholder="Buscar..."> -->
+        <div class="row topOptions">
+          <button type="button" name="button" class="btn mainBtn">Ingresar</button>
+          <button type="button" name="button" class="btn mainBtn">Registro</button>
+        </div>
+      </form>
+    </nav>
   </div>
 </div>
+
+<!-- TOP HEADER -->
+<div class="container-fluid topHead">
+  <div class="container">
+    <div class="col-md-12 container topInner">
+      <div class="col-md-3 col-sm-3 col-xs-12 topLogo">
+          <img src="../../../skin/images/body/logos/weblogo.png" alt="" />
+      </div>
+      <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
+        <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA<br> HOMEOP&Aacute;TICA ARGENTINA</span><br>
+        <span class="topSlogan">FUNDADA EN 1933 - LA PRIMER ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
+            <span><b>DATOS DE CONTACTO</b></span><br>
+            <p>Turnos: 4827-2907 <br>
+            Administraci&oacute;n: 4826-5852 <br>
+            Escuela, Fax. 4827-2907</p>
+      </div>
+    </div>
+  </div>
+</div><!-- /TOP HEADER -->
+
 <div class="nav">
   <nav id='cssmenu'>
     <!-- <div class="logoNav"><a href="index.html"><p>Asociación Médica Homeopática Argentina</p></a></div> -->
     <div id="head-mobile"></div>
     <div class="button"></div>
       <ul>
-        <li class="active mainLi"><a href='#'>INICIO</a></li>
+        <li class="active mainLi"><a href='index.php'>INICIO</a></li>
         <li class="mainLi"><a href='#'>AUTORIDADES</a></li>
         <li class="mainLi"><a href='#'>CURSOS</a>
           <ul>
@@ -51,7 +92,6 @@
         <li class="mainLi"><a href='#'>BIBLIOGRAFIA</a></li>
         <li class="mainLi"><a href='#'>FARMACIAS</a></li>
         <li class="mainLi"><a href='#'>LINKS</a></li>
-
       </ul>
   </nav>
 </div>

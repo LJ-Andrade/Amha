@@ -1,0 +1,181 @@
+// Top Nav
+
+
+nav
+  position: relative
+  margin: 0 auto
+
+.navbar
+  border-radius: 0
+  padding: .5rem 0
+  color: #fff
+.topBar
+  ul
+    li
+      a
+        color: #fff
+
+
+@media (max-width: 545px)
+  .topBar
+    nav
+      form
+        // float: left!important
+    .topSearch
+      input
+        width: 100px
+      // display: none
+
+@media (max-width: 1300px)
+  .topOptions
+    padding-right: 15px
+
+@media (max-width: 359px)
+  .form-inline
+    margin-right: 25%
+@media (max-width: 240px)
+  .form-inline
+    margin-right: 15%
+@media (max-width: 220px)
+  .form-inline
+    margin-right: 1%
+
+
+// Header
+.logoNav
+  position: relative
+  z-index: 123
+  padding: 10px
+  font-family: $font1
+  color: $logoText
+  float: left
+  width: 18%
+  a
+    color: $logoText
+  img
+    width: 75px
+
+header
+  width: 100%
+  background-color: $headerBack
+
+/////////////TOP ////////////
+// Top Bar
+.topBar
+  background-color: rgb(79, 96, 107)
+  .container
+    padding-right: 0
+  .input-group
+    padding-right: 5px
+  // padding: 8px 0
+
+
+///// TOP HEAD //////
+.topHead
+  position: relative
+  background-color: rgb(83, 106, 120)
+  color: #fff
+  .container
+    padding-left: 0
+    padding-right: 0
+  p
+    color: #fff
+  img
+    width: 150px
+  .row
+    padding: 15px
+// Upper Search Form
+.topSearch
+  .form-control
+    background-color: transparent
+    border: 0
+    border-radius: 0
+    border-bottom: 1px solid #fff
+    color: #fff
+  .input-group-addon
+    border: 0
+    background-color: transparent
+    border-bottom: 1px solid rgb(162, 162, 162)
+    border-radius: 0
+    color: #fff
+    /* Placeholder Color */
+  .form-control::-webkit-input-placeholder
+    color: white
+    font-weight: 100
+
+  .form-control:-moz-placeholder
+    color: white
+    font-weight: 100
+  .form-control::-moz-placeholder
+    color: white
+    font-weight: 100
+  .form-control:-ms-input-placeholder
+    color: white
+    font-weight: 100
+////////////////////////////////////////////////////////////
+////// DATA HEADER (parent) //////
+.topInner
+  padding: 15px 0
+
+// Logo
+.topLogo
+  max-width: 180px
+
+@media (max-width: 690px)
+  .topLogo
+    width: 100%
+    max-width: 100%
+    text-align: center
+    img
+      margin: 0 auto
+      width: 80px
+
+// Client Name
+
+.topTitles
+  width: auto
+  padding-top: 24px
+
+span.topName
+  font-size: 1.5rem
+span.topSlogan
+  font-weight: 300
+  font-size: .8rem
+
+@media (max-width: 1000px)
+  .topTitles
+  span.topName
+    font-size: 1rem
+  span.topSlogan
+    font-weight: 300
+    font-size: .7rem
+
+@media (max-width: 690px)
+  .topTitles
+    width: 100%
+    text-align: center
+    // width: 100%
+    padding-top: 2px
+
+
+// Contact Data
+.topDatos
+  padding: 0
+  text-align: right
+  float: right
+  padding-top: 24px
+  p
+    margin-bottom: 0
+    font-weight: 300
+
+@media (max-width: 1000px)
+  .topDatos
+    display: none
+
+  // @media (max-width: 765px)
+  //   .topName
+  //     span
+  //       font-size: 1rem
+
+
+////////////////////////////////////////////////////////////

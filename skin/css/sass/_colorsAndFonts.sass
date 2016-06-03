@@ -1,18 +1,72 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,200italic,700)
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,700)
 
-// font-family: 'Source Sans Pro', sans-serif
+html
+// @media
+body
+  font-size: 14px
+  // =14px
+  font-size: 1rem
+h1
+  font-size: 24px
+  //=24px
+  font-size: 2.4rem
 
-// font-weight: 200
 
+// font-weight: 100
 // font-weight: 300
 // font-weight: 400
+// font-weight: 500
+// font-weight: 600
 // font-weight: 700
 
-// Colors
-
-
 // Fonts
-$font1: 'Source Sans Pro', sans-serif
+$font1: 'Roboto', sans-serif
+
+// Titles, parragraph, etc.
+a
+  text-decoration: none
+  color: #fff
+  outline: 0
+  transition: 0.5s all
+  -webkit-transition: 0.5s all
+  -moz-transition: 0.5s all
+  -o-transition: 0.5s all
+  -ms-transition: 0.5s all
+  &:hover, &:focus, &:active
+    text-decoration: none
+    color: #000
+    outline: 0
+
+h1, h2, h3, h4, h5, h6
+  margin: 0
+  font-family: $font1
+  color: #000
+h1
+  font-size: 2.3rem
+  font-weight: 300
+h2
+  font-size: 2rem
+  font-weight: 300
+h3
+  font-size: 1.8rem
+  font-weight: 100
+h4
+  font-size: 1.5rem
+h5
+  font-size: 1.3rem
+
+h1,h2,h3,h4,h5.titW
+  color: #fff
+
+
+p
+  font-family: $font1
+  font-size: 1rem
+  font-weight: 300
+  color: #000
+
+span.italic
+  font-style: italic
 
 // COLORS
 $topNavColor: rgb(70, 70, 70)
@@ -37,3 +91,10 @@ $navDdHover: #67728c
 // DropDown2
 $navDd2: rgb(94, 66, 99)
 $navDd2Hover: #67728c
+
+
+////////// Buttons ///////////////
+$mainBtn: rgb(107, 102, 85)
+
+//////// Others /////////////////
+$mainContainer: rgb(237, 237, 237)
