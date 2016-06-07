@@ -2,7 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,700);
 body {
   font-size: 14px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  background: url(../../skin/images/body/backgrounds/mainBack.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 h1 {
   font-size: 24px;

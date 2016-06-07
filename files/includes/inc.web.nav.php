@@ -1,5 +1,5 @@
 <!-- TOP BAR -->
-<div class="container-fluid topBar">
+<div id="topBar" class="container-fluid topBar">
   <div class="container">
     <nav class="navbar">
 
@@ -33,7 +33,7 @@
 </div>
 
 <!-- TOP HEADER -->
-<div class="container-fluid topHead">
+<div id="topHead" class="container-fluid topHead">
   <div class="container">
     <div class="col-md-12 container topInner">
       <div class="col-md-3 col-sm-3 col-xs-12 topLogo">
