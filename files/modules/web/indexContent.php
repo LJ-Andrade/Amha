@@ -1,4 +1,4 @@
-<div class="col-md-9 wow zoomIn fadeIn">
+<div class="col-lg-9 col-md-12 wow zoomIn fadeIn">
   <div class="card-columns">
     <div class="card">
       <img src="" class="card-img-top" data-src="..." alt="Card image cap">

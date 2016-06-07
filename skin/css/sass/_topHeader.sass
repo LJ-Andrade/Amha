@@ -16,30 +16,23 @@ nav
 .topOptions
   margin-right: 4px
 
+.topOptionsMobile
+  text-align: center
+  margin-top: 10px
+
 @media (max-width: 545px)
   .topBar
     nav
       form
-        // float: left!important
     .topSearch
       input
         width: 100px
-      // display: none
 
-@media (max-width: 1300px)
-  .topOptions
-    padding-right: 15px
-
-@media (max-width: 359px)
-  .form-inline
-    margin-right: 25%
-@media (max-width: 240px)
-  .form-inline
-    margin-right: 15%
-@media (max-width: 220px)
-  .form-inline
-    margin-right: 1%
-
+@media (max-width: 349px)
+  .topBar
+    .topSearch
+      input
+        width: 100%
 
 // Header
 .logoNav
@@ -124,7 +117,7 @@ header
 .topLogo
   max-width: 180px
 
-@media (max-width: 690px)
+@media (max-width: 765px)
   .topLogo
     width: 100%
     max-width: 100%
@@ -137,7 +130,11 @@ header
 
 .topTitles
   width: auto
-  padding-top: 24px
+  padding-top: 40px
+
+@media (max-width: 1032px)
+  .topTitles
+    padding-top: 20px
 
 span.topName
   font-size: 1.5rem
@@ -153,7 +150,7 @@ span.topSlogan
     font-weight: 300
     font-size: .7rem
 
-@media (max-width: 690px)
+@media (max-width: 765px)
   .topTitles
     width: 100%
     text-align: center
@@ -171,7 +168,7 @@ span.topSlogan
     margin-bottom: 0
     font-weight: 300
 
-@media (max-width: 1000px)
+@media (max-width: 1032px)
   .topDatos
     display: none
 
@@ -179,6 +176,12 @@ span.topSlogan
   //   .topName
   //     span
   //       font-size: 1rem
+
+.topAddressMobile
+  display: none
+@media (max-width: 1032px)
+  .topAddressMobile
+    display: block
 
 
 ////////////////////////////////////////////////////////////

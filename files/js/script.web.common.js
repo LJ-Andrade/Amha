@@ -4,8 +4,8 @@ $( document ).ready(function() {
 
 });
 
-///// Cambiar cabecera ///////
-// Abre menu //
+///// STYLE OPTION MENU///////
+// Left Options Side Menu //
 $('.viewStylesInner').click(function() {
   $('#viewStyles').toggleClass('viewStylesMarg');
 });
@@ -20,7 +20,7 @@ $('.viewStylesInner').click(function() {
 //   }
 // });
 
-// Cambio de clases
+// Show header Styles variant
 $('#cambioCabecera').click(function() {
   if ($('#topBar').hasClass('container-fluid'))  {
       $('#topBar').removeClass('container-fluid');
@@ -43,6 +43,16 @@ $('#cambioCabecera').click(function() {
   } else {
       $('header').removeClass('headerBackground');
   }
-
-
 });
+
+/////////  Top Options Bar responsivity /////////////
+function TopOptions() {
+  if (screen.width < 350) {
+       $("#TopOptions").removeClass('pull-xs-right');
+       $("#TopOptions").addClass('topOptionsMobile col-xs-12');
+   }
+   else {
+
+   }
+}
+TopOptions();

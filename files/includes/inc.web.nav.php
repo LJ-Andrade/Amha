@@ -21,7 +21,7 @@
           <a class="nav-link" href="#">About</a>
         </li> -->
       </ul>
-      <form class="form-inline pull-xs-right">
+      <form id="TopOptions" class="form-inline pull-xs-right">
         <!-- <input class="form-control" type="text" placeholder="Buscar..."> -->
         <div class="row topOptions">
           <button type="button" name="button" class="btn mainBtn">Ingresar</button>
@@ -40,14 +40,18 @@
           <img src="../../../skin/images/body/logos/weblogo.png" alt="" />
       </div>
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
-        <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA<br> HOMEOP&Aacute;TICA ARGENTINA</span><br>
+        <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
         <span class="topSlogan">FUNDADA EN 1933 - LA PRIMER ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
+        <span class="topAddressMobile"><hr>  <p>Turnos: <b>4827-2907</b>  | Administraci&oacute;n: <b>4826-5852</b>  | Escuela, Fax: <b>4827-2907</b><br>
+          <b>Juncal 2884 </b>- Buenos Aires - Argentina | <a href="mailto:info@amha.org.ar">Mail: <b>info@amha.org.ar</b></a></p>
+        </span>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
-            <span><b>DATOS DE CONTACTO</b></span><br>
-            <p>Turnos: 4827-2907 <br>
-            Administraci&oacute;n: 4826-5852 <br>
-            Escuela, Fax. 4827-2907</p>
+            <p>Turnos: <b>4827-2907</b> <br>
+            Administraci&oacute;n: <b>4826-5852</b> <br>
+            Escuela, Fax. <b>4827-2907</b></p>
+            <p><b>Juncal 2884 </b>| Buenos Aires | Argentina</p>
+            <p><a href="mailto:info@amha.org.ar">info@amha.org.ar</a></p>
       </div>
     </div>
   </div>

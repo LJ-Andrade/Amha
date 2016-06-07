@@ -95,9 +95,12 @@ label {
 
 .mainContainer {
   padding: 5px;
-  padding-bottom: 135px;
+  padding-bottom: 266px;
   background-color: #ededed; }
 
+@media (max-width: 499px) {
+  .mainContainer {
+    padding-bottom: 300px; } }
 .mainWrapper {
   position: relative; }
 
@@ -182,6 +185,10 @@ footer.mainFooter {
   footer.mainFooter .footerUs {
     padding: 10px 0; }
 
+.footerData p, .footerData span {
+  color: #fff;
+  text-align: right; }
+
 nav {
   position: relative;
   margin: 0 auto; }
@@ -197,21 +204,16 @@ nav {
 .topOptions {
   margin-right: 4px; }
 
+.topOptionsMobile {
+  text-align: center;
+  margin-top: 10px; }
+
 @media (max-width: 545px) {
   .topBar .topSearch input {
     width: 100px; } }
-@media (max-width: 1300px) {
-  .topOptions {
-    padding-right: 15px; } }
-@media (max-width: 359px) {
-  .form-inline {
-    margin-right: 25%; } }
-@media (max-width: 240px) {
-  .form-inline {
-    margin-right: 15%; } }
-@media (max-width: 220px) {
-  .form-inline {
-    margin-right: 1%; } }
+@media (max-width: 349px) {
+  .topBar .topSearch input {
+    width: 100%; } }
 .logoNav {
   position: relative;
   z-index: 123;
@@ -285,7 +287,7 @@ header {
 .topLogo {
   max-width: 180px; }
 
-@media (max-width: 690px) {
+@media (max-width: 765px) {
   .topLogo {
     width: 100%;
     max-width: 100%;
@@ -295,8 +297,11 @@ header {
       width: 80px; } }
 .topTitles {
   width: auto;
-  padding-top: 24px; }
+  padding-top: 40px; }
 
+@media (max-width: 1032px) {
+  .topTitles {
+    padding-top: 20px; } }
 span.topName {
   font-size: 1.5rem; }
 
@@ -311,7 +316,7 @@ span.topSlogan {
   span.topSlogan {
     font-weight: 300;
     font-size: 0.7rem; } }
-@media (max-width: 690px) {
+@media (max-width: 765px) {
   .topTitles {
     width: 100%;
     text-align: center;
@@ -325,9 +330,15 @@ span.topSlogan {
     margin-bottom: 0;
     font-weight: 300; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1032px) {
   .topDatos {
     display: none; } }
+.topAddressMobile {
+  display: none; }
+
+@media (max-width: 1032px) {
+  .topAddressMobile {
+    display: block; } }
 .nav {
   width: 1300px;
   margin: 0 auto; }
@@ -712,7 +723,11 @@ span.topSlogan {
 
 .hmCursos, .hmTtienda, .hmArticulos, .hmConsultorios, .hmFarmacias, .hmCampus {
   min-height: 250px;
-  border: 4px solid #ededed; }
+  border: 4px solid #ededed;
+  transition: all 0.3s ease 0s; }
+  .hmCursos:hover, .hmTtienda:hover, .hmArticulos:hover, .hmConsultorios:hover, .hmFarmacias:hover, .hmCampus:hover {
+    cursor: pointer;
+    filter: brightness(1.28); }
   .hmCursos span, .hmTtienda span, .hmArticulos span, .hmConsultorios span, .hmFarmacias span, .hmCampus span {
     position: absolute;
     bottom: 1rem;
@@ -722,9 +737,18 @@ span.topSlogan {
     font-weight: 500;
     color: #fff; }
 
+@media (max-width: 1150px) {
+  .hmCursos span, .hmTtienda span, .hmArticulos span, .hmConsultorios span, .hmFarmacias span, .hmCampus span {
+    left: 1rem;
+    bottom: 0.5rem;
+    font-size: 1.8rem; } }
 @media (max-width: 765px) {
   .hmCursos, .hmTtienda, .hmArticulos, .hmConsultorios, .hmFarmacias, .hmCampus {
-    min-height: 100px; } }
+    min-height: 100px;
+    bottom: 0.2rem;
+    left: 0.5rem; }
+    .hmCursos span, .hmTtienda span, .hmArticulos span, .hmConsultorios span, .hmFarmacias span, .hmCampus span {
+      font-size: 1.5rem; } }
 .hmCursos {
   background: url(../images/body/menu/hmCursos.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -767,6 +791,44 @@ span.topSlogan {
   -o-background-size: cover;
   background-size: cover; }
 
+.sideBar {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem; }
+  .sideBar img {
+    max-width: 100%; }
+
+.sideBarInner {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-top: 15px; }
+  .sideBarInner span {
+    position: absolute;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: left;
+    left: 2rem;
+    top: 1rem;
+    color: #fff; }
+    .sideBarInner span p {
+      color: #000;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      text-align: left;
+      margin-bottom: 0; }
+    .sideBarInner span p.sbSubtit {
+      font-size: 1rem;
+      line-height: 2rem; }
+  .sideBarInner h3 {
+    font-size: 1.5rem;
+    color: #000; }
+
+@media (max-width: 765px) {
+  .sideBarInner div {
+    max-width: 500px;
+    margin: 0 auto; } }
 .mainBtn {
   background-color: #6b6655;
   transition: all 0.3s ease 0s;
@@ -782,9 +844,9 @@ span.topSlogan {
 #viewStyles {
   text-align: center;
   position: absolute;
-  left: -120px;
+  left: -170px;
   bottom: 25%;
-  width: 120px;
+  width: 170px;
   height: 200px;
   background-color: #fff;
   z-index: 9999;
@@ -794,6 +856,10 @@ span.topSlogan {
   -moz-box-shadow: 4px 0px 7px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 0px 7px -1px rgba(0, 0, 0, 0.75);
   transition: all 0.3s ease 0s; }
+  #viewStyles h3 {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 10px; }
 
 .viewStylesInner {
   position: absolute;
@@ -804,6 +870,9 @@ span.topSlogan {
   border-radius: 0 5px 5px 0; }
   .viewStylesInner:hover {
     cursor: pointer; }
+
+.viewStylesInnerTit {
+  padding-top: 15px; }
 
 .viewStylesMarg {
   left: 0 !important; }

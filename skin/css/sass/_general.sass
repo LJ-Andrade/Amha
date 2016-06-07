@@ -31,8 +31,13 @@ label
 
 .mainContainer
 	padding: 5px
-	padding-bottom: 135px
+	padding-bottom: 266px
 	background-color: $mainContainer
+
+@media (max-width: 499px)
+	.mainContainer
+		padding-bottom: 300px
+
 
 .mainWrapper
 	position: relative
@@ -98,7 +103,7 @@ label
 .checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label
 	outline: 1px solid #ddd
 
-//////////// Foter ////////////////////////////////
+//////////// Footer ////////////////////////////////
 
 footer.mainFooter
 	position: absolute
@@ -121,3 +126,9 @@ footer.mainFooter
 		color: #fff
 	.footerUs
 		padding: 10px 0
+
+//Contact Data
+.footerData
+	p,span
+		color: #fff
+		text-align: right
