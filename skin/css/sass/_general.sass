@@ -1,3 +1,5 @@
+html
+	height: 100%
 body
 	padding: 0
 	margin: 0
@@ -23,6 +25,11 @@ label
 	padding: 0
 .marg0
 	margin: 0
+.img100
+	img
+		max-width: 100%
+.rad0
+	border-radius: 0
 
 ////////////////// Containers ///////////////////////
 .container
@@ -31,16 +38,16 @@ label
 
 .mainContainer
 	padding: 5px
-	padding-bottom: 266px
+	height: 100%
 	background-color: $mainContainer
 
 @media (max-width: 499px)
 	.mainContainer
 		padding-bottom: 300px
 
-
 .mainWrapper
 	position: relative
+	padding-bottom: 40px
 
 .row-centered
 	text-align: center
@@ -51,13 +58,17 @@ label
 	text-align: left
 	margin-right: -4px
 
+
+
 ///////// Custom ////////////////////////////////////////////////
-.txtR
-	text-align: right
-.txtL
-	text-align: left
-.txtC
-	text-align: center
+
+
+.hrMobile
+	display: none
+
+@media (max-width: 765px)
+	.hrMobile
+		display: block
 
 
 ////////// Checkboxes ///////////////////////////////////////////
@@ -105,30 +116,83 @@ label
 
 //////////// Footer ////////////////////////////////
 
-footer.mainFooter
-	position: absolute
-	bottom: 0
-	width: 100%
-	background-color: #9d7878
+
+.footerThem
+	background-color: #bdd0c9
 	text-align: center
-	padding: 0
-	span
-		color: #fff
+	padding: 0 15px 15px
+	h4
+		padding: 10px 0 0
+		margin-bottom: 15px
+	p
 		font-size: .9rem
-	.footerThem
-		padding: 0
-		display: flex
-		align-items: center
-		background-color: rgb(67, 75, 93)
+		text-align: left
+
+.footerThemInner
+	padding: 0 15px
+	display: flex
+	align-items: stretch
+	justify-content: center
+
+@media (max-width: 765px)
 	.footerThemInner
-		align-items: center
-		padding: 10px 0
-		color: #fff
-	.footerUs
-		padding: 10px 0
+		display: block
+
+.footerThemConts
+	background-color: rgb(217, 217, 217)
+	padding: 15px
+	height: 100%
 
 //Contact Data
 .footerData
-	p,span
+	background-color: rgb(168, 165, 146)
+	padding: 15px
+	h4
+		margin: 0
+	h5
+		margin-bottom: 10px
+		margin-left: 15px
+	p,a
 		color: #fff
-		text-align: right
+		font-size: 1.2rem
+	span
+		text-align: center
+		color: #fff
+	input
+		background-color: rgba(200, 200, 200, 0.21)
+		padding: 10px 15px 10px 12px
+		margin-bottom: 5px
+		border: 0
+		border-bottom: 1px solid white
+	button
+		background-color: rgba(179, 144, 180, 1)
+		padding: 5px 15px
+		border: 0
+		color: #fff
+		&:hover
+			background-color: rgba(162, 132, 163, 1)
+	textarea
+		background-color: rgba(200, 200, 200, 0.21)
+		border: 0
+		border-bottom: 1px solid white
+		max-height: 90px
+		padding: 10px
+
+
+
+footer
+	position: absolute
+	bottom: 0
+	width: 100%
+	text-align: center
+	padding: 0
+	.footerUs
+		background-color: rgb(50, 50, 50)
+		padding: 10px 0
+		span
+			font-size: .8rem
+			color: #c4c4c4
+
+// Bootstrap Overrides
+.card-header
+	background-color: rgb(222, 238, 232)

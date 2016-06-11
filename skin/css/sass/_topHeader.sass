@@ -8,6 +8,8 @@ nav
   padding: .5rem 0
   color: #fff
 .topBar
+  input
+    max-width: 250px
   ul
     li
       a
@@ -19,20 +21,6 @@ nav
 .topOptionsMobile
   text-align: center
   margin-top: 10px
-
-@media (max-width: 545px)
-  .topBar
-    nav
-      form
-    .topSearch
-      input
-        width: 100px
-
-@media (max-width: 349px)
-  .topBar
-    .topSearch
-      input
-        width: 100%
 
 // Header
 .logoNav
@@ -50,8 +38,6 @@ nav
 
 header
   width: 100%
-  background-color: $headerBack
-
 .headerBackground
   background-color: transparent
 
@@ -82,6 +68,7 @@ header
     padding: 15px
 // Upper Search Form
 .topSearch
+  max-width: 250px
   .form-control
     background-color: transparent
     border: 0
@@ -108,6 +95,20 @@ header
   .form-control:-ms-input-placeholder
     color: white
     font-weight: 100
+
+@media (max-width: 545px)
+  .topBar
+    nav
+      form
+    .topSearch
+      input
+        width: 100px
+
+@media (max-width: 349px)
+  .topBar
+    .topSearch
+      input
+        width: 100%
 ////////////////////////////////////////////////////////////
 ////// DATA HEADER (parent) //////
 .topInner
@@ -131,6 +132,7 @@ header
 .topTitles
   width: auto
   padding-top: 40px
+
 
 @media (max-width: 1032px)
   .topTitles
@@ -167,6 +169,8 @@ span.topSlogan
   p
     margin-bottom: 0
     font-weight: 300
+  a
+    color: #fff
 
 @media (max-width: 1032px)
   .topDatos
