@@ -71,7 +71,7 @@
   #head-mobile
     display: none
   font-family: sans-serif
-  background: $navBack
+  background: $top3
   > ul > li
     float: left
     > a
@@ -79,15 +79,15 @@
       font-size: 12px
       letter-spacing: 1px
       text-decoration: none
-      color: $topNavText
+      color: $navTxt
       font-weight: 700
     &:hover > a
-      color: $topNavTextHover
+      color: $navTxtHover
   ul
     li
       &.active
         a
-          color: #fff
+          color: $navLiActiveTxt
         &:hover
           background: $navLiHover !important
           -webkit-transition: background .3s ease
@@ -162,12 +162,12 @@
           width: 300px
           font-size: 12px
           text-decoration: none
-          color: #ddd
+          color: $navDdTxt
           font-weight: 400
         &:last-child > a, &.last-item > a
           border-bottom: 0
         &:hover > a, a:hover
-          color: #fff
+          color: $navDdHoverTxt
         &.has-sub
           > a
             &:after

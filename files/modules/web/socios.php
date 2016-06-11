@@ -34,7 +34,7 @@
               <div class="col-xs-12 linkWrapper">
                 <p>Federaci&oacute;n de Asociaciones M&eacute;dicas Homeop&aacute;ticas Argentinas</p>
               </div>
-              <button type="button" name="button" class="pagarBtn">Pago de la cuota de Socio de AMHA 2016</button>
+              <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button>
 
 
 

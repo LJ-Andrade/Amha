@@ -44,7 +44,7 @@ header
 /////////////TOP ////////////
 // Top Bar
 .topBar
-  background-color: rgb(79, 96, 107)
+  background-color: $top1
   .container
     padding-right: 0
   .input-group
@@ -55,13 +55,13 @@ header
 ///// TOP HEAD //////
 .topHead
   position: relative
-  background-color: rgb(83, 106, 120)
-  color: #fff
+  background-color: $top2
+  color: $top2Txt
   .container
     padding-left: 0
     padding-right: 0
   p
-    color: #fff
+    color: $top2Txt
   img
     width: 150px
   .row
@@ -80,20 +80,20 @@ header
     background-color: transparent
     border-bottom: 1px solid rgb(162, 162, 162)
     border-radius: 0
-    color: #fff
+    color: $top1Txt
     /* Placeholder Color */
   .form-control::-webkit-input-placeholder
-    color: white
+    color: top1Txt
     font-weight: 100
 
   .form-control:-moz-placeholder
-    color: white
+    color: top1Txt
     font-weight: 100
   .form-control::-moz-placeholder
-    color: white
+    color: $top1Txt
     font-weight: 100
   .form-control:-ms-input-placeholder
-    color: white
+    color: top1Txt
     font-weight: 100
 
 @media (max-width: 545px)
@@ -170,7 +170,7 @@ span.topSlogan
     margin-bottom: 0
     font-weight: 300
   a
-    color: #fff
+    color: $top2Txt
 
 @media (max-width: 1032px)
   .topDatos

@@ -65,7 +65,7 @@
       <ul>
         <li class="active mainLi"><a href='index.php'>INICIO</a></li>
         <li class="mainLi"><a href='autoridades.php'>AUTORIDADES</a></li>
-        <li class="mainLi"><a href='#'>CURSOS</a>
+        <li class="mainLi"><a href='cursos.php'>CURSOS</a>
           <ul>
             <li><a href="#">Nuevos Cursos</a></li>
             <li><a href="#">Beneficios</a></li>
@@ -92,10 +92,9 @@
           </ul>
         </li>
         <li class="mainLi"><a href='socios.php'>SOCIOS</a></li>
-        <li class="mainLi"><a href='#'>CONSULTORIOS</a></li>
+        <li class="mainLi"><a href='consultorios.php'>CONSULTORIOS</a></li>
         <li class="mainLi"><a href='bibliografia.php'>BIBLIOGRAFIA</a></li>
         <li class="mainLi"><a href='farmacias.php'>FARMACIAS</a></li>
-        <li class="mainLi"><a href='#'>LINKS</a></li>
       </ul>
   </nav>
 </div>

@@ -2,7 +2,7 @@
   <div class="container footerThem">
     <h4>Nuestros Representantes</h4>
     <hr>
-    <div class="row footerThemInner">
+    <div class="row footerThemInner flexEqual">
       <div class="col-md-4 col-sm-12 col-xs-12">
         <div class="container footerThemConts">
           <a href="http://www.famha.org.ar/colegiomedhomeo.htm" target="_blank"><p><b>COLEGIO DE M&Eacute;DICOS HOME&Oacute;PATAS</b></p></a>
@@ -54,39 +54,36 @@
     </div>
   </div>
   <div class="container footerData">
+    <div class="row flexW">
+      <!-- Absolute positioned form -->
+      <!-- <div class="quickContact">
+        <input type="text" name="name" value="" placeholder="Nombre"><br>
+        <input type="text" name="name" value="" placeholder="Apellido"><br>
+        <textarea placeholder="Mensaje o Consulta" rows="4"></textarea><br>
+        <button type="button" name="button">Enviar</button>
+      </div> -->
+      <div class="col-md-4 col-xs-12 foterDataAddress">
+        <p><i class="fa fa-phone"></i><b> Tel&eacute;fonos:</b><br>
+          <span>Turnos: <b>4827-2907</b></span> <br>
+          <span>Administraci&oacute;n: <b>4826-5852</b></span><br>
+          <span>Escuela, Fax. <b>4827-2907</b></span></p>
+        <p>  <i class="fa fa-envelope"></i><a href="mailto:info@amha.org.ar"> info@amha.org.ar</a><br>
+        <i class="fa fa-map-marker"></i><b> Juncal 2884 </b>| Buenos Aires | Argentina</p>
+      </div>
+      <div class="col-md-4 col-xs-12 footerMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4645.159416161686!2d-58.40834480027293!3d-34.588386367211875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83312c17f7%3A0x5a2b76414563a3a2!2sJuncal+2884%2C+C1425AYJ+CABA!5e0!3m2!1ses-419!2sar!4v1465630821452" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="footerLogo">
+          <img src="../../../skin/images/body/logos/weblogo.png" alt="" />
+        </div>
+      </div>
+
+    </div>
     <div class="row">
-      <div class="col-md-4">
-        <h5>Contacto Rápido</h5>
-        <div class="col-md-6">
-
-          <input type="text" name="name" value="" placeholder="Nombre"><br>
-          <input type="text" name="name" value="" placeholder="Apellido"><br>
-          <button type="button" name="button">Enviar</button>
-        </div>
-        <div class="col-md-6">
-          <textarea placeholder="Mensaje o Consulta" rows="4">
-
-          </textarea>
-        </div>
-      </div>
-
-
-
-
-      <div class="col-md-4">
-
-      </div>
-      <div class="col-md-4 txR">
-        <p>Turnos: <b>4827-2907</b> <br>
-          Administraci&oacute;n: <b>4826-5852</b> <br>
-          Escuela, Fax. <b>4827-2907</b><br>
-          <a href="mailto:info@amha.org.ar">info@amha.org.ar</a></p>
-          <p><b>Juncal 2884 </b>| Buenos Aires | Argentina</p>
-      </div>
-
       <div class="col-md-12 txC">
-              <hr>
-         <span>Inicio | Autoridades | Cursos 2016 | Socios | Consultorios | Bibliograf&iacute;a | Farmacias | Links</span>
+        <hr>
+        <span>Inicio | Autoridades | Cursos 2016 | Socios | Consultorios | Bibliograf&iacute;a | Farmacias | Links</span>
       </div>
     </div>
   </div>

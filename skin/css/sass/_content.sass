@@ -139,6 +139,37 @@
 /*                   SECTIONS                      */
 /////////////////////////////////////////////////////
 
+.itemContainer
+  h5
+    margin: 0
+    padding: 0
+    font-weight: 400
+
+.farmCompleto
+  h5
+    font-weight: 400
+
+.quoteSmall
+  font-size: 1rem
+
+.linkDestac
+  background-color: $secBtn
+  color: #fff
+  padding: 5px
+  text-align: center
+  margin: 15px 0
+  padding: 15px
+  transition: all 0.3s ease 0s
+  p,h1,h2,h3,h4,h5
+    color: $secBtnTxt
+    font-size: 1.2rem
+  &:hover
+    cursor: pointer
+    background-color: $secBtnHover
+    p,h1,h2,h3,h4,h5
+      color: $secBtnTxtHover
+
+
 
 // Para envolver links grandes (como botones pero con divs)
 .linkWrapper,.pagarAmha
@@ -177,7 +208,7 @@
   margin-top: 10px
   h1
     font-size: 1.5rem
-    color: #000
+    color: #fff
     font-weight: 400
   h2
     font-size: 1.2rem
@@ -208,11 +239,6 @@
 .farmacias
   margin-top: 25px
 
-.farmaciasCont
-  h5
-    margin: 0
-    padding: 0
-
 .farmCompleto
   background-color: #fff
   border: 1px solid #e5e5e5
@@ -223,3 +249,22 @@
     padding: 0
   .card
     border: 0
+
+////// CURSOS //////
+.beneficios
+  margin: 25px 0
+  text-align: center
+
+.biblio
+  text-align: left
+
+// CONSULTORIOS
+.consultoriosMain
+  margin: 0 auto
+  text-align: center
+  img
+    min-width: 100%
+    max-width: 100%
+    transition: all 0.3s ease 0s
+    &:hover
+      filter: brightness(.4)
