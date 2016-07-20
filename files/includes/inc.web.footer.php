@@ -1,4 +1,4 @@
-
+<!--
   <div class="container footerThem">
     <h4>Nuestros Representantes</h4>
     <hr>
@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="container footerData">
     <div class="row flexW">
       <!-- Absolute positioned form -->
@@ -88,7 +88,7 @@
     </div>
   </div>
 <footer>
-  <div class="container-fluid footerUs">
+  <div class="container footerUs">
     <span>Desarrollado por <a href="http://innova.com"> Innova Studio </a>© 2016 | Todo los Derechos Reservados</span>
   </div>
 </footer>

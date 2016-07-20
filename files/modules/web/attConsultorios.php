@@ -20,10 +20,9 @@
           </div>
           <div class="row wow zoomIn fadeIn sectionTitsSmall">
             <h3>M&eacute;dicos</h3>
-            <h4>Capital Federal</h4>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dra. ATENOR PATRICIA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -35,7 +34,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dra. CALVI ANDREA MARA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -48,7 +47,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dr. CAMPANELLI ADOLFO </h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -63,7 +62,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dra. CAPELLA INES M. C.</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -78,7 +77,7 @@
             </div>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dra. CHAPIRO CLARA SILVIA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -90,7 +89,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dra. CHAPOCHNIKOFF MARIANA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -105,7 +104,7 @@
             </div>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dra. CIOLA MARIA DELIA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -121,7 +120,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Dr. DIAZ CAMPOS ROBERTO LUIS</h5></div>
               <div class="card card-block">
                 <p class="card-text">

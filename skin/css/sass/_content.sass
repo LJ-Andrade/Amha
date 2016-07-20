@@ -133,11 +133,17 @@
     font-size: 1rem
 
 
-
-
 /////////////////////////////////////////////////////
 /*                   SECTIONS                      */
 /////////////////////////////////////////////////////
+
+//// Home Content Under Big Nav ////
+.itemHome
+  img
+    min-width: 100%
+    max-width: 100%
+    vertical-align: none
+
 
 .itemContainer
   h5
@@ -268,3 +274,30 @@
     transition: all 0.3s ease 0s
     &:hover
       filter: brightness(.4)
+
+.consultoriosItems
+  margin-left: 12%
+
+@media (max-width: 1200px)
+  .consultoriosItems
+    margin-left: 15px
+
+
+//// FARMACIAS ////////
+.card-farm
+  padding: 0
+.card-farm-details
+  padding: 5px
+  -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  -ms-flex-align: center
+  -webkit-align-items: center
+  -webkit-box-align: center
+  align-items: center
+
+///// CONTACTO //////
+
+.amhaContactData
+  text-align: center
+  margin-top: 30px

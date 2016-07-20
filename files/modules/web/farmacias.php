@@ -24,52 +24,83 @@
           </div>
 
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA FERRAN </h5></div>
-              <div class="card card-block">
-                <p class="card-text">
-                  <b>Direcci&oacute;n:</b> Timbres 860 (Castelar)<br>
-                  <b>Tel&eacute;fono:</b> 4628-2322 | 4629-0236 | 4627-5506 | 4489-4195<br>
-                  farm_ferran@hotmail.com
-                </p>
+              <div class="card card-block card-farm">
+                <div class="row">
+                  <div class="col-md-3 col-xs-12">
+                    <img src="../../../skin/images/products/farmacias.jpg" alt="" />
+                  </div>
+                  <div class="col-md-9 col-xs-12 card-farm-details">
+                    <p class="card-text">
+                      <b>Direcci&oacute;n:</b> Timbres 860 (Castelar)<br>
+                      <b>Tel&eacute;fono:</b> 4628-2322 | 4629-0236 | 4627-5506 | 4489-4195<br>
+                      farm_ferran@hotmail.com
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA FIALCO</h5></div>
-              <div class="card card-block">
-                <p class="card-text">
-                  <b>Direcci&oacute;n:</b> Lamadrid 338 (Quilmes)<br>
-                  <b>Tel&eacute;fono:</b> 4252-1744 | 4259-8374 | 4251-2046<br>
-                    ffialco@yahoo.com.ar
-                </p>
+              <div class="card card-block card-farm">
+                <div class="row">
+                  <div class="col-md-3 col-xs-12">
+                    <img src="../../../skin/images/products/farmacias.jpg" alt="" />
+                  </div>
+                  <div class="col-md-9 col-xs-12 card-farm-details">
+                    <p class="card-text">
+                      <b>Direcci&oacute;n:</b> Lamadrid 338 (Quilmes)<br>
+                      <b>Tel&eacute;fono:</b> 4252-1744 | 4259-8374 | 4251-2046<br>
+                        ffialco@yahoo.com.ar
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA FRANCESA </h5></div>
-              <div class="card card-block">
-                <p class="card-text">
-                  <b>Direcci&oacute;n:</b> Avda. Rivadavia 4544 (CABA)<br>
-                  <b>Tel&eacute;fono:</b> 4903-7787 | Fax: 4902-4433<br><br>
-                  homeopatiafrancesa@gmail.com
-                </p>
+              <div class="card card-block card-farm">
+                <div class="row">
+                  <div class="col-md-3 col-xs-12">
+                    <img src="../../../skin/images/products/farmacias.jpg" alt="" />
+                  </div>
+                  <div class="col-md-9 col-xs-12 card-farm-details">
+                    <p class="card-text">
+                      <b>Direcci&oacute;n:</b> Avda. Rivadavia 4544 (CABA)<br>
+                      <b>Tel&eacute;fono:</b> 4903-7787 | Fax: 4902-4433<br><br>
+                      homeopatiafrancesa@gmail.com
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
-              <div class="card-header"><h5 class="card-title">FARMACIA HAHNEMANN </h5></div>
-              <div class="card card-block">
-                <p class="card-text">
-                  <b>Direcci&oacute;n:</b> Hip&oacute;lito Irigoyen 2792 (CABA)<br>
-                  <b>Tel&eacute;fono:</b> 4931-4635 | 4932-7268/7291 | Fax: 4932-7239<br>
-                  contacto@hahnemann.com.ar <br>
-                  www.hahnemann.com.ar
-                </p>
+
+            <div class="col-sm-12 itemContainer">
+              <div class="card-header"><h5 class="card-title">FARMACIA HAHNEMANN</h5></div>
+              <div class="card card-block card-farm">
+                <div class="row">
+                  <div class="col-md-3 col-xs-12">
+                    <img src="../../../skin/images/products/farmacias.jpg" alt="" />
+                  </div>
+                  <div class="col-md-9 col-xs-12 card-farm-details">
+                    <p class="card-text">
+                      <b>Direcci&oacute;n:</b> Hip&oacute;lito Irigoyen 2792 (CABA)<br>
+                      <b>Tel&eacute;fono:</b> 4931-4635 | 4932-7268/7291 | Fax: 4932-7239<br>
+                      contacto@hahnemann.com.ar <br>
+                      www.hahnemann.com.ar
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- ////////////// -->
+
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA HOMEOPATICA CANGALLO</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -79,7 +110,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA HOMEOPATICA GODOY</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -91,7 +122,7 @@
             </div>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA HOMEOP&aacute;TICA RIVADAVIA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -101,7 +132,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA MAURE</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -205,7 +236,7 @@
             </div>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA DEL PUEBLO</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -215,7 +246,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA CALEDONIA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -226,7 +257,7 @@
             </div>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA HOMEOP&aacute;TICA ITALIANA</h5></div>
               <div class="card card-block">
                 <p class="card-text">
@@ -236,7 +267,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-6 itemContainer">
+            <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA MILENIUM</h5></div>
               <div class="card card-block">
                 <p class="card-text">

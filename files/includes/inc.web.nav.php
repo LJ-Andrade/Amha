@@ -1,9 +1,7 @@
 <!-- TOP BAR -->
-<div id="topBar" class="container topBar">
+<!-- <div id="topBar" class="container topBar">
   <div class="container">
     <nav class="navbar">
-
-      <!-- Top Left Menu  -->
       <ul class="nav navbar-nav">
         <li class="nav-item active">
           <div class="input-group topSearch">
@@ -11,18 +9,8 @@
             <input type="text" class="form-control" placeholder="Buscar..." aria-describedby="basic-addon1">
           </div>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li> -->
       </ul>
       <form id="TopOptions" class="form-inline pull-xs-right">
-        <!-- <input class="form-control" type="text" placeholder="Buscar..."> -->
         <div class="row topOptions">
           <button type="button" name="button" class="btn mainBtn">Ingresar</button>
           <button type="button" name="button" class="btn mainBtn">Registro</button>
@@ -30,7 +18,7 @@
       </form>
     </nav>
   </div>
-</div>
+</div> -->
 
 <!-- TOP HEADER -->
 <div id="topHead" class="container topHead">
@@ -62,39 +50,48 @@
     <!-- <div class="logoNav"><a href="index.html"><p>Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</p></a></div> -->
     <div id="head-mobile"></div>
     <div class="button"></div>
-      <ul>
-        <li class="active mainLi"><a href='index.php'>INICIO</a></li>
-        <li class="mainLi"><a href='autoridades.php'>AUTORIDADES</a></li>
-        <li class="mainLi"><a href='cursos.php'>CURSOS</a>
-          <ul>
-            <li><a href="#">Nuevos Cursos</a></li>
-            <li><a href="#">Beneficios</a></li>
-            <li><a href="#">Medicina Homeop&aacute;tica</a></li>
-            <li><a href="#">Odontoestomatolog&iacute;a Homeop&aacute;tica</a></li>
-            <li><a href="#">Veterinaria Homeop&aacute;tica</a></li>
-            <li><a href="#">Farmacia Homeop&aacute;tica</a></li>
-            <li><a href="#">Medicina Homeop&aacute;tica 3 en 1</a></li>
-            <li><a href="#">Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</a></li>
-            <li><a href="#">Pr&aacute;ctica Homeop&aacute;tica P/ Alumnos Libres</a></li>
-            <li><a href="#">Curso Superior de Perfeccionamiento</a></li>
-            <li><a href="#">Cursos Libres para Socios y Alumnos</a></li>
-            <li><a href="#">Ateneos Mensuales</a></li>
-            <li><a href="#">Grupos de Estudio</a></li>
-            <li><a href="#">Informaci&oacute;n &uacute;til Graduados 2016</a></li>
-            <li><a href="#">Formularios de pre-inscripci&oacute;n</a></li>
-
-            <!-- <li><a href='#'>Product 2</a>
-              <ul>
-                <li><a href='#'>Sub Product</a></li>
-                <li><a href='#'>Sub Product</a></li>
-              </ul>
-            </li> -->
-          </ul>
-        </li>
-        <li class="mainLi"><a href='socios.php'>SOCIOS</a></li>
-        <li class="mainLi"><a href='consultorios.php'>CONSULTORIOS</a></li>
-        <li class="mainLi"><a href='bibliografia.php'>BIBLIOGRAFIA</a></li>
-        <li class="mainLi"><a href='farmacias.php'>FARMACIAS</a></li>
-      </ul>
+    <ul>
+      <li class="active mainLi"><a href='index.php'>INICIO</a></li>
+      <li class="mainLi"><a href='autoridades.php'>AMHA</a></li>
+      <li class="mainLi"><a href='socios.php'>SOCIOS</a></li>
+      <li class="mainLi"><a href='socios.php'>ALUMNOS</a>
+        <ul>
+          <li class="mainLi"><a href='bibliografia.php'>BIBLIOGRAFIA</a></li>
+        </ul>
+      </li>
+      <li class="mainLi"><a href='cursos.php'>CURSOS</a>
+        <ul>
+          <li><a href="#">Nuevos Cursos</a></li>
+          <li><a href="#">Beneficios</a></li>
+          <li><a href="#">Medicina Homeop&aacute;tica</a></li>
+          <li><a href="#">Odontoestomatolog&iacute;a Homeop&aacute;tica</a></li>
+          <li><a href="#">Veterinaria Homeop&aacute;tica</a></li>
+          <li><a href="#">Farmacia Homeop&aacute;tica</a></li>
+          <li><a href="#">Medicina Homeop&aacute;tica 3 en 1</a></li>
+          <li><a href="#">Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</a></li>
+          <li><a href="#">Pr&aacute;ctica Homeop&aacute;tica P/ Alumnos Libres</a></li>
+          <li><a href="#">Curso Superior de Perfeccionamiento</a></li>
+          <li><a href="#">Cursos Libres para Socios y Alumnos</a></li>
+          <li><a href="#">Ateneos Mensuales</a></li>
+          <li><a href="#">Grupos de Estudio</a></li>
+          <li><a href="#">Informaci&oacute;n &uacute;til Graduados 2016</a></li>
+          <li><a href="#">Formularios de pre-inscripci&oacute;n</a></li>
+          <!-- <li><a href='#'>Product 2</a>
+            <ul>
+              <li><a href='#'>Sub Product</a></li>
+              <li><a href='#'>Sub Product</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </li>
+      <li class="mainLi"><a href='socios.php'>NOVEDADES</a></li>
+      <li class="mainLi"><a href='socios.php'>AGENDA</a>
+        <ul>
+          <li class="mainLi"><a href='consultorios.php'>CONSULTORIOS</a></li>
+          <li class="mainLi"><a href='farmacias.php'>FARMACIAS</a></li>
+        </ul>
+      </li>
+      <li class="mainLi"><a href='contacto.php'>CONTACTO</a></li>
+    </ul>
   </nav>
 </div>

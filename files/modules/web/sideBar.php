@@ -16,14 +16,13 @@
     </div>
     <div class="col-lg-12 col-md-3 col-sm-4">
       <img src="../../../skin/images/body/pictures/elsimil.jpg" alt="" class="img-responsive"/>
-      <hr>
     </div>
-    <div class="col-lg-12 col-md-3 col-sm-4">
+    <!-- <div class="col-lg-12 col-md-3 col-sm-4">
       <img src="../../../skin/images/body/pictures/webmail.jpg" alt="" class="img-responsive"/>
       <hr>
     </div>
     <div class="col-lg-12 col-md-3 col-sm-4">
       <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button>
-    </div>
+    </div> -->
   </div>
 </div><!-- /Right Sidebar -->

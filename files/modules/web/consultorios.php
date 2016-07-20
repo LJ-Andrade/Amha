@@ -13,22 +13,30 @@
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12">
           <div class="sectionTits"><h1>Consultorios</h1></div>
-          <hr>
-          <div class="card-deck consultoriosMain">
-            <div class="col-md-6 col-xs-12">
-              <div class="card">
-                <div class="card-block">
-                  <h4 class="card-title">Atenci&oacute;n de Pacientes en A.M.H.A.</h4>
+            <div class="col-md-12 consultoriosItems">
+            <hr>
+            <div class="col-md-6 col-sm-6 col-xs-12 catalogueItem">
+              <div class="hovereffect">
+                <img class="img-responsive" src="../../../skin/images/body/pictures/amhaFront.jpg" alt="">
+                <div class="overlay">
+                  <a href="#">
+                    <h2>Atenci&oacute;n de Pacientes en A.M.H.A.</h2>
+                    <hr>
+                    <p>Atenci&oacute;n de pacientes en consultorios de la Asociaci&oacute;n Homeop&aacute;tica Argentina</p>
+                  </a>
                 </div>
-                <a href="pacientes.php"><img src="../../../skin/images/body/pictures/amhaFront.jpg" alt="" class="img-responsive"/></a>
               </div>
             </div>
-            <div class="col-md-6 col-xs-12">
-              <div class="card">
-                <div class="card-block">
-                  <h4 class="card-title">Atención en Consultorios Privados</h4>
+            <div class="col-md-6 col-sm-6 col-xs-12 catalogueItem">
+              <div class="hovereffect">
+                <img class="img-responsive" src="../../../skin/images/body/pictures/consultMap.jpg" alt="">
+                <div class="overlay">
+                  <a href="#">
+                    <h2>Atenci&oacute;n en Consultorios Privados</h2>
+                    <hr>
+                    <p>Atenci&oacute;n de pacientes en consultorios de m&eacute;dicos home&oacute;patas privados.</p>
+                  </a>
                 </div>
-                <a href="attConsultorios.php"><img src="../../../skin/images/body/pictures/consultMap.jpg" alt="" class="img-responsive"/></a>
               </div>
             </div>
           </div>
