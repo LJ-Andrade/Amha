@@ -471,6 +471,8 @@ span.topSlogan {
     display: none; } }
 .topAddressMobile {
   display: none; }
+  .topAddressMobile a {
+    color: #fff; }
 
 @media (max-width: 1032px) {
   .topAddressMobile {
@@ -852,6 +854,57 @@ span.topSlogan {
   #cssmenu > ul > li > a {
     font-size: 10px;
     letter-spacing: 0px; } }
+.leftFloatMenu {
+  width: 197px;
+  padding: 15px 11px 5px;
+  background-color: white;
+  border-top: 3px solid #71a28e;
+  top: 5px;
+  margin-top: 15px;
+  -webkit-box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44);
+  box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44); }
+  .leftFloatMenu ul {
+    list-style: none; }
+    .leftFloatMenu ul li {
+      padding: 5px;
+      padding-left: 10px;
+      margin: 10px 0;
+      border-bottom: 1px solid rgba(200, 200, 200, 0.55);
+      border-left: 1px solid rgba(148, 148, 148, 0.4);
+      transition: all 0.3s ease 0s; }
+      .leftFloatMenu ul li:hover {
+        background-color: #e8e8e8;
+        cursor: pointer;
+        color: #000; }
+
+.leftFloatMenuFixed {
+  position: fixed;
+  margin-top: 0; }
+
+.leftMenuInLine {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 5px;
+  text-align: center; }
+  .leftMenuInLine ul li {
+    display: inline-block;
+    margin: 3px 3px; }
+
+@media (max-width: 766px) {
+  .floatMenu1 {
+    display: none; } }
+@media (min-width: 766px) {
+  .floatMenu2 {
+    display: none; } }
 .homeMenu {
   margin: 0 15px 15px; }
 

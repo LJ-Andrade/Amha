@@ -5,7 +5,6 @@
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
 </head>
   <body>
-    <?php include('../../../files/includes/inc.web.optionLeftSideBar.php'); ?> <!-- Left Option Hidden Bar -->
     <header>
       <?php include('../../../files/includes/inc.web.nav.php'); ?> <!-- Navegation -->
     </header>

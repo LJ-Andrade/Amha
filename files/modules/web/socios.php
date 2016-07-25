@@ -5,18 +5,13 @@
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
 </head>
   <body>
-    <?php include('../../../files/includes/inc.web.optionLeftSideBar.php'); ?> <!-- Left Option Hidden Bar -->
     <header>
       <?php include('../../../files/includes/inc.web.nav.php'); ?> <!-- Navegation -->
     </header>
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
-
-
-
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
           <div class="sectionTits"><h1>Socios A.M.H.A y links relacionados</h1></div>
-
             <!-- Comisión Directiva -->
             <div class="row txC">
               <div class="col-xs-12 linkWrapper">

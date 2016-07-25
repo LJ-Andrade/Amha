@@ -5,18 +5,14 @@
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
 </head>
   <body>
-    <?php include('../../../files/includes/inc.web.optionLeftSideBar.php'); ?> <!-- Left Option Hidden Bar -->
     <header>
       <?php include('../../../files/includes/inc.web.nav.php'); ?> <!-- Navegation -->
     </header>
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12">
-
-
           <div class="sectionTits"><h1>Ciclo Lectivo 2016</h1></div>
           <hr>
-
           <div class="row wow zoomIn fadeIn">
             <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Palabras a los alumnos</h5></div>

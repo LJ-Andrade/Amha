@@ -19,7 +19,7 @@
               <div class="hovereffect">
                 <img class="img-responsive" src="../../../skin/images/body/pictures/amhaFront.jpg" alt="">
                 <div class="overlay">
-                  <a href="#">
+                  <a href="consultoriosamha.php">
                     <h2>Atenci&oacute;n de Pacientes en A.M.H.A.</h2>
                     <hr>
                     <p>Atenci&oacute;n de pacientes en consultorios de la Asociaci&oacute;n Homeop&aacute;tica Argentina</p>
@@ -31,7 +31,7 @@
               <div class="hovereffect">
                 <img class="img-responsive" src="../../../skin/images/body/pictures/consultMap.jpg" alt="">
                 <div class="overlay">
-                  <a href="#">
+                  <a href="consultoriosprivados.php">
                     <h2>Atenci&oacute;n en Consultorios Privados</h2>
                     <hr>
                     <p>Atenci&oacute;n de pacientes en consultorios de m&eacute;dicos home&oacute;patas privados.</p>

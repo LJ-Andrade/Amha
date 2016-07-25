@@ -23,3 +23,17 @@ function TopOptions() {
    }
 }
 TopOptions();
+
+//////////// Left Floating Menu //////////////////
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 207) {
+        $('.leftFloatMenu').addClass('leftFloatMenuFixed');
+    }else{
+      $('.leftFloatMenu').removeClass('leftFloatMenuFixed');
+    }
+});
+
+
+////// Get File name from Url //////
+var url      = window.location.href;  
+var filename = url.split('/').pop().split('#')[0].split('?')[0];

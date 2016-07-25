@@ -1,5 +1,5 @@
 <!-- Right Sidebar -->
-<div class="col-lg-3 col-md-12 col-xs-12 sideBar">
+<div class="col-lg-3 col-md-3 col-xs-12 sideBar">
   <div class="row card card-block sideBarInner">
     <!-- card block -->
     <div class="col-lg-12 col-md-3 col-sm-4">
