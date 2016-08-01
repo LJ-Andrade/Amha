@@ -16,28 +16,31 @@
 
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
-            <h1>Biblioteca AMHA</h1>
+            <h1>Revista Homeopat&iacute;a para todos</h1>
+            <h4>Descarga gratuita!</h4><br>
           </div>
           <!-- Content -->
-
-          <p>
-            El &aacute;rea de Biblioteca de la Instituci&oacute;n es puntal de asistencia acad&eacute;mica para el alumno, el Cuerpo Docente y los socios de la <b>A.M.H.A.</b><br>
-             Contribuye a su formaci&oacute;n y capacitaci&oacute;n continua con m&aacute;s de 3000 ejemplares que se incrementan a&ntilde;o tras a&ntilde;o.
-            Suma a dicha asistencia, la videoteca, la hemeroteca, la computadora de uso personalizado y la posibilidad de realizar fotocopias.<br>
-            Funciona bajo un reglamento que est&aacute; a disposici&oacute;n de quien lo solicite.<br>
-            La <b>A.M.H.A.</b> abre sus puertas a la colaboraci&oacute;n mutua con otras Escuelas de la <b>F.A.M.H.A.</b> pudiendo los socios del Colegio de M&eacute;dicos
-            Home&oacute;patas de las distintas Escuelas adheridas, acceder a la lectura de los libros y revistas.<br>
-            La biblioteca se encuentra disponible de lunes a viernes de 10 a 16hs.
-          </p>
-          <div class="txC">
-            <button type="button" class="btn btn-primary btn-lg secBtn" data-toggle="modal" data-target="#bibliotecaModal">
-              Biblioteca
-            </button>
+          <div class="container">
+            <div class="row">
+              <p>La <b>Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</b> realiza hace varios a&ntilde;os la revista
+               <b>HOMEOPAT&iacute;A PARA TODOS</b>.<br> Esta revista tiene como objetivo la difusi&oacute;n de
+                  informaci&oacute;n de inter&eacute;s general sobre la medicina homeop&aacute;tica en todas sus
+                  especializaciones. Va dirigida a quienes desean ampliar los conocimientos,
+                  mantenerse informados y a quienes desconocen.<br>
+                  La revista busca poner al servicio de la comunidad informaci&oacute;n de utilidad cotidiana.
+                  Tiene un gran alcance y actualmente se entrega en diferentes puntos de todo el pa&iacute;s
+                  logrando una cobertura total en 12 provincias.<br> Con una frecuencia semestral, es de
+                  entrega gratuita y tiene una tirada total de 6.000 ejemplares, adem&aacute;s del acceso y
+                  descarga de la revista en forma digital.
+              </p><br>
+              <span class="subtitle">
+                Aqu&iacute; encontrar&aacute; las publicaciones disponibles para descarga directa.<br>
+                Haga click en el bot&oacute;n "Descargar" debajo de cada publicaci&oacute;n para comenzar la descarga correspondiente.
+              </span><br><br>
+            </div>
           </div>
           <!-- Content -->
         </div><!-- /autoridades -->
-
-
         <!-- ////// MODALS //////// -->
         <!-- ////// /MODALS //////// -->
         <?php include('sideBar.php'); ?><!-- Right Sidebar -->

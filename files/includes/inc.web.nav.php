@@ -61,17 +61,15 @@
       <li class="<?php echo $currentPage == 'index.php' ? 'active' : ''; ?>"><a href='index.php'>INICIO</a></li>
       <li class="<?php echo $currentPage == 'amha.php' ? 'active' : ''; ?>"><a href='amha.php'>AMHA</a>
         <ul>
-          <li><a href='bibliografia.php'>Quienes Somos</a></li>
-          <li><a href='bibliografia.php'>Historia</a></li>
-          <li><a href='bibliografia.php'>Autoridades</a></li>
-          <li><a href='bibliografia.php'>Nuestros Representantes</a></li>
-          <li><a href='bibliografia.php'>Otro Link</a></li>
+          <li><a href='amha_historia.php'>Historia</a></li>
+          <li><a href='amha_autoridades.php'>Autoridades</a></li>
+          <li><a href='amha_representantes.php'>Representantes</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'socios.php' ? 'active' : ''; ?>"><a href='socios.php'>SOCIOS</a></li>
       <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
         <ul>
-          <li><a href='bibliografia.php'>Acceso a campus virtual</a></li>
+          <li><a href='bibliografia.php'>Acceso a Campus Virtual</a></li>
           <li><a href='bibliografia.php'>Venta on line de libros</a></li>
           <li><a href='alumnos_revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
           <li><a href='alumnos_revista.php'>Revista Homeopat&iacute;a</a></li>
