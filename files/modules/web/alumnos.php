@@ -38,17 +38,26 @@
         </div>
         <!-- /Mobile -->
         <!-- /// /Left Floating Menu /// -->
+
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
-            <h1>Alumnos</h1>
-            <!-- <h3>Autoridades</h3><br> -->
+            <h1>Acerca de la A.M.H.A</h1>
+            <h3>Autoridades</h3><br>
           </div>
+
+
           <!-- Content -->
 
 
 
           <!-- Content -->
+
+
+
+
+
         </div><!-- /autoridades -->
+
         <?php include('sideBar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>

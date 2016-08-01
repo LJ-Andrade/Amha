@@ -102,6 +102,16 @@ label {
   margin: 0;
   font-weight: 400; }
 
+.modal {
+  z-index: 9999 !important; }
+
+.modal-header {
+  border-bottom: 0;
+  background-color: #e8e8e8; }
+
+.modal-footer {
+  border-top: 0; }
+
 .brd {
   border: 1px solid red; }
 
@@ -119,6 +129,9 @@ label {
 
 .rad0 {
   border-radius: 0; }
+
+span.subtitle {
+  font-weight: 1rem; }
 
 .container {
   width: 1300px;
@@ -165,6 +178,15 @@ label {
 @media (max-width: 765px) {
   .hrMobile {
     display: block; } }
+.txC {
+  text-align: center; }
+
+.txL {
+  text-align: left; }
+
+.txR {
+  text-align: right; }
+
 .checkbox-custom, .radio-custom {
   opacity: 0;
   position: absolute; }
@@ -497,7 +519,7 @@ span.topSlogan {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  z-index: 9999;
+  z-index: 9950;
   font-family: sans-serif;
   background: #4aad71; }
   #cssmenu ul {
@@ -1361,4 +1383,4 @@ span.topSlogan {
     padding: 10px;
     min-width: 400px; }
 
-/*# sourceMappingURL=webStyles.css.map */
+/*# sourceMappingURL=webstyles.css.map */

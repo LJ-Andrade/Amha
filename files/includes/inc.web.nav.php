@@ -58,15 +58,27 @@
     <div id="head-mobile"></div>
     <div class="button"></div>
     <ul>
-      <li class="mainLi <?php echo $currentPage == 'index.php' ? 'active' : ''; ?>"><a href='index.php'>INICIO</a></li>
-      <li class="mainLi <?php echo $currentPage == 'amha.php' ? 'active' : ''; ?>"><a href='amha.php'>AMHA</a></li>
-      <li class="mainLi <?php echo $currentPage == 'socios.php' ? 'active' : ''; ?>"><a href='socios.php'>SOCIOS</a></li>
-      <li class="mainLi <?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
+      <li class="<?php echo $currentPage == 'index.php' ? 'active' : ''; ?>"><a href='index.php'>INICIO</a></li>
+      <li class="<?php echo $currentPage == 'amha.php' ? 'active' : ''; ?>"><a href='amha.php'>AMHA</a>
         <ul>
-          <li class="mainLi"><a href='bibliografia.php'>BIBLIOGRAFIA</a></li>
+          <li><a href='bibliografia.php'>Quienes Somos</a></li>
+          <li><a href='bibliografia.php'>Historia</a></li>
+          <li><a href='bibliografia.php'>Autoridades</a></li>
+          <li><a href='bibliografia.php'>Nuestros Representantes</a></li>
+          <li><a href='bibliografia.php'>Otro Link</a></li>
         </ul>
       </li>
-      <li class="mainLi <?php echo $currentPage == 'cursos.php' ? 'active' : ''; ?>"><a href='cursos.php'>CURSOS</a>
+      <li class="<?php echo $currentPage == 'socios.php' ? 'active' : ''; ?>"><a href='socios.php'>SOCIOS</a></li>
+      <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
+        <ul>
+          <li><a href='bibliografia.php'>Acceso a campus virtual</a></li>
+          <li><a href='bibliografia.php'>Venta on line de libros</a></li>
+          <li><a href='alumnos_revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
+          <li><a href='alumnos_revista.php'>Revista Homeopat&iacute;a</a></li>
+          <li><a href='alumnos_biblioteca.php'>Biblioteca</a></li>
+        </ul>
+      </li>
+      <li class=" <?php echo $currentPage == 'cursos.php' ? 'active' : ''; ?>"><a href='cursos.php'>CURSOS</a>
         <ul>
           <li><a href="#">Nuevos Cursos</a></li>
           <li><a href="#">Beneficios</a></li>
@@ -85,14 +97,14 @@
           <li><a href="#">Formularios de pre-inscripci&oacute;n</a></li>
         </ul>
       </li>
-      <li class="mainLi <?php echo $currentPage == 'novedades.php' ? 'active' : ''; ?>"><a href='novedades.php'>NOVEDADES</a></li>
-      <li class="mainLi <?php echo $currentPage == 'agenda.php' ? 'active' : ''; ?>"><a href='agenda.php'>AGENDA</a>
+      <li class="<?php echo $currentPage == 'novedades.php' ? 'active' : ''; ?>"><a href='novedades.php'>NOVEDADES</a></li>
+      <li class="<?php echo $currentPage == 'agenda.php' ? 'active' : ''; ?>"><a href='agenda.php'>AGENDA</a>
         <ul>
-          <li class="mainLi <?php echo $currentPage == 'consultorios.php' ? 'active' : ''; ?>"><a href='consultorios.php'>CONSULTORIOS</a></li>
-          <li class="mainLi <?php echo $currentPage == 'farmacias.php' ? 'active' : ''; ?>"><a href='farmacias.php'>FARMACIAS</a></li>
+          <li class="<?php echo $currentPage == 'consultorios.php' ? 'active' : ''; ?>"><a href='consultorios.php'>CONSULTORIOS</a></li>
+          <li class="<?php echo $currentPage == 'farmacias.php' ? 'active' : ''; ?>"><a href='farmacias.php'>FARMACIAS</a></li>
         </ul>
       </li>
-      <li class="mainLi"><a href='contacto.php'>CONTACTO</a></li>
+      <li><a href='contacto.php'>CONTACTO</a></li>
     </ul>
   </nav>
 </div>
