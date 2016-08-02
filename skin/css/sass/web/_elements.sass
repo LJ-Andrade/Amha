@@ -188,7 +188,7 @@
 
 ////////// FORM /////////////
 .amhaContacto
-  text-align: center
+  text-align: left
   // display: -webkit-box
   // display: -ms-flexbox
   // display: flex
@@ -197,7 +197,22 @@
   // -ms-grid-row-align: center
   // align-items: center
   // justify-content: center
-  form
+  .mainContactForm
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    -ms-grid-row-align: center
+    align-items: center
+    justify-content: center
     background-color: rgba(255, 255, 255, 0.75)
     padding: 10px
-    min-width: 400px
+    padding-top: 40px
+    padding-bottom: 40px
+    margin-bottom: 25px
+    form
+      min-width: 400px
+@media (max-width: 765px)
+  .amhaContacto
+    text-align: center

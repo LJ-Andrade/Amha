@@ -11,33 +11,32 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
-          <div class="sectionTits"><h1>Socios A.M.H.A y links relacionados</h1></div>
-            <!-- Comisión Directiva -->
-            <div class="row txC">
-              <div class="col-xs-12 linkWrapper">
-                <p>Socios A.M.H.A.: Requisitos y beneficios</p>
-              </div>
+          <div class="sectionTits"><h1 class="txC">SOCIOS</h1></div>
+          <div class="row txC">
+            <div class="col-xs-12 linkWrapper">
+              <a href="socios_requisbenef.php"><p>Socios: Requisitos y beneficios</p></a>
+              <div class="col-md-3 subLinkWrapper"><a href="socios_activos.php"><li>Socios Activos</li></a></div>
+              <div class="col-md-3 subLinkWrapper"><a href="socios_adherentes.php"><li>Socios Adherentes</li></a></div>
+              <div class="col-md-3 subLinkWrapper"><a href="socios_honorarios.php"><li>Socios Honorarios</li></a></div>
+              <div class="col-md-3 subLinkWrapper"><a href="socios_benefactores.php"><li>Socios Benefactores</li></a></div>
+            </div>
+            <a href="socios_colegio.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Colegio de M&eacute;dicos Home&oacute;patas</p>
               </div>
+            </a>
+            <a href="socios_grupodocente.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Ingreso a la Carrera Docente</p>
+                <p>Grupos Docente</p>
               </div>
-              <div class="col-xs-12 linkWrapper">
-                <p>Grupos de Estudio</p>
-              </div>
+            </a>
+            <a href="socios_famha.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Federaci&oacute;n de Asociaciones M&eacute;dicas Homeop&aacute;ticas Argentinas</p>
               </div>
-              <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button>
-
-
-
-            </div><!-- /Row - Comisión Directiva -->
-
-            <!-- Escuela de PostGrado -->
-
-
+            </a>
+            <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button>
+          </div><!-- /Row -->
         </div><!-- /contentContainer -->
         <?php include('sideBar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->

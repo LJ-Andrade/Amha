@@ -10,28 +10,28 @@
     </header>
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
-        <!-- /// Left Floating Menu /// -->
-        <?php include('../../../files/includes/inc.menu.amha.php') ?>
-        <!-- /// /Left Floating Menu /// -->
+        <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
+          <div class="sectionTits"><h1 class="txC">AMHA</h1></div>
+            <!-- Comisión Directiva -->
+            <div class="row txC">
+              <a href="amha_historia.php">
+                <div class="col-xs-12 linkWrapper">
+                <p>Historia</p>
+              </div>
+              </a>
+              <a href="amha_autoridades.php">
+              <div class="col-xs-12 linkWrapper">
+                <p>Autoridades</p>
+              </div>
+              </a>
+              <a href="amha_representantes.php">
+              <div class="col-xs-12 linkWrapper">
+                <p>Representantes</p>
+              </div>
+              </a>
+            </div><!-- /Row  -->
 
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
-          <div class="sectionTits">
-            <h1>Acerca de la A.M.H.A</h1>
-
-          </div>
-
-
-          <!-- Content -->
-        
-
-          <!-- Content -->
-
-
-
-
-
-        </div><!-- /autoridades -->
-
+        </div><!-- /contentContainer -->
         <?php include('sideBar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>

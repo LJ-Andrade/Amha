@@ -1,4 +1,5 @@
 <?php
+  // To echo class 'active' in links
   $url = (empty($_SERVER['HTTPS']) ? 'http://' : 'https://').$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
   $parts = parse_url($url);
   $str = $parts['scheme'].'://'.$parts['host'].$parts['path'];
@@ -32,7 +33,7 @@
   <div class="container">
     <div class="col-md-12 container topInner">
       <div class="col-md-3 col-sm-3 col-xs-12 topLogo">
-        <img src="../../../skin/images/body/logos/weblogo.png" alt="" />
+        <a href="index.php"><img src="../../../skin/images/body/logos/weblogo.png" alt="" /></a>
       </div>
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
@@ -66,7 +67,21 @@
           <li><a href='amha_representantes.php'>Representantes</a></li>
         </ul>
       </li>
-      <li class="<?php echo $currentPage == 'socios.php' ? 'active' : ''; ?>"><a href='socios.php'>SOCIOS</a></li>
+      <li class="<?php echo $currentPage == 'socios.php' ? 'active' : ''; ?>"><a href='socios.php'>SOCIOS</a>
+        <ul>
+          <li><a href='socios_requisbenef.php'>Socios: Requisitos y beneficios</a>
+            <ul>
+              <li><a href='socios_activos.php'>Socios Activos</a></li>
+              <li><a href='socios_adherentes.php'>Socios Adherentes</a></li>
+              <li><a href='socios_honorarios.php'>Socios Honorarios</a></li>
+              <li><a href='socios_benefactores.php'>Socios Benefactores</a></li>
+            </ul>
+          </li>
+          <li><a href='socios_colegio.php'>Colegio de m&eacute;dicos home&oacute;patas</a></li>
+          <li><a href='socios_grupodocente.php'>Grupo docente</a></li>
+          <li><a href='socios_famha.php'>F.A.M.H.A.</a></li>
+        </ul>
+      </li>
       <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
         <ul>
           <li><a href='bibliografia.php'>Acceso a Campus Virtual</a></li>
