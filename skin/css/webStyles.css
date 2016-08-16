@@ -58,6 +58,18 @@ p {
   font-weight: 300;
   color: #000; }
 
+b {
+  color: #4aad71; }
+
+b.b {
+  color: #000; }
+
+b.w {
+  color: #fff; }
+
+.justify {
+  text-align: justify; }
+
 span.italic {
   font-style: italic; }
 
@@ -175,6 +187,26 @@ label {
   flex-wrap: wrap;
   align-items: center; }
 
+.flexV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.flexCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 .hrMobile {
   display: none; }
 
@@ -224,7 +256,7 @@ label {
 
 .footerData {
   position: relative;
-  background-color: #aaa192;
+  background-color: #4aad71;
   padding: 15px; }
   .footerData h4 {
     margin: 0; }
@@ -409,10 +441,10 @@ header {
   .topBar .topSearch input {
     width: 100%; } }
 .topInner {
-  padding: 5px 0; }
+  padding: 20px 0; }
 
 .topLogo {
-  max-width: 180px; }
+  max-width: 170px; }
 
 @media (max-width: 765px) {
   .topLogo {
@@ -452,7 +484,7 @@ span.topSlogan {
   padding: 0;
   text-align: right;
   float: right;
-  padding-top: 24px; }
+  padding-top: 14px; }
   .topDatos p {
     margin-bottom: 0;
     font-weight: 300; }
@@ -901,71 +933,72 @@ span.topSlogan {
 .homeMenu {
   margin: 0 15px 15px; }
 
-.hmCursos, .hmTtienda, .hmArticulos, .hmConsultorios, .hmFarmacias, .hmCampus {
+.hmMenu {
   min-height: 250px;
   border: 4px solid #fcfcfc;
   transition: all 0.3s ease 0s; }
-  .hmCursos:hover, .hmTtienda:hover, .hmArticulos:hover, .hmConsultorios:hover, .hmFarmacias:hover, .hmCampus:hover {
+  .hmMenu:hover {
     cursor: pointer;
     filter: brightness(1.28); }
-  .hmCursos span, .hmTtienda span, .hmArticulos span, .hmConsultorios span, .hmFarmacias span, .hmCampus span {
+  .hmMenu span {
     position: absolute;
-    bottom: 1rem;
-    left: 2rem;
-    font-size: 2.5rem;
-    line-height: 40px;
+    bottom: 0.5rem;
+    left: 1rem;
+    font-size: 1.8rem;
+    line-height: 30px;
     font-weight: 500;
     color: #fff; }
 
 @media (max-width: 1150px) {
-  .hmCursos span, .hmTtienda span, .hmArticulos span, .hmConsultorios span, .hmFarmacias span, .hmCampus span {
+  .hmMenu span {
     left: 1rem;
     bottom: 0.5rem;
-    font-size: 1.8rem; } }
+    font-size: 1.2rem;
+    line-height: 23px; } }
 @media (max-width: 765px) {
-  .hmCursos, .hmTtienda, .hmArticulos, .hmConsultorios, .hmFarmacias, .hmCampus {
+  .hmMenu {
     min-height: 100px;
     bottom: 0.2rem;
     left: 0.5rem; }
-    .hmCursos span, .hmTtienda span, .hmArticulos span, .hmConsultorios span, .hmFarmacias span, .hmCampus span {
+    .hmMenu span {
       font-size: 1.5rem; } }
-.hmCursos {
+.hm1R1C {
   background: url(../images/body/menu/hmCursos.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.hmTtienda {
+.hm1R2C {
   background: url(../images/body/menu/hmTienda.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.hmArticulos {
+.hm1R3C {
   background: url(../images/body/menu/hmArticulos.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.hmConsultorios {
+.hm2R1C {
   background: url(../images/body/menu/hmConsultorios.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.hmFarmacias {
-  background: url(../images/body/menu/hmFarmacias.jpg) no-repeat center center;
+.hm2R2C {
+  background: url(../images/body/menu/hmCampus.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.hmCampus {
-  background: url(../images/body/menu/hmCampus.jpg) no-repeat center center;
+.hm2R3C {
+  background: url(../images/body/menu/hmFarmacias.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1023,6 +1056,23 @@ span.topSlogan {
   min-width: 100%;
   max-width: 100%;
   vertical-align: none; }
+.itemHome .card-block {
+  padding: 4px 18px; }
+
+.itemHome2 .card-block {
+  padding: 4px; }
+.itemHome2 h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  text-align: center; }
+.itemHome2 img {
+  min-width: 100%;
+  max-width: 100%;
+  vertical-align: none;
+  transition: all 0.3s ease 0s; }
+  .itemHome2 img:hover {
+    cursor: pointer;
+    filter: brightness(1.1); }
 
 .itemContainer h5 {
   margin: 0;
@@ -1170,6 +1220,10 @@ span.topSlogan {
   .sociosSublinks p {
     font-size: 14px; }
 
+.moreLinks {
+  margin-left: 20px;
+  padding-left: 10px; }
+
 .card-farm {
   padding: 0; }
 
@@ -1185,6 +1239,72 @@ span.topSlogan {
 .amhaContactData {
   text-align: center;
   margin-top: 30px; }
+
+.onlineShopItem {
+  position: relative;
+  padding: 0;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgba(230, 230, 230, 0.64);
+  background-color: #e9e4dd; }
+  .onlineShopItem .col-md-2 {
+    padding-left: 0; }
+  .onlineShopItem .shopPrice {
+    background-color: #d4d4d4;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 6px 30px;
+    font-size: 20px;
+    color: #000; }
+  .onlineShopItem .shopPriceBtn {
+    background-color: #a2a657;
+    font-size: 20px;
+    padding: 2px 24px;
+    border-radius: 0 5px 5px 0; }
+  .onlineShopItem .cartShopBtn {
+    border-radius: 5px 0 0 5px; }
+  .onlineShopItem p {
+    padding: 0;
+    margin-top: 20px;
+    margin-left: -25px;
+    text-align: justify; }
+  .onlineShopItem h5 {
+    margin-top: 15px;
+    padding: 5px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-weight: 400; }
+  .onlineShopItem img {
+    height: 170px;
+    max-width: 105px;
+    margin-left: 5px; }
+  .onlineShopItem .shopImg {
+    margin-top: 25px; }
+  .onlineShopItem .shopImgMobile {
+    display: none; }
+  .onlineShopItem .shopBtns {
+    text-align: right; }
+  .onlineShopItem .shopUss {
+    color: #fff;
+    font-size: 14px; }
+  .onlineShopItem .shopNew {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #66bb43;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px; }
+  @media (max-width: 815px) {
+    .onlineShopItem p {
+      margin-left: 5px; }
+    .onlineShopItem .shopImg {
+      display: none; }
+    .onlineShopItem .shopImgMobile {
+      margin-right: 10px;
+      float: left;
+      display: block; } }
 
 .mainBtn {
   background-color: #68637d;
@@ -1211,6 +1331,23 @@ span.topSlogan {
   .secBtn {
     padding: 4px;
     margin: 8px 2px; } }
+.hollowBtn {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 0;
+  transition: all 0.3s ease 0s; }
+  .hollowBtn:hover {
+    background-color: #fff;
+    color: #000 !important; }
+    .hollowBtn:hover p {
+      color: #000; }
+
+.infoContainer {
+  background-color: #ebedf3;
+  padding: 15px;
+  margin: 15px 0;
+  border-top: 5px solid #386868; }
+
 #viewStyles {
   text-align: center;
   position: absolute;
@@ -1262,7 +1399,6 @@ span.topSlogan {
   padding-top: 35px; }
 
 .catalogueItem {
-  padding-bottom: 25px;
   max-width: 350px; }
 
 .catalogueItemInner {
@@ -1389,5 +1525,15 @@ span.topSlogan {
 @media (max-width: 765px) {
   .amhaContacto {
     text-align: center; } }
+.textSection h5 {
+  margin: 10px 0;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #d4d4d4;
+  border-left: 2px solid #d4d4d4;
+  padding: 8px 5px 5px 8px;
+  font-weight: 400;
+  line-height: 25px; }
+.textSection h4 {
+  margin: 15px 0; }
 
 /*# sourceMappingURL=webstyles.css.map */

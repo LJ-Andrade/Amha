@@ -15,6 +15,11 @@
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
+            <span class="moreLinks">
+              <p><b>Ver tambien:</b> <a href="socios_activos.php">Socios Activos</a> | <a href="socios_adherentes.php">Socios Adherentes</a> |
+              <a href="socios_honorarios.php">Socios Honorarios</a></p>
+            </span>
+            <hr>
             <h1>Socios A.M.H.A.</h1>
             <hr>
             <h4>Socios Benefactores</h4>
@@ -22,7 +27,7 @@
           <!-- Content -->
           <div class="container">
             <div class="row">
-              <p>
+              <p  class="justify">
                 <b>Requisitos y beneficios</b>
                 <b>Artículo 5º del Estatuto de la A.M.H.A. Título 3. Asociados: condici&oacute;n de admisi&oacute;n, Inciso "d"</b><br>
                 Las personas f&oacute;sicas y/o jur&iacute;dicas que, con sustanciadas con los prop&oacute;sitos institucionales, que efect&uacute;en
@@ -31,13 +36,9 @@
                 </p>
               </div>
               <hr>
-              <span>
-                <p><b>Ver tambien:</b> <a href="socios_activos.php">Socios Activos</a> | <a href="socios_adherentes.php">Socios Adherentes</a> |
-                <a href="socios_honorarios.php">Socios Honorarios</a></p>
-              </span>
             </div><!-- Container -->
           </div><!-- Content Container-->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

@@ -28,7 +28,7 @@
               </div>
             </div><!-- Container -->
           </div><!-- Content Container-->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

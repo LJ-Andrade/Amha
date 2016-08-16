@@ -15,6 +15,11 @@
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
+            <span class="moreLinks">
+              <p><b>Ver tambien:</b> <a href="socios_activos.php">Socios Activos</a> |
+              <a href="socios_honorarios.php">Socios Honorarios</a> | <a href="socios_benefactores.php">Socios Benefactores</a> </p>
+            </span>
+            <hr>
             <h1>Socios A.M.H.A.</h1>
             <hr>
             <h4>Socios Adherentes</h4>
@@ -22,7 +27,7 @@
           <!-- Content -->
           <div class="container">
             <div class="row">
-              <p>
+              <p  class="justify">
                 <b>Socios adherentes</b><br>
                 Asistir a las clases de los cursos regulares (para médicos, veterinarios, odontólogos, farmacéuticos),
                 intensivos (para médicos del interior o exterior) y libres que cada cátedra dicta en forma previa a la atención de pacientes.
@@ -41,13 +46,9 @@
                 </p>
               </div>
               <hr>
-              <span>
-                <p><b>Ver tambien:</b> <a href="socios_activos.php">Socios Activos</a> |
-                <a href="socios_honorarios.php">Socios Honorarios</a> | <a href="socios_benefactores.php">Socios Benefactores</a> </p>
-              </span>
             </div><!-- Container -->
           </div><!-- Content Container-->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

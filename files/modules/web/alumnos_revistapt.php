@@ -17,13 +17,15 @@
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1>Revista Homeopat&iacute;a para todos</h1>
-            <h4>Descarga gratuita!</h4><br>
+            <hr>
+            <h4>Descarga gratuita!</h4>
+            <hr>
           </div>
           <!-- Content -->
           <div class="container">
             <div class="row">
-              <p>La <b>Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</b> realiza hace varios a&ntilde;os la revista
-               <b>HOMEOPAT&iacute;A PARA TODOS</b>.<br> Esta revista tiene como objetivo la difusi&oacute;n de
+              <p class="justify">La <b>Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</b> realiza hace varios a&ntilde;os la revista
+               <b>HOMEOPAT&Iacute;A PARA TODOS</b>.<br> Esta revista tiene como objetivo la difusi&oacute;n de
                   informaci&oacute;n de inter&eacute;s general sobre la medicina homeop&aacute;tica en todas sus
                   especializaciones. Va dirigida a quienes desean ampliar los conocimientos,
                   mantenerse informados y a quienes desconocen.<br>
@@ -43,7 +45,7 @@
         </div><!-- /autoridades -->
         <!-- ////// MODALS //////// -->
         <!-- ////// /MODALS //////// -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

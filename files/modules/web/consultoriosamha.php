@@ -12,13 +12,8 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12">
-
-
           <div class="sectionTits"><h1>Consultorios</h1></div>
           <hr>
-
-
-
           <div class="row wow zoomIn fadeIn">
             <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">Atenci&oacute;n de Pacientes en A.M.H.A.</h5></div>
@@ -251,7 +246,7 @@
 
 
         </div><!-- /contentContainer -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

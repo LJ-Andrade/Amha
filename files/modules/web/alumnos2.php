@@ -218,17 +218,9 @@
               </div>
             </div><!-- /Row -->
           </div><!-- /Escuelaa de PostGrado -->
-
-
           <!-- Content -->
-
-
-
-
-
         </div><!-- /autoridades -->
-
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

@@ -18,16 +18,16 @@
             <h1>Socios A.M.H.A. : Requisitos y Beneficios</h1>
             <hr>
             <h4>Beneficios de asociarse a la A.M.H.A.</h4>
-            <!-- <h3>Autoridades</h3><br> -->
-          </div><br>
+            <hr>
+          </div>
           <!-- Content -->
           <div class="container">
             <div class="row">
               <span class="subtit">La Asociaci&oacute;n Homeop&aacute;tica Argentina los convoca a formar parte de los beneficios a los a que acceden los socios:</span>
-              <p>Qui&eacute;n puede ser socio? m&eacute;dicos, m&eacute;dicos veterinarios, y otros profesionales que posean certificado expedido por la escuela de la AMHA.
+              <p class="justify">Qui&eacute;n puede ser socio? m&eacute;dicos, m&eacute;dicos veterinarios, y otros profesionales que posean certificado expedido por la escuela de la AMHA.
                Tambi&eacute;n aquellos que viniendo de otras escuelas de homeopat&iacute;a pertenecientes a la FAMHA hayan cursado y aprobado tercer a&ntilde;o de la carrera
                 en la AMHA.</p><br>
-              <p><b>Beneficios</b><br>
+              <p  class="justify"><b>Beneficios</b><br>
               Asistir a las clases de los cursos regulares (para m&eacute;dicos, veterinarios, odont&oacute;logos, farmac&eacute;uticos), intensivos (para m&eacute;dicos del
                interior o exterior) y libres que cada c&aacute;tedra dicta en forma previa a la atenci&oacute;n de pacientes.<br>
               Asociarse al Colegio M&eacute;dico de home&oacute;patas.<br>
@@ -54,7 +54,7 @@
           </div>
           <!-- Content -->
         </div><!-- /autoridades -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

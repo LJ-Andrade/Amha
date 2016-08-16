@@ -35,10 +35,10 @@
                 <p>Federaci&oacute;n de Asociaciones M&eacute;dicas Homeop&aacute;ticas Argentinas</p>
               </div>
             </a>
-            <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button>
+            <!-- <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button> -->
           </div><!-- /Row -->
         </div><!-- /contentContainer -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

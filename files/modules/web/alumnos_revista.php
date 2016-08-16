@@ -17,10 +17,12 @@
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1>Revista Homeopat&iacute;a</h1>
-            <h4>Suscripci&oacute;n - Exclusiva socios</h4><br>
+            <hr>
+            <h4>Suscripci&oacute;n - Exclusiva socios</h4>
+            <hr>
           </div>
           <!-- Content -->
-            <p>La <b>Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</b> realiza desde 1934 la revista <b>HOMEOPAT&Iacute;A.</b>
+            <p class="justify">La <b>Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</b> realiza desde 1934 la revista <b>HOMEOPAT&Iacute;A.</b>
             Esta revista tiene como objetivo la difusi&oacute;n de informaci&oacute;n de formaci&oacute;n profesional.
             Va dirigida a m&eacute;dicos, socios y alumnos, relacionados con la medicina homeop&aacute;tica.
             La revista busca poner al servicio de los profesionales informaci&oacute;n de nivel t&eacute;cnico,
@@ -42,7 +44,7 @@
         </div><!-- /autoridades -->
         <!-- ////// MODALS //////// -->
         <!-- ////// /MODALS //////// -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

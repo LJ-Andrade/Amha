@@ -32,21 +32,20 @@
 <div id="topHead" class="container topHead">
   <div class="container">
     <div class="col-md-12 container topInner">
-      <div class="col-md-3 col-sm-3 col-xs-12 topLogo">
+      <div class="col-md-4 col-sm-3 col-xs-12 topLogo">
         <a href="index.php"><img src="../../../skin/images/body/logos/weblogo.png" alt="" /></a>
       </div>
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
         <span class="topSlogan">FUNDADA EN 1933 - LA PRIMER ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
-        <span class="topAddressMobile"><hr>  <p>Turnos: <b>4827-2907</b>  | Administraci&oacute;n: <b>4826-5852</b>  | Escuela, Fax: <b>4827-2907</b><br>
-        <b>Juncal 2884 </b>- Buenos Aires - Argentina | <a href="mailto:info@amha.org.ar">Mail: <b>info@amha.org.ar</b></a></p>
+        <span class="topAddressMobile"><hr>  <p>Tel&eacute;fono: <b class="w">4826-5852</b>  | Consultorios: <b class="w">4963-1841</b> | <b class="w">4962-6812</b><br>
+        <b class="w">Juncal 2884 </b>- Buenos Aires - Argentina | <a href="mailto:info@amha.org.ar">Mail: <b class="w">info@amha.org.ar</b></a></p>
         </span>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
-        <p>Turnos: <b>4827-2907</b> <br>
-        Administraci&oacute;n: <b>4826-5852</b> <br>
-        Escuela, Fax. <b>4827-2907</b></p>
-        <p><b>Juncal 2884 </b>| Buenos Aires | Argentina</p>
+        <p>Tel&eacute;fono: <b class="w">4826-5852</b> <br>
+        Consultorios: <b class="w">4963-1841</b> | <b class="w">4962-6812</b>
+        <p><b class="w">Juncal 2884 </b>| Buenos Aires | Argentina</p>
         <p><a href="mailto:info@amha.org.ar">info@amha.org.ar</a></p>
       </div>
     </div>
@@ -78,14 +77,15 @@
             </ul>
           </li>
           <li><a href='socios_colegio.php'>Colegio de m&eacute;dicos home&oacute;patas</a></li>
-          <li><a href='socios_grupodocente.php'>Grupo docente</a></li>
-          <li><a href='socios_famha.php'>F.A.M.H.A.</a></li>
+          <li><a href='socios_ingresocarrera.php'>Ingreso a la carrera docente</a></li>
+          <li><a href='socios_grupodeestudio.php'>Grupo de estudio</a></li>
+          <li><a href='http://www.famha.org.ar/'>F.A.M.H.A.</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
         <ul>
-          <li><a href='bibliografia.php'>Acceso a Campus Virtual</a></li>
-          <li><a href='bibliografia.php'>Venta on line de libros</a></li>
+          <li><a href='http://www.escuelaamha.com.ar/files/modules/login/login.php' target="_blank">Acceso a Campus Virtual</a></li>
+          <li><a href='tienda_online.php'>Venta on line de libros</a></li>
           <li><a href='alumnos_revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
           <li><a href='alumnos_revista.php'>Revista Homeopat&iacute;a</a></li>
           <li><a href='alumnos_biblioteca.php'>Biblioteca</a></li>
@@ -93,21 +93,20 @@
       </li>
       <li class=" <?php echo $currentPage == 'cursos.php' ? 'active' : ''; ?>"><a href='cursos.php'>CURSOS</a>
         <ul>
-          <li><a href="#">Nuevos Cursos</a></li>
-          <li><a href="#">Beneficios</a></li>
-          <li><a href="#">Medicina Homeop&aacute;tica</a></li>
-          <li><a href="#">Odontoestomatolog&iacute;a Homeop&aacute;tica</a></li>
-          <li><a href="#">Veterinaria Homeop&aacute;tica</a></li>
-          <li><a href="#">Farmacia Homeop&aacute;tica</a></li>
-          <li><a href="#">Medicina Homeop&aacute;tica 3 en 1</a></li>
-          <li><a href="#">Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</a></li>
-          <li><a href="#">Pr&aacute;ctica Homeop&aacute;tica P/ Alumnos Libres</a></li>
-          <li><a href="#">Curso Superior de Perfeccionamiento</a></li>
-          <li><a href="#">Cursos Libres para Socios y Alumnos</a></li>
-          <li><a href="#">Ateneos Mensuales</a></li>
-          <li><a href="#">Grupos de Estudio</a></li>
-          <li><a href="#">Informaci&oacute;n &uacute;til Graduados 2016</a></li>
-          <li><a href="#">Formularios de pre-inscripci&oacute;n</a></li>
+        <li><a href='carreras.php'>Carreras</a>
+          <ul>
+            <li><a href='cursos_carrera1.php'>Carrera de Medicina Homeop&aacute;tica</a></li>
+            <li><a href='cursos_carrera2.php'>Carrera de Odontoestomatolog&iacute;a Homeop&aacute;tica</a></li>
+            <li><a href='cursos_carrera3.php'>Carrera de Veterinaria Homeop&aacute;tica</a></li>
+            <li><a href='cursos_carrera4.php'>Carrera de Farmacia Homeop&aacute;tica</a></li>
+          </ul>
+        </li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Formulario de pre-inscripci&oacute;n</a></li>
+          <li><a href="cursos_ateneos.php">Ateneos</a></li>
+          <li><a href="cursos_grupos_de_estudio.php">Grupos de estudio</a></li>
+          <li><a href="cursos_beneficios.php">Beneficios para el aprendizaje</a></li>
+          <li><a href="cursos_informacion.php">Informaci&oacute;n para graduados</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'novedades.php' ? 'active' : ''; ?>"><a href='novedades.php'>NOVEDADES</a></li>

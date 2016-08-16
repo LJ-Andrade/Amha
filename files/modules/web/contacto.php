@@ -24,7 +24,7 @@
               </div>
               <hr class="hrMobile">
               <div class="col-md-4">
-                <h4><b>Sede Charcas</b></h4>
+                <h4><b>Dpto. Charcas</b></h4>
                 <p>ATENCI&Oacute;N M&Eacute;DICA EN CONSULTORIOS PRIVADOS<br>
                 <b>Charcas 2744 - piso 2 departamento "6"</b><br> Barrio Norte, Buenos Aires, Argentina<br>
                 <b>Tel:</b> (011) 4963-1841 /4962-6812<br>
@@ -32,23 +32,23 @@
               <hr class="hrMobile">
               <div class="col-md-4">
                 <h4><b>Sede Mar del Plata</b></h4>
-                <p>Carrera de Medicina Homeopática en Mar del Plata - Curso Regular y Carrera de Veterinaria Homeopática en Mar del Plata:<br>
+                <p>Carrera de Medicina Homeop&aacute;tica<br> Curso Regular y Carrera de Veterinaria Homeopática<br>
                 <b>Contacto: </b> Dr. O. Mariano Ortolani<br>
                 <b>Tel:</b> (0223) 476-3545<br>
                 <b>Mail:</b> marianoortolani@hotmail.com<br>
-                <b>D&iacute;as y horarios:</b><br> De Lunes a viernes de 9 a 20 hs. de Lunes a viernes </p>
+                <b>D&iacute;as y horarios:</b><br> De Lunes a viernes de 9 a 20 hs.</p>
               </div>
               <hr class="hrMobile">
               <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-8">
                   <hr>
                   <p>
-                  <b>ESCUELA DE POSGRADO</b> - Tel. (011) 4827-2907 - escuela@amha.org.ar <br>
-                  <b>ADMINISTRACI&Oacute;N</b> - Tel. (011) 4826-5852 int. 36 - administracion@amha.org.ar<br>
-                  <b>SOCIOS</b> - Tel. (011)​ 4826-​0911​   - socios@amha.org.ar<br>
+                  <b>ESCUELA DE POSGRADO:</b> Tel: 4826-5852 int 37 | 4827-2907 | escuela@amha.org.ar <br>
+                  <b>ADMINISTRACI&Oacute;N:</b> Tel: 4826-5852 int 36 - administracion@amha.org.ar<br>
+                  <b>SOCIOS:</b> Tel:  4826-5852 int 32 / 4826-0911 - socios@amha.org.ar<br>
                   </p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                   <hr>
                   <b>E-MAIL GENERAL:</b> info@amha.org.ar<br>
                   <b>Horarios de atenci&oacute;n:</b><br>  Lunes a Viernes de 9.00hs a 16.00hs
@@ -77,7 +77,7 @@
             </div>
           </div><!-- /Contact Form -->
         </div><!-- /contentContainer -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

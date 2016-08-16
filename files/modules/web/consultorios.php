@@ -5,7 +5,6 @@
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
 </head>
   <body>
-    <?php include('../../../files/includes/inc.web.optionLeftSideBar.php'); ?> <!-- Left Option Hidden Bar -->
     <header>
       <?php include('../../../files/includes/inc.web.nav.php'); ?> <!-- Navegation -->
     </header>
@@ -41,7 +40,7 @@
             </div>
           </div>
         </div><!-- /contentContainer -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->

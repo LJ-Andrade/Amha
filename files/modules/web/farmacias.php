@@ -5,24 +5,21 @@
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
 </head>
   <body>
-    <?php include('../../../files/includes/inc.web.optionLeftSideBar.php'); ?> <!-- Left Option Hidden Bar -->
     <header>
       <?php include('../../../files/includes/inc.web.nav.php'); ?> <!-- Navegation -->
     </header>
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12">
-
-          <div class="sectionTits"><h1>Farmacias</h1></div>
+          <div class="sectionTits"><h1 class="txC">Farmacias</h1></div>
           <hr>
           <div class="txC">
             <h4>Lista de farmacias homeop&aacute;ticas recomendadas por la A.M.H.A.</h4>
               <h5>Haga click sobre el nombre de la farmacia para visitar su sitio web.</h5><br>
           </div>
           <div class="row wow zoomIn fadeIn txC mapFarmacias">
-              <iframe src="https://www.google.com/maps/d/embed?mid=1J21jL3VZa3Zt4cHRg3UHAhG7oAk" width="100%" height="480"></iframe>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1J21jL3VZa3Zt4cHRg3UHAhG7oAk" width="100%" height="480"></iframe>
           </div>
-
           <div class="row wow zoomIn fadeIn">
             <div class="col-sm-12 itemContainer">
               <div class="card-header"><h5 class="card-title">FARMACIA FERRAN </h5></div>
@@ -286,7 +283,7 @@
 
 
         </div><!-- /contentContainer -->
-        <?php include('sideBar.php'); ?><!-- Right Sidebar -->
+        <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->
