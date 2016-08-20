@@ -4,34 +4,22 @@
     <!-- card block -->
     <a href="consultorios.php">
       <div class="col-lg-12 col-md-3 col-sm-4">
-        <img src="../../../skin/images/body/pictures/consultoriosprivados.jpg" alt="" class="img-responsive"/>
+        <img src="../../../skin/images/body/menu/consultoriosprivados.jpg" alt="" class="img-responsive"/>
         <hr>
       </div>
     </a>
     <!-- card block -->
-    <a href="#">
+    <a href="formulario_preinscripcion.php">
       <div class="col-lg-12 col-md-3 col-sm-4">
-        <img src="../../../skin/images/body/pictures/inscripcion.jpg" alt="" class="img-responsive"/>
+        <img src="../../../skin/images/body/menu/inscripcion.jpg" alt="" class="img-responsive"/>
         <hr>
       </div>
     </a>
-    <a href="#">
+    <a href="http://escuelaamha.com.ar/files/modules/principal/main.php" target="_blank">
       <div class="col-lg-12 col-md-3 col-sm-4">
-        <img src="../../../skin/images/body/pictures/campusvirtual.jpg" alt="" class="img-responsive"/>
+        <img src="../../../skin/images/body/menu/campusvirtual.jpg" alt="" class="img-responsive"/>
         <hr>
       </div>
     </a>
-    <!-- <div class="col-lg-12 col-md-3 col-sm-4">
-      <img src="../../../skin/images/body/pictures/aniversario.jpg" alt="" class="img-responsive"/>
-      <hr>
-    </div> -->
-    <!-- /card block -->
-    <!-- <div class="col-lg-12 col-md-3 col-sm-4">
-      <img src="../../../skin/images/body/pictures/webmail.jpg" alt="" class="img-responsive"/>
-      <hr>
-    </div>
-    <div class="col-lg-12 col-md-3 col-sm-4">
-      <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button>
-    </div> -->
   </div>
 </div><!-- /Right Sidebar -->

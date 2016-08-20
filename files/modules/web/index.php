@@ -14,13 +14,13 @@
         <div class="row homeMenu">
           <div class="row">
             <a href="cursos.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span>CURSOS Y CARRERAS</span></div></a></a>
-            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>Carrera de Medicina Homeop&aacute;tica</span></div></a>
-            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>Carrera de Veterinaria Homeop&aacute;tica</span></div></a>
+            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
+            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERNINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
           <div class="row">
             <a href="consultorios.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>CONSULTORIOS</span></div></a>
             <a href="farmacias.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span>FARMACIAS</span></div></a>
-            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>Carrera Odontoestomatolog&iacute;a Homeop&aacute;tica</span></div></a>
+            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA ODONTOESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
         </div><!-- home main menu -->
         <div class="col-lg-9 col-md-12 wow zoomIn fadeIn">
@@ -29,12 +29,12 @@
               <div class="card card-block">
                 <div class="row catalogueItem">
                   <div class="hovereffect">
-                    <img class="img-responsive" src="../../../skin/images/body/pictures/itemhome1.jpg" alt="Novedades">
+                    <img class="img-responsive" src="../../../skin/images/body/menu/itemhome1.jpg" alt="Novedades">
                     <div class="overlay">
                       <br><br>
                       <!-- <h2>Novedades</h2>
                       <hr> -->
-                      <p><a href="novedades.php"></a><button type="button" name="button" class="btn hollowBtn">Ver Novedades</button></p>
+                      <p><a href="novedades.php"><button type="button" name="button" class="btn hollowBtn">Ver Novedades</button></a></p>
                     </div>
                   </div>
                 </div>
@@ -44,12 +44,12 @@
               <div class="card card-block">
                 <div class="row catalogueItem">
                   <div class="hovereffect">
-                    <img class="img-responsive" src="../../../skin/images/body/pictures/itemhome2.jpg" alt="Revista Homeopatía para todos">
-                    <a href="#">
+                    <img class="img-responsive" src="../../../skin/images/body/menu/itemhome2.jpg" alt="Revista Homeopatía para todos">
+                    <a href="">
                     <div class="overlay">
-                      <h2>Revista Homeopat&iacute;a Para Todos</h2>
+                      <p><a href="#">Descarg&aacute; sin costo la revista y disfrutala!</a></p>
                       <hr>
-                      <p><a href="#">Publicación N.57</a></p>
+                      <p><a href="alumnos_revistapt.php"><button type="button" name="button" class="btn hollowBtn">Ingresar</button></a></p>
                     </a>
                     </div>
                   </div>
@@ -60,12 +60,13 @@
               <div class="card card-block">
                 <div class="row catalogueItem">
                   <div class="hovereffect">
-                    <img class="img-responsive" src="../../../skin/images/body/pictures/itemhome3.jpg" alt="">
-                    <a href="#">
+                    <img class="img-responsive" src="../../../skin/images/body/menu/itemhome3.jpg" alt="">
+                    <a href="">
                     <div class="overlay">
-                      <h2>Revista Homeopat&iacute;a Para Todos</h2>
+                      <p><a href="socios_login.php">Revista exclusiva para Socios de A.M.H.A.</a></p>
                       <hr>
-                      <p><a href="#">Publicación N.57</a></p>
+                      <p><a href="socios_login.php"><button type="button" name="button" class="btn hollowBtn">Ingresar</button></a></p>
+                      <!-- <p><a href="#">Publicación N.57</a></p> -->
                     </a>
                     </div>
                   </div>
@@ -76,7 +77,7 @@
               <div class="card card-block">
                 <div class="row catalogueItem">
                   <div class="hovereffect">
-                    <img class="img-responsive" src="../../../skin/images/body/pictures/itemhome4.jpg" alt="">
+                    <img class="img-responsive" src="../../../skin/images/body/menu/itemhome4.jpg" alt="">
                     <div class="overlay">
                       <!-- <h2>Revista Homeopat&iacute;a Para Todos</h2> -->
                       <br><br><br><br>
@@ -86,29 +87,34 @@
                 </div>
               </div>
             </div>
-
           </div><!-- /row -->
           <!-- Content Under Big Nav -->
           <div class="row">
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <img class="card-img" src="../../../skin/images/body/pictures/item3home1.jpg" alt="Amha Sede Mar del Plata">
-                <h3 class="card-title">Sede Mar Del Plata</h3>
+                <a href="carrera_de_farmacia_homeopatica.php">
+                  <img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Amha Sede Mar del Plata">
+                  <h3 class="card-title">M&aacute;s informaci&oacute;n </h3>
+                </a>
               </div>
             </div>
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <img class="card-img" src="../../../skin/images/body/pictures/item3home2.jpg" alt="Amha Carrera Docente">
-                <h3 class="card-title">Carrera Docente</h3>
+                <a href="socios_carrera_docente.php">
+                  <img class="card-img" src="../../../skin/images/body/menu/item3home2.jpg" alt="Amha Carrera Docente">
+                  <h3 class="card-title">Conocer m&aacute;s sobre ella</h3>
+                </a>
               </div>
             </div>
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <img class="card-img" src="../../../skin/images/body/pictures/item3home3.jpg" alt="Amha El Simillimum">
-                <h3 class="card-title">El Simillimum</h3>
-                <!-- <p class="card-text">Texto descriptivo del art&iacute;culo.</p> -->
-                <!-- <a href="#" class="btn btn-primary">Ver m&aacute;s</a>
-                <p class="card-text"><small class="text-muted">Agregado el 27/06/2016</small></p> -->
+      				  <a href="http://elsimillimum.blogspot.com.ar" target="_blank">
+      					<img class="card-img" src="../../../skin/images/body/menu/item3home3.jpg" alt="Amha El Simillimum">
+      					<h3 class="card-title">Ingres&aacute; al blog</h3>
+      					<!-- <p class="card-text">Texto descriptivo del art&iacute;culo.</p> -->
+      					<!-- <a href="#" class="btn btn-primary">Ver m&aacute;s</a>
+      					<p class="card-text"><small class="text-muted">Agregado el 27/06/2016</small></p> -->
+      				</a>
               </div>
             </div>
           </div>

@@ -11,6 +11,13 @@
     padding: 4px
     margin: 8px 2px
 
+.btnPColor
+  background-color: $mainBtn
+  border: 0
+  transition: all 0.3s ease 0s
+  &:hover
+    background-color: $mainBtnHover
+
 .secBtn
   background-color: $secBtn
   transition: all 0.3s ease 0s
@@ -36,6 +43,14 @@
     p
       color: #000
 
+.payPalBtn
+  background-color: #11559d
+  &:hover
+    background-color: #009cde
+.mpBtn
+  background-color: #009fe3
+  &:hover
+    background-color: #100d9e
 ////// CONTAINERS //////
 // Green Container / Info //
 
@@ -249,3 +264,13 @@
     line-height: 25px
   h4
     margin: 15px 0
+
+//////////// DOWNLOAD ////////////////
+.downloadPdf
+  margin-top: 10px
+  margin-bottom: 25px
+  span
+    margin-left: 20px
+  img
+    width: 50px
+    max-width: 100%

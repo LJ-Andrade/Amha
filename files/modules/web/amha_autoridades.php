@@ -26,7 +26,7 @@
                   <div class="card-deck">
                     <div class="card">
                       <div class="card-header txC">
-                        <h1>Comisi&oacute;n Directiva</h1>
+                        <h5>Comisi&oacute;n Directiva</h5>
                       </div>
                       <div class="card-block">
                         <div class="row">
@@ -72,7 +72,7 @@
                   <div class="card-deck">
                     <div class="card">
                       <div class="card-header txC">
-                        <h1>Escuela de Posgrado</h1>
+                        <h5>Escuela de Posgrado</h5>
                       </div>
                       <div class="card-block">
                         <div class="row">

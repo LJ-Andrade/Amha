@@ -11,7 +11,7 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
-          <div class="sectionTits"><h1 class="txC">SOCIOS</h1></div>
+          <div class="sectionTits"><h1 class="txC">Socios</h1></div>
           <div class="row txC">
             <div class="col-xs-12 linkWrapper">
               <a href="socios_requisbenef.php"><p>Socios: Requisitos y beneficios</p></a>
@@ -25,16 +25,33 @@
                 <p>Colegio de M&eacute;dicos Home&oacute;patas</p>
               </div>
             </a>
-            <a href="socios_grupodocente.php">
+            <a href="socios_grupodeestudio.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Grupos Docente</p>
+                <p>Grupos de Estudio</p>
               </div>
             </a>
-            <a href="socios_famha.php">
+            <a href="http://www.famha.org.ar/" target="_blank">
               <div class="col-xs-12 linkWrapper">
                 <p>Federaci&oacute;n de Asociaciones M&eacute;dicas Homeop&aacute;ticas Argentinas</p>
               </div>
             </a>
+            <a href="tienda_online.php">
+              <div class="col-xs-12 linkWrapper">
+                <p>Tienda Online</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-xs-12 linkWrapper">
+                <p>Revista Homeopat&iacute;a</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-xs-12 linkWrapper">
+                <p>Revista Homeopat&iacute;a para todos</p>
+              </div>
+            </a>
+
+
             <!-- <button type="button" name="button" class="pagarBtn secBtn">Pago de la cuota de Socio de AMHA 2016</button> -->
           </div><!-- /Row -->
         </div><!-- /contentContainer -->

@@ -5,16 +5,22 @@
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
 </head>
   <body>
-    <?php include('../../../files/includes/inc.web.optionLeftSideBar.php'); ?> <!-- Left Option Hidden Bar -->
     <header>
       <?php include('../../../files/includes/inc.web.nav.php'); ?> <!-- Navegation -->
     </header>
     <div class="mainWrapper">
-      <div class="container mainContainer"><!-- Content inside this div -->
-        <div class="col-lg-9 col-md-12 col-xs-12">
-          <div class="sectionTits"><h1>Consultorios</h1>
-            <h4>Atenci&oacute;n en Consultorios Privados</h4></div>
-          <hr>
+      <div class="container mainContainer">
+        <!-- /// Left Floating Menu /// -->
+        <?php include('../../../files/includes/inc.menu.consultorios.php'); ?> <!--  -->
+        <!-- /// /Left Floating Menu /// -->
+        <!-- Content inside this div -->
+        <div class="col-lg-7 col-md-9 col-xs-12">
+          <div class="sectionTits">
+            <h1>Consultorios</h1>
+            <hr>
+            <h4>Atenci&oacute;n en Consultorios Privados</h4>
+            <hr>
+          </div>
           <div class="row wow zoomIn fadeIn txC mapFarmacias">
             <iframe src="https://www.google.com/maps/d/embed?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs" width="100%" height="480px"></iframe>
           </div>
@@ -136,6 +142,33 @@
                   Charcas 2744, 2º Piso, Depto 6, Barrio Norte<br>
                   Horarios: viernes de 9 a 17 hs.<br>
                   Tel&eacute;fono: 4962-6812<br>
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 itemContainer">
+              <div class="card-header"><h5 class="card-title">Dr. DRAIMAN MARIO</h5></div>
+              <div class="card card-block">
+                <p class="card-text">
+                  MN: 30.308 <br>
+                  Gallo 1576. Piso 7º Depto B - Palermo <br>
+                  Teléfono: 4826-5922 <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row wow zoomIn fadeIn">
+            <div class="col-sm-12 itemContainer">
+              <div class="card-header"><h5 class="card-title">Dr. DUCASSE CARLOS DANIEL</h5></div>
+              <div class="card card-block">
+                <p class="card-text">
+                  MN 65218 <br>
+                  Clínica Médica-Obesidad <br>
+                  Juramento 4468 P.B <br>
+                  V. Urquiza <br>
+                  4521-9994 y 4523-1094 <br>
+                  Martes y Jueves de 15:30 a 21hs <br>
+                  doctorducasse@yahoo.com.ar <br>
+                  www.institutodemedicinaalternativa.com <br>
                 </p>
               </div>
             </div>

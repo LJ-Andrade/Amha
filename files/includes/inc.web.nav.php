@@ -37,16 +37,15 @@
       </div>
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
-        <span class="topSlogan">FUNDADA EN 1933 - LA PRIMER ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
-        <span class="topAddressMobile"><hr>  <p>Tel&eacute;fono: <b class="w">4826-5852</b>  | Consultorios: <b class="w">4963-1841</b> | <b class="w">4962-6812</b><br>
-        <b class="w">Juncal 2884 </b>- Buenos Aires - Argentina | <a href="mailto:info@amha.org.ar">Mail: <b class="w">info@amha.org.ar</b></a></p>
+        <span class="topSlogan">FUNDADA EN 1933 - LA PRIMERA ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
+        <span class="topAddressMobile"><hr>  <p>Tel&eacute;fono: <b class="b">4826-5852</b>  | Consultorios: <b class="b">4963-1841</b> | <b class="b">4962-6812</b><br>
+        <b class="b">Juncal 2884 </b>- Buenos Aires - Argentina</p>
         </span>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
-        <p>Tel&eacute;fono: <b class="w">4826-5852</b> <br>
-        Consultorios: <b class="w">4963-1841</b> | <b class="w">4962-6812</b>
-        <p><b class="w">Juncal 2884 </b>| Buenos Aires | Argentina</p>
-        <p><a href="mailto:info@amha.org.ar">info@amha.org.ar</a></p>
+        <p>Tel&eacute;fono: <b class="b">4826-5852</b> <br>
+        Consultorios: <b class="b">4963-1841</b> | <b class="b">4962-6812</b>
+        <p><b class="b">Juncal 2884 </b>| Buenos Aires | Argentina</p>
       </div>
     </div>
   </div>
@@ -77,9 +76,12 @@
             </ul>
           </li>
           <li><a href='socios_colegio.php'>Colegio de m&eacute;dicos home&oacute;patas</a></li>
-          <li><a href='socios_ingresocarrera.php'>Ingreso a la carrera docente</a></li>
+          <li><a href='socios_carrera_docente.php'>Ingreso a la Carrera Docente</a></li>
           <li><a href='socios_grupodeestudio.php'>Grupo de estudio</a></li>
-          <li><a href='http://www.famha.org.ar/'>F.A.M.H.A.</a></li>
+          <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
+          <li><a href='tienda_online.php'>Tienda Online</a></li>
+          <li><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
+          <li><a href='#'>Revista Homeopat&iacute;a para todos</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
@@ -91,18 +93,27 @@
           <li><a href='alumnos_biblioteca.php'>Biblioteca</a></li>
         </ul>
       </li>
-      <li class=" <?php echo $currentPage == 'cursos.php' ? 'active' : ''; ?>"><a href='cursos.php'>CURSOS</a>
+      <li class=" <?php echo $currentPage == 'cursos_y_carreras.php' ? 'active' : ''; ?>"><a href='cursos_y_carreras.php'>CURSOS Y CARRERAS</a>
         <ul>
         <li><a href='carreras.php'>Carreras</a>
           <ul>
-            <li><a href='cursos_carrera1.php'>Carrera de Medicina Homeop&aacute;tica</a></li>
-            <li><a href='cursos_carrera2.php'>Carrera de Odontoestomatolog&iacute;a Homeop&aacute;tica</a></li>
-            <li><a href='cursos_carrera3.php'>Carrera de Veterinaria Homeop&aacute;tica</a></li>
-            <li><a href='cursos_carrera4.php'>Carrera de Farmacia Homeop&aacute;tica</a></li>
+            <li><a href='carrera_de_medicina_homeopatica.php'>Carrera de Medicina Homeop&aacute;tica</a></li>
+            <li><a href='carrera_de_odontoestomatologia_homeopatica.php'>Carrera de Odontoestomatolog&iacute;a Homeop&aacute;tica</a></li>
+            <li><a href='carrera_de_veterinaria_homeopatica.php'>Carrera de Veterinaria Homeop&aacute;tica</a></li>
+            <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Farmacia Homeop&aacute;tica</a></li>
           </ul>
         </li>
-          <li><a href="#">Cursos</a></li>
-          <li><a href="#">Formulario de pre-inscripci&oacute;n</a></li>
+        <li><a href='cursos.php'>Cursos</a>
+          <ul>
+            <li><a href='carrera_de_medicina_homeopatica_3_en_1.php'>Carreras de Medicina Homeop&aacute;tica 3 en 1</a></li>
+            <li><a href='practica_homeopatica_para_alumnos_libres.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>
+            <li><a href='practica_homeopatica_para_alumnos_libres2.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>
+            <li class="longLink"><a href='odontoestomatologia_veterinaria_homeopatica.php'>Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</a></li>
+            <li><a href='cursos_libres_para_alumnos_y_socios.php'>Cursos libres para alumnos y socios</a></li>
+            <li class="longLink"><a href='cursos_curso6.php'>Odontoestomatolog&iacute;a y veterinaria homeop&aacute;tica 2 en 1</a></li>
+          </ul>
+        </li>
+          <li><a href="formulario_preinscripcion.php">Formulario de pre-inscripci&oacute;n</a></li>
           <li><a href="cursos_ateneos.php">Ateneos</a></li>
           <li><a href="cursos_grupos_de_estudio.php">Grupos de estudio</a></li>
           <li><a href="cursos_beneficios.php">Beneficios para el aprendizaje</a></li>
@@ -112,8 +123,8 @@
       <li class="<?php echo $currentPage == 'novedades.php' ? 'active' : ''; ?>"><a href='novedades.php'>NOVEDADES</a></li>
       <li class="<?php echo $currentPage == 'agenda.php' ? 'active' : ''; ?>"><a href='agenda.php'>AGENDA</a>
         <ul>
-          <li class="<?php echo $currentPage == 'consultorios.php' ? 'active' : ''; ?>"><a href='consultorios.php'>CONSULTORIOS</a></li>
-          <li class="<?php echo $currentPage == 'farmacias.php' ? 'active' : ''; ?>"><a href='farmacias.php'>FARMACIAS</a></li>
+          <li class=""><a href='consultorios.php'>CONSULTORIOS</a></li>
+          <li class=""><a href='farmacias.php'>FARMACIAS</a></li>
         </ul>
       </li>
       <li><a href='contacto.php'>CONTACTO</a></li>

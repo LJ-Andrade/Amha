@@ -15,7 +15,7 @@
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
-            <h1>Cursos</h1>
+            <h1>Cursos y Carreras</h1>
             <hr>
             <h4>Beneficios que otorga nuestra escuela para facilitar el aprendizaje</h4>
             <!-- <h3>Autoridades</h3><br> -->
@@ -42,9 +42,9 @@
 
                 No es obligatorio tener un tutor, pero la escuela lo considera conveniente. Los alumnos que entreguen un trabajo sin supervisi&oacute;n
                 y sea reprobado, se les descontar&aacute; un punto en la calificaci&oacute;n de la segunda presentaci&oacute;n.<br>
-                <i class="fa fa-caret-right"></i> Para primer a&ntilde;o: un Docente Adscripto <br>
-                <i class="fa fa-caret-right"></i> Para segundo a&ntilde;o: un Profesor Adjunto<br>
-                <i class="fa fa-caret-right"></i> Para tercer a&ntilde;o: un Profesor Titular<br>
+                &#9679; Para primer a&ntilde;o: un Docente Adscripto <br>
+                &#9679; Para segundo a&ntilde;o: un Profesor Adjunto<br>
+                &#9679; Para tercer a&ntilde;o: un Profesor Titular<br>
               </p>
               <hr>
               <b>PRESENCIAR CLASES DE A&ntilde;OS ANTERIORES</b>

@@ -11,7 +11,7 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
-          <div class="sectionTits"><h1 class="txC">AMHA</h1></div>
+          <div class="sectionTits"><h1 class="txC">A.M.H.A.</h1></div>
             <!-- Comisión Directiva -->
             <div class="row txC">
               <a href="amha_historia.php">

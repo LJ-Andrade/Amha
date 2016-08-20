@@ -52,28 +52,30 @@
   -moz-background-size: cover
   -o-background-size: cover
   background-size: cover
+  span
+    font-size: 25px
 .hm1R3C
   background: url(../images/body/menu/hmArticulos.jpg) no-repeat center center
   -webkit-background-size: cover
   -moz-background-size: cover
   -o-background-size: cover
   background-size: cover
-
-
+  span
+    font-size: 25px
 .hm2R1C
   background: url(../images/body/menu/hmConsultorios.jpg) no-repeat center center
   -webkit-background-size: cover
   -moz-background-size: cover
   -o-background-size: cover
   background-size: cover
-
 .hm2R2C
   background: url(../images/body/menu/hmCampus.jpg) no-repeat center center
-
   -webkit-background-size: cover
   -moz-background-size: cover
   -o-background-size: cover
   background-size: cover
+  span
+    font-size: 24px
 .hm2R3C
   background: url(../images/body/menu/hmFarmacias.jpg) no-repeat center center
   -webkit-background-size: cover
@@ -171,6 +173,7 @@
   h5
     margin: 0
     padding: 0
+    font-size: 14px
     font-weight: 400
 
 .farmCompleto
@@ -354,16 +357,17 @@
   margin-top: 30px
 
 ///////// TIENDA ONLINE //////////
-.onlineShopItem
+.itemWimg
   position: relative
   padding: 0
   margin-top: 10px
   padding-bottom: 10px
   border: 1px solid rgba(230, 230, 230, 0.64)
-  background-color: #e9e4dd
+  background-color: #f0f0f0
+  @include box-shadowSoft
   .col-md-2
     padding-left: 0
-  .shopPrice
+  .itemPrice
     background-color: rgb(212, 212, 212)
     position: absolute
     right: 0
@@ -371,11 +375,14 @@
     padding: 6px 30px
     font-size: 20px
     color: #000
-  .shopPriceBtn
+  .itemPriceBtn
     background-color: rgb(162, 166, 87)
     font-size: 20px
-    padding: 2px 24px
+    padding: 2px 14px
     border-radius: 0 5px 5px 0
+    @include transition(0.2s)
+    &:hover
+      background-color: rgb(196, 201, 100)
   .cartShopBtn
     border-radius: 5px 0 0 5px
   p
@@ -383,6 +390,8 @@
     margin-top: 20px
     margin-left: -25px
     text-align: justify
+  p.centered
+    text-align: center
   h5
     margin-top: 15px
     padding: 5px
@@ -393,16 +402,19 @@
     height: 170px
     max-width: 105px
     margin-left: 5px
-  .shopImg
+  .itemImgBox img
+    width: 100px
+    height: 100px
+  .itemImg
     margin-top: 25px
-  .shopImgMobile
+  .itemImgMobile
     display: none
-  .shopBtns
+  .itemBtns
     text-align: right
-  .shopUss
+  .itemUss
     color: #fff
     font-size: 14px
-  .shopNew
+  .itemNew
     position: absolute
     top: 0
     right: 0
@@ -410,12 +422,183 @@
     color: #fff
     font-size: 12px
     padding: 4px
+    &:hover
+      background-color: rgb(125, 218, 87)
   @media (max-width: 815px)
     p
       margin-left: 5px
-    .shopImg
+    .itemImg
       display: none
-    .shopImgMobile
+    .itemImgMobile
       margin-right: 10px
       float: left
       display: block
+  @media (max-width: 280px)
+    .itemBtns span.buyNow
+      display: none
+    .cartShopBtn
+      border-radius: 0
+      padding: 5px 15px
+
+.paymentModal
+  .paymentOptions
+    img
+      width: 120px
+      margin-top: 10px
+      margin-bottom: 15px
+
+///// Farmacias /////
+
+.item2Col
+  margin-top: 15px
+  margin-bottom: 15px
+  background-color: rgb(255, 255, 255)
+  border: 1px solid rgb(233, 233, 233)
+  p
+    margin-bottom: 0rem !important
+    margin-top: 3px
+  .item2ColInner
+    min-height: 110px
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    flex-wrap: nowrap
+    flex-direction: row
+    align-items: stretch
+    .col-md-3
+      padding-right: 0
+  .item2ColInnerText
+    padding: 8px 0
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
+    flex-direction: column
+    margin-left: 10px
+  .item2ColImg
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
+    -ms-grid-row-align: center
+    align-items: center
+    -webkit-box-pack: end
+    -ms-flex-pack: end
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    padding: 0
+    img
+      width: 100px
+      height: 100px
+      @include box-shadowSoft
+      border-radius: 5px
+  h5
+    background-color: #f4f4f4
+    border-bottom: 2px solid #d4d4d4
+    border-left: 2px solid #d4d4d4
+    padding: 3px 5px 0px 15px
+    font-weight: 400
+    line-height: 25px
+
+
+  @media (max-width: 768px)
+    .item2ColImg
+      img
+        width: 90px
+        height: 80px
+
+  @media (max-width: 560px)
+    .item2ColImg
+      display: none
+
+.flexbox
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  overflow: hidden
+
+
+.flexbox .col1
+  flex: 1
+
+
+.flexbox .col1:nth-child(1)
+  background: #ccc
+  order: 1
+
+.flexbox .col1:nth-child(2)
+  background: #eee
+  order: 0
+
+
+
+////// REVISTAS /////////////////
+.revistas
+  ul
+    margin-bottom: 40px
+    li
+      display: inline-block
+      list-style: none
+      margin: 5px
+      position: relative
+      .editionN
+        text-align: center
+        background-color: #fff
+        padding: 5px 10px
+        font-size: 11px
+        border-radius: 5px 5px 0 0
+        @include box-shadowUpSoft
+      .lastEdition
+        background-color: rgb(242, 230, 74)
+        width: 100%
+        padding: 2px
+        text-align: center
+        position: absolute
+        bottom: 10%
+        z-index: 200
+      img
+        max-width: 120px
+        border-radius: 5px
+        @include box-shadowSoft
+        @include transition(0.2s)
+        &:hover
+          filter: brightness(1.2)
+
+@media (max-width: 465px)
+  .revistas
+    text-align: center
+
+/// SOCIOS LOGIN
+.sociosLogin
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  -ms-grid-row-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -ms-flex-direction: column
+  flex-direction: column
+  text-align: center
+
+.sociosLoginInner
+  max-width: 100%
+  width: 400px
+  form
+    input
+    margin: 5px
+    h3
+      margin-top: 30px
+      margin-bottom: 20px

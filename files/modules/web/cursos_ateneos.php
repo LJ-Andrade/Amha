@@ -15,7 +15,7 @@
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
           <div class="sectionTits">
-            <h1>Cursos</h1>
+            <h1>Cursos y Carreras</h1>
             <hr>
             <h4>Ateneos</h4>
             <!-- <h3>Autoridades</h3><br> -->

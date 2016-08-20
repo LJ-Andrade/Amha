@@ -11,7 +11,7 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
-          <div class="sectionTits"><h1 class="txC">ALUMNOS</h1></div>
+          <div class="sectionTits"><h1 class="txC">Alumnos</h1></div>
           <div class="row txC">
             <!-- <div class="col-xs-12 linkWrapper">
               <a href="socios_requisbenef.php"><p>Socios: Requisitos y beneficios</p></a>
