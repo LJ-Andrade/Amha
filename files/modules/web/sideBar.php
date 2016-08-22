@@ -2,7 +2,7 @@
 <div class="col-lg-3 col-md-3 col-xs-12 sideBar">
   <div class="row card card-block sideBarInner">
     <!-- card block -->
-    <a href="consultorios.php">
+    <a href="consultoriosprivados.php">
       <div class="col-lg-12 col-md-3 col-sm-4">
         <img src="../../../skin/images/body/menu/consultoriosprivados.jpg" alt="" class="img-responsive"/>
         <hr>

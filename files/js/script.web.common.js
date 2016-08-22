@@ -26,7 +26,7 @@ TopOptions();
 
 //////////// Left Floating Menu //////////////////
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 207) {
+    if ($(window).scrollTop() > 230) {
         $('.leftFloatMenu').addClass('leftFloatMenuFixed');
     }else{
       $('.leftFloatMenu').removeClass('leftFloatMenuFixed');
@@ -35,5 +35,16 @@ $(window).scroll(function() {
 
 
 ////// Get File name from Url //////
-var url      = window.location.href;  
+var url      = window.location.href;
 var filename = url.split('/').pop().split('#')[0].split('?')[0];
+
+//////////////////////////////////////////////////// Validation ///////////////////////////////////////////////////////////////
+var validate    = new ValidateFields();
+
+$(function(){
+  validate.createErrorDivs();
+
+  $(validateElements).change(function(){
+      validate.validateOneField(this);
+  });
+});

@@ -53,7 +53,7 @@
 
               </p>
               <hr>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-odontoestomatologia-homeopatica-programa.pdf"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
+              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-odontoestomatologia-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
 
 
             </div><!-- row -->

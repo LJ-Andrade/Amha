@@ -32,7 +32,7 @@
                   abarca conceptos aplicables a todas las edades.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 35</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -51,7 +51,7 @@
                   enfermedad gen&eacute;tica de la c&eacute;lula en seres sin SNC unicelular, mediante la informaci&oacute;n del medicamento homeop&aacute;tico.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -71,7 +71,7 @@
                    conocimiento de los medicamentos homeop&aacute;ticos.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -92,7 +92,7 @@
                   El Dr. Casale fue Profesor Titular de la AMHA, Presidente de dicha Asociaci&oacute;n y es actualmente Profesor Extraordinario.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 35</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -111,7 +111,7 @@ En los cap&iacute;tulos finales se aborda la injerencia y utilidad de los miasma
 Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y los clasifica por sus desv&iacute;os en HIPERTONO (PSORA); DISTONO (SYCOSIS) e HIPOTONO (SYPHILIS). Detalla para cada uno las caracter&iacute;sticas sintom&aacute;ticas que los definen. Tambi&eacute;n se refiere al Tuberculinismo y el Cancerinismo.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -128,7 +128,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El asma es un proceso natural de origen psicosom&aacute;tico asociado a una predisposici&oacute;n al&eacute;rgica natural. Este libro le ense&ntilde;a a observarse e identificarse con algunos medicamentos. Pero sobre todo lo orientar&aacute; sobre las cosas que debe valorar de sus s&iacute;ntomas para permitir que el m&eacute;dico home&oacute;pata efect&uacute;e un diagn&oacute;stico lo m&aacute;s completo posible para el tratamiento integral de su asma y lograr as&iacute; una curaci&oacute;n suave, efectiva y duradera a partir de una medicina natural y desprovista de toxicidad.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -145,7 +145,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 Este libro escrito por el Dr. De Medio, actual Profesor titular de Veterinaria de la AMHA, proporciona a m&eacute;dicos veterinarios y estudiantes de Homeopat&iacute;a, una novedosa aproximaci&oacute;n terap&eacute;utica aplicable a la cl&iacute;nica de animales peque&ntilde;os y animales de producci&oacute;n.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -162,7 +162,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El autor desarrolla en una primera parte varios temas, algunos pol&eacute;micos, que ha venido  investigando  durante  muchos a&ntilde;os  como son: la evoluci&oacute;n del pensamiento miasm&aacute;tico, el espectro miasm&aacute;tico, la enfermedad mental, el  autismo o TGD, la ecuaci&oacute;n m&oacute;rbida y el c&aacute;ncer, y en una segunda parte las personalidades homeop&aacute;ticas de varios medicamentos  (carcinosin, magnesia carb&oacute;nica,  natrum carbonicum, chamomilla y opium, y de los celosos) ampliando as&iacute; la larga lista de medicamentos de  sus dos libros anteriores.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -182,7 +182,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El Dr. Draiman es profesor titular de la AMHA y Presidente actual de la misma.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 45</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -202,7 +202,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El Dr. Draiman es profesor titular de la AMHA y Presidente actual de la misma.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 45</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -219,7 +219,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El Repertorio de Kent es el m&aacute;s completo y el m&aacute;s met&oacute;dico. Fue escrito por James Tyler Kent (gran maestro de la Homeopat&iacute;a de Estados Unidos) quien tard&oacute; 35 a&ntilde;os en escribirlo. Fue traducido al franc&eacute;s y al alem&aacute;n. El Dr. Eyzayaga, quien fuera Profesor titular, Director de la Escuela para Graduados y Presidente de la AMHA,  lo tradujo al espa&ntilde;ol y lo ampli&oacute; con nuevas r&uacute;bricas y m&aacute;s medicamentos, de 644 en el Kent original a cerca de 2000 en esta obra. Esta edici&oacute;n fue realizada bajo los auspicios de la AMHA. Contiene  &iacute;ndices con los rubros en castellano y en ingl&eacute;s, m&aacute;s un &iacute;ndice en portugu&eacute;s preparado por el Dr. Rezende Filho de San Pablo, Brasil.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 80</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -236,7 +236,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El autor, profesor titular de la AMHA y ex Presidente de la misma, realiza una excelente traducci&oacute;n al espa&ntilde;ol del Organon de Hahnemann directamente del tratado original en alem&aacute;n con lo que logra una obra esclarecedora,  in&eacute;dita y fidedigna del genio de Meissen.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 55</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -254,7 +254,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
   Responde a las preguntas y dudas m&aacute;s frecuentes que ha recibido respecto de la medicina hahnemanniana con la finalidad de aclararlas en cuanto a su visi&oacute;n, comprensi&oacute;n y experiencia.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -271,7 +271,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El autor cuenta en este libro la historia de la Homeopat&iacute;a desde sus albores en 1817 a la fecha. Basado en material bibliogr&aacute;fico extra&iacute;do de la biblioteca personal de su abuelo el Dr. Bernardo Vijnovsky,  es un libro &aacute;gil, instructivo y ameno.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 35</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -288,7 +288,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El autor trata y logra establecer un paralelismo (semejanza) entre el principio de Fildes y Woods y el principio de la similitud demostrando estrechos puntos de contacto entre ambos.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 10</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -306,7 +306,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
   Sobre el final de la obra se incluye un repertorio que re&uacute;ne todos los datos sobre el tema.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 70</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -325,7 +325,7 @@ Ha logrado encontrar un t&eacute;rmino medio en la traducci&oacute;n al espa&nti
 Adem&aacute;s de traducir, comenta cada par&aacute;grafo en la intenci&oacute;n de aclarar conceptos y actualizarlo a la luz de los conocimientos modernos.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 70</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -343,7 +343,7 @@ Adem&aacute;s de traducir, comenta cada par&aacute;grafo en la intenci&oacute;n 
 Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas para orientaci&oacute;n de los colegas home&oacute;patas.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -360,7 +360,7 @@ Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas p
                   Ante la escasez de Materia M&eacute;dica Homeop&aacute;tica escrita en castellano el autor propone en este libro estudiar cada medicamento con sus caracter&iacute;sticas mentales, generales y locales de acuerdo al Repertorio de Kent, siguiendo incluso el orden que figura en este Repertorio, destac&aacute;ndose adem&aacute;s los s&iacute;ntomas o caracter&iacute;sticas especialmente definidoras de cada medicamento./sintomasclavekent.jpg
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -399,7 +399,7 @@ Su finalidad es orientar acerca del o de los medicamentos que puedan resolver un
 A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;ctica y los medicamentos afines presentados con sus peculiaridades distintivas para cada uno de los casos.
                 </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 60</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -414,7 +414,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 <div class="itemImgMobile"><img style="float: left" src="../../../skin/images/products/tapa-similitud.png" alt="" /></div>
                 <p> <br><br> </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 30</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -430,7 +430,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 <span class="itemNew"> NUEVO !</span>
                 <p>    <br><br>            </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 25</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -446,7 +446,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 <span class="itemNew"> NUEVO !</span>
                 <p>    <br><br>            </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 17</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -462,7 +462,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 <span class="itemNew"> NUEVO !</span>
                 <p>    <br><br>            </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 35</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -478,7 +478,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 <span class="itemNew"> NUEVO !</span>
                 <p>    <br><br>            </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 35</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->
@@ -494,7 +494,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 <span class="itemNew"> NUEVO !</span>
                 <p>   <br><br>             </p>
                 <div class="itemBtns">
-                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><i class="fa fa-shopping-cart"></i> <span class="buyNow">Comprar ahora</span></button>
+                  <button type="button" class="btn mainBtn cartShopBtn" data-toggle="modal" data-target="#buyModal"><span class="buyNow">Comprar ahora</span></button>
                   <button type="button" class="btn itemPriceBtn" data-toggle="modal" data-target="#buyModal"><span class="itemUss">U$S</span> 35</button>
                 </div>
                 <!-- <div class="itemPrice">$38</div> -->

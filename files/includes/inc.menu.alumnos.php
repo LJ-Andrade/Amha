@@ -4,8 +4,8 @@
     <ul>
       <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php"><li>Acceso a Campus Virtual</li></a>
       <a href="tienda_online.php"><li class="<?php echo $currentPage == 'tienda_online.php' ? 'active' : ''; ?>">Venta on line de libros</li></a>
-      <a href="alumnos_revistapt.php"><li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
-      <a href="socios_login.php"><li class="<?php echo $currentPage == 'socios_login.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
+      <a href="revistapt.php"><li class="<?php echo $currentPage == 'revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
+      <a href="socios_login.php"><li class="<?php echo $currentPage == 'revista_socios.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
       <a href="alumnos_biblioteca.php"><li class="<?php echo $currentPage == 'alumnos_biblioteca.php' ? 'active' : ''; ?>">Biblioteca</li></a>
     </ul>
   </div>
@@ -18,8 +18,8 @@
     <ul>
       <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php"><li>Acceso a Campus Virtual</li></a>
       <a href="tienda_online.php"><li class="<?php echo $currentPage == 'tienda_online.php' ? 'active' : ''; ?>">Venta on line de libros</li></a>
-      <a href="alumnos_revistapt.php"><li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
-      <a href="socios_login.php"><li class="<?php echo $currentPage == 'socios_login.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
+      <a href="revistapt.php"><li class="<?php echo $currentPage == 'revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
+      <a href="socios_login.php"><li class="<?php echo $currentPage == 'revista_socios.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
       <a href="alumnos_biblioteca.php"><li class="<?php echo $currentPage == 'alumnos_biblioteca.php' ? 'active' : ''; ?>">Biblioteca</li></a>
     </ul>
   </div>

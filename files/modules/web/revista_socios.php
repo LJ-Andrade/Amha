@@ -38,32 +38,32 @@
           <div class="row revistas">
             <ul>
               <!-- Last Edition -->
-              <li><span class="editionN">Vol. 80</span><br><a href="../../../skin/files/revistasocios/revistasocios80-2015.pdf">
+              <li><span class="editionN">Vol. 80</span><br><a href="../../../skin/files/revistasocios/revistasocios80-2015.pdf" target="_blank">
                 <span class="lastEdition">&Uacute;ltima edici&oacute;n</span><!-- Add this to show last edition ribbon-->
                 <img src="../../../skin/files/revistasocios/revistasocios80-2015.jpg" alt="" /></a>
               </li><!-- Last Edition -->
-              <li><span class="editionN">Vol 79</span><br><a href="../../../skin/files/revistasocios/revistasocios79-2014.pdf">
+              <li><span class="editionN">Vol 79</span><br><a href="../../../skin/files/revistasocios/revistasocios79-2014.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios79-2014.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 78</span><br><a href="../../../skin/files/revistasocios/revistasocios78-4-2013.pdf">
+              <li><span class="editionN">Vol 78</span><br><a href="../../../skin/files/revistasocios/revistasocios78-4-2013.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios78-4-2013.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 77</span><br><a href="../../../skin/files/revistasocios/revistasocios77-2012.pdf">
+              <li><span class="editionN">Vol 77</span><br><a href="../../../skin/files/revistasocios/revistasocios77-2012.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios77-2012.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 76 N&deg;2</span><br><a href="../../../skin/files/revistasocios/revistasocios76-2011.pdf">
+              <li><span class="editionN">Vol 76 N&deg;2</span><br><a href="../../../skin/files/revistasocios/revistasocios76-2011.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios76-2011.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 76</span><br><a href="../../../skin/files/revistasocios/revistasocios76-12-2011.pdf">
+              <li><span class="editionN">Vol 76</span><br><a href="../../../skin/files/revistasocios/revistasocios76-12-2011.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios76-12-2011.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 75</span><br><a href="../../../skin/files/revistasocios/revistasocios75-11-2010.pdf">
+              <li><span class="editionN">Vol 75</span><br><a href="../../../skin/files/revistasocios/revistasocios75-11-2010.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios75-11-2010.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 75</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf">
+              <li><span class="editionN">Vol 75</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios75-4-2010.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 75 N&deg;<?php echo $currentPage ?>4</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf">
+              <li><span class="editionN">Vol 75 N&deg;<?php echo $currentPage ?>4</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios75-4-2010.jpg" alt="" /></a>
               </li>
             </ul>

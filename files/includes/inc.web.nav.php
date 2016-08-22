@@ -38,14 +38,14 @@
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
         <span class="topSlogan">FUNDADA EN 1933 - LA PRIMERA ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
-        <span class="topAddressMobile"><hr>  <p>Tel&eacute;fono: <b class="b">4826-5852</b>  | Consultorios: <b class="b">4963-1841</b> | <b class="b">4962-6812</b><br>
-        <b class="b">Juncal 2884 </b>- Buenos Aires - Argentina</p>
+        <span class="topAddressMobile"><hr>  <p>Tel&eacute;fono: <b>4826-5852</b>  | Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
+        <b>Juncal 2884 </b>- Buenos Aires - Argentina</p>
         </span>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
-        <p>Tel&eacute;fono: <b class="b">4826-5852</b> <br>
-        Consultorios: <b class="b">4963-1841</b> | <b class="b">4962-6812</b>
-        <p><b class="b">Juncal 2884 </b>| Buenos Aires | Argentina</p>
+        <p>Tel&eacute;fono: <b>4826-5852</b> <br>
+        Consultorios: <b>4963-1841</b> | <b>4962-6812</b>
+        <p><b>Juncal 2884 </b>| Buenos Aires | Argentina</p>
       </div>
     </div>
   </div>
@@ -81,15 +81,15 @@
           <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
           <li><a href='tienda_online.php'>Tienda Online</a></li>
           <li><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
-          <li><a href='#'>Revista Homeopat&iacute;a para todos</a></li>
+          <li><a href='revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
         <ul>
           <li><a href='http://www.escuelaamha.com.ar/files/modules/login/login.php' target="_blank">Acceso a Campus Virtual</a></li>
           <li><a href='tienda_online.php'>Venta on line de libros</a></li>
-          <li><a href='alumnos_revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
-          <li><a href='alumnos_revista.php'>Revista Homeopat&iacute;a</a></li>
+          <li><a href='revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
+          <li><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
           <li><a href='alumnos_biblioteca.php'>Biblioteca</a></li>
         </ul>
       </li>

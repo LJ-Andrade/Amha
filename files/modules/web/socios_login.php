@@ -37,6 +37,7 @@
                 <a href="revista_socios.php"><!-- Temp Link - Delete -->
                 <button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>
                 </a>
+                <a href="revista_socios.php">Previsualizar Secci&oacute;n</a>
               </form><br>
               <p><i>Si no tiene su clave de acceso, solic&iacute;tela a <br> <a href="mailto:socios@amha.org.ar?subject=Solicitud"><b>socios@amha.org.ar</b></a><br>Tel&eacute;fono <b>4826-0911</b></i></p>
             </div>

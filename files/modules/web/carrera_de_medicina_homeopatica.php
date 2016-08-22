@@ -74,8 +74,8 @@
               Una vez cumplimentados todos los requisitos recibir&aacute; su diploma que lo acredite como M&Eacute;DICO HOME&Oacute;PATA otorgado por la ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA
               </p>
               <hr>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-medicina-homeopatica-programa.pdf"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-medicina-homeopatica-calendario2016.pdf"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Calendario</span></a></div>
+              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-medicina-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
+              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-medicina-homeopatica-calendario2016.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Calendario</span></a></div>
             </div><!-- row -->
           </div><!-- container -->
           <!-- /Content inside this div -->

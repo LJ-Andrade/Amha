@@ -892,7 +892,7 @@ span.topSlogan {
   padding: 15px 11px 5px;
   background-color: white;
   border-top: 3px solid #71a28e;
-  top: 5px;
+  top: 8px;
   margin-top: 15px;
   -webkit-box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44);
   -moz-box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44);
@@ -917,7 +917,10 @@ span.topSlogan {
 
 .leftFloatMenuFixed {
   position: fixed;
-  margin-top: 0; }
+  margin-top: 15px; }
+
+.floatMenu1 {
+  padding-left: 5px; }
 
 .leftMenuInLine {
   width: 100%;
@@ -1092,11 +1095,14 @@ span.topSlogan {
     cursor: pointer;
     filter: brightness(1.1); }
 
-.itemContainer h5 {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  font-weight: 400; }
+.itemContainer {
+  padding-left: 0;
+  padding-right: 0; }
+  .itemContainer h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400; }
 
 .farmCompleto h5 {
   font-weight: 400; }
@@ -1228,6 +1234,27 @@ span.topSlogan {
 @media (max-width: 1200px) {
   .consultoriosItems {
     margin-left: 15px; } }
+.searchFilters {
+  border: 1px solid #dfdfdf;
+  background-color: #e7e7dd;
+  padding: 10px 10px 0 27px;
+  margin-bottom: 15px;
+  position: relative; }
+  .searchFilters .searchFiltersInner div {
+    padding-right: 0;
+    padding-left: 4px; }
+  .searchFilters .searchIcon {
+    padding-right: 5px !important;
+    background-color: #cdd7c5;
+    position: absolute;
+    left: -1px;
+    top: 0px;
+    height: 100%;
+    padding: 15px 4px;
+    color: #fff; }
+  .searchFilters input, .searchFilters select {
+    margin-bottom: 10px; }
+
 .representantes img {
   max-width: 100%;
   margin-bottom: 15px; }
@@ -1489,13 +1516,27 @@ span.topSlogan {
   flex-direction: column;
   text-align: center; }
 
+.form-info {
+  border: 1px solid rgba(177, 177, 177, 0.65);
+  padding: 15px; }
+  .form-info p {
+    font-size: 14px; }
+
 .sociosLoginInner {
   max-width: 100%;
-  width: 400px; }
+  width: 500px; }
   .sociosLoginInner form {
-    margin: 5px; }
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    .sociosLoginInner form .sexInput {
+      margin-right: 10px; }
+    .sociosLoginInner form .form-boxedLines {
+      border: 1px solid #d6d6d6;
+      padding: 15px 1px;
+      border-radius: 5px; }
     .sociosLoginInner form h3 {
-      margin-top: 30px;
       margin-bottom: 20px; }
 
 .mainBtn {
@@ -1541,6 +1582,15 @@ span.topSlogan {
     .hollowBtn:hover p {
       color: #000; }
 
+.searchBtn {
+  background-color: #a6a26b;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+  border: 0; }
+  .searchBtn:hover {
+    background-color: #645d87;
+    color: #fff; }
+
 .payPalBtn {
   background-color: #11559d; }
   .payPalBtn:hover {
@@ -1552,7 +1602,7 @@ span.topSlogan {
     background-color: #100d9e; }
 
 .infoContainer {
-  background-color: #ebedf3;
+  background-color: #f2f2f2;
   padding: 15px;
   margin: 15px 0;
   border-top: 5px solid #386868; }

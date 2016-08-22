@@ -170,6 +170,8 @@
       filter: brightness(1.1)
 
 .itemContainer
+  padding-left: 0
+  padding-right: 0
   h5
     margin: 0
     padding: 0
@@ -316,6 +318,29 @@
 @media (max-width: 1200px)
   .consultoriosItems
     margin-left: 15px
+
+// Sarch Filters //
+.searchFilters
+  border: 1px solid rgb(223, 223, 223)
+  background-color: #e7e7dd
+  padding: 10px 10px 0 27px
+  margin-bottom: 15px
+  position: relative
+  .searchFiltersInner div
+    padding-right: 0
+    padding-left: 4px
+  .searchIcon
+    padding-right: 5px !important
+    background-color: #cdd7c5
+    position: absolute
+    left: -1px
+    top: 0px
+    height: 100%
+    padding: 15px 4px
+    color: #fff
+  input,select
+    margin-bottom: 10px
+
 
 ///// REPRESENTANTES /////
 .representantes
@@ -593,12 +618,33 @@
   flex-direction: column
   text-align: center
 
+.form-info
+  border: 1px solid rgba(177, 177, 177, 0.65)
+  padding: 15px
+  p
+    font-size: 14px
+
 .sociosLoginInner
   max-width: 100%
-  width: 400px
+  width: 500px
   form
-    input
-    margin: 5px
+    background-color: rgb(255, 255, 255)
+    padding: 15px
+    margin-top: 20px
+    margin-bottom: 10px
+    .sexInput
+      margin-right: 10px
+    .form-boxedLines
+      border: 1px solid rgb(214, 214, 214)
+      padding: 15px 1px
+      border-radius: 5px
     h3
-      margin-top: 30px
       margin-bottom: 20px
+
+//Errors
+// .ErrorText
+//   background-color: rgb(181, 129, 129)
+//   margin-top: 2px
+//   padding: 5px
+//   color: #fff
+//

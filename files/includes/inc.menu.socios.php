@@ -7,8 +7,8 @@
       <a href='socios_grupodeestudio.php'><li class="<?php echo $currentPage == 'socios_grupodeestudio.php' ? 'active' : ''; ?>">Grupo de estudio</li></a>
       <a href='http://www.famha.org.ar/' target="_blank"><li>F.A.M.H.A.</li></a>
       <a href='tienda_online.php'><li class="<?php echo $currentPage == 'tienda_online.php' ? 'active' : ''; ?>">Tienda Online</li></a>
-      <a href='socios_login.php'><li class="<?php echo $currentPage == 'socios_login.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
-      <a href='alumnos_revistapt.php'><li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
+      <a href='socios_login.php'><li class="<?php echo $currentPage == 'revista_socios.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
+      <a href='revistapt.php'><li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
     </ul>
   </div>
 </div>
@@ -21,8 +21,8 @@
       <a href='socios_grupodeestudio.php'><li class="<?php echo $currentPage == 'socios_grupodeestudio.php' ? 'active' : ''; ?>">Grupo de estudio</li></a>
       <a href='http://www.famha.org.ar/' target="_blank"><li>F.A.M.H.A.</li></a>
       <a href='tienda_online.php'><li class="<?php echo $currentPage == 'tienda_online.php' ? 'active' : ''; ?>">Tienda Online</li></a>
-      <a href='socios_login.php'><li class="<?php echo $currentPage == 'socios_login.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
-      <a href='alumnos_revistapt.php'><li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
+      <a href='socios_login.php'><li class="<?php echo $currentPage == 'revista_socios.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a</li></a>
+      <a href='revistapt.php'><li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>">Revista Homeopat&iacute;a para todos</li></a>
     </ul>
     </ul>
   </div>

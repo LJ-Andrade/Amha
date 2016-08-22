@@ -35,16 +35,16 @@
               <p><b>ASOCIARSE TIENE SUS BENEFICIOS</b></p>
               <p><b>Capacitaci&oacute;n continua </b></p>
               <p class="justify">
-                &#9679; Asistir a las clases de los cursos regulares (para m&eacute;dicos, veterinarios, odont&oacute;logos, farmac&eacute;uticos), intensivos (para m&eacute;dicos, odont&oacute;logos y veterinarios del interior o exterior) y libres que cada c&aacute;tedra dicta en forma previa a la atenci&oacute;n de pacientes, as&iacute; como a los ateneos mensuales. <br>
-                &#9679; Acceso al Foro de Graduados del Campus Virtual de la Escuela de Posgrado <br>
-                &#9679; Asociarse al Colegio M&eacute;dico Home&oacute;patas (s&oacute;lo para m&eacute;dicos home&oacute;patas) <br>
-                &#9679; Concurrir a los consultorios m&eacute;dicos de las c&aacute;tedras, y a los consultorios de extensi&oacute;n de c&aacute;tedra. <br>
-                &#9679; Asesoramiento sobre casos cl&iacute;nicos o dudas, con los profesores de la AMHA. <br>
-                &#9679; Hacer uso de la biblioteca (tres mil ejemplares de libros y revistas de todo el mundo), de la videoteca y de los programas de repertorizaci&oacute;n computarizados. <br>
-                &#9679; Recibir la revista "Homeopat&iacute;a", &oacute;rgano oficial cient&iacute;fico de la A.M.H.A. y la revista "Homeopat&iacute;a para todos", &oacute;rgano oficial de divulgaci&oacute;n. <br>
-                &#9679; Asociarse a la Liga M&eacute;dica Homeop&aacute;tica Internacional a trav&eacute;s de un tr&aacute;mite gestionado por la A.M.H.A <br>
-                &#9679; Participar en las Asambleas para elecci&oacute;n de autoridades de la A.M.H.A. <br>
-                &#9679; Ingresar a la carrera docente. <br>
+                1 - Asistir a las clases de los cursos regulares (para m&eacute;dicos, veterinarios, odont&oacute;logos, farmac&eacute;uticos), intensivos (para m&eacute;dicos, odont&oacute;logos y veterinarios del interior o exterior) y libres que cada c&aacute;tedra dicta en forma previa a la atenci&oacute;n de pacientes, as&iacute; como a los ateneos mensuales. <br>
+                2 - Acceso al Foro de Graduados del Campus Virtual de la Escuela de Posgrado <br>
+                3 - Asociarse al Colegio M&eacute;dico Home&oacute;patas (s&oacute;lo para m&eacute;dicos home&oacute;patas) <br>
+                4 - Concurrir a los consultorios m&eacute;dicos de las c&aacute;tedras, y a los consultorios de extensi&oacute;n de c&aacute;tedra. <br>
+                5 - Asesoramiento sobre casos cl&iacute;nicos o dudas, con los profesores de la AMHA. <br>
+                6 - Hacer uso de la biblioteca (tres mil ejemplares de libros y revistas de todo el mundo), de la videoteca y de los programas de repertorizaci&oacute;n computarizados. <br>
+                7 - Recibir la revista "Homeopat&iacute;a", &oacute;rgano oficial cient&iacute;fico de la A.M.H.A. y la revista "Homeopat&iacute;a para todos", &oacute;rgano oficial de divulgaci&oacute;n. <br>
+                8 - Asociarse a la Liga M&eacute;dica Homeop&aacute;tica Internacional a trav&eacute;s de un tr&aacute;mite gestionado por la A.M.H.A <br>
+                9 - Participar en las Asambleas para elecci&oacute;n de autoridades de la A.M.H.A. <br>
+                10 - Ingresar a la carrera docente. <br>
               </p>
             </div>
           </div>

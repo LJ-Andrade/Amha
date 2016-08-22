@@ -42,9 +42,9 @@
 
                 No es obligatorio tener un tutor, pero la escuela lo considera conveniente. Los alumnos que entreguen un trabajo sin supervisi&oacute;n
                 y sea reprobado, se les descontar&aacute; un punto en la calificaci&oacute;n de la segunda presentaci&oacute;n.<br>
-                &#9679; Para primer a&ntilde;o: un Docente Adscripto <br>
-                &#9679; Para segundo a&ntilde;o: un Profesor Adjunto<br>
-                &#9679; Para tercer a&ntilde;o: un Profesor Titular<br>
+                1 - Para primer a&ntilde;o: un Docente Adscripto <br>
+                2 - Para segundo a&ntilde;o: un Profesor Adjunto<br>
+                3 - Para tercer a&ntilde;o: un Profesor Titular<br>
               </p>
               <hr>
               <b>PRESENCIAR CLASES DE A&ntilde;OS ANTERIORES</b>

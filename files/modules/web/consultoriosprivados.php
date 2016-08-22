@@ -24,8 +24,39 @@
           <div class="row wow zoomIn fadeIn txC mapFarmacias">
             <iframe src="https://www.google.com/maps/d/embed?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs" width="100%" height="480px"></iframe>
           </div>
+          <hr class="hrStrong">
           <div class="row wow zoomIn fadeIn sectionTitsSmall">
             <h3>M&eacute;dicos</h3>
+          </div>
+          <div class="row searchFilters wow zoomIn fadeIn ">
+            <div class="form-group searchFiltersInner">
+              <div class="searchIcon"><i class="fa fa-search"></i></div>
+              <div class="col-sm-4 col-xs-12">
+                <select class="form-control" id="sel1">
+                  <option>Provincia</option>
+                  <option>Buenos Aires</option>
+                  <option>Capital</option>
+                  <option>Rivendel</option>
+                  <option>C&oacute;rdoba</option>
+                </select>
+                <!-- // In case you dont want a select, here is a simple input good man // -->
+                <!-- <input class="form-control" placeholder="Provincia" type="text"> -->
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <select class="form-control" id="sel1">
+                  <option>Zona</option>
+                  <option>Floresta</option>
+                  <option>Balvanera</option>
+                  <option>Moron</option>
+                  <option>Cipoletti</option>
+                </select>
+                <!-- // Same Here // -->
+                <!-- <input class="form-control" placeholder="Zona" type="text"> -->
+              </div>
+              <div class="col-sm-4 col-xs-12"><input class="form-control" placeholder="Palabra Clave" type="text"></div>
+              <!-- // If you need a Search Button here is one (remember to change col-sm-3 to col-sm-4 if you need to show it) //-->
+              <!-- <div class="col-sm-3 col-xs-12"><button type="button" class="btn searchBtn"><i class="fa fa-search"></i> Buscar</button></div> -->
+            </div>
           </div>
           <div class="row wow zoomIn fadeIn">
             <div class="col-sm-12 itemContainer">

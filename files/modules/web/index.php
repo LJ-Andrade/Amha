@@ -14,13 +14,13 @@
         <div class="row homeMenu">
           <div class="row">
             <a href="cursos.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span>CURSOS Y CARRERAS</span></div></a></a>
-            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
-            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERNINARIA HOMEOP&Aacute;TICA </span></div></a>
+            <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
+            <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERNINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
           <div class="row">
             <a href="consultorios.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>CONSULTORIOS</span></div></a>
             <a href="farmacias.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span>FARMACIAS</span></div></a>
-            <a href="#"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA ODONTOESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
+            <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA ODONTOESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
         </div><!-- home main menu -->
         <div class="col-lg-9 col-md-12 wow zoomIn fadeIn">
@@ -94,7 +94,7 @@
               <div class="card card-block">
                 <a href="carrera_de_farmacia_homeopatica.php">
                   <img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Amha Sede Mar del Plata">
-                  <h3 class="card-title">M&aacute;s informaci&oacute;n </h3>
+                  <h3 class="card-title">Inscribite! </h3>
                 </a>
               </div>
             </div>
