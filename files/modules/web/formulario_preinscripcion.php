@@ -38,10 +38,10 @@
                 <hr class="hrStrong">
                 <div class="form-group form-boxedLines">
                   <p>Carrera Elegida</p>
-                  <label class="radio-inline"><input type="radio" name="optradio">Medicina</label>
-                  <label class="radio-inline"><input type="radio" name="optradio">Odontolog&iacute;a</label>
-                  <label class="radio-inline"><input type="radio" name="optradio">Farmacia</label>
-                  <label class="radio-inline"><input type="radio" name="optradio">Veterinaria</label>
+                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Medicina</label>
+                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Odontolog&iacute;a</label>
+                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Farmacia</label>
+                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Veterinaria</label>
                 </div>
                 <div class="form-group">
                   <input id="name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Apellido y Nombre" autofocus="" type="name">
@@ -71,7 +71,7 @@
                  <textarea class="form-control" rows="5" id="comment"></textarea>
                 </div>
                 <!-- Temp Link - Delete -->
-                <button id="submit" class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Enviar</button>
+                <button id="submit" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Enviar</button>
               </form><br>
               <a href="revista_socios.php"><p>Ingresar a secci&oacute;n (Link de prueba)</p></a><!-- Delete -->
             </div>
@@ -91,7 +91,7 @@
 
     /// VALIDATE FORM
       $("#submit").click(function(){
-        if(validate.validateFields(''))
+        if(validate.validateFields('*'))
         {
           $("inscriptionForm").submit();
         }

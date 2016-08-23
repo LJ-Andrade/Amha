@@ -1,5 +1,23 @@
 // JavaScript Document
 
+//////////////////////////////////////////////////// Value In Array ////////////////////////////////////////////////////
+function inArray(needle, haystack) {
+    var length = haystack.length;
+    for(var i = 0; i < length; i++) {
+        if(haystack[i] == needle) return true;
+    }
+    return false;
+}
+
+
+//////////////////////////////////////////////////// Element Visible ////////////////////////////////////////////////////////
+
+function isVisible(object)
+{
+    return $(object).is (':visible') && $(object).parents (':hidden').length == 0;
+}
+
+
 /****************************************************************\
 
 VALIDATION ATRIBUTES:
@@ -17,7 +35,7 @@ VALIDATION ATRIBUTES:
 	Data: MaxVal/Text
 
 4)	validateEmail: Checks if the field contains a valid email.
-	Declaration: 'validateEmail:"Please, enter a valid email"'
+	Declaration: 'validateEmail="Please, enter a valid email"'
 	Data: Text
 
 5) 	validateOnlyNumbers: Checks if the field contains only numbers.
@@ -395,9 +413,9 @@ VALIDATION ATRIBUTES:
 			{
 				valid			= false;
 				var text		= $(object).attr("mustBeChecked").substring($(object).attr("mustBeChecked").indexOf(validateDelimiter)+1);
-				var errormsg	= new Message();
-				errormsg.error(text,1500);
-				//$("#"+$(object).attr("id")+"ErrorDiv").html(text);
+				// var errormsg	= new Message();
+				// errormsg.error(text,1500);
+				$("#"+$(object).attr("id")+"ErrorDiv").html(text);
 			}
 
 			if(valid && ValidateFields.prototype.fromFile(object))

@@ -14,13 +14,13 @@
         <?php include('../../../files/includes/inc.menu.cursoint.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-12 col-xs-12">
-          <div class="sectionTits"><h1 class="txC">Cursos</h1></div>
+          <br>
+          <div class="sectionTits"><h3 class="txC">Cursos</h3></div>
           <hr>
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-
-              <h3 class="txC">Curso de pr&aacute;ctica Homeop&aacute;tica para alumnos libres</h3>
+              <h1 class="txC">Curso de pr&aacute;ctica Homeop&aacute;tica para alumnos libres</h1>
               <hr>
               Para alumnos libres de no m&aacute;s de dos (2) a&ntilde;os en esta condici&oacute;n.<br>
               Podr&aacute;n asistir a las clases pr&aacute;cticas de todas las c&aacute;tedras y a los Consultorios de Extensi&oacute;n de C&aacute;tedra; no as&iacute; a las clases de los Cursos Regulares.<br><br>

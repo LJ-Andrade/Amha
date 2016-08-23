@@ -78,10 +78,10 @@
           <li><a href='socios_colegio.php'>Colegio de m&eacute;dicos home&oacute;patas</a></li>
           <li><a href='socios_carrera_docente.php'>Ingreso a la Carrera Docente</a></li>
           <li><a href='socios_grupodeestudio.php'>Grupo de estudio</a></li>
-          <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
           <li><a href='tienda_online.php'>Tienda Online</a></li>
           <li><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
           <li><a href='revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
+          <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'alumnos.php' ? 'active' : ''; ?>"><a href='alumnos.php'>ALUMNOS</a>
@@ -107,7 +107,7 @@
           <ul>
             <li><a href='carrera_de_medicina_homeopatica_3_en_1.php'>Carreras de Medicina Homeop&aacute;tica 3 en 1</a></li>
             <li><a href='practica_homeopatica_para_alumnos_libres.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>
-            <li><a href='practica_homeopatica_para_alumnos_libres2.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>
+            <!-- <li><a href='practica_homeopatica_para_alumnos_libres2.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li> -->
             <li class="longLink"><a href='odontoestomatologia_veterinaria_homeopatica.php'>Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</a></li>
             <li><a href='cursos_libres_para_alumnos_y_socios.php'>Cursos libres para alumnos y socios</a></li>
             <li class="longLink"><a href='cursos_curso6.php'>Odontoestomatolog&iacute;a y veterinaria homeop&aacute;tica 2 en 1</a></li>

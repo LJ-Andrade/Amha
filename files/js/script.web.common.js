@@ -45,6 +45,16 @@ $(function(){
   validate.createErrorDivs();
 
   $(validateElements).change(function(){
-      validate.validateOneField(this);
+      validate.validateOneField($(this));
+  });
+});
+
+/////////////////////////////////// ACCORDION ///////////////////////////////////////////
+$(function(){
+  $('.accordion').click(function(){
+    if ($(this).children('.accordionInfo').is(':hidden')) {
+      $('.accordionInfo').slideUp();
+      $(this).children('.accordionInfo').slideDown();
+    }
   });
 });

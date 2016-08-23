@@ -14,12 +14,13 @@
         <?php include('../../../files/includes/inc.menu.carreras.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12">
-          <div class="sectionTits"><h1 class="txC">Carreras</h1></div>
+          <br>
+          <div class="sectionTits"><h3 class="txC">Carreras</h3></div>
           <hr>
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h3 class="txC">Carrera de Farmacia Homeop&aacute;tica</h3>
+              <h1 class="txC">Carrera de Farmacia Homeop&aacute;tica</h1>
               <p class="justify">
                 <hr>
                 <b>Curso:</b> Farmacia Homeop&aacute;tica <br>
@@ -38,6 +39,9 @@
                 </p>
                 <hr>
                 <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-farmacia-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
+                <div class="col-md-6 margTop20">
+                  <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                </div>
               </p>
             </div><!-- row -->
           </div><!-- container -->

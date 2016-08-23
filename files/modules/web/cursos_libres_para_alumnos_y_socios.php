@@ -14,12 +14,13 @@
         <?php include('../../../files/includes/inc.menu.cursoint.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-12 col-xs-12">
-          <div class="sectionTits"><h1 class="txC">Cursos</h1></div>
+          <br>
+          <div class="sectionTits"><h3 class="txC">Cursos</h3></div>
           <hr>
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h3 class="txC">Cursos libres para alumnos y socios</h3>
+              <h1 class="txC">Cursos libres para alumnos y socios</h1>
               <hr>
               <h4>C&aacute;tedra Lunes de ma&ntilde;ana</h4>
               <b>PEDIATR&Iacute;A HOMEOP&Aacute;TICA Y FAMILIA</b> <br>
@@ -121,8 +122,12 @@
               <b class="b">Docente libre:</b> Dr. Adolfo Campanelli.<br>
               <b class="b">Horario:</b> 8.45 a 9.15 hs.<br>
               <b class="b">Casos cl&iacute;nicos:</b> 9.30 a 12.30 hs.<br>
-              Curso no arancelado.<br><br>
+              Curso no arancelado.<br><hr>
+              <div class="col-md-12 txC">
+                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+              </div>
             </div><!-- row -->
+            <br>
           </div><!-- container -->
           <!-- /Content inside this div -->
         </div><!-- /contentContainer -->

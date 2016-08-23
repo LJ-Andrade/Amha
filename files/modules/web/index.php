@@ -13,7 +13,7 @@
         <!-- Home main menu -->
         <div class="row homeMenu">
           <div class="row">
-            <a href="cursos.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span>CURSOS Y CARRERAS</span></div></a></a>
+            <a href="cursos_y_carreras.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span>CURSOS Y CARRERAS</span></div></a></a>
             <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERNINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
@@ -49,7 +49,7 @@
                     <div class="overlay">
                       <p><a href="#">Descarg&aacute; sin costo la revista y disfrutala!</a></p>
                       <hr>
-                      <p><a href="alumnos_revistapt.php"><button type="button" name="button" class="btn hollowBtn">Ingresar</button></a></p>
+                      <p><a href="revistapt.php"><button type="button" name="button" class="btn hollowBtn">Ingresar</button></a></p>
                     </a>
                     </div>
                   </div>

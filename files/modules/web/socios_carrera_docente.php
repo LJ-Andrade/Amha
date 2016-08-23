@@ -37,21 +37,24 @@
                 [...] Tendr&aacute;n derecho a ser Socios Activos, todos aquellos que viniendo de otras escuelas de Homeopat&iacute;a, PERTENECIENTES A LA F.A.H.M.A.
                 hayan cursado y aprobado el 3º a&ntilde;o de la carrera de medicina homeop&aacute;tica DE LA A.M.H.A.. <br><br>
 
-                <b>Beneficios</b><br>
-                1 - Asistir a las clases de los cursos regulares (para m&eacute;dicos, veterinarios, odont&oacute;logos, farmac&eacute;uticos), intensivos (para m&eacute;dicos del interior o exterior) y libres que cada c&aacute;tedra dicta en forma previa a la atenci&oacute;n de pacientes, as&iacute; como a los ateneos mensuales. <br>
-                2 - Asociarse al Colegio M&eacute;dico de home&oacute;patas (S&oacute;lo para m&eacute;dicos home&oacute;patas) (Ver m&aacute;s informaci&oacute;n) <br>
-                3 - Concurrir a los consultorios m&eacute;dicos de las c&aacute;tedras, y a los consultorios de extensi&oacute;n de c&aacute;tedra. <br>
-                4 - Asesoramiento sobre casos cl&iacute;nicos o dudas, con los profesores de la A.M.H.A. <br>
-                5 - Hacer uso de la biblioteca (tres mil ejemplares de libros y revistas de todo el mundo), de la videoteca y de los programas de repertorizaci&oacute;n computarizados. <br>
-                6 - Recibir la revista "Homeopat&iacute;a", &oacute;rgano oficial cient&iacute;fico de la A.M.H.A. y la Revista "Homeopat&iacute;a para todos", &oacute;rgano oficial de divulgaci&oacute;n. <br>
-                7 - Asociarse a la Liga M&eacute;dica Homeop&aacute;tica Internacional a trav&eacute;s de un tr&aacute;mite gestionado autom&aacute;ticamente por la A.M.H.A ( U$S 15.-). <br>
-                8 - Participar en las Asambleas para elecci&oacute;n de autoridades de la A.M.H.A. <br>
-                9 - Ingresar a la carrera docente.<br> Todos nuestros egresados luego de cumplir un AÑO COMO AYUDANTE DE C&Aacute;TEDRA,
-                DOS A&Ntilde;OS COMO ASOCIADO, Y DE HABER PUBLICADO DOS TRABAJOS IN&Eacute;DITOS EN LA REVISTA "HOMEOPAT&Iacute;A" (aprobado y/o publicado)
-                tienen la posibilidad de Ingresar a la Carrera Docente a la que acceder&aacute;n por Concurso por T&iacute;tulos,
-                Antecedentes y Oposici&oacute;n, primero como Docentes Adscriptos, luego como Profesores Adjuntos y finalmente como
-                Profesores Titulares de C&aacute;tedra. Para ser Ayudantes, los graduados deber&aacute;n presentar en Secretar&iacute;a
-                Administrativa de la escuela, una nota del Titular de C&aacute;tedra que solicite su inscripci&oacute;n y el Curriculum Vitae. <br>
+                <b>Beneficios</b>
+                <ol>
+                  <li> Asistir a las clases de los cursos regulares (para m&eacute;dicos, veterinarios, odont&oacute;logos, farmac&eacute;uticos), intensivos (para m&eacute;dicos del interior o exterior) y libres que cada c&aacute;tedra dicta en forma previa a la atenci&oacute;n de pacientes, as&iacute; como a los ateneos mensuales. <br></li>
+                  <li> Asociarse al Colegio M&eacute;dico de home&oacute;patas (S&oacute;lo para m&eacute;dicos home&oacute;patas) (Ver m&aacute;s informaci&oacute;n) <br></li>
+                  <li> Concurrir a los consultorios m&eacute;dicos de las c&aacute;tedras, y a los consultorios de extensi&oacute;n de c&aacute;tedra. <br></li>
+                  <li> Asesoramiento sobre casos cl&iacute;nicos o dudas, con los profesores de la A.M.H.A. <br></li>
+                  <li> Hacer uso de la biblioteca (tres mil ejemplares de libros y revistas de todo el mundo), de la videoteca y de los programas de repertorizaci&oacute;n computarizados. <br></li>
+                  <li> Recibir la revista "Homeopat&iacute;a", &oacute;rgano oficial cient&iacute;fico de la A.M.H.A. y la Revista "Homeopat&iacute;a para todos", &oacute;rgano oficial de divulgaci&oacute;n. <br></li>
+                  <li> Asociarse a la Liga M&eacute;dica Homeop&aacute;tica Internacional a trav&eacute;s de un tr&aacute;mite gestionado autom&aacute;ticamente por la A.M.H.A ( U$S 15.-). <br></li>
+                  <li> Participar en las Asambleas para elecci&oacute;n de autoridades de la A.M.H.A. <br></li>
+                  <li> Ingresar a la carrera docente.<br> Todos nuestros egresados luego de cumplir un AÑO COMO AYUDANTE DE C&Aacute;TEDRA,
+                  DOS A&Ntilde;OS COMO ASOCIADO, Y DE HABER PUBLICADO DOS TRABAJOS IN&Eacute;DITOS EN LA REVISTA "HOMEOPAT&Iacute;A" (aprobado y/o publicado)
+                  tienen la posibilidad de Ingresar a la Carrera Docente a la que acceder&aacute;n por Concurso por T&iacute;tulos,
+                  Antecedentes y Oposici&oacute;n, primero como Docentes Adscriptos, luego como Profesores Adjuntos y finalmente como
+                  Profesores Titulares de C&aacute;tedra. Para ser Ayudantes, los graduados deber&aacute;n presentar en Secretar&iacute;a
+                  Administrativa de la escuela, una nota del Titular de C&aacute;tedra que solicite su inscripci&oacute;n y el Curriculum Vitae.
+                  </li>
+                </ol>
                 </p><br>
               </div>
             </div><!-- Container -->

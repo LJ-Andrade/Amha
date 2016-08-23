@@ -14,12 +14,13 @@
         <?php include('../../../files/includes/inc.menu.carreras.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12">
-          <div class="sectionTits"><h1 class="txC">Carreras</h1></div>
+          <br>
+          <div class="sectionTits"><h3 class="txC">Carreras</h3></div>
           <hr>
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h3 class="txC">Carreras de Medicina Homeop&aacute;tica</h3>
+              <h1 class="txC">Carreras de Medicina Homeop&aacute;tica</h1>
               <hr>
               <b>Curso:</b> Medicina Homeop&aacute;tica <br>
               <b>Dirigido a:</b> M&eacute;dicos<br>
@@ -74,8 +75,17 @@
               Una vez cumplimentados todos los requisitos recibir&aacute; su diploma que lo acredite como M&Eacute;DICO HOME&Oacute;PATA otorgado por la ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA
               </p>
               <hr>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-medicina-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-medicina-homeopatica-calendario2016.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Calendario</span></a></div>
+              <div class="col-md-4 downloadPdf txC">
+                <a href="../../../skin/files/carreras/carrera-medicina-homeopatica-programa.pdf" target="_blank">
+                  <img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <br>
+                  <span class="margLeft0">Descargar Programa</span></a></div>
+              <div class="col-md-4 downloadPdf txC">
+                <a href="../../../skin/files/carreras/carrera-medicina-homeopatica-calendario2016.pdf" target="_blank">
+                  <img src="../../../skin/images/body/icons/pdficon.png" alt="" /><br>
+                   <span class="margLeft0">Descargar Calendario</span></a></div>
+              <div class="col-md-4 margTop20 txC">
+                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+              </div>
             </div><!-- row -->
           </div><!-- container -->
           <!-- /Content inside this div -->

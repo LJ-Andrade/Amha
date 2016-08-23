@@ -31,10 +31,7 @@
             trimestral</b>, es de entrega <b>gratuita</b> y tiene una tirada total de <b>200
             ejemplares</b>, adem&aacute;s del acceso y descarga de la <b>revista en forma digital.</b>
             </p><br>
-          <span class="subtitle">
-            Aqu&iacute; encontrar&aacute; las publicaciones disponibles de descarga exclusiva para SOCIOS y ALUMNOS.
-            Haga click en el bot&oacute;n "Acceder" para poder descargar la &uacute;ltima versi&oacute;n.
-          </span><br><br>
+          
           <div class="row revistas">
             <ul>
               <!-- Last Edition -->

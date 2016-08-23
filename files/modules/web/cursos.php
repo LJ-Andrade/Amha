@@ -23,11 +23,11 @@
                 <p>Curso de pr&aacute;ctica Homeop&aacute;tica para alumnos libres</p>
               </div>
             </a>
-            <a href="practica_homeopatica_para_alumnos_libres2.php">
+            <!-- <a href="practica_homeopatica_para_alumnos_libres2.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Curso de pr&aacute;ctica Homeop&aacute;tica para alumnos libres</p>
               </div>
-            </a>
+            </a> -->
             <a href="odontoestomatologia_veterinaria_homeopatica.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Curso Superior de Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</p>

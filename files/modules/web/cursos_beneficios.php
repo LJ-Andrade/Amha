@@ -25,8 +25,8 @@
           <div class="container">
             <div class="row">
               <b>Diploma otorgado por la Liga M&eacute;dica Homeop&aacute;tica Internacional (LMHI)</b><br>
+              <p class="justify">
                 La LMHI ha acreditado a la Escuela de Posgrado de la AMHA, como centro de ense&ntilde;anza que cumple con sus est&aacute;ndares de educaci&oacute;n,
-                <p class="justify">
                 declarando de alta calidad a nuestro programa de estudios.<br><br>
 
                 Los egresados que lo deseen, pueden gestionar en Secretar&iacute;a, el diploma de home&oacute;pata avalado por las autoridades de la Liga,
@@ -42,9 +42,11 @@
 
                 No es obligatorio tener un tutor, pero la escuela lo considera conveniente. Los alumnos que entreguen un trabajo sin supervisi&oacute;n
                 y sea reprobado, se les descontar&aacute; un punto en la calificaci&oacute;n de la segunda presentaci&oacute;n.<br>
-                1 - Para primer a&ntilde;o: un Docente Adscripto <br>
-                2 - Para segundo a&ntilde;o: un Profesor Adjunto<br>
-                3 - Para tercer a&ntilde;o: un Profesor Titular<br>
+                <ol>
+                  <li> Para primer a&ntilde;o: un Docente Adscripto <br></li>
+                  <li> Para segundo a&ntilde;o: un Profesor Adjunto<br></li>
+                  <li> Para tercer a&ntilde;o: un Profesor Titular<br></li>
+                </ol>
               </p>
               <hr>
               <b>PRESENCIAR CLASES DE A&ntilde;OS ANTERIORES</b>

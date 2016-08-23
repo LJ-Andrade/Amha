@@ -21,25 +21,37 @@
             <hr>
           </div>
           <div class="sociosLogin">
-            <div class="sociosLoginInner">
-              <img src="../../../skin/files/revistasocios/revistasocios.jpg" alt="" />
-              <form class="form-signin">
-                <h3 class="form-signin-heading">Acceso para socios</h3>
-                <div class="form-group">
-                  <input id="inputEmail" class="form-control" placeholder="Nombre de Usuario o E-Mail" required="" autofocus="" type="name">
+            <div class="row txC">
+              <p>
+                Aquí encontrará las publicaciones disponibles de descarga exclusiva para SOCIOS y ALUMNOS.<br>
+                Haga click en el botón "Acceder" para poder descargar la última versión.<br>
+                Si no tiene su clave de acceso, solicítela socios@amha.org.ar - <b>Teléfono 4826-0911</b>
+              </p>
+            </div>
+            <div class="row">
+              <br>
+              <div class="col-md-6">
+                <div class="sociosLoginInner">
+                  <img src="../../../skin/files/revistasocios/revistasocios.jpg" alt="" />
                 </div>
-                <div class="form-group">
-                  <input id="inputPassword" class="form-control" placeholder="Contrase&ntilde;a" required="" type="password">
-                </div>
-                <div class="checkbox">
-                  <label><input value="remember-me" type="checkbox"> Recordarme</label>
-                </div>
-                <a href="revista_socios.php"><!-- Temp Link - Delete -->
-                <button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>
-                </a>
-                <a href="revista_socios.php">Previsualizar Secci&oacute;n</a>
-              </form><br>
-              <p><i>Si no tiene su clave de acceso, solic&iacute;tela a <br> <a href="mailto:socios@amha.org.ar?subject=Solicitud"><b>socios@amha.org.ar</b></a><br>Tel&eacute;fono <b>4826-0911</b></i></p>
+              </div>
+              <div class="col-md-6">
+                <form class="form-signin formSocios">
+                  <h3 class="form-signin-heading">Acceso para socios</h3><br>
+                  <div class="form-group">
+                    <input id="inputEmail" class="form-control" placeholder="Nombre de Usuario o E-Mail" required="" autofocus="" type="name">
+                  </div>
+                  <div class="form-group">
+                    <input id="inputPassword" class="form-control" placeholder="Contrase&ntilde;a" required="" type="password">
+                  </div>
+                  <div class="checkbox">
+                    <label><input value="remember-me" type="checkbox"> Recordarme</label>
+                  </div>
+                  <a href="revista_socios.php"><!-- Temp Link - Delete -->
+                  <button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>
+                  </a>
+                </form>
+              </div>
             </div>
           </div>
 

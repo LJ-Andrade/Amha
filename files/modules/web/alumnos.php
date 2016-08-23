@@ -20,7 +20,7 @@
               <div class="col-md-3 subLinkWrapper"><a href="socios_honorarios.php"><li>Socios Honorarios</li></a></div>
               <div class="col-md-3 subLinkWrapper"><a href="socios_benefactores.php"><li>Socios Benefactores</li></a></div>
             </div> -->
-            <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php">
+            <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php" target="_blank">
               <div class="col-xs-12 linkWrapper">
                 <p>Acceso a campus virtual</p>
               </div>
@@ -30,7 +30,7 @@
                 <p>Venta on line de libros</p>
               </div>
             </a>
-            <a href="alumnos_revistapt.php">
+            <a href="revistapt.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Revista Homeopat&iacute;a para todos - <i>Descarga gratuita!</i></p>
               </div>

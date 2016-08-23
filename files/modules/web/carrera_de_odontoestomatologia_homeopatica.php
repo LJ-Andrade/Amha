@@ -14,12 +14,13 @@
         <?php include('../../../files/includes/inc.menu.carreras.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12">
-          <div class="sectionTits"><h1 class="txC">Carreras</h1></div>
+          <br>
+          <div class="sectionTits"><h3 class="txC">Carreras</h3></div>
           <hr>
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h3 class="txC">Carreras de Odontoestomatolog&iacute;a Homeop&aacute;tica</h3>
+              <h1 class="txC">Carreras de Odontoestomatolog&iacute;a Homeop&aacute;tica</h1>
               <hr>
               <b>Dirigido a:</b> Odont&oacute;logos <br>
               <b>Duraci&oacute;n:</b> 2 asos<br>
@@ -46,15 +47,14 @@
                 d&iacute;as y horarios de Segundo
                 A&ntilde;o de Medicina, (ver programa de Segundo A&ntilde;o de Medicina). Se dictar&aacute;n en el aula del primer piso de la
                  instituci&oacute;n.<br><br>
-
                 La formaci&oacute;n en Odontoestomatolog&iacute;a Homeop&aacute;tica se asentar&aacute; en el tr&iacute;pode: <br>
                 DOCTRINA y MATERIA M&Eacute;DICA  -  PR&Aacute;CTICA  -  INVESTIGACI&oacute;N<br>
-
-
               </p>
               <hr>
               <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-odontoestomatologia-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
-
+              <div class="col-md-6 margTop20">
+                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+              </div>
 
             </div><!-- row -->
           </div><!-- container -->
