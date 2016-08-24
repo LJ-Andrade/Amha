@@ -1,3 +1,35 @@
+<?php
+  if (isset($_POST['email']))  {
+    //Email information
+
+    $AdminEmail = "info@amha.org.ar";
+    $Name = $_POST['name'];
+    $Email = $_POST['email'];
+    $Phone = $_POST['phone'];
+    $Subject = "Mensaje de contacto desde el sitio web AMHA";
+    $Msg .= 'Remitente: <b>'.utf8_encode($Name).'</b><br>';
+    $Msg .= 'Tel&eacute;fono: <b>'.utf8_encode($Phone).'</b><br>';
+    $Msg .= 'Email: <b><a href="'.$Email.'">'.utf8_encode($Email).'</a></b><br>';
+    $Msg .= '<br>Mensaje: <br><b>'.utf8_encode($_POST['msg']).'</b>';
+    $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
+
+    $Headers  = "From: ".$Name." < ".$Email." >\n";
+    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
+    $Headers .= 'X-Mailer: PHP/' . phpversion();
+    $Headers .= "X-Priority: 2\n"; // Urgent message!
+    $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
+    $Headers .= "MIME-Version: 1.0\r\n";
+    $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+
+    //send email
+    mail($AdminEmail, "$Subject", $Msg, $Headers);
+    include("../../classes/class.database.php");
+    $DB = new DataBase();
+    $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes(utf8_encode($Name))."','".addslashes(utf8_encode($Email))."','".addslashes(utf8_encode($Phone))."','".addslashes(utf8_encode($_POST['msg']))."',NOW()");
+    //echo $DB->lastQuery();
+    die();
+  }
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -62,18 +94,18 @@
               <form>
                 <h4>Contacto R&aacute;pido</h4> <br>
                 <fieldset class="form-group">
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su nombre">
+                  <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" validateEmpty="Ingrese su nombre." validateMinLenght="4/El nombre debe contener al menos 4 caracteres.">
                 </fieldset>
                 <fieldset class="form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su direcci&oacute;n de email">
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese su direcci&oacute;n de email" validateEmpty="Ingrese su email." validateEmail="Ingrese un email v&aacute;lido." validateMinLenght="10/El email debe contener al menos 10 caracteres.">
                 </fieldset>
                 <fieldset class="form-group">
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su n&uacute;mero de tel&eacute;fono">
+                  <input type="text" class="form-control" id="phone" placeholder="Ingrese su n&uacute;mero de tel&eacute;fono" validateEmpty="Ingrese un tel&eacute;fono.">
                 </fieldset>
                 <fieldset class="form-group">
-                  <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Deje su consulta o mensaje"></textarea>
+                  <textarea class="form-control" id="msg" rows="3" placeholder="Deje su consulta o mensaje" validateEmpty="Ingrese un mensaje." validateMinLenght="10/El mensaje debe tener al menos 10 caracteres." validateMaxLenght="500/El mensaje debe contener menos de 500 caracteres."></textarea>
                 </fieldset>
-                <button type="submit" class="btn mainBtn">Enviar</button>
+                <button type="button" id="send" class="btn mainBtn">Enviar</button>
               </form>
             </div>
           </div><!-- /Contact Form -->
@@ -85,4 +117,43 @@
     <!-- Footer -->
     <?php include('../../includes/inc.web.scripts.php'); ?> <!-- Scripts -->
   </body>
+  <script type="JavaScript" src="../../js/script.validate.js"></script>
+  <script>
+    var validate = new ValidateFields();
+    $(function(){
+      validate.createErrorDivs();
+      $(validateElements).change(function(){
+          validate.validateOneField($(this));
+      });
+    });
+
+    $("#send").click(function(){
+      if(validate.validateFields('*'))
+      {
+        sendMsg();
+      }
+    });
+
+    function sendMsg()
+    {
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var phone = $("#phone").val();
+      var msg = $("#msg").val();
+
+      $.ajax({
+        method: "POST",
+        url: "contacto.php",
+        data: { name:name, email:email, phone:phone, msg:msg},
+        success: function(callback){
+          if(callback)
+          {
+            console.log(callback);
+          }else{
+            alert("Mensaje enviado correctamente");
+          }
+        }
+      });
+    }
+  </script>
 </html>

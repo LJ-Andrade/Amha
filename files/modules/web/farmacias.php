@@ -1,3 +1,70 @@
+<?php
+include("../../classes/class.database.php");
+//echo "1";
+$DB = new DataBase();
+//var_dump($DB);die();
+// if($_POST['search_key'] && $_GET['search']!="all")
+// {
+//   $V = $_POST['search_key'];
+//   // $Result = explode(" ",$V);
+//   // foreach ($Result as $Key => $Value) {
+//   //   $Result[$Key] = "first_name LIKE '%".$Value."%' OR last_name LIKE '%".$Value."%' OR description LIKE '%".$Value."%' OR national_medical_enrollment LIKE '%".$Value."%'  OR provincial_medical_enrollment LIKE '%".$Value."%'  OR email LIKE '%".$Value."%'  OR website LIKE '%".$Value."%'";
+//   // }
+//   // $Where = implode(" OR ",$Result);
+//   $Where = "first_name LIKE '%".$V."%' OR last_name LIKE '%".$V."%' OR description LIKE '%".$V."%' OR national_medical_enrollment LIKE '%".$V."%'  OR provincial_medical_enrollment LIKE '%".$V."%'  OR email LIKE '%".$V."%'  OR website LIKE '%".$V."%'";
+//
+// }
+$Pharmacies = $DB->fetchAssoc('pharmacy','*',$Where);
+//var_dump($DB);die();
+
+foreach($Pharmacies as $Pharmacy)
+{
+
+  $Name     = ucfirst(utf8_encode($Pharmacy['name']));
+  $Address  = '<b>Direcci&oacute;n: </b>'.utf8_encode($Pharmacy['address']).'<br>';
+  $Phone    = $Pharmacy['phone']?'<b>Tel&eacute;fono: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
+  $Fax      = $Pharmacy['fax']?'<b>Fax: </b>'.utf8_encode($Pharmacy['fax']).'<br>':'';
+  $Website  = $Pharmacy['website']? '<b>Sitio Web: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
+
+  $Emails   = explode(" ",$Pharmacy['email']);
+  foreach ($Emails as $Email) {
+    if($Mail) $Mail .= ' | ';
+    $Mail .= '<a href="https://mail.google.com/mail/?view=cm&fs=1&to='.$Email.'" target="_blank">'.strtolower($Email).'</a>';
+  }
+  if($Mail)
+  {
+    $Mail = '<b>E-mail: </b>'.$Mail.'<br>';
+  }
+  $HTML    .= '
+  <div class="row item2Col">
+    <div class="col-sm-12 item2ColInner">
+      <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
+        <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" />
+      </div>
+      <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
+        <h5>'.$Name.'</h5>
+        <p>
+          '.$Address.'
+          '.$Phone.'
+          '.$Fax.'
+          '.$Mail.'
+          '.$Website.'
+        </p><!-- Data -->
+      </div>
+    </div>
+  </div>
+  ';
+  unset($Mail);
+}
+// if($_POST || $_GET['get'])
+// {
+//   // echo($_POST['search_key'])."<br><br>";
+//   //echo $DB->lastQuery();
+//   $Search = $HTML && empty($_GET['get'])? $HTML : '<div class="row wow zoomIn fadeIn deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
+//   echo $Search;
+//   die();
+// }
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,102 +93,7 @@
           </div>
           <!-- MAP -->
           <!-- //// items Start //// -->
-          <!-- Item -->
-          <div class="row item2Col">
-            <div class="col-sm-12 item2ColInner">
-              <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-                <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" /><!-- Image -->
-              </div>
-              <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-                <h5>FARMACIA FERRAN</h5><!-- Title / Name -->
-                <p>
-                  <b>Direcci&oacute;n:</b> Timbres 860 (Castelar)<br>
-                  <b>Tel&eacute;fonos:</b> 4628-2322 | 4629-0236 | 4627-5506 | 4489-4195<br>
-                  <b>E-Mail: </b>farm_ferran@hotmail.com <br>
-                </p><!-- Data -->
-              </div>
-            </div>
-          </div><!-- / Item -->
-          <!-- Item -->
-          <div class="row item2Col">
-            <div class="col-sm-12 item2ColInner">
-              <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-                <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" /><!-- Image -->
-              </div>
-              <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-                <h5>FARMACIA FIALCO</h5><!-- Title / Name -->
-                <p>
-                  <b>Direcci&oacute;n:</b> Lamadrid 338 (Quilmes)<br>
-                  <b>Tel&eacute;fonos:</b> 4252-1744 | 4259-8374 | 4251-2046<br>
-                  <b>E-Mail: </b>ffialco@yahoo.com.ar <br>
-                </p><!-- Data -->
-              </div>
-            </div>
-          </div><!-- / Item -->
-          <!-- Item -->
-          <div class="row item2Col">
-            <div class="col-sm-12 item2ColInner">
-              <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-                <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" /><!-- Image -->
-              </div>
-              <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-                <h5>FARMACIA FRANCESA</h5><!-- Title / Name -->
-                <p>
-                  <b>Direcci&oacute;n:</b>  Av. Rivadavia 4544 (CABA) <br>
-                  <b>Tel&eacute;fonos:</b> 4903-7787 <b>Fax:</b> 4902-4433<br>
-                  <b>E-Mail: </b>homeopatiafrancesa@gmail.com<br>
-                </p><!-- Data -->
-              </div>
-            </div>
-          </div><!-- / Item -->
-          <!-- Item -->
-          <div class="row item2Col">
-            <div class="col-sm-12 item2ColInner">
-              <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-                <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" /><!-- Image -->
-              </div>
-              <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-                <h5>FARMACIA HAHNEMANN </h5><!-- Title / Name -->
-                <p>
-                  <b>Direcci&oacute;n:</b> Hipólito Irigoyen 2792 (CABA)  <br>
-                  <b>Tel&eacute;fonos:</b> 4931-4635 | 4932-7268/7291<b>Fax:</b>  4932-7239<br>
-                  <b>E-Mail: </b>homeopatiafrancesa@gmail.com<br>
-                </p><!-- Data -->
-              </div>
-            </div>
-          </div><!-- / Item -->
-          <!-- Item -->
-          <div class="row item2Col">
-            <div class="col-sm-12 item2ColInner">
-              <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-                <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" /><!-- Image -->
-              </div>
-              <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-                <h5>FARMACIA HOMEOPATICA CANGALLO</h5><!-- Title / Name -->
-                <p>
-                  <b>Direcci&oacute;n:</b>  Tte. Gral . Juan Domingo Perón 1670 (CABA) <br>
-                  <b>Tel&eacute;fonos:</b> 5219-2001<br>
-                  <b>E-Mail: </b>farmacia@homeocangallo.com<br>
-                </p><!-- Data -->
-              </div>
-            </div>
-          </div><!-- / Item -->
-          <!-- Item -->
-          <div class="row item2Col">
-            <div class="col-sm-12 item2ColInner">
-              <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-                <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" /><!-- Image -->
-              </div>
-              <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-                <h5>FARMACIA HOMEOPATICA GODOY</h5><!-- Title / Name -->
-                <p>
-                  <b>Direcci&oacute;n:</b>   Avda. Belgrano 2509 (CABA)  <br>
-                  <b>Tel&eacute;fonos:</b>  4942-7461 | 4308-5189<br>
-                  <b>E-Mail: </b>farmaciahomeopaticagodoy@fibertel.com<br>
-                </p><!-- Data -->
-              </div>
-            </div>
-          </div><!-- / Item -->
+          <?php echo $HTML; ?>
 
 
 

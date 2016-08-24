@@ -1,3 +1,43 @@
+<?php
+  if (isset($_POST['email']))  {
+    //Email information
+
+    $AdminEmail = "info@amha.org.ar";
+    $Name = $_POST['name'];
+    $Email = $_POST['email'];
+    $Phone = $_POST['phone'];
+    $Carreer = $_POST['carreer'];
+    $Sex = $_POST['sex'];
+    $Document = $_POST['doc'];
+    $Ocupation = $_POST['ocupation'];
+    $Subject = "Formulario de pre inscripcion enviado desde el sitio web AMHA";
+    $Msg .= 'Remitente: <b>'.utf8_encode($Name).'</b><br>';
+    $Msg .= 'Carrera seleccionada: <b>'.utf8_encode($Carreer).'</b><br>';
+    $Msg .= 'Sexo: <b>'.utf8_encode($Sex).'</b><br>';
+    $Msg .= 'Documento: <b>'.utf8_encode($Document).'</b><br>';
+    $Msg .= 'Tel&eacute;fono: <b>'.utf8_encode($Phone).'</b><br>';
+    $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
+    $Msg .= 'Ocupaci&oacute;n: <b>'.utf8_encode($Ocupation).'</b><br>';
+    $Msg .= '<br>Como nos contact&oacute;: <br><b>'.utf8_encode($_POST['msg']).'</b>';
+    $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
+
+    $Headers  = "From: ".$Name." < ".$Email." >\n";
+    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
+    $Headers .= 'X-Mailer: PHP/' . phpversion();
+    $Headers .= "X-Priority: 2\n"; // Urgent message!
+    $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
+    $Headers .= "MIME-Version: 1.0\r\n";
+    $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+
+    //send email
+    mail($AdminEmail, "$Subject", $Msg, $Headers);
+    // include("../../classes/class.database.php");
+    // $DB = new DataBase();
+    // $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($_POST['msg'])."',NOW()");
+    //echo $DB->lastQuery();
+    die();
+  }
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,10 +78,10 @@
                 <hr class="hrStrong">
                 <div class="form-group form-boxedLines">
                   <p>Carrera Elegida</p>
-                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Medicina</label>
-                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Odontolog&iacute;a</label>
-                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Farmacia</label>
-                  <label class="radio-inline"><input id="carreer" validateEmpty="Please, complete this field" type="radio" name="optradio">Veterinaria</label>
+                  <label class="radio-inline"><input id="carreer1" validateEmpty="Please, complete this field" type="radio" name="carreer" value="Medicina">Medicina</label>
+                  <label class="radio-inline"><input id="carreer2" validateEmpty="Please, complete this field" type="radio" name="carreer" value="Odontolog&iacute;a">Odontolog&iacute;a</label>
+                  <label class="radio-inline"><input id="carreer3" validateEmpty="Please, complete this field" type="radio" name="carreer" value="Farmacia">Farmacia</label>
+                  <label class="radio-inline"><input id="carreer4" validateEmpty="Please, complete this field" type="radio" name="carreer" value="Veterinaria">Veterinaria</label>
                 </div>
                 <div class="form-group">
                   <input id="name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Apellido y Nombre" autofocus="" type="name">
@@ -53,27 +93,27 @@
                   <input id="address" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Domicilio" type="name">
                 </div>
                 <div class="form-group">
-                  <input id="tel" validateEmpty="Este campo es obligatorio" validateOnlyNumbers="Ingrese solo n&uacute;meros" class="form-control" placeholder="Tel&eacute;fono / Celular" type="tel">
+                  <input id="phone" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Tel&eacute;fono / Celular" type="tel">
                 </div>
                 <div class="form-group">
-                  <input id="mail" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
+                  <input id="email" validateEmpty="Este campo es obligatorio" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
                 </div>
                 <div class="form-group">
-                  <input id="ocupation" class="form-control" placeholder="Ocupaci&oacute;n" type="name">
+                  <input id="ocupation" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Ocupaci&oacute;n" type="name">
                 </div>
                 <div class="form-group  form-boxedLines">
                   <label class="sexInput" for="">Sexo: </label>
-                  <label class="radio-inline"><input type="radio" name="optradio">Masculino</label>
-                  <label class="radio-inline"><input type="radio" name="optradio">Femenino</label>
+                  <label class="radio-inline"><input type="radio" id="sex1" name="sex" value="Var&oacute;n">Masculino</label>
+                  <label class="radio-inline"><input type="radio" id="sex2" name="sex" value="Mujer">Femenino</label>
                 </div>
                 <div class="form-group">
-                 <label for="comment">&iquest;C&oacute;mo se ha contactado con la instituci&oacute;n?</label>
-                 <textarea class="form-control" rows="5" id="comment"></textarea>
+                 <label for="msg">&iquest;C&oacute;mo se ha contactado con la instituci&oacute;n?</label>
+                 <textarea class="form-control" rows="5" id="msg"></textarea>
                 </div>
                 <!-- Temp Link - Delete -->
-                <button id="submit" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Enviar</button>
+                <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Enviar</button>
               </form><br>
-              <a href="revista_socios.php"><p>Ingresar a secci&oacute;n (Link de prueba)</p></a><!-- Delete -->
+              <!-- <a href="revista_socios.php"><p>Ingresar a secci&oacute;n (Link de prueba)</p></a> -->
             </div>
           </div>
 
@@ -86,17 +126,71 @@
       <?php include('../../includes/inc.web.footer.php'); ?>
     </div><!-- /mainWrapper -->
     <!-- Footer -->
+    <input type="hidden" value="" id="selected_carreer">
+    <input type="hidden" value="" id="selected_sex">
     <?php include('../../includes/inc.web.scripts.php'); ?> <!-- Scripts -->
-    <script type="text/javascript">
+    <script type="JavaScript" src="../../js/script.validate.js"></script>
+    <script>
+      var validate = new ValidateFields();
+      $(function(){
+        validate.createErrorDivs();
+        $(validateElements).change(function(){
+            validate.validateOneField($(this));
+        });
+      });
 
-    /// VALIDATE FORM
-      $("#submit").click(function(){
-        if(validate.validateFields('*'))
+      $("#send").click(function(){
+        if(validate.validateFields('*') && $("#selected_carrer").val()!="" && $("#selected_sex").val()!="")
         {
-          $("inscriptionForm").submit();
+          sendMsg();
+        }else{
+          if($("#selected_carrer").val()!="")
+          {
+            alert("Seleccione una carrera.")
+          }
+
+          if($("#selected_sex").val()!="")
+          {
+            alert("Seleccione un sexo.")
+          }
         }
       });
 
+      $("input[name=carreer]").click(function(){
+        $("#selected_carreer").val($(this).val());
+      });
+
+      $("input[name=sex]").click(function(){
+        $("#selected_sex").val($(this).val());
+      });
+
+      function sendMsg()
+      {
+        //if($('#carreer').is(':checked')) { alert($('input[name=carreer]:checked').val()); }
+        var carreer = $("#selected_carreer").val();
+        var sex = $("#selected_sex").val();
+        var name = $("#name").val();
+        var address = $("#address").val();
+        var doc = $("#document").val();
+        var email = $("#email").val();
+        var phone = $("#phone").val();
+        var ocupation = $("#ocupation").val();
+        var msg = $("#msg").val();
+
+        $.ajax({
+          method: "POST",
+          url: "formulario_preinscripcion.php",
+          data: { name:name, email:email, phone:phone, msg:msg,carreer:carreer,sex:sex,address:address,doc:doc,ocupation:ocupation},
+          success: function(callback){
+            if(callback)
+            {
+              console.log(callback);
+            }else{
+              alert("Mensaje enviado correctamente");
+            }
+          }
+        });
+      }
     </script>
   </body>
 </html>
