@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="formseminarioeng.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="400"
+ height="500"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFF6600"
+ themecolor="0xFF6600"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The e-mail address you entered does not match!"
+ reqmessage="Uno o mas campos son requeridos"
+ invalidemailmsg="The E-mail adress is not valid."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="subject"
+ value="Formulario Seminario [APELLIDO] [NOMBRE] ENG"
+></hidden>
+
+<image
+ image="seminariointernacionaleng.jpeg"
+ x="9"
+ y="6"
+></image>
+
+<textinput
+ name="APELLIDO"
+ x="197"
+ y="126"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="NOMBRE"
+ x="197"
+ y="151"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="INSTITUCION"
+ x="197"
+ y="176"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Profession"
+ x="197"
+ y="201"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Specialty"
+ x="197"
+ y="226"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="DIRECCION"
+ x="197"
+ y="252"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<submitbutton
+ name="Submit Button"
+ x="193"
+ y="450"
+ w="180"
+ h="42"
+ label="SUBMIT"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+<resetbutton
+ name="Reset Button"
+ x="133"
+ y="450"
+ w="54"
+ h="41"
+ label="Reset"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<textinput
+ name="LOCALIDAD"
+ x="197"
+ y="277"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="PAIS"
+ x="197"
+ y="303"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="CP"
+ x="197"
+ y="328"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="TELEFONO"
+ x="197"
+ y="353"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="FAX"
+ x="197"
+ y="378"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="MAIL"
+ x="197"
+ y="403"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<label
+ name="My Text 1"
+ x="137"
+ y="130"
+ w="56"
+ h="16"
+ text="Surname"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="146"
+ y="156"
+ w="45"
+ h="16"
+ text="Names"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="116"
+ y="179"
+ w="77"
+ h="16"
+ text="Organization"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="126"
+ y="206"
+ w="65"
+ h="16"
+ text="Profession"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="144"
+ y="256"
+ w="45"
+ h="16"
+ text="Adress"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="161"
+ y="278"
+ w="27"
+ h="16"
+ text="City"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="140"
+ y="303"
+ w="49"
+ h="16"
+ text="Country"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="168"
+ y="328"
+ w="22"
+ h="16"
+ text="CP"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="149"
+ y="353"
+ w="41"
+ h="16"
+ text="Phone"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="163"
+ y="378"
+ w="26"
+ h="16"
+ text="Fax"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 11"
+ x="148"
+ y="407"
+ w="41"
+ h="16"
+ text="E-Mail"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="100"
+ y="100"
+ w="175"
+ h="19"
+ text="REGISTRATION FORM"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="16"
+></label>
+
+<label
+ name="My Text 13"
+ x="133"
+ y="229"
+ w="58"
+ h="16"
+ text="Specialty"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>

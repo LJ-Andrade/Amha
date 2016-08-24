@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Consultorios Privados AMHA</name>
+  <description><![CDATA[Atención en Consultorios Privados
+A.M.H.A Asociación Médica Homeopática Argentina
+Fundada en 1933 - La Primer Escuela Homeopática en Sudamérica.]]></description>
+  <NetworkLink>
+    <name>Consultorios Privados AMHA</name>
+    <Link>
+      <href>http://maps.google.com.ar/maps/ms?ie=UTF8&amp;hq=&amp;hnear=Ciudad+Aut%C3%B3noma+de+Buenos+Aires,+Capital+Federal&amp;hl=es&amp;vps=2&amp;jsv=332a&amp;oe=UTF8&amp;msa=0&amp;msid=211394787421179998721.00047b07685407d9a7201&amp;output=kml</href>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>

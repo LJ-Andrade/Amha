@@ -2,9 +2,9 @@
 class DataBase
 {
 
-  var $UserDB		= 'r0000188';
-  var $PasswordDB	= 'kero79meGI';
-  var $DataBase	= 'r0000188_renovat';
+  var $UserDB		= 'amha';
+  var $PasswordDB	= 'Amh567ah';
+  var $DataBase	= 'amha_web';
   var $ServerDB	= 'localhost';
   var $TypeDB 	= 'Mysql';
   var $SchemaDB	= 'testing,public';
@@ -18,7 +18,7 @@ class DataBase
 
 
 
-  public function __construct($UserDB='r0000188', $PasswordDB='kero79meGI', $DataBase='r0000188_renovat', $ServerDB='localhost',$TypeDB='Mysql'){
+  public function __construct($UserDB='amha', $PasswordDB='Amh567ah', $DataBase='amha_web', $ServerDB='localhost',$TypeDB='Mysql'){
     $this->UserDB 		= $UserDB;
     $this->PasswordDB	= $PasswordDB;
     $this->DataBase		= $DataBase;

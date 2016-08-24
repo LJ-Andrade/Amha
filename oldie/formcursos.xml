@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="formcursos.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="530"
+ height="413"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="La dirección de mail no parece correcta. Ingrese una válida."
+ reqmessage="Uno o más campos son requeridos"
+ invalidemailmsg="does not appear to be a valid e-mail address. Would you like to change it?"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="subject"
+ value="Formulario Pre-Inscripción Cursos"
+></hidden>
+
+<radiobutton
+ name="Medicina"
+ x="33"
+ y="28"
+ w="65"
+ h="19"
+ label="Medicina"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Veterinaria"
+ x="33"
+ y="49"
+ w="74"
+ h="19"
+ label="Veterinaria"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Odontologia"
+ x="127"
+ y="28"
+ w="83"
+ h="19"
+ label="Odontología"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Farmacia"
+ x="127"
+ y="49"
+ w="68"
+ h="19"
+ label="Farmacia"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<textinput
+ name="Apellido y Nombre"
+ x="34"
+ y="100"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="DNI"
+ x="34"
+ y="147"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Domicilio"
+ x="34"
+ y="198"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Tel Celular"
+ x="261"
+ y="50"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Mail"
+ x="262"
+ y="97"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<textinput
+ name="Ocupacion"
+ x="261"
+ y="149"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<radiobutton
+ name="Masculino"
+ x="263"
+ y="202"
+ w="72"
+ h="19"
+ label="Masculino"
+ labelPos="right"
+ groupname="Group 2"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Femenino"
+ x="355"
+ y="203"
+ w="72"
+ h="19"
+ label="Femenino"
+ labelPos="right"
+ groupname="Group 2"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<textarea
+ name="Texto Contacto"
+ x="32"
+ y="265"
+ w="461"
+ h="64"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<resetbutton
+ name="Reset Button"
+ x="331"
+ y="338"
+ w="58"
+ h="39"
+ label="Limpiar"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<submitbutton
+ name="Submit Button"
+ x="393"
+ y="338"
+ w="100"
+ h="38"
+ label="ENVIAR"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+<label
+ name="My Text 1"
+ x="32"
+ y="13"
+ w="104"
+ h="16"
+ text="Carrera Elegida"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="34"
+ y="82"
+ w="122"
+ h="16"
+ text="Apellido y Nombre"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="34"
+ y="129"
+ w="38"
+ h="16"
+ text="D.N.I."
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="33"
+ y="182"
+ w="64"
+ h="16"
+ text="Domicilio"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="260"
+ y="33"
+ w="81"
+ h="16"
+ text="Tel / Celular"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="262"
+ y="79"
+ w="43"
+ h="16"
+ text="E-Mail"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="261"
+ y="130"
+ w="72"
+ h="16"
+ text="Ocupación"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="261"
+ y="182"
+ w="37"
+ h="16"
+ text="Sexo"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="33"
+ y="244"
+ w="281"
+ h="16"
+ text="¿Cómo se ha contactado con la institución?"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>

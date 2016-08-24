@@ -27,3 +27,9 @@
     <span>Desarrollado por <a href="http://innova.com"> Innova Studio </a>© 2016 | Todo los Derechos Reservados</span>
   </div>
 </footer>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12128042-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>

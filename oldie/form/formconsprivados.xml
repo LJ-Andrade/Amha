@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="formconsprivados.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="532"
+ height="700"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="La direccion de mail no es válida."
+ reqmessage="Uno o más campos son requeridos"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="subject"
+ value="Formulario Publicidad Consultorio :: Web Amha"
+></hidden>
+
+<textinput
+ name="Apellido y Nombre"
+ x="290"
+ y="86"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Matricula Nacional"
+ x="290"
+ y="112"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Matricula Provincial"
+ x="290"
+ y="137"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Cargo Docente en AMHA"
+ x="290"
+ y="163"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Especialidades Ajenas"
+ x="290"
+ y="189"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Direccion C1"
+ x="135"
+ y="262"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Barrio C1"
+ x="135"
+ y="290"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Localidad C1"
+ x="135"
+ y="318"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Provincia C1"
+ x="135"
+ y="345"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Telefono C1"
+ x="135"
+ y="372"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textarea
+ name="Dias Horarios C1"
+ x="135"
+ y="401"
+ w="174"
+ h="77"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="Direccion C2"
+ x="313"
+ y="262"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Barrio C2"
+ x="313"
+ y="290"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Localidad C2"
+ x="313"
+ y="318"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Provincia C2"
+ x="313"
+ y="345"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Telefono C2"
+ x="313"
+ y="372"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textarea
+ name="Dias Horarios C2"
+ x="313"
+ y="401"
+ w="174"
+ h="77"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="Celular"
+ x="165"
+ y="515"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Fax"
+ x="165"
+ y="541"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="EMail"
+ x="165"
+ y="567"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Pagina Web"
+ x="165"
+ y="593"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textarea
+ name="Otros"
+ x="165"
+ y="619"
+ w="176"
+ h="44"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<resetbutton
+ name="Reset Button"
+ x="386"
+ y="513"
+ w="100"
+ h="29"
+ label="Limpiar"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<submitbutton
+ name="Submit Button"
+ x="386"
+ y="548"
+ w="100"
+ h="115"
+ label="ENVIAR"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+<label
+ name="My Text 1"
+ x="6"
+ y="7"
+ w="521"
+ h="16"
+ text="FORMULARIO DE PEDIDO DE PUBLICIDAD DE CONSULTORIO PARA WEB A.M.H.A."
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="14"
+ y="32"
+ w="500"
+ h="16"
+ text="El siguiente formulario es sólo un MODELO, que muestra todos los datos que pueden"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="14"
+ y="49"
+ w="404"
+ h="16"
+ text="figurar en la página web. Siéntase libre de completarlo a VOLUNTAD."
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="177"
+ y="89"
+ w="110"
+ h="16"
+ text="Apellido y Nombre"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="175"
+ y="115"
+ w="111"
+ h="16"
+ text="Matrícula Nacional"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="171"
+ y="141"
+ w="116"
+ h="16"
+ text="Matrícula Provincial"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="121"
+ y="167"
+ w="164"
+ h="16"
+ text="Cargo Docente en la AMHA"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="53"
+ y="193"
+ w="232"
+ h="16"
+ text="Especialidades ajenas a la Homeopatía"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="169"
+ y="241"
+ w="110"
+ h="16"
+ text="CONSULTORIO 1"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="74"
+ y="265"
+ w="58"
+ h="16"
+ text="Dirección"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 11"
+ x="93"
+ y="294"
+ w="38"
+ h="16"
+ text="Barrio"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="72"
+ y="321"
+ w="59"
+ h="16"
+ text="Localidad"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 13"
+ x="75"
+ y="349"
+ w="56"
+ h="16"
+ text="Provincia"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 14"
+ x="79"
+ y="376"
+ w="52"
+ h="16"
+ text="Teléfono"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 15"
+ x="38"
+ y="402"
+ w="93"
+ h="16"
+ text="Días y Horarios"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 16"
+ x="347"
+ y="241"
+ w="110"
+ h="16"
+ text="CONSULTORIO 2"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 17"
+ x="65"
+ y="519"
+ w="96"
+ h="16"
+ text="Teléfono Celular"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 18"
+ x="135"
+ y="544"
+ w="26"
+ h="16"
+ text="Fax"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 19"
+ x="119"
+ y="569"
+ w="41"
+ h="16"
+ text="E-Mail"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 20"
+ x="85"
+ y="596"
+ w="75"
+ h="16"
+ text="Página Web"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 21"
+ x="125"
+ y="620"
+ w="36"
+ h="16"
+ text="Otros"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 22"
+ x="58"
+ y="419"
+ w="73"
+ h="16"
+ text="de Atención"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>

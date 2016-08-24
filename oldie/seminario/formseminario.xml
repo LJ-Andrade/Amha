@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="formseminario.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="400"
+ height="500"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFF6600"
+ themecolor="0xFF6600"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The e-mail address you entered does not match!"
+ reqmessage="Uno o mas campos son requeridos"
+ invalidemailmsg="La direccion de mail no es valida."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="subject"
+ value="Formulario Seminario [APELLIDO] [NOMBRE]"
+></hidden>
+
+<image
+ image="topform.jpeg"
+ x="7"
+ y="8"
+></image>
+
+<textinput
+ name="APELLIDO"
+ x="197"
+ y="126"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="NOMBRE"
+ x="197"
+ y="151"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="INSTITUCION"
+ x="197"
+ y="176"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="ESPECIALIDAD"
+ x="197"
+ y="201"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="DIRECCION"
+ x="197"
+ y="226"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<submitbutton
+ name="Submit Button"
+ x="193"
+ y="450"
+ w="180"
+ h="42"
+ label="ENVIAR"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+<resetbutton
+ name="Reset Button"
+ x="133"
+ y="450"
+ w="54"
+ h="41"
+ label="Limpiar"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<textinput
+ name="LOCALIDAD"
+ x="197"
+ y="251"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="PAIS"
+ x="197"
+ y="277"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="CP"
+ x="197"
+ y="302"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="TELEFONO"
+ x="197"
+ y="327"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="FAX"
+ x="197"
+ y="352"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="MAIL"
+ x="197"
+ y="377"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<combobox
+ name="FORMA DE PAGO"
+ x="197"
+ y="414"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="175"
+ h="20">
+  <item name="Tarjeta VISA"></item>
+  <item name="Tarjeta MASTERCARD"></item>
+  <item name="Tarjeta AMERICAN EXPRESS"></item>
+  <item name="Debito Automatico"></item>
+  <item name="PayPal"></item>
+  <item name="DineroMail"></item>
+  <item name="Efectivo en $"></item>
+  <item name="Efectivo en U$S"></item>
+  <item name="Efectivo en €"></item>
+  <item name="Cheque"></item>
+</combobox>
+
+<label
+ name="My Text 1"
+ x="141"
+ y="130"
+ w="50"
+ h="16"
+ text="Apellido"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="136"
+ y="156"
+ w="56"
+ h="16"
+ text="Nombres"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="17"
+ y="179"
+ w="174"
+ h="16"
+ text="Institucion a la que pertenece"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="114"
+ y="206"
+ w="78"
+ h="16"
+ text="Especialidad"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="135"
+ y="230"
+ w="58"
+ h="16"
+ text="Direccion"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="133"
+ y="254"
+ w="59"
+ h="16"
+ text="Localidad"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="161"
+ y="277"
+ w="30"
+ h="16"
+ text="Pais"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="168"
+ y="302"
+ w="22"
+ h="16"
+ text="CP"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="139"
+ y="327"
+ w="51"
+ h="16"
+ text="Telefono"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="163"
+ y="352"
+ w="26"
+ h="16"
+ text="Fax"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 11"
+ x="148"
+ y="381"
+ w="41"
+ h="16"
+ text="E-Mail"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="75"
+ y="95"
+ w="249"
+ h="19"
+ text="FORMULARIO DE INSCRIPCION"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="16"
+></label>
+
+<label
+ name="My Text 13"
+ x="89"
+ y="416"
+ w="93"
+ h="16"
+ text="Forma de Pago"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>

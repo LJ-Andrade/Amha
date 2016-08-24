@@ -1,0 +1,4 @@
+AuthName "Authenticate"
+AuthType "basic"
+AuthUserFile /home/amha/public_html/revistahomeopatia/.passwd
+Require valid-user

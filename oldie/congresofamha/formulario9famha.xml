@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="formulario9famha.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="530"
+ height="550"
+ bkcolor="0xFF9900"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="La direccion de mail no es valida."
+ reqmessage="One or more fields are required."
+ invalidemailmsg="La direccion de mail no es valida"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+disableclicktoactiveprompt="false"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="subject"
+ value="Congreso FAMHA 2012"
+></hidden>
+
+<image
+ image="amhafamhaform.jpg"
+ x="-25"
+ y="0"
+></image>
+
+<image
+ image="famhaform.jpeg"
+ x="403"
+ y="0"
+></image>
+
+<textinput
+ name="Apellido"
+ x="212"
+ y="153"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Nombres"
+ x="212"
+ y="178"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Institucion a la que pertenece"
+ x="212"
+ y="203"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Especialidad"
+ x="212"
+ y="228"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Direccion"
+ x="212"
+ y="253"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Localidad"
+ x="212"
+ y="278"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Pais"
+ x="212"
+ y="303"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="CP"
+ x="212"
+ y="328"
+ w="89"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Telefono"
+ x="212"
+ y="353"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Mail"
+ x="212"
+ y="378"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<textinput
+ name="Num Acompanantes"
+ x="212"
+ y="407"
+ w="91"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<combobox
+ name="Forma de Pago"
+ x="212"
+ y="453"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="175"
+ h="20">
+  <item name="Tarjeta VISA"></item>
+  <item name="Tarjeta Mastercard"></item>
+  <item name="Tarjeta American Express"></item>
+  <item name="Efectivo en $ Pesos"></item>
+  <item name="Efectivo en U$s Dólares"></item>
+  <item name="Cheque"></item>
+</combobox>
+
+<submitbutton
+ name="Submit Button"
+ x="212"
+ y="478"
+ w="113"
+ h="49"
+ label="ENVIAR"
+ fontname="Arial"
+ fontcolor="0xFF9900"
+ fontbold="bold"
+  fontsize="16"
+></submitbutton>
+
+<resetbutton
+ name="Reset Button"
+ x="328"
+ y="478"
+ w="61"
+ h="49"
+ label="Limpiar"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<label
+ name="My Text 1"
+ x="104"
+ y="128"
+ w="201"
+ h="16"
+ text="FORMULARIO DE INSCRIPCION"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="151"
+ y="155"
+ w="57"
+ h="16"
+ text="Apellido"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="146"
+ y="180"
+ w="60"
+ h="16"
+ text="Nombres"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="16"
+ y="205"
+ w="193"
+ h="16"
+ text="Institucion a la que pertenece"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="123"
+ y="231"
+ w="85"
+ h="16"
+ text="Especialidad"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="145"
+ y="255"
+ w="64"
+ h="16"
+ text="Dirección"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="141"
+ y="280"
+ w="67"
+ h="16"
+ text="Localidad"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="176"
+ y="307"
+ w="31"
+ h="16"
+ text="País"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="115"
+ y="331"
+ w="92"
+ h="16"
+ text="Código Postal"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="150"
+ y="356"
+ w="59"
+ h="16"
+ text="Telefono"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 11"
+ x="166"
+ y="380"
+ w="43"
+ h="16"
+ text="E-Mail"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="37"
+ y="401"
+ w="172"
+ h="16"
+ text="Número de Acompañantes"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 13"
+ x="84"
+ y="418"
+ w="126"
+ h="16"
+ text="con los que asistiré"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 14"
+ x="107"
+ y="455"
+ w="102"
+ h="16"
+ text="Forma de Pago"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 15"
+ x="100"
+ y="106"
+ w="211"
+ h="22"
+ text="9° CONGRESO FAMHA"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0xFFFFFF"
+  fontsize="19"
+></label>
+
+</form>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="formcontacto.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="530"
+ height="413"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="La dirección de mail no parece correcta. Ingrese una válida."
+ reqmessage="Uno o más campos son requeridos"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="subject"
+ value="Formulario de Contacto"
+></hidden>
+
+<textinput
+ name="Apellido y Nombre"
+ x="34"
+ y="100"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Mail"
+ x="34"
+ y="45"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<radiobutton
+ name="Masculino"
+ x="34"
+ y="151"
+ w="72"
+ h="19"
+ label="Masculino"
+ labelPos="right"
+ groupname="Group 2"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Femenino"
+ x="126"
+ y="152"
+ w="72"
+ h="19"
+ label="Femenino"
+ labelPos="right"
+ groupname="Group 2"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<textarea
+ name="Texto Contacto"
+ x="32"
+ y="207"
+ w="461"
+ h="117"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<resetbutton
+ name="Reset Button"
+ x="331"
+ y="338"
+ w="58"
+ h="39"
+ label="Limpiar"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<submitbutton
+ name="Submit Button"
+ x="393"
+ y="338"
+ w="100"
+ h="38"
+ label="ENVIAR"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+<label
+ name="My Text 2"
+ x="34"
+ y="82"
+ w="122"
+ h="16"
+ text="Apellido y Nombre"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="34"
+ y="27"
+ w="43"
+ h="16"
+ text="E-Mail"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="32"
+ y="134"
+ w="37"
+ h="16"
+ text="Sexo"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="33"
+ y="187"
+ w="88"
+ h="16"
+ text="Comentarios:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>
