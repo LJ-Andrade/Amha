@@ -24,7 +24,7 @@
   </div>
 <footer>
   <div class="container footerUs">
-    <span>Desarrollado por <a href="http://innova.com"> Innova Studio </a>© 2016 | Todo los Derechos Reservados</span>
+    <span>Desarrollado por <a href="http://innovastudio.com.ar" target="_blank"> Innova Studio </a>© <?php echo date("Y"); ?> | Todo los Derechos Reservados</span>
   </div>
 </footer>
 <script type="text/javascript">
