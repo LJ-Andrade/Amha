@@ -72,13 +72,13 @@
               </p>
 
               <hr class="hrStrong">
-              <h4><b>En los Consultorios de la calle Charcas</b></h4><br>
+              <h4><b>En Consultorios Charcas</b></h4>
               <hr>
-              <h4>Consultorios de Extensi&oacute;n de C&aacute;tedra</h4>
+              <h4>Consultorios de Extensi&oacute;n de C&aacute;tedra y Consultorios Privados</h4>
               <hr>
               <p>
-                Atiende un profesional que puede estar acompa&ntilde;ado por uno o dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas.<br><br>
-                <b>Honorarios:</b> $500 la primera entrevista y $400 las siguientes.<br><br>
+                Atiende un profesional que puede estar acompa&ntilde;ado por uno o
+                dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>
 
                 <b>Lunes</b><br>
                 12 a 15 hs.: Dra. Ruth Faingold (C&aacute;tedra del Dr. Yahbes)<br>
@@ -100,6 +100,7 @@
                 <b>Viernes</b><br>
                 09 a 12 hs.: Dr. Guillermo Mur (C&aacute;tedra del Dr. Yahbes)<br>
                 15 a 17 hs.: Dr Jorge Traverso (C&aacute;tedra Dr.: Pellegrino)<br>
+
               </p>
               <hr>
               <h4>Consultorios Privados</h4>
@@ -108,39 +109,44 @@
                 Atiende un solo m&eacute;dico (Profesor Titular o Adjunto).<br>
                 <b>Honorarios de Consulta privada:</b><br> Los honorarios ser&aacute;n fijados por el m&eacute;dico tratante. <br>Le rogamos consulte en forma previa con la secretar&iacute;a.<br>
                 <b>Direcci&oacute;n:</b> Charcas 2744, 2&deg; piso, departamento "6". Ciudad de Buenos Aires.<br>
-                <b>Horarios y d&iacute;as de atenci&oacute;n:</b> Lunes a Viernes de 9 a 18 hs.<br>
+                <b>Horarios y d&iacute;as de atenci&oacute;n:</b> lunes, martes, jueves y viernes de 9 a 20 hs. | mi&eacute;rcoles de 9 a 17 hs.<br>
                 <b>Turnos:</b> al 4963-1841 de lunes a viernes de 9 a 18 hs.<br><br>
 
                 <b>Horarios de Atenci&oacute;n: </b><br>
-
                 <b>Lunes</b><br>
-
-                15 a 18 hs.: Dra. Viviana Tachell <br>
-                15 a 18 hs.: Dra. Eva Blaho <br>
+                13 a 20 hs: Dra. Viviana Tachella (Privado)<br>
+                13 a 15 Dra: Ruth Faingold (Ext. de c&aacute;tedra)<br>
+                15 a 20 hs: Dra. Ruth Faingold (Privado)<br>
+                14 a 20 hs: Dra. Eva Blaho (Privado)<br>
+                15 a 17 hs: Dr. Gustavo Martello (Privado)<br>
+                18 a 20 hs: Dra. Mónica Prunell (Privado)<br><br>
 
                 <b>Martes</b><br>
-
-                09 a 12 hs.: Dr. Jorge Traverso <br>
-                12 a 18 hs.: Dr. Andr&eacute;s Carmody <br>
-                12 a 15 hs.: Dra. M&oacute;nica Prunell <br>
-                15 a 18 hs.: Dra. M&oacute;nica Moreno Galaud <br>
+                9 a 12 hs: Dra. Laura Svirnovsky (Privado)<br>
+                9 a 12 hs: Dr. Jorge Traverso (Privado)<br>
+                9 a 13 hs: Dra. Mónica Prunell (Ext. de c&aacute;tedra)<br>
+                12 a 20 hs: Dr. Jos&eacute; De Robertis (Ext. de c&aacute;tedra)<br>
+                13 a 20 hs: Dr. Andr&eacute;s Carmody (Privado)<br>
+                15 a 20 hs: Dra. Mónica Galaud (Privado)<br><br>
 
                 <b>Mi&eacute;rcoles</b><br>
-
-                09 a 12 hs.: Dra. M&oacute;nica Moreno Galaud, Dra. Viviana Tachella, Dra. Ruth Faingold <br>
-                14 a 18 hs.: Dra. Eva Blaho <br>
-                13 a 18 hs.: Dra. Ruth Faingold <br>
+                9 a 14 hs: Dra. Viviana Tachella (Privado)<br>
+                9 a 12 hs: Dra. Gustavo Valy  (Ext. de c&aacute;tedra)<br>
+                12 a 17 hs: Dra. Ruth Faingold (Privado)<br>
+                13 a 17 hs: Dra. Eva Blaho (Privado)<br><br>
 
                 <b>Jueves</b><br>
-
-                09 a 12 hs.: Dra. Laura Svirnovsky <br>
-                15 a 18 hs.: Dr. Andr&eacute;s Carmody <br>
+                9 a 12 hs: Dra. Laura Svirnovsky (Privado)<br>
+                9 a 12 hs: Dr. Jorge Traverso (Privado)<br>
+                9 a 12 hs: Dr. Gustavo Martello (Privado)<br>
+                15 a 17 hs: Dra. Gustavo Valy  (Ext. de c&aacute;tedra)<br>
+                15 a 20 hs: Dra. Elena Figari  (Ext. de c&aacute;tedra)<br>
+                18 a 20 hs: Dra. Laura Svirnovsky (Privado)<br><br>
 
                 <b>Viernes</b><br>
-
-                09 a 12 hs.: Dr. Roberto D&iacute;az Campos <br>
-                13 a 16 hs.: Dr Guillermo Mur <br>
-                15 a 17 hs.: Dr. Roberto D&iacute;az Campos <br>
+                9 a 12 hs: Astrid Mostura (Ext. de c&aacute;tedra)<br>
+                9 a 20 hs: Dr. Roberto D&iacute;az Campos (Privado)<br>
+                9 a 20hs: Dra. Elena Figari  (Privado)<br>
                 <br>
               </p>
             </div>

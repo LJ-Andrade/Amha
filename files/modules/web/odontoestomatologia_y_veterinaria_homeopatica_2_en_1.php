@@ -46,7 +46,7 @@
               </p>
               </br></br>
               <div class="col-md-6">
-                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>
             </div><!-- row -->
             <br>

@@ -40,7 +40,7 @@
                 <hr>
                 <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-farmacia-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
                 <div class="col-md-6 margTop20">
-                  <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                  <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
                 </div>
               </p>
             </div><!-- row -->

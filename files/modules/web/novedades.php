@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>AMHA</title>
@@ -16,6 +16,19 @@
           <!-- Content inside this div -->
           <div class="container">
             <div class="row">
+  	     <!-- New -->
+              <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
+                  <p><b>Beneficio exclusivo para extranjeros</b><br></p>
+                </div>
+                <div class="accordionInfo">
+                  <p class="justify">
+                    <hr>
+                    2x1 en las inscripciones de los cursos de medicina, odontoestamotolog&iacute;a y veterinaria de un a&ntilde;o de duraci&oacute;n.
+                  </p>
+                </div>
+              </div>
+              <!-- New -->
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">

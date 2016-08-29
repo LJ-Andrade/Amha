@@ -38,7 +38,7 @@
                 con un descuento del 10% por pago anticipado.</li>
               </ol>
               <div class="col-md-12 margTop20">
-                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>
             </div><!-- row -->
           </div><!-- container -->

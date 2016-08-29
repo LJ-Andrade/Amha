@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   if (isset($_POST['email']))  {
     //Email information
 
@@ -113,7 +113,6 @@
                 <!-- Temp Link - Delete -->
                 <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Enviar</button>
               </form><br>
-              <!-- <a href="revista_socios.php"><p>Ingresar a secci&oacute;n (Link de prueba)</p></a> -->
             </div>
           </div>
 

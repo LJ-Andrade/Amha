@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   if (isset($_POST['email']))  {
     //Email information
 
@@ -58,9 +58,9 @@
               <div class="col-md-4">
                 <h4><b>Consultorio M&eacute;dico</b></h4>
                 <p>Consultorios privados de los m&eacute;dicos de la A.M.H.A.<br>
-                D&iacute;as y horarios: Lunes a Viernes 9 a 18hs.<br>
                 <b>Charcas 2744 - piso 2 departamento "6"</b><br> Barrio Norte, Buenos Aires, Argentina<br>
                 <b>Tel:</b> (011) 4963-1841 /4962-6812<br>
+		D&iacute;as y horarios: Lunes a Viernes 9 a 18hs.
               </div>
               <hr class="hrMobile">
               <div class="col-md-4">

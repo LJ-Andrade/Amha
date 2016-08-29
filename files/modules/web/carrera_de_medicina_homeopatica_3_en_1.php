@@ -45,7 +45,7 @@
               <b>Matr&iacute;cula de Inscripci&oacute;n:</b> $  2.700.-<br>
               <b>Derecho de Examen:</b> $  2.700.-<br><br>
               <div class="col-md-12">
-                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>
 
 

@@ -29,8 +29,8 @@
                 para transmitir la doctrina y la cl&iacute;nica de una medicina esencialmente
                 humanista, totalizadora y antropol&oacute;gica, basada en el axioma hipocr&aacute;tico
                 <b>"No hay enfermedades, sino enfermos"</b>.<br><br>
-                Hace 200 a&ntilde;os, esta premisa fue llevada a un cuerpo doctrinado y a la experiencia
-                por el Dr. Christian Federico Samuel Hahnemann.<br><br>
+                Hace 200 a&ntilde;os, esta premisa fue llevada a un cuerpo doctrinario y a la experiencia
+                por el <b>Dr. Christian Federico Samuel Hahnemann.</b><br><br>
                 Esta escuela tiene el honor de haber formado a muchos de los prestigiosos
                 home&oacute;patas que dirigen actualmente otras escuelas y Asociaciones Homeop&aacute;ticas en
                 diferentes pa&iacute;ses.<br><hr>

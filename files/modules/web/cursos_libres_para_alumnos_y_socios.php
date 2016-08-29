@@ -124,7 +124,7 @@
               <b class="b">Casos cl&iacute;nicos:</b> 9.30 a 12.30 hs.<br>
               Curso no arancelado.<br><hr>
               <div class="col-md-12 txC">
-                <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>
             </div><!-- row -->
             <br>

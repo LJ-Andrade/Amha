@@ -33,18 +33,21 @@
   <div class="container">
     <div class="col-md-12 container topInner">
       <div class="col-md-4 col-sm-3 col-xs-12 topLogo">
-        <a href="index.php"><img src="../../../skin/images/body/logos/weblogo.png" alt="" /></a>
+        <a href="index.php"><img src="../../../skin/images/body/logos/weblogo2.png" alt="" /></a>
       </div>
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
         <span class="topSlogan">FUNDADA EN 1933 - LA PRIMERA ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
-        <span class="topAddressMobile"><hr>  <p>Tel&eacute;fono: <b>4826-5852</b>  | Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
-        <b>Juncal 2884 </b>- Buenos Aires - Argentina</p>
+        <span class="topAddressMobile"><hr> Tel&eacute;fono: <b>4826-5852</b> | Escuela: <b>4827-2907</b></b><br>
+          Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
+
+        <b>Juncal 2884 </b>- Buenos Aires - Argentina
         </span>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
         <p>Tel&eacute;fono: <b>4826-5852</b> <br>
-        Consultorios: <b>4963-1841</b> | <b>4962-6812</b>
+        Escuela: <b>4827-2907</b> <br>
+        Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
         <p><b>Juncal 2884 </b>| Buenos Aires | Argentina</p>
       </div>
     </div>

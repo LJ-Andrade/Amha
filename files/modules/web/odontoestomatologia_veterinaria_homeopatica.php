@@ -120,7 +120,7 @@
                 <b>TEL.:</b> (54-11) 4827-2907<br>
                 <b>E-mail:</b> escuela@amha.org.ar<br><br>
                 <div class="col-md-12">
-                  <a href="formulario_preinscripcion.php#top"><button type="button" class="btn mainBtn">Inscribirse</button></a>
+                  <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
                 </div>
 
 

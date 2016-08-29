@@ -40,7 +40,7 @@
                   <b>2 -</b> Jerarquizarlo mediante la recertificaci&oacute;n de su t&iacute;tulo cada 5 a&ntilde;os mediante una Capacitaci&oacute;n profesional
                    continua y un Curso de ense&ntilde;anza program&aacute;tica a distancia.</br>
                   <b>3 -</b> Protegerlo legalmente y ofrecerle, adem&aacute;s, la posibilidad de contrataci&oacute;n de
-                   un Seguro de Mala Praxis individual de  aHomeopat&iacute;a que tambi&eacute;n incluye,
+                   un Seguro de Mala Praxis individual de a Homeopat&iacute;a que tambi&eacute;n incluye,
                    por el mismo arancel, las Cl&iacute;nicas M&eacute;dicas Al&oacute;patas.</br>
                 </div>
               </div><!-- /row -->
