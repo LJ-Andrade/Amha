@@ -2,7 +2,7 @@
   if (isset($_POST['email']))  {
     //Email information
 
-    $AdminEmail = "info@amha.org.ar";
+    $AdminEmail = "escuela@amha.org.ar";
     $Name = $_POST['name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
