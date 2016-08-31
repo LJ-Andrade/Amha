@@ -33,6 +33,54 @@ $(window).scroll(function() {
     }
 });
 
+// DropDown
+$('#openDDsociosBenef').click(function(){
+  if ($('.leftDDSociosBenef').hasClass('Hidden')) {
+    $('.leftDDSociosBenef').removeClass('Hidden');
+  } else {
+    $('.leftDDSociosBenef').addClass('Hidden');
+  }
+})
+
+$('#openDDsociosBenef2').click(function(){
+  if ($('.leftDDSociosBenef').hasClass('Hidden')) {
+    $('.leftDDSociosBenef').removeClass('Hidden');
+  } else {
+    $('.leftDDSociosBenef').addClass('Hidden');
+  }
+})
+
+$('#openDDcarreras').click(function(){
+  if ($('.leftDDcarreras').hasClass('Hidden')) {
+    $('.leftDDcarreras').removeClass('Hidden');
+  } else {
+    $('.leftDDcarreras').addClass('Hidden');
+  }
+})
+
+$('#openDDcursos').click(function(){
+  if ($('.leftDDcursos').hasClass('Hidden')) {
+    $('.leftDDcursos').removeClass('Hidden');
+  } else {
+    $('.leftDDcursos').addClass('Hidden');
+  }
+})
+
+$('#openDDcarreras2').click(function(){
+  if ($('.leftDDcarreras').hasClass('Hidden')) {
+    $('.leftDDcarreras').removeClass('Hidden');
+  } else {
+    $('.leftDDcarreras').addClass('Hidden');
+  }
+})
+
+$('#openDDcursos2').click(function(){
+  if ($('.leftDDcursos').hasClass('Hidden')) {
+    $('.leftDDcursos').removeClass('Hidden');
+  } else {
+    $('.leftDDcursos').addClass('Hidden');
+  }
+})
 
 ////// Get File name from Url //////
 var url      = window.location.href;

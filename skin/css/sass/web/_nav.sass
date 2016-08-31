@@ -2,6 +2,7 @@
 .nav
   width: 1300px
   margin: 0 auto
+  max-width: 100%
 
 #cssmenu
   p
@@ -407,8 +408,10 @@
 
 ///////////// loating Left Nav /////////////////
 .leftFloatMenu
+  position: relative
+  z-index: 999
   width: 197px
-  padding: 15px 11px 5px
+  padding: 15px 7px  5px
   background-color: rgb(255, 255, 255)
   border-top: 3px solid rgb(113, 162, 142)
   top: 8px
@@ -416,9 +419,14 @@
   -webkit-box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44)
   -moz-box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44)
   box-shadow: 1px 1px 14px -5px rgba(0, 0, 0, 0.44)
+  @include transition(0.2s)
   ul
     list-style: none
+    @include transition(0.2s)
     li
+      position: relative
+      min-width: 80px
+      width: 97%
       padding: 5px
       padding-left: 10px
       margin: 10px 0
@@ -426,14 +434,53 @@
       border-left: 1px solid rgba(148, 148, 148, 0.4)
       // background-color: rgb(222, 222, 222)
       transition: all 0.3s ease 0s
+      @include transition(0.2s)
       &:hover
-        background-color: rgb(232, 232, 232)
+        background-color: #74cd97
         cursor: pointer
         color: #000
+      .leftFloatDDArrow
+        position: absolute
+        right: -8px
+        top: 0
+        padding: 7px 3px 0
+        background-color: #eae9e9
+        height: 34px
+        &:hover
+          background-color: rgb(119, 132, 134)
+          .fa
+            color: #fff
+    //DropDown
+    ul
+      li
+        width: 100%
+        background-color: rgb(184, 222, 196)
+        margin: 0
+        margin-bottom: 2px
+        &:hover
+          background-color: rgb(161, 199, 151)
+          a
+            color: #fff
+
+
     .active
       background-color: $green2
       border-left: 5px solid rgb(71, 184, 74)
-      color: #fff
+      a
+        color: #fff
+
+
+  //
+  // .floatDD
+  //   width: 100%
+  //   background-color: rgb(232, 232, 232)
+  //   margin: 0
+  //   margin-bottom: 2px
+  //   &:hover
+  //     background-color: rgb(161, 199, 151)
+  //     a
+  //       color: #fff
+
 
 .leftFloatMenuFixed
   position: fixed
@@ -467,3 +514,5 @@
 @media (min-width: 766px)
   .floatMenu2
     display: none
+
+//DropDown SideNav

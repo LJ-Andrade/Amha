@@ -11,7 +11,7 @@
     <div class="mainWrapper">
       <div class="container mainContainer">
         <!-- /// Left Floating Menu /// -->
-        <?php include('../../../files/includes/inc.menu.carreras.php'); ?> <!--  -->
+        <?php include('../../../files/includes/inc.menu.cursos.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-9 col-xs-12">
           <br>

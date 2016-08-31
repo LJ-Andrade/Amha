@@ -45,30 +45,31 @@
                 cuerpo docente, los m&eacute;dicos que se est&aacute;n formando como home&oacute;patas.<br>
                 <b>Direcci&oacute;n:</b> Juncal 2884. Ciudad de Buenos Aires.<br>
                 <b>Horarios y d&iacute;as de atenci&oacute;n:</b> Lunes a jueves, ma&ntilde;ana y tarde y viernes por la ma&ntilde;ana.<br>
-                <b>Turnos:</b> al 4827-2907 de lunes a viernes de 09hs. a 17hs.<br>
-                <b>Honorarios:</b> $ 250 la primera entrevista y $ 200 las siguientes.<br><br>
+                <b>Turnos:</b> al 4827-2907<br>
 
-                Los pacientes que por diferentes motivos deban asistir a los consultorios de la calle Charcas, abonar&aacute;n
-                los mismos honorarios que en la sede de Juncal.<br>
               </p>
               <hr>
               <h4>Horarios de Atenci&oacute;n</h4><br>
               <p>
                 <b>Lunes</b><br>
-                09 a 12 hs. : C&aacute;tedra de Profesor Titular Dr. Juan Carlos Tsuji<br>
-                09 a 12 hs. : C&aacute;tedra de la Profesora Titular Dra. Silvia Mercado<br>
-                14 a 17 hs. : C&aacute;tedra del Profesor Titular Dr. David Milstein<br>
+                09 a 12 hs. : Cátedra de Profesor Titular Dr. Juan Carlos Tsuji<br>
+                9 a 12 hs: Cátedra de la Profesora Titular Dr. Viviana Tachella.<br>
+                14 a  17 hs. : Cátedra de la Profesora Titular Dra. Silvia Mercado<br>
+
                 <b>Martes</b><br>
-                09 a 12 hs. : C&aacute;tedra de la Profesora Titular Dra. Eva Blaho<br>
-                14 a 17 hs. : C&aacute;tedra del Profesor Titular Dr. &aacute;ngel Minotti<br>
-                <b>Mi&eacute;rcoles</b><br>
-                09 a 12 hs. : C&aacute;tedra del Profesor Titular Dr. Roque Penna<br>
-                14 a 17 hs. : C&aacute;tedra de la Profesora Titular Dra. M&oacute;nica Moreno Galaud<br>
+                09 a 12 hs: Cátedra de la Profesora Titular Dra. Eva Blaho<br>
+                16.30 a 19 hs: Cátedra del Profesor Titular Dr. Ángel Minotti<br>
+
+                <b>Miércoles</b><br>
+                09.30 a 12 hs: Cátedra del Profesor Titular Dr. Roque Penna<br>
+                15.30 a 18.30 hs: Cátedra de la Profesora Titular Dra. Mónica Moreno Galaud<br>
+
                 <b>Jueves</b><br>
-                09 a 12 hs. : C&aacute;tedra del Profesor Titular Dr. Mario Draiman<br>
-                14 a 17 hs. : C&aacute;tedra del Profesor Titular Dr. Juan Carlos Pellegrino<br>
+                09.30 a 12 hs: Cátedra del Profesor Titular Dr. Mario Draiman<br>
+                15 a 18 hs: Cátedra del Profesor Titular Dr. Juan Carlos Pellegrino<br>
+
                 <b>Viernes</b><br>
-                09 a 12 hs. : C&aacute;tedra del Profesor Titular Dr. Gustavo Pirra<br>
+                09.30 a 12.30 hs: Cátedra del Profesor Titular Dr. Gustavo Pirra<br>
               </p>
 
               <hr class="hrStrong">
@@ -102,7 +103,7 @@
                 15 a 17 hs.: Dr Jorge Traverso (C&aacute;tedra Dr.: Pellegrino)<br>
 
               </p>
-              <hr>
+              <!-- <hr>
               <h4>Consultorios Privados</h4>
               <hr>
               <p>
@@ -148,7 +149,7 @@
                 9 a 20 hs: Dr. Roberto D&iacute;az Campos (Privado)<br>
                 9 a 20hs: Dra. Elena Figari  (Privado)<br>
                 <br>
-              </p>
+              </p> -->
             </div>
           </div><!-- Container -->
         </div><!-- Content Container-->
