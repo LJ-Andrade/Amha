@@ -97,6 +97,65 @@
             </div>
           </div>
 
+
+          <!-- Test -->
+          <!-- Veterinario -->
+          <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
+            <div class="col-sm-12 itemContainer">
+              <div class="card-header vetConsultBack"><h5 class="card-title">Veterinario</h5></div>
+              <div class="card card-block">
+                <p class="card-text marg0">
+                  <b>Ayudante de Cátedra en la AMHA</b>
+                  <hr>
+                  <span class="consultLocation">Barrio Norte, CABA</span> Av. Cabildo 2327 1ºD, <br>
+                  Horarios de atención: Miercoles de 17 a 20 hs.<br>
+                  Pedir turnos al: 4786-3366
+                  <hr>
+                  Matricula Nacional: 140.767<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Veterinario -->
+          <!-- Medico -->
+          <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
+            <div class="col-sm-12 itemContainer">
+              <div class="card-header medicConsultBack"><h5 class="card-title">Medico</h5></div>
+              <div class="card card-block">
+                <p class="card-text marg0">
+                  <b>Ayudante de Cátedra en la AMHA</b>
+                  <hr>
+                  <span class="consultLocation">Barrio Norte, CABA</span> Av. Cabildo 2327 1ºD, <br>
+                  Horarios de atención: Miercoles de 17 a 20 hs.<br>
+                  Pedir turnos al: 4786-3366
+                  <hr>
+                  Matricula Nacional: 140.767<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Medico -->
+          <!-- Odontologo -->
+          <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
+            <div class="col-sm-12 itemContainer">
+              <div class="card-header odontConsultBack"><h5 class="card-title">Odontologo</h5></div>
+              <div class="card card-block">
+                <p class="card-text marg0">
+                  <b>Ayudante de Cátedra en la AMHA</b>
+                  <hr>
+                  <span class="consultLocation">Barrio Norte, CABA</span> Av. Cabildo 2327 1ºD, <br>
+                  Horarios de atención: Miercoles de 17 a 20 hs.<br>
+                  Pedir turnos al: 4786-3366
+                  <hr>
+                  Matricula Nacional: 140.767<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Odontologo -->
+
+
+          <!-- Test -->
           <?php echo $HTML; ?>
         </div><!-- /contentContainer -->
         <?php include('sidebar.php'); ?><!-- Right Sidebar -->

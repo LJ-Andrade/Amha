@@ -1156,6 +1156,17 @@ span.topSlogan {
 .itemContainer {
   padding-left: 0;
   padding-right: 0; }
+  .itemContainer p.marg0 {
+    margin-bottom: 0; }
+  .itemContainer hr {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+  .itemContainer .card-block {
+    padding: 15px; }
+  .itemContainer span.consultLocation {
+    background-color: #e4e4d4;
+    padding: 2px 12px;
+    border-radius: 4px; }
   .itemContainer h5 {
     margin: 0;
     padding: 0;
@@ -1292,6 +1303,9 @@ span.topSlogan {
 @media (max-width: 1200px) {
   .consultoriosItems {
     margin-left: 15px; } }
+.consultMapRef span {
+  margin: 4px; }
+
 .searchFilters {
   border: 1px solid #dfdfdf;
   background-color: #e7e7dd;
@@ -1604,6 +1618,15 @@ span.topSlogan {
 .accordion .accordionInfo {
   display: none; }
 
+.vetConsultBack {
+  background-color: #7F55FF; }
+
+.odontConsultBack {
+  background-color: #00E03C; }
+
+.medicConsultBack {
+  background-color: #5881FD; }
+
 .mainBtn {
   background-color: #68637d;
   transition: all 0.3s ease 0s;
@@ -1868,5 +1891,9 @@ span.topSlogan {
   .downloadPdf img {
     width: 50px;
     max-width: 100%; }
+
+.horizontal-list ul li {
+  display: inline-block;
+  list-style: none; }
 
 /*# sourceMappingURL=webstyles.css.map */
