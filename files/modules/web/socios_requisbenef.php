@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.socios.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1>Socios A.M.H.A. : Requisitos y Beneficios</h1>
             <hr>

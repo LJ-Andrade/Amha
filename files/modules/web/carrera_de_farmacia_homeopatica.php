@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.cursos.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12">
+        <div class="col-lg-7 col-md-8 col-xs-12">
           <br>
           <div class="sectionTits"><h3 class="txC">Carreras</h3></div>
           <hr>

@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.alumnos.php') ?>
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1>Revista Homeopat&iacute;a</h1>
             <hr>
@@ -31,7 +31,7 @@
             trimestral</b>, es de entrega <b>gratuita</b> y tiene una tirada total de <b>200
             ejemplares</b>, adem&aacute;s del acceso y descarga de la <b>revista en forma digital.</b>
             </p><br>
-          
+
           <div class="row revistas">
             <ul>
               <!-- Last Edition -->
@@ -60,7 +60,7 @@
               <li><span class="editionN">Vol 75</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios75-4-2010.jpg" alt="" /></a>
               </li>
-              <li><span class="editionN">Vol 75 N&deg;<?php echo $currentPage ?>4</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf" target="_blank">
+              <li><span class="editionN">Vol 75 N&deg;4</span><br><a href="../../../skin/files/revistasocios/revistasocios75-4-2010.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios75-4-2010.jpg" alt="" /></a>
               </li>
             </ul>

@@ -53,7 +53,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.cursos.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1 class="txC">Cursos y Carreras</h1>
             <hr>

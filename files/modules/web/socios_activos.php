@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.socios.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <span class="moreLinks">
               <p><b>Ver tambien:</b> <a href="socios_adherentes.php">Socios Adherentes</a> |
@@ -55,7 +55,7 @@
                 personal, tarjeta de d&eacute;bito o cr&eacute;dito en dos cuotas). Los pagos fuera de fecha tendr&aacute;n un recargo del 10%.
                 </p>
               </div>
-              <hr>        
+              <hr>
             </div><!-- Container -->
           </div><!-- Content Container-->
         <?php include('sidebar.php'); ?><!-- Right Sidebar -->

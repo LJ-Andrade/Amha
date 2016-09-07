@@ -1,5 +1,5 @@
 <!-- Large and Medium Screens -->
-<div class="col-lg-2 col-md-3 col-xs-12 floatMenu1">
+<div class="col-lg-2 col-md-3 col-xs-12 floatMenu1 minWidthFloatMenu">
   <div class="leftFloatMenu">
     <ul>
       <a href='consultoriosamha.php'><li class="<?php echo $currentPage == 'consultoriosamha.php' ? 'active' : ''; ?>">Atenci&oacute;n de Pacientes en A.M.H.A.</li></a>

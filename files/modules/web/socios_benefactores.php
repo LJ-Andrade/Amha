@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.socios.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <span class="moreLinks">
               <p><b>Ver tambien:</b> <a href="socios_activos.php">Socios Activos</a> | <a href="socios_adherentes.php">Socios Adherentes</a> |

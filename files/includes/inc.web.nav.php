@@ -37,7 +37,7 @@
       </div>
       <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
-        <span class="topSlogan">FUNDADA EN 1933 - LA PRIMERA ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
+        <span class="topSlogan">FUNDADA EN 1933 - PRIMERA ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
         <span class="topAddressMobile"><hr> Tel&eacute;fono: <b>4826-5852</b> | Escuela: <b>4827-2907</b></b><br>
           Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
 

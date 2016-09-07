@@ -10,7 +10,7 @@
     </header>
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
-        <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
+        <div class="col-lg-9 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits"><h1 class="txC">A.M.H.A.</h1></div>
             <!-- Comisión Directiva -->
             <div class="row txC">

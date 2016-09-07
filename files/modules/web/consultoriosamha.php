@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.consultorios.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1>Consultorios</h1>
             <hr>
@@ -27,11 +27,7 @@
                 Todos los consultorios que la A.M.H.A. ofrece son atendidos por m&eacute;dicos que han sido formados en la
                 Instituci&oacute;n y que hoy conforman su cuerpo docente (Profesores Titulares, Profesores Adjuntos, docentes Adscriptos).
                  A la par, algunos m&eacute;dicos que tambi&eacute;n son ex alumnos de la A.M.H.A. han sido debidamente autorizados por su idoneidad
-                  por el Cuerpo docente, para tal fin.<br><br>
-
-                <b>Se atienden beb&eacute;s, ni&ntilde;os, adolescentes, adultos, mujeres embarazadas y ancianos.<br>
-                Atenci&oacute;n de pacientes de veterinaria: Veterinaria del Horacio De Medio, Nicasio Oro&ntilde;o 1588, Capital Federal.<br>
-                 Solicitar turnos al AMHA.</b><br><br>
+                  por el Cuerpo docente, para tal fin. En ellos se atienden bebés, niños, adolescentes, adultos, mujeres embarazadas y ancianos.<br><br>
 
                 <b>Ud. puede atenderse en :</b><br>
 

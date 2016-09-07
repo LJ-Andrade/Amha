@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.alumnos.php') ?>
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1 class="txC">Revista Homeopat&iacute;a</h1>
             <hr>
@@ -23,9 +23,9 @@
           <div class="sociosLogin">
             <div class="row txC">
               <p>
-                Aquí encontrará las publicaciones disponibles de descarga exclusiva para SOCIOS y ALUMNOS.<br>
-                Haga click en el botón "Acceder" para poder descargar la última versión.<br>
-                Si no tiene su clave de acceso, solicítela socios@amha.org.ar - <b>Teléfono 4826-0911</b>
+                Aquí encontrar&aacute; las publicaciones disponibles de descarga exclusiva para SOCIOS y ALUMNOS.<br>
+                Haga click en el bot&oacute;n "Acceder" para poder descargar la &uacute;ltima versi&oacute;n.<br>
+                Si no tiene su clave de acceso, solic&iacute;tela socios@amha.org.ar - <b>Tel&eacute;fono 4826-0911</b>
               </p>
             </div>
             <div class="row">

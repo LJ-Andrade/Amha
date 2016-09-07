@@ -18,8 +18,8 @@
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERNINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
           <div class="row">
-            <a href="consultorios.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>CONSULTORIOS</span></div></a>
-            <a href="farmacias.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span>FARMACIAS</span></div></a>
+            <a href="agenda.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>AGENDA: CONSULTORIOS Y FARMACIAS</span></div></a>
+            <a href="carrera_de_farmacia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span>CURSO DE FARMACIA HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA ODONTOESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
         </div><!-- home main menu -->
@@ -92,9 +92,9 @@
           <div class="row">
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <a href="carrera_de_farmacia_homeopatica.php">
-                  <img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Amha Sede Mar del Plata">
-                  <h3 class="card-title">Inscribite! </h3>
+                <a href="#">
+                  <img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">
+                  <h3 class="card-title"></h3>
                 </a>
               </div>
             </div>

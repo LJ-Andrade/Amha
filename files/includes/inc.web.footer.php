@@ -2,8 +2,8 @@
     <div class="row flexW">
       <div class="col-md-4 col-xs-12 foterDataAddress">
         <p><i class="fa fa-phone"></i> Tel&eacute;fono:<b class="b"> 4826-5852</b></span><br>
-          <span>Consultorios: <b class="b">4963-1841 | 4962-6812</b></span><br>
-          <span>Escuela: <b class="b">4827-2907</b></span><br><br>
+          <span>Escuela: <b class="b">4827-2907</b></span><br>
+          <span>Consultorios: <b class="b">4963-1841 | 4962-6812</b></span><br><br>
           <i class="fa fa-envelope"></i><a href="mailto:info@amha.org.ar"> info@amha.org.ar</a><br>
         <i class="fa fa-map-marker"></i><b class="b"> Juncal 2884 </b>| Buenos Aires | Argentina</p>
       </div>

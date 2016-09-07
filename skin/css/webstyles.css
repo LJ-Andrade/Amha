@@ -1,19 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,700);
-html {
-  font-size: 15px; }
-
-body {
-  background: url(../../skin/images/body/backgrounds/mainBack.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  color: #000; }
-
 a {
   text-decoration: none;
   color: #000;
@@ -107,16 +93,27 @@ span.subtitle {
   font-weight: 600; }
 
 html {
-  height: 100%; }
+  height: 100%;
+  font-size: 15px; }
 
 body {
+  background: url(../../skin/images/body/backgrounds/main-back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  height: 100%;
   padding: 0;
   margin: 0;
-  height: 100%;
-  font-family: "Roboto", sans-serif;
-  background-color: #rgb 198, 115, 115;
+  font-size: 1rem;
+  font-weight: 300;
   overflow-x: hidden; }
 
+@media (max-width: 1200px) and (min-width: 0px) {
+  body {
+    background: none; } }
 ul {
   margin: 0;
   padding: 0; }
@@ -241,47 +238,56 @@ label {
 @media (max-width: 765px) {
   .hrMobile {
     display: block; } }
-.checkbox-custom, .radio-custom {
-  opacity: 0;
-  position: absolute; }
+.minWidthFloatMenu {
+  min-width: 200px; }
 
-.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 1px 0;
-  cursor: pointer; }
-  .checkbox-custom:active, .checkbox-custom:focus, .checkbox-custom-label:active, .checkbox-custom-label:focus, .radio-custom:active, .radio-custom:focus, .radio-custom-label:active, .radio-custom-label:focus {
-    outline: none; }
+.sideBar {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem; }
+  .sideBar img {
+    max-width: 100%; }
 
-.checkbox-custom-label, .radio-custom-label {
-  position: relative; }
+.sideBarInner {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-top: 15px; }
+  .sideBarInner h3 {
+    font-size: 1.5rem;
+    color: #000; }
+  .sideBarInner img {
+    max-width: 100%; }
+  .sideBarInner span {
+    position: absolute;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: left;
+    left: 2rem;
+    top: 1rem;
+    color: #fff; }
+    .sideBarInner span p {
+      color: #000;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      text-align: left;
+      margin-bottom: 0; }
+    .sideBarInner span p.sbSubtit {
+      font-size: 1rem;
+      line-height: 2rem; }
 
-.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
-  content: "";
-  background: #fff;
-  border: 1px solid #ddd;
-  display: inline-block;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
-  padding: 1px;
-  margin-right: 10px;
-  text-align: center; }
-
-.checkbox-custom:checked + .checkbox-custom-label:before {
-  background: #c63461;
-  box-shadow: inset 0px 0px 0px 4px #fff; }
-
-.radio-custom + .radio-custom-label:before {
-  border-radius: 50%; }
-
-.radio-custom:checked + .radio-custom-label:before {
-  background: #ccc;
-  box-shadow: inset 0px 0px 0px 4px #fff; }
-
-.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
-  outline: 1px solid #ddd; }
-
+@media (max-width: 765px) {
+  .sideBarInner div {
+    max-width: 500px;
+    margin: 0 auto; } }
+@media (max-width: 1220px) {
+  .sideBar {
+    max-width: 220px;
+    float: right; } }
+@media (max-width: 1020px) {
+  .sideBar {
+    display: none; } }
 .footerData {
   position: relative;
   background-color: #ccc8c8;
@@ -308,6 +314,9 @@ label {
   .foterDataAddress .fa-map-marker {
     margin-right: 8px; }
 
+@media (max-width: 765px) {
+  .foterDataAddress {
+    text-align: center; } }
 .mapAndAddress {
   min-height: 350px; }
 
@@ -1032,14 +1041,14 @@ span.topSlogan {
     .hmMenu span {
       font-size: 1.5rem; } }
 .hm1R1C {
-  background: url(../images/body/menu/hmCursos.jpg) no-repeat center center;
+  background: url(../images/body/menu/hmcursos.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .hm1R2C {
-  background: url(../images/body/menu/hmTienda.jpg) no-repeat center center;
+  background: url(../images/body/menu/hmtienda.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1048,7 +1057,7 @@ span.topSlogan {
     font-size: 25px; }
 
 .hm1R3C {
-  background: url(../images/body/menu/hmArticulos.jpg) no-repeat center center;
+  background: url(../images/body/menu/hmarticulos.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1057,14 +1066,14 @@ span.topSlogan {
     font-size: 25px; }
 
 .hm2R1C {
-  background: url(../images/body/menu/hmConsultorios.jpg) no-repeat center center;
+  background: url(../images/body/menu/hmagenda.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .hm2R2C {
-  background: url(../images/body/menu/hmCampus.jpg) no-repeat center center;
+  background: url(../images/body/menu/hmcampus.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1073,50 +1082,12 @@ span.topSlogan {
     font-size: 24px; }
 
 .hm2R3C {
-  background: url(../images/body/menu/hmFarmacias.jpg) no-repeat center center;
+  background: url(../images/body/menu/hmfarmacias.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.sideBar {
-  margin: 0 auto;
-  text-align: center;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem; }
-  .sideBar img {
-    max-width: 100%; }
-
-.sideBarInner {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  padding-top: 15px; }
-  .sideBarInner span {
-    position: absolute;
-    font-size: 1.3rem;
-    line-height: 2rem;
-    text-align: left;
-    left: 2rem;
-    top: 1rem;
-    color: #fff; }
-    .sideBarInner span p {
-      color: #000;
-      font-size: 1.3rem;
-      line-height: 2rem;
-      text-align: left;
-      margin-bottom: 0; }
-    .sideBarInner span p.sbSubtit {
-      font-size: 1rem;
-      line-height: 2rem; }
-  .sideBarInner h3 {
-    font-size: 1.5rem;
-    color: #000; }
-
-@media (max-width: 765px) {
-  .sideBarInner div {
-    max-width: 500px;
-    margin: 0 auto; } }
 /*                 HOME ITEMS                      */
 .revistaHome {
   transition: all 0.3s ease 0s; }
@@ -1872,16 +1843,18 @@ span.topSlogan {
 @media (max-width: 765px) {
   .amhaContacto {
     text-align: center; } }
-.textSection h5 {
-  margin: 10px 0;
-  background-color: #f4f4f4;
-  border-bottom: 2px solid #d4d4d4;
-  border-left: 2px solid #d4d4d4;
-  padding: 8px 5px 5px 8px;
-  font-weight: 400;
-  line-height: 25px; }
-.textSection h4 {
-  margin: 15px 0; }
+.textSection {
+  margin-bottom: 20px; }
+  .textSection h5 {
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #d4d4d4;
+    border-left: 2px solid #d4d4d4;
+    padding: 8px 5px 5px 8px;
+    font-weight: 400;
+    line-height: 25px; }
+  .textSection h4 {
+    margin: 15px 0; }
 
 .downloadPdf {
   margin-top: 10px;
@@ -1895,5 +1868,40 @@ span.topSlogan {
 .horizontal-list ul li {
   display: inline-block;
   list-style: none; }
+
+.checkbox-custom, .radio-custom {
+  opacity: 0;
+  position: absolute; }
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px 0;
+  cursor: pointer; }
+  .checkbox-custom:active, .checkbox-custom:focus, .checkbox-custom-label:active, .checkbox-custom-label:focus, .radio-custom:active, .radio-custom:focus, .radio-custom-label:active, .radio-custom-label:focus {
+    outline: none; }
+  .checkbox-custom .checkbox-custom-label, .checkbox-custom .radio-custom-label, .checkbox-custom-label .checkbox-custom-label, .checkbox-custom-label .radio-custom-label, .radio-custom .checkbox-custom-label, .radio-custom .radio-custom-label, .radio-custom-label .checkbox-custom-label, .radio-custom-label .radio-custom-label {
+    position: relative; }
+  .checkbox-custom .checkbox-custom + .checkbox-custom-label:before, .checkbox-custom .radio-custom + .radio-custom-label:before, .checkbox-custom-label .checkbox-custom + .checkbox-custom-label:before, .checkbox-custom-label .radio-custom + .radio-custom-label:before, .radio-custom .checkbox-custom + .checkbox-custom-label:before, .radio-custom .radio-custom + .radio-custom-label:before, .radio-custom-label .checkbox-custom + .checkbox-custom-label:before, .radio-custom-label .radio-custom + .radio-custom-label:before {
+    content: "";
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    margin-right: 10px;
+    text-align: center; }
+  .checkbox-custom .checkbox-custom:checked + .checkbox-custom-label:before, .checkbox-custom-label .checkbox-custom:checked + .checkbox-custom-label:before, .radio-custom .checkbox-custom:checked + .checkbox-custom-label:before, .radio-custom-label .checkbox-custom:checked + .checkbox-custom-label:before {
+    background: #c63461;
+    box-shadow: inset 0px 0px 0px 4px #fff; }
+  .checkbox-custom .radio-custom + .radio-custom-label:before, .checkbox-custom-label .radio-custom + .radio-custom-label:before, .radio-custom .radio-custom + .radio-custom-label:before, .radio-custom-label .radio-custom + .radio-custom-label:before {
+    border-radius: 50%; }
+  .checkbox-custom .radio-custom:checked + .radio-custom-label:before, .checkbox-custom-label .radio-custom:checked + .radio-custom-label:before, .radio-custom .radio-custom:checked + .radio-custom-label:before, .radio-custom-label .radio-custom:checked + .radio-custom-label:before {
+    background: #ccc;
+    box-shadow: inset 0px 0px 0px 4px #fff; }
+  .checkbox-custom .checkbox-custom:focus + .checkbox-custom-label, .checkbox-custom .radio-custom:focus + .radio-custom-label, .checkbox-custom-label .checkbox-custom:focus + .checkbox-custom-label, .checkbox-custom-label .radio-custom:focus + .radio-custom-label, .radio-custom .checkbox-custom:focus + .checkbox-custom-label, .radio-custom .radio-custom:focus + .radio-custom-label, .radio-custom-label .checkbox-custom:focus + .checkbox-custom-label, .radio-custom-label .radio-custom:focus + .radio-custom-label {
+    outline: 1px solid #ddd; }
 
 /*# sourceMappingURL=webstyles.css.map */

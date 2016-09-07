@@ -102,12 +102,14 @@
                   <p><b>Cursos de cocina</b><br></p>
                 </div>
                 <div class="accordionInfo">
+                  <hr>
                   <p class="justify">
-                    <hr>
-                    La AMHA desea invitarlos a participar gratuitamente en los siguientes talleres no arancelados: <br>
-                    (con colaboraci&oacute;n a voluntad para las instituciones que ofrecen los talleres y la entrega de alimentos no
-                     perecederos para donaci&oacute;n a poblaciones carenciadas)<br>
-                    Taller anual de cocina natural, "La tierra como escuela" (se entregar&aacute;n apuntes). <br>M&aacute;s informaci&oacute;n comun&iacute;quese al 4827-2907<br><br>
+                    La <b>A.M.H.A</b> los invita a participar del taller anual de cocina natural. <br>
+                    Este taller es totalmente gratuito, solo requiere de la colaboraci&oacute;n a voluntad para las instituciones que ofrecen los
+                     talleres y la entrega de alimentos no perecederos para donaci&oacute;n a poblaciones carenciadas.  <br><br>
+                    <b>Taller anual de cocina natural:</b> "La vida como escuela" <br>
+                    (se entregar&aacute;n apuntes). <br>
+                    M&aacute;s informaci&oacute;n comun&iacute;quese al 4827-2907
                   </p>
                 </div>
               </div>

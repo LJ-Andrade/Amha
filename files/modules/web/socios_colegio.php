@@ -13,7 +13,7 @@
         <!-- /// Left Floating Menu /// -->
         <?php include('../../../files/includes/inc.menu.socios.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
-        <div class="col-lg-7 col-md-9 col-xs-12 contentContainer">
+        <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
             <h1>Socios A.M.H.A.</h1>
             <hr>
@@ -32,13 +32,14 @@
                    a distancia.<br>
                 3 - </b> Para protegerlo tanto a &eacute;l como a los pacientes ya que el Colegio est&aacute; constituido dentro de un encuadre jur&iacute;dico
                 que le permite ofrecer resguardo legal. Ofrece adem&aacute;s la posibilidad de contrataci&oacute;n de un Seguro de Mala Praxis individual
-                 de Homeopat&iacute;a que tambi&eacute;n incluye, por el mismo arancel, las Cl&iacute;nicas M&eacute;dicas Al&oacute;patas.<br><br>
+                 de Homeopat&iacute;a que tambi&eacute;n incluye, por el mismo arancel, las Cl&iacute;nicas M&eacute;dicas Al&oacute;patas.<br>
 
-                <b>Cuota 2016 $170 hasta el 31/07/2016. A partir del 1/08/2016 ser&aacute; 195</b><br>
-                <b>Arancel inscripci&oacute;n $60 hasta el 31/07/2016. A partir del 1/08/2016 ser&aacute; $80</b><br><br>
-                <b>Para m&aacute;s informes e inscripci&oacute;n:</b><br>
-                Secretar&iacute;a administrativa de la Escuela de posgrado de lunes a viernes de 09 a 19 horas.<br>
-                <b>Tel&eacute;fono:</b> 4826-0911 - <i>Sra. Graciela M&eacute;ndez</i>
+                <hr>
+                 <b>Para m&aacute;s informes e inscripci&oacute;n:</b><br>
+                 <b>Sra. Graciela M&eacute;ndez</b><br>
+                 <b>E-Mail:</b> socios@amha.org.ar<br>
+                 <b>Tel&eacute;fono:</b> 4826-0911 <br>
+                 Lunes a viernes de 09 a 16 horas.<br>
 
                 </p>
               </div>

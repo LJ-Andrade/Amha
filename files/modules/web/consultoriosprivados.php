@@ -68,7 +68,7 @@
         <?php include('../../../files/includes/inc.menu.consultorios.php'); ?> <!--  -->
         <!-- /// /Left Floating Menu /// -->
         <!-- Content inside this div -->
-        <div id="SearchInserter" class="col-lg-7 col-md-9 col-xs-12">
+        <div id="SearchInserter" class="col-lg-7 col-md-8 col-xs-12">
           <div class="sectionTits">
             <h1>Consultorios</h1>
             <hr>

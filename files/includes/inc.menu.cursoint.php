@@ -1,5 +1,5 @@
 <!-- Large and Medium Screens -->
-<div class="col-lg-2 col-md-3 col-xs-12 floatMenu1">
+<div class="col-lg-2 col-md-3 col-xs-12 floatMenu1 minWidthFloatMenu">
   <div class="leftFloatMenu">
     <ul>
       <a href='carrera_de_medicina_homeopatica_3_en_1.php'><li class="<?php echo $currentPage == 'carrera_de_medicina_homeopatica_3_en_1.php' ? 'active' : ''; ?>">Carreras de Medicina Homeop&aacute;tica 3 en 1</li></a>
