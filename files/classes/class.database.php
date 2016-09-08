@@ -130,8 +130,16 @@ class DataBase
     {
       case "Mysql":
         $Result = mysqli_query($this->StreamConnection,$Query);
-        if(!$Result) $this->Error = mysqli_error($this->StreamConnection);
-        return $Result;
+        if(strtolower($Operation)!="free")
+        {
+          if(!$Result) $this->Error = mysqli_error($this->StreamConnection);
+          return $Result;
+        }else{
+          $Data	= array();
+          while($Data[]=mysqli_fetch_assoc($Result)){}
+          array_pop($Data);
+          return $Data;
+        }
       break;
     }
   }

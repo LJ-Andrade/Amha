@@ -1,6 +1,5 @@
 <?php
   include("../../classes/class.database.php");
-  $HTML="";
   $DB = new DataBase();
   if($_POST['search_key'] && $_GET['search']!="all")
   {
@@ -8,12 +7,6 @@
     $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR (d.doctor_id = r.doctor_id AND r.specialty_id = s.specialty_id AND s.title LIKE '%".$V."%') OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
   }
   $Doctors = $DB->execQuery("free","SELECT d.* FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id ".$Where." GROUP BY d.doctor_id");
-  
-  $Data	= array();
-  while($Data[]=mysqli_fetch_assoc($Doctors)){}
-  array_pop($Data);
-  
-  var_dump($Data);
   
   foreach($Doctors as $Doctor)
   {
@@ -50,7 +43,6 @@
     $Specialties = $DB->fetchAssoc("doctor_specialty","title","specialty_id IN (SELECT specialty_id FROM relation_doctor_specialty WHERE doctor_id = ".$Doctor['doctor_id'].")");
     $Offices = $DB->execQuery("free","SELECT o.*,z.title as zone,p.title as province FROM doctor_office as o, country_province as p, country_zone as z WHERE o.province_id = p.province_id AND o.zone_id = z.zone_id AND o.doctor_id = ".$Doctor['doctor_id']);
     $BR = $Email || $Website? '<br>':'';
-    echo $DB->lastQuery();  
     
     $Tags = "";
     $OfficesHTML = "";
