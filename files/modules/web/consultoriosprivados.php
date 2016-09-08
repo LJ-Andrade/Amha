@@ -42,7 +42,7 @@
     $Website  = $Doctor['website']? strtolower($Doctor['website']).'<br>':'';
     $Specialties = $DB->fetchAssoc("doctor_specialty","title","specialty_id IN (SELECT specialty_id FROM relation_doctor_specialty WHERE doctor_id = ".$Doctor['doctor_id'].")");
     $Offices = $DB->execQuery("free","SELECT o.*,z.title as zone,p.title as province FROM doctor_office as o, country_province as p, country_zone as z WHERE o.province_id = p.province_id AND o.zone_id = z.zone_id AND o.doctor_id = ".$Doctor['doctor_id']);
-    $BR = $Email || $Website? '<br>':'';
+    $BR = $Doctor['description']? '<br>':'';
     
     $Tags = "";
     $OfficesHTML = "";
@@ -73,7 +73,7 @@
         <div class="card card-block">
           <p class="card-text marg0">
             '.utf8_encode($Tags).'
-            '.utf8_encode($Doctor['description']).'<br>
+            '.utf8_encode($Doctor['description']).$BR.'>
             '.$MN.'
             '.$MP.'
             '.$Email.'
