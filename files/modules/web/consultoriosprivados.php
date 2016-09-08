@@ -73,7 +73,7 @@
         <div class="card card-block">
           <p class="card-text marg0">
             '.utf8_encode($Tags).'
-            '.utf8_encode($Doctor['description']).'
+            '.utf8_encode($Doctor['description']).'<br>
             '.$MN.'
             '.$MP.'
             '.$Email.'
