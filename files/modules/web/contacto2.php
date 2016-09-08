@@ -1,8 +1,11 @@
-﻿<?php
+<?php
   if (isset($_POST['email']))  {
+    date_default_timezone_set('Etc/UTC');
     //Email information
-
-    $AdminEmail = "info@amha.org.ar";
+    
+    $Gmail = "romero.m.alejandro@gmail.com";
+    $AdminEmail = "romero.m.alejandro@gmail.com";
+    //$AdminEmail = "info@amha.org.ar";
     $Name = $_POST['name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
@@ -12,21 +15,69 @@
     $Msg .= 'Email: <b><a href="'.$Email.'">'.utf8_encode($Email).'</a></b><br>';
     $Msg .= '<br>Mensaje: <br><b>'.utf8_encode($_POST['msg']).'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
+    
+    require_once('../../../vendors/phpmailer/PHPMailerAutoload.php');
+    
+    $PHPmailer = new PHPMailer;
+    $PHPmailer->IsSMTP(); 
+    $PHPmailer->SMTPDebug = 2;
+    $PHPmailer->Debugoutput = 'html';
+    $PHPmailer->SMTPAuth = true;     // turn of SMTP authentication
+    $PHPmailer->Username = $Gmail;  // SMTP username
+    $PHPmailer->Password = "hdxxpwuywcplrkhz"; // SMTP password GMAIL application passeword //https://security.google.com/settings/security/apppasswords
+    $PHPmailer->SMTPSecure = "tls";
+    //$PHPmailer->Host = "smtp.gmail.com"; // SMTP host
+    $PHPmailer->Host = gethostbyname('smtp.gmail.com');
+    $PHPmailer->Port = 587;
+    
+    //$webmaster_email = $AdminEmail;       //Reply to this email ID
+    //$Email="myyahoomail@yahoo.in";        // Recipients email ID
+    //$Name="My Name";                      // Recipient's name
+    $PHPmailer->setFrom('info@amha.org.ar', 'AMHA website');
+    $PHPmailer->addReplyTo('info@amha.org.ar', 'AMHA website');
+    $PHPmailer->addAddress($AdminEmail, 'AMHA WebAdmin'); // A esta dirección se va a enviar el mensaje
+    $PHPmailer->Subject = $Subject;
+    $PHPmailer->msgHTML($Msg);
+    $PHPmailer->AltBody = 'This is the body when user views in plain text format';
 
-    $Headers  = "From: ".$Name." < ".$Email." >\n";
-    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
-    $Headers .= 'X-Mailer: PHP/' . phpversion();
-    $Headers .= "X-Priority: 2\n"; // Urgent message!
-    $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
-    $Headers .= "MIME-Version: 1.0\r\n";
-    $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+    
+    
+    
+    
+    // $PHPmailer = new PHPMailer(); // defaults to using php "mail()"
+    // //$body = file_get_contents('contents.html');
+    // //$body = eregi_replace("[\]",'',$body);
+    // $PHPmailer->AddReplyTo($AdminEmail,"AMHA");
+    // $PHPmailer->SetFrom($AdminEmail, 'AMHA website');
+    // //$PHPmailer->AddReplyTo($AdminEmail,"AMHA");
+    // //$address = "whoto@otherdomain.com";
+    // $PHPmailer->AddAddress($AdminEmail, "AMHA website");
+    // $PHPmailer->Subject    = "PHPMailer Test Subject via mail(), basic";
+    // $PHPmailer->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+    // $PHPmailer->MsgHTML($Msg);
+    if(!$PHPmailer->Send()) {
+      echo "Mailer Error: " . $PHPmailer->ErrorInfo;
+    } else {
+      include("../../classes/class.database.php");
+      $DB = new DataBase();
+      $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes(utf8_encode($Name))."','".addslashes(utf8_encode($Email))."','".addslashes(utf8_encode($Phone))."','".addslashes(utf8_encode($_POST['msg']))."',NOW()");
+    }
+
+    // $Headers  = "From: ".$Name." < ".$Email." >\n";
+    // $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
+    // $Headers .= 'X-Mailer: PHP/' . phpversion();
+    // $Headers .= "X-Priority: 2\n"; // Urgent message!
+    // $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
+    // $Headers .= "MIME-Version: 1.0\r\n";
+    // $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
 
     //send email
-    mail($AdminEmail, "$Subject", $Msg, $Headers);
-    include("../../classes/class.database.php");
-    $DB = new DataBase();
-    $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes(utf8_encode($Name))."','".addslashes(utf8_encode($Email))."','".addslashes(utf8_encode($Phone))."','".addslashes(utf8_encode($_POST['msg']))."',NOW()");
-    //echo $DB->lastQuery();
+    // if(mail($AdminEmail, "$Subject", $Msg, $Headers))
+    // {
+    //   include("../../classes/class.database.php");
+    //   $DB = new DataBase();
+    //   $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes(utf8_encode($Name))."','".addslashes(utf8_encode($Email))."','".addslashes(utf8_encode($Phone))."','".addslashes(utf8_encode($_POST['msg']))."',NOW()");
+    // }
     die();
   }
 ?>
