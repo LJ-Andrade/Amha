@@ -84,9 +84,9 @@
       </div>
     </div>';
   }
-  if($_POST['search_key'] || $_GET['get'])
+  if($_POST['search_key'] || $_GET['search'])
   {
-    $Search = $HTML && empty($_GET['get'])? $HTML : '<div class="row wow zoomIn fadeIn deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
+    $Search = $HTML && empty($_GET['search'])? $HTML : '<div class="row wow zoomIn fadeIn deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
     echo $Search;
     die();
   }
