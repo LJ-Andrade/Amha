@@ -5,11 +5,10 @@
   if($_POST['search_key'] && $_GET['search']!="all")
   {
     $V = $_POST['search_key'];
-    $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
+    $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR s.title LIKE '%".$V."%' OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
 
   }
-  $Doctors = $DB->execQuery("free","SELECT d.*,z.title as zone,p.title as pronvince FROM doctor as d, doctor_office as o, country_province as p, country_zone as z WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id ".$Where." GROUP BY d.doctor_id");
-
+  $Doctors = $DB->execQuery("free","SELECT d.* FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r WHERE d.doctor_id = o.doctor_id AND d.doctor_id = r.doctor_id AND r.specialty_id = s.specialty_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id ".$Where." GROUP BY d.doctor_id");
   foreach($Doctors as $Doctor)
   {
     switch ($Doctor['type']) {
@@ -75,7 +74,7 @@
         <div class="card card-block">
           <p class="card-text marg0">
             '.utf8_encode($Tags).'
-            Ayudante de C&aacute;tedra de la AMHA<br>'./*.utf8_encode($Doctor['description']).*/'
+            '.utf8_encode($Doctor['description']).'
             '.$MN.'
             '.$MP.'
             '.$BR.'
