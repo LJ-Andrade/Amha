@@ -1,42 +1,87 @@
 <?php
   include("../../classes/class.database.php");
-  //echo "1";
+
   $DB = new DataBase();
-  //var_dump($DB);die();
   if($_POST['search_key'] && $_GET['search']!="all")
   {
     $V = $_POST['search_key'];
-    // $Result = explode(" ",$V);
-    // foreach ($Result as $Key => $Value) {
-    //   $Result[$Key] = "first_name LIKE '%".$Value."%' OR last_name LIKE '%".$Value."%' OR description LIKE '%".$Value."%' OR national_medical_enrollment LIKE '%".$Value."%'  OR provincial_medical_enrollment LIKE '%".$Value."%'  OR email LIKE '%".$Value."%'  OR website LIKE '%".$Value."%'";
-    // }
-    // $Where = implode(" OR ",$Result);
-    $Where = "first_name LIKE '%".$V."%' OR last_name LIKE '%".$V."%' OR description LIKE '%".$V."%' OR national_medical_enrollment LIKE '%".$V."%'  OR provincial_medical_enrollment LIKE '%".$V."%'  OR email LIKE '%".$V."%'  OR website LIKE '%".$V."%'";
+    $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
 
   }
-  $Doctors = $DB->fetchAssoc('doctor','*',$Where);
-  //var_dump($DB);die();
+  $Doctors = $DB->execQuery("free","SELECT d.*,z.title as zone,p.title as pronvince FROM doctor as d, doctor_office as o, country_province as p, country_zone as z WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id ".$Where." GROUP BY d.doctor_id");
 
   foreach($Doctors as $Doctor)
   {
+    switch ($Doctor['type']) {
+      case 'dentist':
+        $TypeClass = "odontConsultBack";
+        $Type = 'Ortodoncista';
+      break;
+      
+      case 'veterinary':
+        $TypeClass = "vetConsultBack";
+        if($Doctor['sex']=='M')
+          $Type = 'Veterinario';
+        else
+          $Type = 'Veterinaria';
+      break;
+      
+      default:
+        if($Doctor['sex']=='M')
+          $Type = 'M&eacute;dico';
+        else
+          $Type = 'M&eacute;dica';
+        $TypeClass = "medicConsultBack";
+      break;
+    }
+    
     $Title    = $Doctor['sex']=='M'? 'Dr.':'Dra.';
     $Name     = $Title." ".ucfirst(utf8_encode($Doctor['last_name'].", ".$Doctor['first_name']));
-    $MN       = $Doctor['national_medical_enrollment'] ? '<br>'.'Matricula Nacional: '.$Doctor['national_medical_enrollment'].'<br>':'';
-    $MP       = $Doctor['provincial_medical_enrollment'] ? '<br>'.'Matricula Provincial: '.$Doctor['provincial_medical_enrollment'].'<br>':'';
-    $Email    = $Doctor['email']? '<br>'.strtolower($Doctor['email']).'<br>':'';
-    $Website  = $Doctor['website']? '<br>'.strtolower($Doctor['website']).'<br>':'';
+    $MN       = $Doctor['national_medical_enrollment'] ? 'Matricula Nacional: '.$Doctor['national_medical_enrollment'].'<br>':'';
+    $MP       = $Doctor['provincial_medical_enrollment'] ? 'Matricula Provincial: '.$Doctor['provincial_medical_enrollment'].'<br>':'';
+    $Email    = $Doctor['email']? strtolower($Doctor['email']).'<br>':'';
+    $Website  = $Doctor['website']? strtolower($Doctor['website']).'<br>':'';
+    $Specialties = $DB->fetchAssoc("doctor_specialty","title","specialty_id IN (SELECT specialty_id FROM relation_doctor_specialty WHERE doctor_id = ".$Doctor['doctor_id'].")");
+    $Offices = $DB->execQuery("free","SELECT o.*,z.title as zone,p.title as province FROM doctor_office as o, country_province as p, country_zone as z WHERE o.province_id = p.province_id AND o.zone_id = z.zone_id AND o.doctor_id = ".$Doctor['doctor_id']);
+    $BR = $Email || $Website? '<br>':'';
+    
+    
+    $Tags = "";
+    $OfficesHTML = "";
+    $Es = count($Specialties)>1? 'es':'';
+    foreach($Specialties as $Specialty)
+    {
+      $Tags.= $Tags? ', ':'<b>Especialidad'.$Es.': </b>';
+      $Tags .= $Specialty['title'];
+    }
+    if($Tags) $Tags.='<hr>';
+    
+    $X=0;
+    foreach($Offices as $Office)
+    {
+      $X++;
+      $OfficesHTML.='<hr>
+                      <span class="consultLocation">'.$Office['zone'].', '.$Office['province'].'</span>
+                      <br>Direcci&oacute;n: '.$Office['address'].'
+                      <br>Pedir turnos al: '.$Office['phone'].'
+                      <br>Horarios de atenci&oacute;n: '.$Office['timetable'];
+    }
+    $S = $X>1? 's':'';
+    $OfficesHTML = '<b>Consultorio'.$S.':</b>'.$OfficesHTML;
     $HTML    .= '
-    <div class="row wow zoomIn fadeIn deleteable">
+    <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
       <div class="col-sm-12 itemContainer">
-        <div class="card-header"><h5 class="card-title">'.$Name.'</h5></div>
+        <div class="card-header '.$TypeClass.'"><h5 class="card-title">'.$Name.' ('.$Type.')</h5></div>
         <div class="card card-block">
-          <p class="card-text">
-            '.utf8_encode($Doctor['description']).'
-            <br>
-            '.$Email.'
-            '.$Website.'
+          <p class="card-text marg0">
+            '.utf8_encode($Tags).'
+            Ayudante de C&aacute;tedra de la AMHA<br>'./*.utf8_encode($Doctor['description']).*/'
             '.$MN.'
             '.$MP.'
+            '.$BR.'
+            '.$Email.'
+            '.$Website.'
+            <br>'.utf8_encode($OfficesHTML).'
           </p>
         </div>
       </div>
@@ -44,9 +89,6 @@
   }
   if($_POST || $_GET['get'])
   {
-    // echo($_POST['search_key'])."<br><br>";
-    //echo $DB->lastQuery();
-
     $Search = $HTML && empty($_GET['get'])? $HTML : '<div class="row wow zoomIn fadeIn deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
     echo $Search;
     die();
@@ -98,61 +140,7 @@
           </div>
 
 
-          <!-- Test -->
-          <!-- Veterinario -->
-          <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
-            <div class="col-sm-12 itemContainer">
-              <div class="card-header vetConsultBack"><h5 class="card-title">Veterinario</h5></div>
-              <div class="card card-block">
-                <p class="card-text marg0">
-                  <b>Ayudante de Cátedra en la AMHA</b>
-                  <hr>
-                  <span class="consultLocation">Barrio Norte, CABA</span> Av. Cabildo 2327 1ºD, <br>
-                  Horarios de atención: Miercoles de 17 a 20 hs.<br>
-                  Pedir turnos al: 4786-3366
-                  <hr>
-                  Matricula Nacional: 140.767<br>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Veterinario -->
-          <!-- Medico -->
-          <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
-            <div class="col-sm-12 itemContainer">
-              <div class="card-header medicConsultBack"><h5 class="card-title">Medico</h5></div>
-              <div class="card card-block">
-                <p class="card-text marg0">
-                  <b>Ayudante de Cátedra en la AMHA</b>
-                  <hr>
-                  <span class="consultLocation">Barrio Norte, CABA</span> Av. Cabildo 2327 1ºD, <br>
-                  Horarios de atención: Miercoles de 17 a 20 hs.<br>
-                  Pedir turnos al: 4786-3366
-                  <hr>
-                  Matricula Nacional: 140.767<br>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Medico -->
-          <!-- Odontologo -->
-          <div style="visibility: visible; animation-name: zoomIn;" class="row wow zoomIn fadeIn deleteable">
-            <div class="col-sm-12 itemContainer">
-              <div class="card-header odontConsultBack"><h5 class="card-title">Odontologo</h5></div>
-              <div class="card card-block">
-                <p class="card-text marg0">
-                  <b>Ayudante de Cátedra en la AMHA</b>
-                  <hr>
-                  <span class="consultLocation">Barrio Norte, CABA</span> Av. Cabildo 2327 1ºD, <br>
-                  Horarios de atención: Miercoles de 17 a 20 hs.<br>
-                  Pedir turnos al: 4786-3366
-                  <hr>
-                  Matricula Nacional: 140.767<br>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Odontologo -->
+          
 
 
           <!-- Test -->

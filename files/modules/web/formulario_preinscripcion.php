@@ -1,8 +1,11 @@
-﻿<?php
+<?php
+  
   if (isset($_POST['email']))  {
     //Email information
-
-    $AdminEmail = "escuela@amha.org.ar";
+    require_once('../../../vendors/phpmailer/class.phpmailer.php');
+    
+    //$AdminEmail = "escuela@amha.org.ar";
+    $AdminEmail = "romero.m.alejandro@gmail.com";
     $Name = $_POST['name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
@@ -20,17 +23,34 @@
     $Msg .= 'Ocupaci&oacute;n: <b>'.utf8_encode($Ocupation).'</b><br>';
     $Msg .= '<br>Como nos contact&oacute;: <br><b>'.utf8_encode($_POST['msg']).'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
+    
+    $PHPmailer = new PHPMailer(); // defaults to using php "mail()"
+    //$body = file_get_contents('contents.html');
+    //$body = eregi_replace("[\]",'',$body);
+    $PHPmailer->AddReplyTo($AdminEmail,"AMHA");
+    $PHPmailer->SetFrom($AdminEmail, 'AMHA website');
+    $PHPmailer->AddReplyTo($AdminEmail,"AMHA");
+    //$address = "whoto@otherdomain.com";
+    $PHPmailer->AddAddress($AdminEmail, "AMHA website");
+    $PHPmailer->Subject    = "PHPMailer Test Subject via mail(), basic";
+    $PHPmailer->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+    $PHPmailer->MsgHTML($Msg);
+    if(!$PHPmailer->Send()) {
+      echo "Mailer Error: " . $PHPmailer->ErrorInfo;
+    //} else {
+      //echo "Message sent!";
+    }
 
-    $Headers  = "From: ".$Name." < ".$Email." >\n";
-    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
-    $Headers .= 'X-Mailer: PHP/' . phpversion();
-    $Headers .= "X-Priority: 2\n"; // Urgent message!
-    $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
-    $Headers .= "MIME-Version: 1.0\r\n";
-    $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+    // $Headers  = "From: ".$Name." < ".$Email." >\n";
+    // $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
+    // $Headers .= 'X-Mailer: PHP/' . phpversion();
+    // $Headers .= "X-Priority: 2\n"; // Urgent message!
+    // $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
+    // $Headers .= "MIME-Version: 1.0\r\n";
+    // $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
 
     //send email
-    mail($AdminEmail, "$Subject", $Msg, $Headers);
+    // mail($AdminEmail, "$Subject", $Msg, $Headers);
     // include("../../classes/class.database.php");
     // $DB = new DataBase();
     // $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($_POST['msg'])."',NOW()");
