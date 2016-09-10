@@ -5,6 +5,7 @@
       <a href="amha_historia.php"><li class="<?php echo $currentPage == 'amha_historia.php' ? 'active' : ''; ?>">Historia</li></a>
       <a href="amha_autoridades.php"><li class="<?php echo $currentPage == 'amha_autoridades.php' ? 'active' : ''; ?>">Autoridades</li></a>
       <a href="amha_representantes.php"><li class="<?php echo $currentPage == 'amha_representantes.php' ? 'active' : ''; ?>">Representantes</li></a>
+      <a href="amha_homeopatia.php"><li class="<?php echo $currentPage == 'amha_homeopatia.php' ? 'active' : ''; ?>">Homeopat&iacute;a</li></a>
     </ul>
   </div>
 </div>
@@ -16,6 +17,7 @@
       <a href="amha_historia.php"><li class="<?php echo $currentPage == 'amha_historia.php' ? 'active' : ''; ?>">Historia</li></a>
       <a href="amha_autoridades.php"><li class="<?php echo $currentPage == 'amha_autoridades.php' ? 'active' : ''; ?>">Autoridades</li></a>
       <a href="amha_representantes.php"><li class="<?php echo $currentPage == 'amha_representantes.php' ? 'active' : ''; ?>">Representantes</li></a>
+      <a href="amha_homeopatia.php"><li class="<?php echo $currentPage == 'amha_homeopatia.php' ? 'active' : ''; ?>">Homeopat&iacute;a</li></a>
     </ul>
   </div>
 </div>

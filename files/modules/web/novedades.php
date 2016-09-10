@@ -16,7 +16,23 @@
           <!-- Content inside this div -->
           <div class="container">
             <div class="row">
-  	     <!-- New -->
+              <!-- New -->
+               <div class="col-md-12 infoContainer accordion">
+                 <div class="accordionTitle">
+                   <p><b> A.M.H.A  presente en 71&deg; Congreso LMHI </b><br></p>
+                 </div>
+                 <div class="accordionInfo">
+                   <p class="justify">
+                     <hr>
+                     Se llev&oacute; a cabo en Buenos Aires del 24 al 27 de Agosto el <b>71&deg; Congreso de la Liga M&eacute;dica Homeop&aacute;tica Internacional</b>
+                      conjuntamente con el <b>11&deg; Congreso de la FAMHA.</b>   Se desarrollaron con  la presencia de home&oacute;patas de las escuelas
+                       de nuestro pa&iacute;s y de m&aacute;s de 20 pa&iacute;ses en un clima de absoluta camarader&iacute;a. Muchos de nuestros profesores realizaron Conferencias
+                      o presentaron trabajos de mucho valor para una mejor difusi&oacute;n de la Homeopat&iacute;a Argentina en el mundo.
+                   </p>
+                 </div>
+               </div>
+               <!-- New -->
+  	         <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
                   <p><b>Beneficio exclusivo para extranjeros</b><br></p>

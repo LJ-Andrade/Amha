@@ -290,7 +290,7 @@ label {
     display: none; } }
 .footerData {
   position: relative;
-  background-color: #ccc8c8;
+  background-color: #e4e3e3;
   padding: 15px;
   margin-top: -23px; }
   .footerData h4 {
@@ -432,7 +432,7 @@ header {
 
 .topHead {
   position: relative;
-  background-color: #ccc8c8;
+  background-color: #e4e3e3;
   color: #000; }
   .topHead .container {
     padding-left: 0;
@@ -1589,6 +1589,19 @@ span.topSlogan {
 .accordion .accordionInfo {
   display: none; }
 
+.socialAmha ul li {
+  margin-left: 20px; }
+  .socialAmha ul li img {
+    width: 35px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .socialAmha ul li img:hover {
+      -webkit-box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
+      box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
+      transform: scale(1.1);
+      cursor: pointer; }
+
 .vetConsultBack {
   background-color: #7F55FF; }
 
@@ -1866,6 +1879,10 @@ span.topSlogan {
     max-width: 100%; }
 
 .horizontal-list ul li {
+  display: inline-block;
+  list-style: none; }
+
+.horizontalList ul li {
   display: inline-block;
   list-style: none; }
 

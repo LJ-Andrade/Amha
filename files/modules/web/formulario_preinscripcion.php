@@ -66,9 +66,8 @@
               PARA EFECTIVIZARLO deber&aacute; presentar sus documentos:<br>
               - Fotocopia autenticada y en tama&ntilde;o reducido de ambas caras del t&iacute;tulo<br>
               - Fotocopia de ambas caras de la matr&iacute;cula<br>
-              - Abonar la matrícula de Inscripci&oacute;n en Juncal 2884 <br> de lunes a viernes de 10 a 16 horas. <br><br>
-
-              M&Aacute;S INFORMACI&Oacute;N AL 4826-5852 | DE 09 A 17 HORAS
+              - Abonar la matr&iacute;cula de Inscripci&oacute;n en Juncal 2884 de lunes a viernes de 9 a 17 horas. <br><br>
+              M&Aacute;S INFORMACI&Oacute;N AL 4827-2907 | DE 09 A 17 HORAS
             </p>
           </div>
           <div class="sociosLogin">

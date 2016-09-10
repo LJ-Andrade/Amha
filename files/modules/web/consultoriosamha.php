@@ -74,29 +74,46 @@
               <h4>Consultorios de Extensi&oacute;n de C&aacute;tedra y Consultorios Privados</h4>
               <hr>
               <p>
-                Atiende un profesional que puede estar acompa&ntilde;ado por uno o
-                dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>
+                <b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o
+                dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br>
+                <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
+                <b>Turnos:</b> 4963-1841 | 4962-6812 <br>
+                <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
+                <b>Horarios de atenci&oacute;n:</b>  Lunes, Martes, jueves y viernes de 9 a 20 hs. - Mi&eacute;rcoles de 9 a 17 hs.<br><br>
+
 
                 <b>Lunes</b><br>
-                12 a 15 hs.: Dra. Ruth Faingold (C&aacute;tedra del Dr. Yahbes)<br>
-                15 a 18 hs.: Dra. Ruth Faingold (C&aacute;tedra Dr. Yahbes)<br>
+                13 a 20 hs: Dra. Viviana Tachella (Privado)<br>
+                13 a 15 Dra: Ruth Faingold (Ext. de cátedra)<br>
+                15 a 20 hs: Dra. Ruth Faingold (Privado)<br>
+                14 a 20 hs: Dra. Eva Blaho (Privado)<br>
+                15 a 17 hs: Dr. Gustavo Martello (Privado)<br>
+                18 a 20 hs: Dra. Mónica Prunell (Privado)<br>
                 <b>Martes</b><br>
-                09 a 13 hs.: Dra. Grzeko(C&aacute;tedra del Dr. Minotti)<br>
-                09 a 12 hs.: Dra. Viviana Tachella (C&aacute;tedra del Dr. Pirra)<br>
-                09 a 12 hs.: Dra. M&oacute;nica Prunell (C&aacute;tedra del Dr. Milstein)<br>
-                12 a 15 hs.: Dra. Astrid Motura<br>
-                12 a 18 hs.: Dr. Jos&eacute; De Robertis<br>
-                15 a 18 hs.: Dr. Martello (C&aacute;tedra del Dr. Yahbes)<br>
-                <b>Mi&eacute;rcoles</b><br>
-                09 a 17 hs.: Dra. Grzeko(C&aacute;tedra del Dr. Minotti)<br>
-                09 a 12 hs.: Dr. Jos&eacute; Kohn (C&aacute;tedra Dr. Pellegrino)<br>
-                09 a 18 hs.: Dra. Nilda Grzesko (C&aacute;tedra del Dr. Minotti)<br>
-                09 a 15 hs.: Dr. Gustavo Martello (C&aacute;tedra Dr. Yahbes)<br>
-                12 a 15 hs.: Dr. Jos&eacute; De Robertis<br>
-                12 a 18 hs.: Dra. Elena Figari (C&aacute;tedra Dr. Penna)<br>
+                9 a 12 hs: Dra. Laura Svirnovsky (Privado)<br>
+                9 a 12 hs: Dr. Jorge Traverso (Privado)<br>
+                9 a 13 hs: Dra. Mónica Prunell (Ext. de cátedra)<br>
+                12 a 20 hs: Dr. José De Robertis (Ext. de cátedra)<br>
+                13 a 20 hs: Dr. Andrés Carmody (Privado)<br>
+                15 a 20 hs: Dra. Mónica Galaud (Privado)<br>
+                <b>Miércoles</b><br>
+                9 a 14 hs: Dra. Viviana Tachella (Privado)<br>
+                9 a 12 hs: Dra. Gustavo Valy  (Ext. de cátedra)<br>
+                12 a 17 hs: Dra. Ruth Faingold (Privado)<br>
+                13 a 17 hs: Dra. Eva Blaho (Privado)<br>
+                <b>Jueves</b><br>
+                9 a 12 hs: Dra. Laura Svirnovsky (Privado)<br>
+                9 a 12 hs: Dr. Jorge Traverso (Privado)<br>
+                9 a 12 hs: Dr. Gustavo Martello (Privado)<br>
+                15 a 17 hs: Dra. Gustavo Valy  (Ext. de cátedra)<br>
+                15 a 20 hs: Dra. Elena Figari  (Ext. de cátedra)<br>
+                18 a 20 hs: Dra. Laura Svirnovsky (Privado)<br>
                 <b>Viernes</b><br>
-                09 a 12 hs.: Dr. Guillermo Mur (C&aacute;tedra del Dr. Yahbes)<br>
-                15 a 17 hs.: Dr Jorge Traverso (C&aacute;tedra Dr.: Pellegrino)<br>
+                9 a 12 hs: Astrid Mostura (Ext. de cátedra)<br>
+                9 a 20 hs: Dr. Roberto Díaz Campos (Privado)<br>
+                9 a 20 hs: Dra. Elena Figari  (Privado)<br><br>
+
+
 
               </p>
               <!-- <hr>

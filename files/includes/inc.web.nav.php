@@ -66,6 +66,7 @@
           <li><a href='amha_historia.php'>Historia</a></li>
           <li><a href='amha_autoridades.php'>Autoridades</a></li>
           <li><a href='amha_representantes.php'>Representantes</a></li>
+          <li><a href='amha_homeopatia.php'>Homeopat&iacute;a</a></li>
         </ul>
       </li>
       <li class="<?php echo $currentPage == 'socios.php' ? 'active' : ''; ?>"><a href='socios.php'>SOCIOS</a>
