@@ -205,8 +205,7 @@ label {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  align-items: center; }
+  flex-wrap: wrap; }
 
 .flexV {
   display: -webkit-box;
@@ -299,6 +298,7 @@ label {
     margin-bottom: 10px;
     margin-left: 15px; }
   .footerData p, .footerData a {
+    padding-top: 15px;
     color: #000;
     font-size: 0.9rem; }
   .footerData span {
@@ -314,9 +314,6 @@ label {
   .foterDataAddress .fa-map-marker {
     margin-right: 8px; }
 
-@media (max-width: 765px) {
-  .foterDataAddress {
-    text-align: center; } }
 .mapAndAddress {
   min-height: 350px; }
 
@@ -347,6 +344,7 @@ label {
     padding: 10px 5px; }
 
 .footerLogo {
+  padding-top: 20px;
   text-align: center; }
   .footerLogo img {
     width: 150px; }
@@ -496,9 +494,6 @@ header {
   width: auto;
   padding-top: 40px; }
 
-@media (max-width: 1032px) {
-  .topTitles {
-    padding-top: 20px; } }
 span.topName {
   font-size: 1.5rem; }
 
@@ -1589,18 +1584,20 @@ span.topSlogan {
 .accordion .accordionInfo {
   display: none; }
 
-.socialAmha ul li {
-  margin-left: 20px; }
-  .socialAmha ul li img {
-    width: 35px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s; }
-    .socialAmha ul li img:hover {
-      -webkit-box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
-      box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
-      transform: scale(1.1);
-      cursor: pointer; }
+.socialAmha {
+  margin-bottom: 20px; }
+  .socialAmha ul li {
+    margin-left: 20px; }
+    .socialAmha ul li img {
+      width: 35px;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .socialAmha ul li img:hover {
+        -webkit-box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.75);
+        transform: scale(1.1);
+        cursor: pointer; }
 
 .vetConsultBack {
   background-color: #7F55FF; }

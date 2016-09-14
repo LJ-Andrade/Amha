@@ -1,4 +1,4 @@
-﻿  <div class="container footerData">
+<div class="container footerData">
     <div class="row flexW">
       <div class="col-md-4 col-xs-12 foterDataAddress">
         <!-- Contact Data -->

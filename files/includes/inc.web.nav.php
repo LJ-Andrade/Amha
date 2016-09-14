@@ -6,28 +6,6 @@
   $currentPage = basename($str);
 ?>
 
-<!-- TOP BAR -->
-<!-- <div id="topBar" class="container topBar">
-  <div class="container">
-    <nav class="navbar">
-      <ul class="nav navbar-nav">
-        <li class="nav-item active">
-          <div class="input-group topSearch">
-            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
-            <input type="text" class="form-control" placeholder="Buscar..." aria-describedby="basic-addon1">
-          </div>
-        </li>
-      </ul>
-      <form id="TopOptions" class="form-inline pull-xs-right">
-        <div class="row topOptions">
-          <button type="button" name="button" class="btn mainBtn">Ingresar</button>
-          <button type="button" name="button" class="btn mainBtn">Registro</button>
-        </div>
-      </form>
-    </nav>
-  </div>
-</div> -->
-
 <!-- TOP HEADER -->
 <div id="topHead" class="container topHead">
   <div class="container">
@@ -35,21 +13,21 @@
       <div class="col-md-4 col-sm-3 col-xs-12 topLogo">
         <a href="index.php"><img src="../../../skin/images/body/logos/weblogo2.png" alt="" /></a>
       </div>
-      <div class="col-md-5 col-sm-10 col-xs-12 topTitles">
+      <div class="col-md-8 col-sm-9 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>
         <span class="topSlogan">FUNDADA EN 1933 - PRIMERA ESCUELA HOMEOP&Aacute;TICA EN LA ARGENTINA Y SUDAM&Eacute;RICA</span>
-        <span class="topAddressMobile"><hr> Tel&eacute;fono: <b>4826-5852</b> | Escuela: <b>4827-2907</b></b><br>
+        <!-- <span class="topAddressMobile"><hr> Tel&eacute;fono: <b>4826-5852</b> | Escuela: <b>4827-2907</b></b><br>
           Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
 
         <b>Juncal 2884 </b>- Buenos Aires - Argentina
-        </span>
+        </span> -->
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 topDatos">
         <p>Tel&eacute;fono: <b>4826-5852</b> <br>
         Escuela: <b>4827-2907</b> <br>
         Consultorios: <b>4963-1841</b> | <b>4962-6812</b><br>
         <p><b>Juncal 2884 </b>| Buenos Aires | Argentina</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </div><!-- /TOP HEADER -->

@@ -92,7 +92,7 @@
           <div class="row">
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <a href="#">
+                <a href="amha_homeopatia.php">
                   <img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">
                   <h3 class="card-title"></h3>
                 </a>

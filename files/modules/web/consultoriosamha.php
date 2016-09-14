@@ -38,7 +38,7 @@
 
                 <b>Atenci&oacute;n a cargo de las C&aacute;tedras:</b> Profesor Titular, Profesor Adjunto y docente Adscripto.<br>
                 Acompa&ntilde;an al
-                cuerpo docente, los m&eacute;dicos que se est&aacute;n formando como home&oacute;patas.<br>
+                cuerpo docente, los m&eacute;dicos que se est&aacute;n formando como home&oacute;patas.<br><br>
                 <b>Direcci&oacute;n:</b> Juncal 2884. Ciudad de Buenos Aires.<br>
                 <b>Horarios y d&iacute;as de atenci&oacute;n:</b> Lunes a jueves, ma&ntilde;ana y tarde y viernes por la ma&ntilde;ana.<br>
                 <b>Turnos:</b> al 4827-2907<br>
@@ -75,7 +75,7 @@
               <hr>
               <p>
                 <b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o
-                dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br>
+                dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>
                 <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
                 <b>Turnos:</b> 4963-1841 | 4962-6812 <br>
                 <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
