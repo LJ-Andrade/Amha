@@ -1,4 +1,4 @@
-﻿<?php
+<?php
   if (isset($_POST['email']))  {
     //Email information
 
@@ -6,18 +6,18 @@
     $Name = $_POST['name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
-    $Carreer = $_POST['carreer'];
+    $Career = $_POST['carreer'];
     $Sex = $_POST['sex'];
     $Document = $_POST['doc'];
-    $Ocupation = $_POST['ocupation'];
+    $Occupation = $_POST['occupation'];
     $Subject = "Formulario de pre inscripcion enviado desde el sitio web AMHA";
     $Msg .= 'Remitente: <b>'.utf8_encode($Name).'</b><br>';
-    $Msg .= 'Carrera seleccionada: <b>'.utf8_encode($Carreer).'</b><br>';
+    $Msg .= 'Carrera seleccionada: <b>'.utf8_encode($Career).'</b><br>';
     $Msg .= 'Sexo: <b>'.utf8_encode($Sex).'</b><br>';
     $Msg .= 'Documento: <b>'.utf8_encode($Document).'</b><br>';
     $Msg .= 'Tel&eacute;fono: <b>'.utf8_encode($Phone).'</b><br>';
     $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
-    $Msg .= 'Ocupaci&oacute;n: <b>'.utf8_encode($Ocupation).'</b><br>';
+    $Msg .= 'Ocupaci&oacute;n: <b>'.utf8_encode($Occupation).'</b><br>';
     $Msg .= '<br>Como nos contact&oacute;: <br><b>'.utf8_encode($_POST['msg']).'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
@@ -30,11 +30,11 @@
     $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
 
     //send email
-    mail($AdminEmail, "$Subject", $Msg, $Headers);
-    // include("../../classes/class.database.php");
-    // $DB = new DataBase();
-    // $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($_POST['msg'])."',NOW()");
-    //echo $DB->lastQuery();
+    //mail($AdminEmail, "$Subject", $Msg, $Headers);
+    include("../../classes/class.database.php");
+    $DB = new DataBase();
+    $DB->execQuery("INSERT","inscription_form_message","name,email,phone,career,sex,document,occupation,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($Career)."','".addslashes($Sex)."','".addslashes($Document)."','".addslashes($Occupation)."','".addslashes($_POST['msg'])."',NOW()");
+    echo $DB->lastQuery();
     die();
   }
 ?>
@@ -98,7 +98,7 @@
                   <input id="email" validateEmpty="Este campo es obligatorio" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
                 </div>
                 <div class="form-group">
-                  <input id="ocupation" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Ocupaci&oacute;n" type="name">
+                  <input id="occupation" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Ocupaci&oacute;n" type="name">
                 </div>
                 <div class="form-group  form-boxedLines">
                   <label class="sexInput" for="">Sexo: </label>
@@ -172,13 +172,13 @@
         var doc = $("#document").val();
         var email = $("#email").val();
         var phone = $("#phone").val();
-        var ocupation = $("#ocupation").val();
+        var occupation = $("#occupation").val();
         var msg = $("#msg").val();
 
         $.ajax({
           method: "POST",
           url: "formulario_preinscripcion.php",
-          data: { name:name, email:email, phone:phone, msg:msg,carreer:carreer,sex:sex,address:address,doc:doc,ocupation:ocupation},
+          data: { name:name, email:email, phone:phone, msg:msg,carreer:carreer,sex:sex,address:address,doc:doc,occupation:occupation},
           success: function(callback){
             if(callback)
             {

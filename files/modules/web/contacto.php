@@ -1,4 +1,4 @@
-﻿<?php
+<?php
   if (isset($_POST['email']))  {
     //Email information
 
@@ -25,7 +25,7 @@
     mail($AdminEmail, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
-    $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes(utf8_encode($Name))."','".addslashes(utf8_encode($Email))."','".addslashes(utf8_encode($Phone))."','".addslashes(utf8_encode($_POST['msg']))."',NOW()");
+    $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($_POST['msg'])."',NOW()");
     //echo $DB->lastQuery();
     die();
   }

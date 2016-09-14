@@ -4,38 +4,29 @@
   if($_POST['search_key'] && $_GET['search']!="all")
   {
     $V = $_POST['search_key'];
-    $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR (d.doctor_id = r.doctor_id AND r.specialty_id = s.specialty_id AND s.title LIKE '%".$V."%') OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
+    $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR t.title_m LIKE '%".$V."%' OR t.title_f LIKE '%".$V."%' OR (d.doctor_id = r.doctor_id AND r.specialty_id = s.specialty_id AND s.title LIKE '%".$V."%') OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
   }
-  $Doctors = $DB->execQuery("free","SELECT d.* FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id ".$Where." GROUP BY d.doctor_id");
-  
+  $Doctors = $DB->execQuery("free","SELECT d.*,o.province_id as province_id,o.zone_id as zone_id,t.title_m as title_m, t.title_f as title_f FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r, doctor_type as t WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id AND d.type_id = t.type_id ".$Where." GROUP BY d.doctor_id ORDER BY d.type_id,o.province_id,o.zone_id,d.last_name,d.first_name");
   foreach($Doctors as $Doctor)
   {
-    switch ($Doctor['type'])
+    switch ($Doctor['type_id'])
     {
-      case 'dentist':
+      case 3:
         $TypeClass = "odontConsultBack";
-        $Type = 'Ortodoncista';
       break;
       
-      case 'veterinary':
+      case 2:
         $TypeClass = "vetConsultBack";
-        if($Doctor['sex']=='M')
-          $Type = 'Veterinario';
-        else
-          $Type = 'Veterinaria';
       break;
       
       default:
-        if($Doctor['sex']=='M')
-          $Type = 'M&eacute;dico';
-        else
-          $Type = 'M&eacute;dica';
         $TypeClass = "medicConsultBack";
       break;
     }
     
     $Title    = $Doctor['sex']=='M'? 'Dr.':'Dra.';
     $Name     = $Title." ".ucfirst(utf8_encode($Doctor['last_name'].", ".$Doctor['first_name']));
+    $Type     = utf8_encode($Doctor['title_'.strtolower($Doctor['sex'])]);
     $MN       = $Doctor['national_medical_enrollment'] ? 'Matricula Nacional: '.$Doctor['national_medical_enrollment'].'<br>':'';
     $MP       = $Doctor['provincial_medical_enrollment'] ? 'Matricula Provincial: '.$Doctor['provincial_medical_enrollment'].'<br>':'';
     $Email    = $Doctor['email']? strtolower($Doctor['email']).'<br>':'';
