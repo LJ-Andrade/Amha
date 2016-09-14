@@ -11,8 +11,22 @@
   {
     if($DoctorType!=$Doctor['type_id'])
     {
+      switch ($Doctor['type_id'])
+      {
+        case 3:
+          $TypeClass = "odontConsultBack";
+        break;
+  
+        case 2:
+          $TypeClass = "vetConsultBack";
+        break;
+  
+        default:
+          $TypeClass = "medicConsultBack";
+        break;
+      }
       $DoctorType = $Doctor['type_id'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator medicConsultBack"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator '.$TypeClass.'"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
     }
     
     if($DoctorProvince!=$Doctor['province'])
@@ -27,20 +41,6 @@
       $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator2 consultNb"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
     }
     
-    switch ($Doctor['type_id'])
-    {
-      case 3:
-        $TypeClass = "odontConsultBack";
-      break;
-
-      case 2:
-        $TypeClass = "vetConsultBack";
-      break;
-
-      default:
-        $TypeClass = "medicConsultBack";
-      break;
-    }
 
     $Title    = $Doctor['sex']=='M'? 'Dr.':'Dra.';
     $Name     = $Title." ".ucfirst(utf8_encode($Doctor['last_name'].", ".$Doctor['first_name']));
