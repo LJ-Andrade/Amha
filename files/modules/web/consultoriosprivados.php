@@ -6,9 +6,27 @@
     $V = $_POST['search_key'];
     $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR t.title_m LIKE '%".$V."%' OR t.title_f LIKE '%".$V."%' OR (d.doctor_id = r.doctor_id AND r.specialty_id = s.specialty_id AND s.title LIKE '%".$V."%') OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
   }
-  $Doctors = $DB->execQuery("free","SELECT d.*,o.province_id as province_id,o.zone_id as zone_id,t.title_m as title_m, t.title_f as title_f FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r, doctor_type as t WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id AND d.type_id = t.type_id ".$Where." GROUP BY d.doctor_id ORDER BY d.type_id,o.province_id,o.zone_id,d.last_name,d.first_name");
+  $Doctors = $DB->execQuery("free","SELECT d.*,o.province_id as province_id,o.zone_id as zone_id,t.title_m as title_m, t.title_f as title_f, p.title as province, z.title as zone FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r, doctor_type as t WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id AND d.type_id = t.type_id ".$Where." GROUP BY d.doctor_id ORDER BY d.type_id,o.province_id,o.zone_id,d.last_name,d.first_name");
   foreach($Doctors as $Doctor)
   {
+    if($DoctorType!=$Doctor['type_id'])
+    {
+      $DoctorType = $Doctor['type_id'];
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator medicConsultBack"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
+    }
+    
+    if($DoctorProvince!=$Doctor['province'])
+    {
+      $DoctorProvince = $Doctor['province'];
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator consultProv"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div>';
+    }
+    
+    if($DoctorZone!=$Doctor['zone'])
+    {
+      $DoctorZone = $Doctor['zone'];
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator2 consultNb"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
+    }
+    
     switch ($Doctor['type_id'])
     {
       case 3:
@@ -126,15 +144,15 @@
               <input id="search" class="form-control" placeholder="Ingrese una provincia, una zona o un nombre y presione enter..." type="text">
             </div>
           </div>
-          <div class="row wow zoomIn fadeIn section titleSeparator medicConsultBack">
-            <h5><b class="w">M&eacute;dicos</b></h5>
-          </div>
-          <div class="row wow zoomIn fadeIn section titleSeparator consultProv">
-            <h5><b class="w">Capital</b></h5>
-          </div>
-          <div class="row wow zoomIn fadeIn section titleSeparator2 consultNb">
-            <h5>Floresta</h5>
-          </div>
+          <!--<div class="row wow zoomIn fadeIn section titleSeparator medicConsultBack">-->
+          <!--  <h5><b class="w">M&eacute;dicos</b></h5>-->
+          <!--</div>-->
+          <!--<div class="row wow zoomIn fadeIn section titleSeparator consultProv">-->
+          <!--  <h5><b class="w">Capital</b></h5>-->
+          <!--</div>-->
+          <!--<div class="row wow zoomIn fadeIn section titleSeparator2 consultNb">-->
+          <!--  <h5>Floresta</h5>-->
+          <!--</div>-->
           <!-- Test -->
           <?php echo $HTML; ?>
         </div><!-- /contentContainer -->
