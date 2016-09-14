@@ -26,19 +26,19 @@
         break;
       }
       $DoctorType = $Doctor['type_id'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator '.$TypeClass.'"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator '.$TypeClass.' deleteable"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
     }
     
     if($DoctorProvince!=$Doctor['province'])
     {
       $DoctorProvince = $Doctor['province'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator consultProv"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div>';
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div>';
     }
     
     if($DoctorZone!=$Doctor['zone'])
     {
       $DoctorZone = $Doctor['zone'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator2 consultNb"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
+      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator2 consultNb deleteable"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
     }
     
 
