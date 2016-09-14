@@ -14,16 +14,16 @@
       case 3:
         $TypeClass = "odontConsultBack";
       break;
-      
+
       case 2:
         $TypeClass = "vetConsultBack";
       break;
-      
+
       default:
         $TypeClass = "medicConsultBack";
       break;
     }
-    
+
     $Title    = $Doctor['sex']=='M'? 'Dr.':'Dra.';
     $Name     = $Title." ".ucfirst(utf8_encode($Doctor['last_name'].", ".$Doctor['first_name']));
     $Type     = utf8_encode($Doctor['title_'.strtolower($Doctor['sex'])]);
@@ -34,7 +34,7 @@
     $Specialties = $DB->fetchAssoc("doctor_specialty","title","specialty_id IN (SELECT specialty_id FROM relation_doctor_specialty WHERE doctor_id = ".$Doctor['doctor_id'].")");
     $Offices = $DB->execQuery("free","SELECT o.*,z.title as zone,p.title as province FROM doctor_office as o, country_province as p, country_zone as z WHERE o.province_id = p.province_id AND o.zone_id = z.zone_id AND o.doctor_id = ".$Doctor['doctor_id']);
     $BR = $Doctor['description']? '<br>':'';
-    
+
     $Tags = "";
     $OfficesHTML = "";
     $Es = count($Specialties)>1? 'es':'';
@@ -44,7 +44,7 @@
       $Tags .= $Specialty['title'];
     }
     if($Tags) $Tags.='<hr>';
-    
+
     $X=0;
     foreach($Offices as $Office)
     {
@@ -126,7 +126,15 @@
               <input id="search" class="form-control" placeholder="Ingrese una provincia, una zona o un nombre y presione enter..." type="text">
             </div>
           </div>
-
+          <div class="row wow zoomIn fadeIn section titleSeparator medicConsultBack">
+            <h5><b class="w">M&eacute;dicos</b></h5>
+          </div>
+          <div class="row wow zoomIn fadeIn section titleSeparator consultProv">
+            <h5><b class="w">Capital</b></h5>
+          </div>
+          <div class="row wow zoomIn fadeIn section titleSeparator2 consultNb">
+            <h5>Floresta</h5>
+          </div>
           <!-- Test -->
           <?php echo $HTML; ?>
         </div><!-- /contentContainer -->

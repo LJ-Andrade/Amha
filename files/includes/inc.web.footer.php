@@ -1,12 +1,19 @@
-<div class="container footerData">
+﻿  <div class="container footerData">
     <div class="row flexW">
-      <div class="col-md-4 col-xs-12 foterDataAddress">
+      <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 foterDataAddress">
         <!-- Contact Data -->
-        <p><i class="fa fa-phone"></i> Tel&eacute;fono:<b class="b"> 4826-5852</b></span><br>
+        <p>
+          <b>Teléfono central:</b> 4826-5852 <br>
+          <b>Atención al socio:</b> 4826-5852 int 32 / 4826-0911 <br>
+          <b>Escuela:</b> 4826-5852 int 37 | 4827-2907 <br> <b>Dirección:</b>  Juncal 2884, Recoleta | Buenos Aires <br>
+          <b>Consultorios privados AMHA:</b> 4963-1841 | 4962-6812 <br> <b>Dirección:</b> Charcas 2744 - piso 2 dpto 6, Barrio Norte | Buenos Aires <br>
+          <b>Consultorios Juncal:</b> 4827-2907 | <b>Dirección:</b> Juncal 2884, Recoleta | Buenos Aires <br>
+        </p>
+        <!-- <p><i class="fa fa-phone"></i> Tel&eacute;fono:<b class="b"> 4826-5852</b></span><br>
           <span>Escuela: <b class="b">4827-2907</b></span><br>
           <span>Consultorios: <b class="b">4963-1841 | 4962-6812</b></span><br><br>
           <i class="fa fa-envelope"></i><a href="mailto:info@amha.org.ar"> info@amha.org.ar</a><br>
-        <i class="fa fa-map-marker"></i><b class="b"> Juncal 2884 </b>| Buenos Aires | Argentina</p>
+        <i class="fa fa-map-marker"></i><b class="b"> Juncal 2884 </b>| Buenos Aires | Argentina</p> -->
         <!-- Social Icons -->
         <div class="socialIcons horizontalList socialAmha">
           <ul>
@@ -15,10 +22,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4 col-xs-12 footerMap">
+      <div class="col-lg-5 col-md-6  col-sm-12 col-xs-12 footerMap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4645.159416161686!2d-58.40834480027293!3d-34.588386367211875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83312c17f7%3A0x5a2b76414563a3a2!2sJuncal+2884%2C+C1425AYJ+CABA!5e0!3m2!1ses-419!2sar!4v1465630821452" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-      <div class="col-md-4 col-xs-12">
+      <div class="col-lg-2 col-md-6  col-sm-12 col-xs-12">
         <div class="footerLogo">
           <img src="../../../skin/images/body/pictures/aniversario.png" alt="" />
         </div>
@@ -36,11 +43,9 @@
     <span>Desarrollado por <a href="http://innovastudio.com.ar" target="_blank"> Innova Studio </a>© <?php echo date("Y"); ?> | Todo los Derechos Reservados</span>
   </div>
 </footer>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-12128042-1', 'auto');
-  ga('send', 'pageview');
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12128042-1");
+pageTracker._trackPageview();
+} catch(err) {}
 </script>

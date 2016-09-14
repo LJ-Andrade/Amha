@@ -1608,6 +1608,14 @@ span.topSlogan {
 .medicConsultBack {
   background-color: #5881FD; }
 
+.consultProv {
+  background-color: #64b98f;
+  color: #fff; }
+
+.consultNb {
+  background-color: #94d2af;
+  color: #fff; }
+
 .mainBtn {
   background-color: #68637d;
   transition: all 0.3s ease 0s;
@@ -1669,6 +1677,23 @@ span.topSlogan {
   background-color: #009fe3; }
   .mpBtn:hover {
     background-color: #100d9e; }
+
+.titleSeparator {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+  padding: 5px; }
+  .titleSeparator h5 {
+    color: #fff; }
+
+.titleSeparator2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+  padding: 2px; }
+  .titleSeparator2 h5 {
+    color: #fff;
+    font-size: 16px; }
 
 .infoContainer {
   background-color: #f2f2f2;
