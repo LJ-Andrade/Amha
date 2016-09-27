@@ -3,6 +3,7 @@
     //Email information
 
     $AdminEmail = "info@amha.org.ar";
+    $AdminEmail2 = "romero.m.alejandro@gmail.com";
     $Name = $_POST['name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
@@ -23,6 +24,7 @@
 
     //send email
     mail($AdminEmail, "$Subject", $Msg, $Headers);
+    mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
     $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($_POST['msg'])."',NOW()");
@@ -119,13 +121,13 @@
   </body>
   <script type="JavaScript" src="../../js/script.validate.js"></script>
   <script>
-    var validate = new ValidateFields();
-    $(function(){
-      validate.createErrorDivs();
-      $(validateElements).change(function(){
-          validate.validateOneField($(this));
-      });
-    });
+    // var validate = new ValidateFields();
+    // $(function(){
+    //   validate.createErrorDivs();
+    //   $(validateElements).change(function(){
+    //       validate.validateOneField($(this));
+    //   });
+    // });
 
     $("#send").click(function(){
       if(validate.validateFields('*'))
