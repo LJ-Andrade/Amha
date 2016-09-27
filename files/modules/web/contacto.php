@@ -152,6 +152,7 @@
           {
             console.log(callback);
           }else{
+            $(".mainContactForm").html('<br><br><h3 class="form-signin-heading"><b>Su mensaje ha sido enviado.<br>Gracias por contactarse.</b></h3>');
             alert("Mensaje enviado correctamente");
           }
         }
