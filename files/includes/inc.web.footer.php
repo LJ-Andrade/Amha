@@ -3,12 +3,21 @@
       <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 foterDataAddress">
         <!-- Contact Data -->
         <p>
+          <b>Turnos:</b> 4826-5852 - 4821.5888 <br>
+          <b>Atenci&oacute;n al socio:</b> 4826-0911 <br>
+          <b>Administración:</b> 4825-2194 <br>
+          <b>Escuela:</b> 4827-2907 - <b>Direcci&oacute;n:</b>  Juncal 2884, Recoleta| Buenos Aires<br>
+          <b>Consultorios privados AMHA:</b> 4961-0562 / 4963-1841 /4962-6812 <br>
+          <b>Direcci&oacute;n:</b> Charcas 2744 - piso 2 dpto 6, Barrio Norte| Buenos Aires
+        </p>
+
+        <!-- <p>
           <b>Teléfono central:</b> 4826-5852 <br>
           <b>Atención al socio:</b> 4826-5852 int 32 / 4826-0911 <br>
           <b>Escuela:</b> 4826-5852 int 37 | 4827-2907 <br> <b>Dirección:</b>  Juncal 2884, Recoleta | Buenos Aires <br>
           <b>Consultorios privados AMHA:</b> 4963-1841 | 4962-6812 <br> <b>Dirección:</b> Charcas 2744 - piso 2 dpto 6, Barrio Norte | Buenos Aires <br>
           <b>Consultorios Juncal:</b> 4827-2907 | <b>Dirección:</b> Juncal 2884, Recoleta | Buenos Aires <br>
-        </p>
+        </p> -->
         <!-- <p><i class="fa fa-phone"></i> Tel&eacute;fono:<b class="b"> 4826-5852</b></span><br>
           <span>Escuela: <b class="b">4827-2907</b></span><br>
           <span>Consultorios: <b class="b">4963-1841 | 4962-6812</b></span><br><br>
