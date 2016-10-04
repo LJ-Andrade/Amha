@@ -6,7 +6,8 @@
     $V = $_POST['search_key'];
     $Where = "AND (z.title LIKE '%".$V."%' OR p.title LIKE '%".$V."%' OR t.title_m LIKE '%".$V."%' OR t.title_f LIKE '%".$V."%' OR (d.doctor_id = r.doctor_id AND r.specialty_id = s.specialty_id AND s.title LIKE '%".$V."%') OR d.first_name LIKE '%".$V."%' OR o.address LIKE '%".$V."%' OR o.phone LIKE '%".$V."%' OR d.last_name LIKE '%".$V."%' OR d.description LIKE '%".$V."%' OR d.national_medical_enrollment LIKE '%".$V."%'  OR d.provincial_medical_enrollment LIKE '%".$V."%'  OR d.email LIKE '%".$V."%'  OR d.website LIKE '%".$V."%')";
   }
-  $Doctors = $DB->execQuery("free","SELECT d.*,o.province_id as province_id,o.zone_id as zone_id,t.title_m as title_m, t.title_f as title_f, p.title as province, z.title as zone FROM doctor as d, doctor_office as o, country_province as p, country_zone as z, doctor_specialty as s, relation_doctor_specialty AS r, doctor_type as t WHERE d.doctor_id = o.doctor_id AND o.province_id = p.province_id AND o.zone_id = z.zone_id AND d.type_id = t.type_id ".$Where." GROUP BY d.doctor_id ORDER BY d.type_id,o.province_id,o.zone_id,d.last_name,d.first_name");
+  $Doctors = $DB->execQuery("free","SELECT address,timetable,phone,d.*,t.title_m AS title_m, t.title_f AS title_f, p.title AS province, z.title AS zone FROM doctor_office AS o, doctor AS d, country_zone AS z, country_province AS p, doctor_type AS t, doctor_specialty AS s, relation_doctor_specialty AS r WHERE d.advertising = 'Y' AND o.doctor_id = d.doctor_id AND o.zone_id = z.zone_id AND o.province_id = p.province_id AND d.type_id = t.type_id ".$Where." GROUP BY o.office_id ORDER BY d.type_id, p.province_id, z.title, d.last_name, d.first_name");
+  $Query = $DB->lastQuery();
   foreach($Doctors as $Doctor)
   {
     if($DoctorType!=$Doctor['type_id'])
@@ -50,7 +51,7 @@
     $Email    = $Doctor['email']? strtolower($Doctor['email']).'<br>':'';
     $Website  = $Doctor['website']? strtolower($Doctor['website']).'<br>':'';
     $Specialties = $DB->fetchAssoc("doctor_specialty","title","specialty_id IN (SELECT specialty_id FROM relation_doctor_specialty WHERE doctor_id = ".$Doctor['doctor_id'].")");
-    $Offices = $DB->execQuery("free","SELECT o.*,z.title as zone,p.title as province FROM doctor_office as o, country_province as p, country_zone as z WHERE o.province_id = p.province_id AND o.zone_id = z.zone_id AND o.doctor_id = ".$Doctor['doctor_id']);
+    //$Offices = $DB->execQuery("free","SELECT o.*,z.title as zone,p.title as province FROM doctor_office as o, country_province as p, country_zone as z WHERE o.province_id = p.province_id AND o.zone_id = z.zone_id AND o.doctor_id = ".$Doctor['doctor_id']);
     $BR = $Doctor['description']? '<br>':'';
 
     $Tags = "";
@@ -59,21 +60,26 @@
     foreach($Specialties as $Specialty)
     {
       $Tags.= $Tags? ', ':'<b>Especialidad'.$Es.': </b>';
-      $Tags .= $Specialty['title'];
+      $Tags .= utf8_encode($Specialty['title']);
     }
-    if($Tags) $Tags.='<hr>';
+    if($Tags) $Tags.='</p><hr><p>';
 
-    $X=0;
-    foreach($Offices as $Office)
-    {
-      $X++;
-      $OfficesHTML.='<hr>
-                      <span class="consultLocation">'.$Office['zone'].', '.$Office['province'].'</span>
-                      <br>Direcci&oacute;n: '.$Office['address'].'
-                      <br>Pedir turnos al: '.$Office['phone'].'
-                      <br>Horarios de atenci&oacute;n: '.$Office['timetable'];
-    }
-    $S = $X>1? 's':'';
+    //$X=0;
+    //foreach($Offices as $Office)
+    //{
+      //$X++;
+      // $OfficesHTML.='<hr>
+      //                 <span class="consultLocation">'.$Office['zone'].', '.$Office['province'].'</span>
+      //                 <br>Direcci&oacute;n: '.$Office['address'].'
+      //                 <br>Pedir turnos al: '.$Office['phone'].'
+      //                 <br>Horarios de atenci&oacute;n: '.$Office['timetable'];
+    //}
+    //$S = $X>1? 's':'';
+    $OfficesHTML.='<hr>
+                      <span class="consultLocation">'.$Doctor['zone'].', '.$Doctor['province'].'</span>
+                      <br>Direcci&oacute;n: '.$Doctor['address'].'
+                      <br>Pedir turnos al: '.$Doctor['phone'].'
+                      <br>Horarios de atenci&oacute;n: '.$Doctor['timetable'];
     $OfficesHTML = '<b>Consultorio'.$S.':</b>'.$OfficesHTML;
     $HTML    .= '
     <div class="row wow zoomIn fadeIn deleteable">
@@ -81,7 +87,7 @@
         <div class="card-header '.$TypeClass.'"><h5 class="card-title">'.$Name.' ('.$Type.')</h5></div>
         <div class="card card-block">
           <p class="card-text marg0">
-            '.utf8_encode($Tags).'
+            '.$Tags.'
             '.utf8_encode($Doctor['description']).$BR.'
             '.$MN.'
             '.$MP.'
@@ -97,6 +103,7 @@
   {
     $Search = $HTML? $HTML : '<div class="row wow zoomIn fadeIn deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
     echo $Search;
+    //echo $Query;
     die();
   }
  ?>
