@@ -7,7 +7,8 @@
                     "description"=>"En esta obra los autores, profesores titulares de la AMHA, desarrollan en lenguaje sencillo y comprensible para el p&uacute;blico lector uno de los temas m&aacute;s pol&eacute;micos de la Medicina: la Homeopat&iacute;a. Usted podr&aacute; comprenderla a trav&eacute;s de la lectura de este libro que si bien tiene una orientaci&oacute;n pedi&aacute;trica, abarca conceptos aplicables a todas las edades.",
                     "price"=>"35",
                     "new"=>false,
-                    "paypal"=>"6CBKKMPGR6WF6");
+                    "paypal"=>"6CBKKMPGR6WF6",
+                    "mercadopago"=>"229260528-bd362871-f518-4f27-a74a-f35944f4caa6");
   $Books[] = array(
                     "title"=>"HOMEOPAT&Iacute;A E INFORM&aacute;TICA",
                     "author"=>"Dr. Zurno Arce",
@@ -15,7 +16,8 @@
                     "description"=>"El autor desarrolla el concepto de Bioinform&aacute;tica o manejo cibern&eacute;tico curativo de la computadora: cerebro y de la enfermedad gen&eacute;tica de la c&eacute;lula en seres sin SNC unicelular, mediante la informaci&oacute;n del medicamento homeop&aacute;tico.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"W6HWH2N6M4RLQ");
+                    "paypal"=>"W6HWH2N6M4RLQ",
+                    "mercadopago"=>"229260528-6d63800d-5933-4aaa-b491-c5adc9e61e8b");
   $Books[] = array(
                     "title"=>"GU&Iacute;A PRACTICA DE MEDICAMENTOS COMPARADOS",
                     "author"=>"Dra. Eva Blaho",
@@ -26,7 +28,8 @@
                    conocimiento de los medicamentos homeop&aacute;ticos.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"GUWA9H6G7FQ2J");
+                    "paypal"=>"GUWA9H6G7FQ2J",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"DICCIONARIO DE RUBROS RELACIONADOS",
                     "author"=>"Dr. Jorge Casale",
@@ -38,7 +41,8 @@
                   El Dr. Casale fue Profesor Titular de la AMHA, Presidente de dicha Asociaci&oacute;n y es actualmente Profesor Extraordinario.",
                     "price"=>"35",
                     "new"=>false,
-                    "paypal"=>"CRU7FQVXQ859S");
+                    "paypal"=>"CRU7FQVXQ859S",
+                    "mercadopago"=>"229260528-82e992e2-0c9f-48eb-b04e-4de37c0c6af5");
   $Books[] = array(
                     "title"=>"LOS MIASMAS CR&Oacute;NICOS",
                     "author"=>"Dr. Jorge Casale",
@@ -48,7 +52,8 @@ En los cap&iacute;tulos finales se aborda la injerencia y utilidad de los miasma
 Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y los clasifica por sus desv&iacute;os en HIPERTONO (PSORA); DISTONO (SYCOSIS) e HIPOTONO (SYPHILIS). Detalla para cada uno las caracter&iacute;sticas sintom&aacute;ticas que los definen. Tambi&eacute;n se refiere al Tuberculinismo y el Cancerinismo.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"9NMZR4LLLSEBN");
+                    "paypal"=>"9NMZR4LLLSEBN",
+                    "mercadopago"=>"229260528-c04896d8-cd83-4291-b838-8c03adc3e301");
   $Books[] = array(
                     "title"=>"CURACI&Oacute;N NATURAL DEL ASMA",
                     "author"=>"Dr. Jorge Casale - Dr. Eduardo Kaufmann - Dr. Roque Penna",
@@ -56,7 +61,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"El asma es un proceso natural de origen psicosom&aacute;tico asociado a una predisposici&oacute;n al&eacute;rgica natural. Este libro le ense&ntilde;a a observarse e identificarse con algunos medicamentos. Pero sobre todo lo orientar&aacute; sobre las cosas que debe valorar de sus s&iacute;ntomas para permitir que el m&eacute;dico home&oacute;pata efect&uacute;e un diagn&oacute;stico lo m&aacute;s completo posible para el tratamiento integral de su asma y lograr as&iacute; una curaci&oacute;n suave, efectiva y duradera a partir de una medicina natural y desprovista de toxicidad.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"2W4MKCVPM3RH2");
+                    "paypal"=>"2W4MKCVPM3RH2",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"VETERINARIA HOMEOP&Aacute;TICA",
                     "author"=>"Dr. Horacio De Medio",
@@ -64,7 +70,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"Este libro escrito por el Dr. De Medio, actual Profesor titular de Veterinaria de la AMHA, proporciona a m&eacute;dicos veterinarios y estudiantes de Homeopat&iacute;a, una novedosa aproximaci&oacute;n terap&eacute;utica aplicable a la cl&iacute;nica de animales peque&ntilde;os y animales de producci&oacute;n.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"TJQUCPH4M4EBE");
+                    "paypal"=>"TJQUCPH4M4EBE",
+                    "mercadopago"=>"229260528-5d8e1169-5217-483d-b94a-125de6e8a8bc");
   $Books[] = array(
                     "title"=>"ASIGNATURA HOMEOP&Aacute;TICA",
                     "author"=>"Dr. Mario Draiman",
@@ -72,7 +79,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"El autor desarrolla en una primera parte varios temas, algunos pol&eacute;micos, que ha venido  investigando  durante  muchos a&ntilde;os  como son: la evoluci&oacute;n del pensamiento miasm&aacute;tico, el espectro miasm&aacute;tico, la enfermedad mental, el  autismo o TGD, la ecuaci&oacute;n m&oacute;rbida y el c&aacute;ncer, y en una segunda parte las personalidades homeop&aacute;ticas de varios medicamentos  (carcinosin, magnesia carb&oacute;nica,  natrum carbonicum, chamomilla y opium, y de los celosos) ampliando as&iacute; la larga lista de medicamentos de  sus dos libros anteriores.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"YQJL3XSRJ9ZEW");
+                    "paypal"=>"YQJL3XSRJ9ZEW",
+                    "mercadopago"=>"229260528-77bcd140-30e3-4ac2-89df-7a507b952eb8");
   $Books[] = array(
                     "title"=>"LAS PERSONALIDADES HOMEOP&Aacute;TICAS - TOMO 1",
                     "author"=>"Dr. Mario Draiman",
@@ -83,7 +91,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El Dr. Draiman es profesor titular de la AMHA y Presidente actual de la misma.",
                     "price"=>"45",
                     "new"=>false,
-                    "paypal"=>"CM7S7E3SBJSEQ");
+                    "paypal"=>"CM7S7E3SBJSEQ",
+                    "mercadopago"=>"229260528-9264dadd-8a8f-4a9b-851d-2fd72f1317a4");
   $Books[] = array(
                     "title"=>"LAS PERSONALIDADES HOMEOP&Aacute;TICAS - TOMO 2",
                     "author"=>"Dr. Mario Draiman",
@@ -94,7 +103,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                 El Dr. Draiman es profesor titular de la AMHA y Presidente actual de la misma.",
                     "price"=>"45",
                     "new"=>false,
-                    "paypal"=>"XJ9CZ7FE63UKN");
+                    "paypal"=>"XJ9CZ7FE63UKN",
+                    "mercadopago"=>"229260528-f563bd36-be0a-4049-a331-2db143f95a0f");
   $Books[] = array(
                     "title"=>"EL MODERNO REPERTORIO DE KENT",
                     "author"=>"Francisco Xavier Eyzayaga (1921-2001)",
@@ -102,7 +112,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"El Repertorio de Kent es el m&aacute;s completo y el m&aacute;s met&oacute;dico. Fue escrito por James Tyler Kent (gran maestro de la Homeopat&iacute;a de Estados Unidos) quien tard&oacute; 35 a&ntilde;os en escribirlo. Fue traducido al franc&eacute;s y al alem&aacute;n. El Dr. Eyzayaga, quien fuera Profesor titular, Director de la Escuela para Graduados y Presidente de la AMHA,  lo tradujo al espa&ntilde;ol y lo ampli&oacute; con nuevas r&uacute;bricas y m&aacute;s medicamentos, de 644 en el Kent original a cerca de 2000 en esta obra. Esta edici&oacute;n fue realizada bajo los auspicios de la AMHA. Contiene  &iacute;ndices con los rubros en castellano y en ingl&eacute;s, m&aacute;s un &iacute;ndice en portugu&eacute;s preparado por el Dr. Rezende Filho de San Pablo, Brasil.",
                     "price"=>"80",
                     "new"=>false,
-                    "paypal"=>"6WNX2ZXCP3F7U");
+                    "paypal"=>"6WNX2ZXCP3F7U",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"ORGANON DEL ARTE DE CURAR",
                     "author"=>"Dr. Gustavo Pirra",
@@ -110,7 +121,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"El autor, profesor titular de la AMHA y ex Presidente de la misma, realiza una excelente traducci&oacute;n al espa&ntilde;ol del Organon de Hahnemann directamente del tratado original en alem&aacute;n con lo que logra una obra esclarecedora,  in&eacute;dita y fidedigna del genio de Meissen.",
                     "price"=>"55",
                     "new"=>false,
-                    "paypal"=>"NZGKVYKWXURP2");
+                    "paypal"=>"NZGKVYKWXURP2",
+                    "mercadopago"=>"229260528-7e12ab06-3888-4511-9a95-fead8febdfea");
   $Books[] = array(
                     "title"=>"ACLARANDO DUDAS",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -119,7 +131,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
   Responde a las preguntas y dudas m&aacute;s frecuentes que ha recibido respecto de la medicina hahnemanniana con la finalidad de aclararlas en cuanto a su visi&oacute;n, comprensi&oacute;n y experiencia.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"7K5WXF74YDGAU");
+                    "paypal"=>"7K5WXF74YDGAU",
+                    "mercadopago"=>"229260528-c4c72b46-ca93-419b-82af-7b899e0964bd");
   $Books[] = array(
                     "title"=>"HISTORIA HOMEOP&Aacute;TICA EN LA REP&uacute;BLICA ARGENTINA DESDE 1817 HASTA NUESTROS D&iacute;AS",
                     "author"=>"Andr&eacute;s Walzer Vijnovsky",
@@ -127,7 +140,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"El autor cuenta en este libro la historia de la Homeopat&iacute;a desde sus albores en 1817 a la fecha. Basado en material bibliogr&aacute;fico extra&iacute;do de la biblioteca personal de su abuelo el Dr. Bernardo Vijnovsky,  es un libro &aacute;gil, instructivo y ameno.",
                     "price"=>"35",
                     "new"=>false,
-                    "paypal"=>"RLBTKDEGKJY9Q");
+                    "paypal"=>"RLBTKDEGKJY9Q",
+                    "mercadopago"=>"229260528-dde24fc6-24cb-4f3e-b9d6-f927b4907bcb");
   $Books[] = array(
                     "title"=>"LOS ANTAGONISTAS SIMILARES EN BIOLOG&Iacute;A Y MEDICINA",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -135,7 +149,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "description"=>"El autor trata y logra establecer un paralelismo (semejanza) entre el principio de Fildes y Woods y el principio de la similitud demostrando estrechos puntos de contacto entre ambos.",
                     "price"=>"10",
                     "new"=>false,
-                    "paypal"=>"A26NL5MAGUT3N");
+                    "paypal"=>"A26NL5MAGUT3N",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"NI&ntilde;OS Y ANCIANOS EN LA MATERIA M&Eacute;DICA HOMEOP&aacute;TICA",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -144,7 +159,8 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
   Sobre el final de la obra se incluye un repertorio que re&uacute;ne todos los datos sobre el tema.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"TTUWA6AD79FPU");
+                    "paypal"=>"TTUWA6AD79FPU",
+                    "mercadopago"=>"229260528-bc179d53-ac4c-40f5-ac32-008f31af6f4c");
   $Books[] = array(
                     "title"=>"ORGANON DE HAHNEMANN",
                     "author"=>"Traducci&Oacute;n y comentario a cargo del Dr. Bernardo Vijnovsky",
@@ -154,7 +170,8 @@ Ha logrado encontrar un t&eacute;rmino medio en la traducci&oacute;n al espa&nti
 Adem&aacute;s de traducir, comenta cada par&aacute;grafo en la intenci&oacute;n de aclarar conceptos y actualizarlo a la luz de los conocimientos modernos.",
                     "price"=>"70",
                     "new"=>false,
-                    "paypal"=>"6NERAHSEEJGBS");
+                    "paypal"=>"6NERAHSEEJGBS",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"PEQUE&Ntilde;OS GRANDES REMEDIOS",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -163,7 +180,8 @@ Adem&aacute;s de traducir, comenta cada par&aacute;grafo en la intenci&oacute;n 
 Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas para orientaci&oacute;n de los colegas home&oacute;patas.",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"NKTTSG2ZJDMZW");
+                    "paypal"=>"NKTTSG2ZJDMZW",
+                    "mercadopago"=>"229260528-6120bff5-ae69-46f6-83ce-d6fc42e64c06");
   $Books[] = array(
                     "title"=>"S&Iacute;NTOMAS CLAVES DE LA MATERIA M&Eacute;DICA HOMEOP&Aacute;TICA EN EL REPERTORIO DE KENT",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -171,7 +189,8 @@ Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas p
                     "description"=>"Ante la escasez de Materia M&eacute;dica Homeop&aacute;tica escrita en castellano el autor propone en este libro estudiar cada medicamento con sus caracter&iacute;sticas mentales, generales y locales de acuerdo al Repertorio de Kent, siguiendo incluso el orden que figura en este Repertorio, destac&aacute;ndose adem&aacute;s los s&iacute;ntomas o caracter&iacute;sticas especialmente definidoras de cada medicamento./sintomasclavekent.jpg",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"W3BUS8UX9TZXW");
+                    "paypal"=>"W3BUS8UX9TZXW",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 1",
                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
@@ -181,7 +200,8 @@ Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas p
 Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
                     "price"=>"100",
                     "new"=>false,
-                    "paypal"=>"5WGQ5PJSZVQ6Y");
+                    "paypal"=>"5WGQ5PJSZVQ6Y",
+                    "mercadopago"=>"229260528-f4a3ada5-c295-4450-8118-e782ca099523");
   $Books[] = array(
                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 2",
                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
@@ -191,7 +211,8 @@ Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para
 Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
                     "price"=>"100",
                     "new"=>false,
-                    "paypal"=>"AKC4QRYNMLNXQ");
+                    "paypal"=>"AKC4QRYNMLNXQ",
+                    "mercadopago"=>"229260528-aedd716a-6026-496e-8457-9b8d08b2320b");
   $Books[] = array(
                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 3",
                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
@@ -201,7 +222,8 @@ Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para
 Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
                     "price"=>"100",
                     "new"=>false,
-                    "paypal"=>"3WA2WTE2HX8CW");
+                    "paypal"=>"3WA2WTE2HX8CW",
+                    "mercadopago"=>"229260528-f04e610c-807c-4a07-b488-bfeba175c892");
   $Books[] = array(
                     "title"=>"TRATAMIENTO HOMEOP&Aacute;TICO DE LAS AFECCIONES Y ENFERMEDADES AGUDAS",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -211,7 +233,8 @@ Su finalidad es orientar acerca del o de los medicamentos que puedan resolver un
 A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;ctica y los medicamentos afines presentados con sus peculiaridades distintivas para cada uno de los casos.",
                     "price"=>"60",
                     "new"=>false,
-                    "paypal"=>"MFGBX2JJSHA7Q");
+                    "paypal"=>"MFGBX2JJSHA7Q",
+                    "mercadopago"=>"");
   $Books[] = array(
                     "title"=>"SIMILITUD LEY DE CAUSALIDAD ISOPATIA ENFERMEDADES CR&Oacute;NICAS",
                     "author"=>"Dr. David Milstein",
@@ -219,7 +242,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "description"=>"",
                     "price"=>"30",
                     "new"=>false,
-                    "paypal"=>"Y944NQGPS2WWW");
+                    "paypal"=>"Y944NQGPS2WWW",
+                    "mercadopago"=>"229260528-b1e2fb91-5b8a-4b0f-ab54-ac1721953ea0");
   $Books[] = array(
                     "title"=>"SEMIOLOG&Iacute;A HOMEOP&Aacute;TICA INFANTO-JUVENIL",
                     "author"=>"Dr. Julio J. Ambr&oacute;s, Dr. Eduardo A. Yahbes, Dra. Liliana Szab&oacute;",
@@ -227,7 +251,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "description"=>"",
                     "price"=>"25",
                     "new"=>true,
-                    "paypal"=>"QXRZHP5AN47BS");
+                    "paypal"=>"QXRZHP5AN47BS",
+                    "mercadopago"=>"229260528-02065a6c-d8c4-4d53-8829-40efcf4e079e");
   $Books[] = array(
                     "title"=>"PATOGENESIAS THIOSINAMINUM - INMUNOSIN",
                     "author"=>"Dr. Minotti &aacute;ngel Oscar, Dra. M&oacute;nica Moreno Galaud, Dr. Roberto Luis D&iacute;az Campos",
@@ -235,7 +260,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "description"=>"PDF en Ingl&eacute;s",
                     "price"=>"17",
                     "new"=>true,
-                    "paypal"=>"RKEPPWWXKA3T4");
+                    "paypal"=>"RKEPPWWXKA3T4",
+                    "mercadopago"=>"229260528-c42567fb-e237-4262-9953-6cdffcacac2e");
   $Books[] = array(
                     "title"=>"AVES Y OTROS NUEVOS MEDICAMENTOS HOMEOP&Aacute;TICOS DEL REINO ANIMAL",
                     "author"=>"Dr. Mat&iacute;as E. Laniz",
@@ -243,7 +269,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "description"=>"",
                     "price"=>"35",
                     "new"=>true,
-                    "paypal"=>"MCJSNWQ4PVKJS");
+                    "paypal"=>"MCJSNWQ4PVKJS",
+                    "mercadopago"=>"229260528-9f9d581d-886c-4db9-82e0-c00b4e85e739");
   $Books[] = array(
                     "title"=>"LAS SERPIENTES",
                     "author"=>"Dr. Lugenio F. Candegabe",
@@ -251,7 +278,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "description"=>"",
                     "price"=>"35",
                     "new"=>true,
-                    "paypal"=>"3W3NRQBHJBZ96");
+                    "paypal"=>"3W3NRQBHJBZ96",
+                    "mercadopago"=>"229260528-bbcc297f-65e7-45ff-a774-9c2d7c1b3abf");
   $Books[] = array(
                     "title"=>"EL UNIVERSO DE LAS LECHES",
                     "author"=>"Dra. Alberta Cumaldi",
@@ -259,7 +287,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "description"=>"",
                     "price"=>"30",
                     "new"=>true,
-                    "paypal"=>"MDRWVG466EFC6");
+                    "paypal"=>"MDRWVG466EFC6",
+                    "mercadopago"=>"");
                     
 ?>
 <!DOCTYPE html>
@@ -307,6 +336,17 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
 
           <?php foreach($Books as $ID => $Book)
               { 
+                if($Book['mercadopago'])
+                {
+                  $MercadoPago = '<div class="col-md-6 col-xs-12 paymentOptions">
+                      <img src="../../../skin/images/body/icons/mplogo.png" alt="" /><br>
+                      <a href="https://www.mercadopago.com/mla/checkout/start?pref_id='.$Book['mercadopago'].'" target="_blank"><button type="button" class="btn mainBtn mpBtn">Pagar con Mercado Pago</button></a>
+                    </div>';
+                  $Col = 6;
+                }else{
+                  $MercadoPago = '';
+                  $Col = 12;
+                }
           echo '<!-- /////////// Modal /////////////// -->
           <div id="buyModal'.$ID.'" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -318,11 +358,8 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                 </div>
                 <div class="modal-body">
                   <div class="col-md-12">
-                    <div class="col-md-6 col-xs-12 paymentOptions">
-                      <img src="../../../skin/images/body/icons/mplogo.png" alt="" /><br>
-                      <button type="button" class="btn mainBtn mpBtn">Pagar con Mercado Pago</button>
-                    </div>
-                    <div class="col-md-6 col-xs-12 paymentOptions">
+                    '.$MercadoPago.'
+                    <div class="col-md-'.$Col.' col-xs-12 paymentOptions">
                       <img src="../../../skin/images/body/icons/paypallogo.png" alt="" /><br>
                       <!--<button type="button" class="btn mainBtn payPalBtn">Pagar con PayPal</button>-->
                       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
