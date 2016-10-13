@@ -106,3 +106,23 @@ $(function(){
     }
   });
 });
+
+//////////////////////////////////////////////////// Get Vars From URL ////////////////////////////////////////////////////
+function getVars(){
+    var loc = document.location.href;
+    var getString = loc.split('?');
+    if(getString[1]){
+        var GET = getString[1].split('&');
+        var get = {};//This object will be filled with the key-value pairs and returned.
+
+        for(var i = 0, l = GET.length; i < l; i++){
+            var tmp = GET[i].split('=');
+            get[tmp[0]] = unescape(decodeURI(tmp[1]));
+        }
+        return get;
+    }else{
+        return "";
+    }
+}
+var $get = getVars();
+

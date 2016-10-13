@@ -1,3 +1,13 @@
+<?php
+  session_start();
+  session_name('amhawebsite');
+  if(!$_SESSION['user'])
+  {
+    header("Location: socios_login.php?msg=invalid");
+    die();
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

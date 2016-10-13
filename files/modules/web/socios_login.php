@@ -1,3 +1,35 @@
+<?php
+session_start();
+session_name('amhawebsite');
+
+if($_SESSION['user'])
+{
+  header("Location: revista_socios.php");
+  die();
+}
+    
+if($_POST['user'] && $_POST['password'])
+{
+  include_once("../../classes/class.database.php");
+  $DB = new DataBase();
+  $User = strtolower(addslashes($_POST['user']));
+  $Pass = md5(addslashes($_POST['password']));
+  
+  $Data = $DB->fetchAssoc("doctor","*","user = '".$User."' AND password = '".$Pass."'");
+  if($Data[0]['user']==$User)
+  {
+    $_SESSION['user'] = $User;
+    $_SESSION['first_name'] = $Data[0]['first_name'];
+    $_SESSION['last_name'] = $Data[0]['last_name'];
+    $_SESSION['sex'] = $Data[0]['sex'];
+  }else{
+    echo "Verifique los datos ingresados.";
+  }
+  die();
+}
+  
+  
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -39,17 +71,18 @@
                 <form class="form-signin formSocios">
                   <h3 class="form-signin-heading">Acceso para socios</h3><br>
                   <div class="form-group">
-                    <input id="inputEmail" class="form-control" placeholder="Nombre de Usuario o E-Mail" required="" autofocus="" type="name">
+                    <input id="inputuser" class="form-control" placeholder="Nombre de Usuario" required="Ingrese su usuario." autofocus="" type="name">
                   </div>
                   <div class="form-group">
-                    <input id="inputPassword" class="form-control" placeholder="Contrase&ntilde;a" required="" type="password">
+                    <input id="inputpass" class="form-control" placeholder="Contrase&ntilde;a" required="Ingrese" type="password">
                   </div>
                   <div class="checkbox">
                     <label><input value="remember-me" type="checkbox"> Recordarme</label>
                   </div>
-                  <a href="revista_socios.php"><!-- Temp Link - Delete -->
-                  <button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>
-                  </a>
+                  
+                  <input type="button" id="SubmitUser" class="btn btn-lg btn-primary btn-block btnPColor" value="Ingresar" />
+                  <!--<button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>-->
+                  
                 </form>
               </div>
             </div>
@@ -65,5 +98,38 @@
     </div><!-- /mainWrapper -->
     <!-- Footer -->
     <?php include('../../includes/inc.web.scripts.php'); ?> <!-- Scripts -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        if($get['msg']=='invalid'){
+          alert('Debe ingresar para poder ver secciones exclusivas para socios.');
+        }
+      });
+      $(function(){
+        $("#SubmitUser").click(function(){
+          if(validate.validateFields('*'))
+          {
+            var user      = $("#inputuser").val();
+            var password  = $("#inputpass").val();
+
+            $.ajax({
+              method: "POST",
+              url: "socios_login.php",
+              data: { user:user, password:password},
+              success: function(callback){
+                if(callback)
+                {
+                  console.log(callback);
+                  alert(callback);
+                }else{
+                 document.location = 'revista_socios.php';
+                }
+              }
+            });
+          }
+          
+        });
+      });
+      
+    </script>
   </body>
 </html>

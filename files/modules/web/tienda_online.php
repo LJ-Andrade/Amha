@@ -29,7 +29,7 @@
                     "price"=>"30",
                     "new"=>false,
                     "paypal"=>"GUWA9H6G7FQ2J",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-462c6d99-eee3-4587-ac9f-0eb9f2759693");
   $Books[] = array(
                     "title"=>"DICCIONARIO DE RUBROS RELACIONADOS",
                     "author"=>"Dr. Jorge Casale",
@@ -113,7 +113,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "price"=>"80",
                     "new"=>false,
                     "paypal"=>"6WNX2ZXCP3F7U",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-d9f9c348-0ec7-454c-b811-769e714528d8");
   $Books[] = array(
                     "title"=>"ORGANON DEL ARTE DE CURAR",
                     "author"=>"Dr. Gustavo Pirra",
@@ -171,7 +171,7 @@ Adem&aacute;s de traducir, comenta cada par&aacute;grafo en la intenci&oacute;n 
                     "price"=>"70",
                     "new"=>false,
                     "paypal"=>"6NERAHSEEJGBS",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-8ded7119-d552-4a81-8d4c-16c37e66f12d");
   $Books[] = array(
                     "title"=>"PEQUE&Ntilde;OS GRANDES REMEDIOS",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -234,7 +234,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "price"=>"60",
                     "new"=>false,
                     "paypal"=>"MFGBX2JJSHA7Q",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-176eb897-71ab-4304-9333-2cc9cc9e8543");
   $Books[] = array(
                     "title"=>"SIMILITUD LEY DE CAUSALIDAD ISOPATIA ENFERMEDADES CR&Oacute;NICAS",
                     "author"=>"Dr. David Milstein",
@@ -288,8 +288,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "price"=>"30",
                     "new"=>true,
                     "paypal"=>"MDRWVG466EFC6",
-                    "mercadopago"=>"");
-                    
+                    "mercadopago"=>"229260528-4b159a0a-60ca-4d92-a3d0-19e720ac0687");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -387,5 +386,18 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
     </div><!-- /mainWrapper -->
     <!-- Footer -->
     <?php include('../../includes/inc.web.scripts.php'); ?> <!-- Scripts -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var mp = $get['mp'];
+        if(mp=='pend')
+        {
+          alert('Su pago se encuentra en proceso');
+        }
+        if(mp=='active')
+        {
+          alert('Su pago se ha efectuado exitosamente');
+        }
+      });
+    </script>
   </body>
 </html>
