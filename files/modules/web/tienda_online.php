@@ -62,7 +62,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "price"=>"30",
                     "new"=>false,
                     "paypal"=>"2W4MKCVPM3RH2",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-ee8f6fb7-d487-4aa3-af74-a44d2cf6f5d2");
   $Books[] = array(
                     "title"=>"VETERINARIA HOMEOP&Aacute;TICA",
                     "author"=>"Dr. Horacio De Medio",
@@ -150,7 +150,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "price"=>"10",
                     "new"=>false,
                     "paypal"=>"A26NL5MAGUT3N",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-802832bf-519a-45e4-a785-a8b830059e85");
   $Books[] = array(
                     "title"=>"NI&ntilde;OS Y ANCIANOS EN LA MATERIA M&Eacute;DICA HOMEOP&aacute;TICA",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -190,7 +190,7 @@ Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas p
                     "price"=>"30",
                     "new"=>false,
                     "paypal"=>"W3BUS8UX9TZXW",
-                    "mercadopago"=>"");
+                    "mercadopago"=>"229260528-dedafe90-79c5-4046-8bfb-2a9c31b62a33");
   $Books[] = array(
                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 1",
                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
