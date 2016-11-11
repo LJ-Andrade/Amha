@@ -39,7 +39,7 @@ foreach($Pharmacies as $Pharmacy)
   <div class="row item2Col">
     <div class="col-sm-12 item2ColInner">
       <div class="col-md-2 col-sm-2 col-xs-12 item2ColImg">
-        <img src="../../../skin/images/products/farmacias/pharmacygeneric.jpg" alt="" />
+        <img src="'.$Pharmacy['website'].'" alt="" />
       </div>
       <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
         <h5>'.$Name.'</h5>
