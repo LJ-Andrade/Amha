@@ -25,7 +25,7 @@ foreach($Pharmacies as $Pharmacy)
   $Phone    = $Pharmacy['phone']?'<b>Tel&eacute;fono: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
   $Fax      = $Pharmacy['fax']?'<b>Fax: </b>'.utf8_encode($Pharmacy['fax']).'<br>':'';
   $Website  = $Pharmacy['website']? '<b>Sitio Web: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
-  $Logo     = $Pharmacy['website']? $Pharmacy['website'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
+  $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
 
   $Emails   = explode(" ",$Pharmacy['email']);
   foreach ($Emails as $Email) {
