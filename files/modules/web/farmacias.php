@@ -21,10 +21,10 @@ foreach($Pharmacies as $Pharmacy)
 {
 
   $Name     = ucfirst(utf8_encode($Pharmacy['name']));
-  $Address  = '<b>Direcci&oacute;n: </b>'.utf8_encode($Pharmacy['address']).'<br>';
-  $Phone    = $Pharmacy['phone']?'<b>Tel&eacute;fono: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
+  $Address  = '<b><i class="fa fa-building"></i>: </b>'.utf8_encode($Pharmacy['address']).'<br>';
+  $Phone    = $Pharmacy['phone']?'<b><i class="fa fa-phone"></i>: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
   $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i>: </b>'.utf8_encode($Pharmacy['whatsapp']).'<br>':'';
-  $Website  = $Pharmacy['website']? '<b>Sitio Web: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
+  $Website  = $Pharmacy['website']? '<b><i class="fa fa-globe"></i>: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
   $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
   if($Pharmacy['facebook'])
   {
@@ -46,7 +46,7 @@ foreach($Pharmacies as $Pharmacy)
   }
   if($Mail)
   {
-    $Mail = '<b>E-mail: </b>'.$Mail.'<br>';
+    $Mail = '<b><i class="fa fa-envelope"></i>: </b>'.$Mail.'<br>';
   }
   $HTML    .= '
   <div class="row item2Col">
