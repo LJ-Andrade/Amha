@@ -21,16 +21,16 @@ foreach($Pharmacies as $Pharmacy)
 {
 
   $Name     = ucfirst(utf8_encode($Pharmacy['name']));
-  $Address  = '<b><i class="fa fa-building"></i>: </b>'.utf8_encode($Pharmacy['address']).'<br>';
-  $Phone    = $Pharmacy['phone']?'<b><i class="fa fa-phone"></i>: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
-  $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i>: </b>'.utf8_encode($Pharmacy['whatsapp']).'<br>':'';
-  $Website  = $Pharmacy['website']? '<b><i class="fa fa-globe"></i>: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
+  $Address  = '<b><i class="fa fa-building"></i> </b>'.utf8_encode($Pharmacy['address']).'<br>';
+  $Phone    = $Pharmacy['phone']?'<b><i class="fa fa-phone"></i> </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
+  $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i> </b>'.utf8_encode($Pharmacy['whatsapp']).'<br>':'';
+  $Website  = $Pharmacy['website']? '<b><i class="fa fa-globe"></i> </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
   $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
   if($Pharmacy['facebook'])
   {
     $Fb = array_reverse(explode("/",$Pharmacy['facebook']));
     if($Fb[0])
-      $Facebook = '<b><i class="fa fa-facebook"></i>: </b><a href="https://www.facebook.com/'.$Fb[0].'" target="_blank">facebook.com/'.$Fb[0].'</a>';
+      $Facebook = '<b><i class="fa fa-facebook"></i> </b><a href="https://www.facebook.com/'.$Fb[0].'" target="_blank">facebook.com/'.$Fb[0].'</a>';
   }else{
     unset($Facebook);
   }
@@ -46,7 +46,7 @@ foreach($Pharmacies as $Pharmacy)
   }
   if($Mail)
   {
-    $Mail = '<b><i class="fa fa-envelope"></i>: </b>'.$Mail.'<br>';
+    $Mail = '<b><i class="fa fa-envelope"></i> </b>'.$Mail.'<br>';
   }
   $HTML    .= '
   <div class="row item2Col">
