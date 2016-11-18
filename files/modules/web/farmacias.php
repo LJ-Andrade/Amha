@@ -31,6 +31,8 @@ foreach($Pharmacies as $Pharmacy)
     $Fb = array_reverse(explode("/",$Pharmacy['facebook']));
     if($Fb[0])
       $Facebook = '<b>Facebook: </b><a href="https://www.facebook.com/'.$Fb[0].'" target="_blank">facebook.com/'.$Fb[0].'</a>';
+  }else{
+    unset($Facebook);
   }
   
   $Emails   = str_replace(" ","/",$Emails);
