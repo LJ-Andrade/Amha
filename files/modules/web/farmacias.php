@@ -23,14 +23,14 @@ foreach($Pharmacies as $Pharmacy)
   $Name     = ucfirst(utf8_encode($Pharmacy['name']));
   $Address  = '<b>Direcci&oacute;n: </b>'.utf8_encode($Pharmacy['address']).'<br>';
   $Phone    = $Pharmacy['phone']?'<b>Tel&eacute;fono: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
-  $Whatssup = $Pharmacy['whatssup']?'<b>Whatssup: </b>'.utf8_encode($Pharmacy['whatssup']).'<br>':'';
+  $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i>: </b>'.utf8_encode($Pharmacy['whatsapp']).'<br>':'';
   $Website  = $Pharmacy['website']? '<b>Sitio Web: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
   $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
   if($Pharmacy['facebook'])
   {
     $Fb = array_reverse(explode("/",$Pharmacy['facebook']));
     if($Fb[0])
-      $Facebook = '<b>Facebook: </b><a href="https://www.facebook.com/'.$Fb[0].'" target="_blank">facebook.com/'.$Fb[0].'</a>';
+      $Facebook = '<b><i class="fa fa-facebook"></i>: </b><a href="https://www.facebook.com/'.$Fb[0].'" target="_blank">facebook.com/'.$Fb[0].'</a>';
   }else{
     unset($Facebook);
   }
@@ -59,7 +59,7 @@ foreach($Pharmacies as $Pharmacy)
         <p>
           '.$Address.'
           '.$Phone.'
-          '.$Whatssup.'
+          '.$Whatsapp.'
           '.$Mail.'
           '.$Website.'
           '.$Facebook.'
