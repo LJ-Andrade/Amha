@@ -23,11 +23,21 @@ foreach($Pharmacies as $Pharmacy)
   $Name     = ucfirst(utf8_encode($Pharmacy['name']));
   $Address  = '<b>Direcci&oacute;n: </b>'.utf8_encode($Pharmacy['address']).'<br>';
   $Phone    = $Pharmacy['phone']?'<b>Tel&eacute;fono: </b>'.utf8_encode($Pharmacy['phone']).'<br>':'';
-  $Fax      = $Pharmacy['fax']?'<b>Fax: </b>'.utf8_encode($Pharmacy['fax']).'<br>':'';
+  $Whatssup = $Pharmacy['whatssup']?'<b>Whatssup: </b>'.utf8_encode($Pharmacy['whatssup']).'<br>':'';
   $Website  = $Pharmacy['website']? '<b>Sitio Web: </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
   $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
-
-  $Emails   = explode(" ",$Pharmacy['email']);
+  if($Pharmacy['facebook'])
+  {
+    $Fb = array_reverse(explode("/",$Pharmacy['facebook']));
+    if($Fb[0])
+      $Facebook = '<a href="https://www.facebook.com/'.$Fb[0].'">facebook.com/'.$Fb[0].'</a>';
+  }
+  
+  $Emails   = str_replace(" ","/",$Emails);
+  $Emails   = str_replace("|","/",$Emails);
+  $Emails   = str_replace("//","/",$Emails);
+  $Emails   = str_replace("///","/",$Emails);
+  $Emails   = explode("/",$Pharmacy['email']);
   foreach ($Emails as $Email) {
     if($Mail) $Mail .= ' | ';
     $Mail .= '<a href="https://mail.google.com/mail/?view=cm&fs=1&to='.$Email.'" target="_blank">'.strtolower($Email).'</a>';
@@ -47,9 +57,10 @@ foreach($Pharmacies as $Pharmacy)
         <p>
           '.$Address.'
           '.$Phone.'
-          '.$Fax.'
+          '.$Whatssup.'
           '.$Mail.'
           '.$Website.'
+          '.$Facebook.'
         </p><!-- Data -->
       </div>
     </div>

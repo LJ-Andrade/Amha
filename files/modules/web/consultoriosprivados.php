@@ -143,7 +143,7 @@
           </div>
           <hr class="hrStrong">
           <div class="row wow zoomIn fadeIn sectionTitsSmall">
-            <h3>M&eacute;dicos</h3>
+            <h3>Consultorios Privados<!--M&eacute;dicos--></h3>
           </div>
           <div class="row searchFilters wow zoomIn fadeIn ">
             <div class="form-group searchFiltersInner">
