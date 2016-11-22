@@ -11,7 +11,17 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <!-- /// Left Floating Menu /// -->
-        <?php include('../../../files/includes/inc.menu.alumnos.php') ?>
+        <?php  if ($_GET['view']== 'socios') {
+
+          include('../../../files/includes/inc.menu.socios.php');
+          
+        } else {
+
+          include('../../../files/includes/inc.menu.alumnos.php');
+
+        }
+        ?>
+
         <!-- /// /Left Floating Menu /// -->
 
         <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">

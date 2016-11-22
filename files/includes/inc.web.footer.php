@@ -7,8 +7,8 @@
           <b>Atenci&oacute;n al socio:</b> 4826-0911 <br>
           <b>Administración:</b> 4825-2194 <br>
           <b>Escuela:</b> 4827-2907 - <b>Direcci&oacute;n:</b>  Juncal 2884, Recoleta| Buenos Aires<br>
-          <b>Consultorios privados AMHA:</b> 4961-0562 / 4963-1841 /4962-6812 <br>
-          <b>Direcci&oacute;n:</b> Charcas 2744 - piso 2 dpto 6, Barrio Norte| Buenos Aires
+          <b>Consultorios privados AMHA:</b> 4961-0562 / 4963-1841 /4962-6812
+          Charcas 2744 - piso 2 dpto 6, Barrio Norte| Buenos Aires
         </p>
 
         <!-- <p>
@@ -32,7 +32,9 @@
         </div>
       </div>
       <div class="col-lg-5 col-md-6  col-sm-12 col-xs-12 footerMap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4645.159416161686!2d-58.40834480027293!3d-34.588386367211875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83312c17f7%3A0x5a2b76414563a3a2!2sJuncal+2884%2C+C1425AYJ+CABA!5e0!3m2!1ses-419!2sar!4v1465630821452" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <a href="https://www.google.com/maps/place/Juncal+2884,+C1425AYJ+CABA,+Argentina/@-34.588086,-58.40643,14z/data=!4m5!3m4!1s0x95bcca83312c17f7:0x5a2b76414563a3a2!8m2!3d-34.5880859!4d-58.40643?hl=es-AR" target="_blank">
+        <img src="../../../skin/images/body/pictures/amha-mapa.jpg" alt="">
+        </a>
       </div>
       <div class="col-lg-2 col-md-6  col-sm-12 col-xs-12">
         <div class="footerLogo">

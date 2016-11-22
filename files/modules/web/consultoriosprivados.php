@@ -17,31 +17,31 @@
         case 3:
           $TypeClass = "odontConsultBack";
         break;
-  
+
         case 2:
           $TypeClass = "vetConsultBack";
         break;
-  
+
         default:
           $TypeClass = "medicConsultBack";
         break;
       }
       $DoctorType = $Doctor['type_id'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator '.$TypeClass.' deleteable"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
+      $HTML .= '<div class="row section titleSeparator '.$TypeClass.' deleteable"><h5><b class="w">'.utf8_encode($Doctor['title_m']).'s</b></h5></div>';
     }
-    
+
     if($DoctorProvince!=$Doctor['province'])
     {
       $DoctorProvince = $Doctor['province'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div>';
+      $HTML .= '<div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div>';
     }
-    
+
     if($DoctorZone!=$Doctor['zone'])
     {
       $DoctorZone = $Doctor['zone'];
-      $HTML .= '<div class="row wow zoomIn fadeIn section titleSeparator2 consultNb deleteable"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
+      $HTML .= '<div class="row section titleSeparator2 consultNb deleteable"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
     }
-    
+
 
     $Title    = $Doctor['sex']=='M'? 'Dr.':'Dra.';
     $Name     = $Title." ".ucfirst(utf8_encode($Doctor['last_name'].", ".$Doctor['first_name']));
@@ -82,26 +82,34 @@
                       <br>Horarios de atenci&oacute;n: '.$Doctor['timetable'];
     $OfficesHTML = '<b>Consultorio'.$S.':</b>'.$OfficesHTML;
     $HTML    .= '
-    <div class="row wow zoomIn fadeIn deleteable">
+    <div class="row deleteable">
       <div class="col-sm-12 itemContainer">
         <div class="card-header '.$TypeClass.'"><h5 class="card-title">'.$Name.' ('.$Type.')</h5></div>
         <div class="card card-block">
-          <p class="card-text marg0">
-            '.$Tags.'
-            '.utf8_encode($Doctor['description']).$BR.'
-            '.$MN.'
-            '.$MP.'
-            '.$Email.'
-            '.$Website.'
-            <br>'.utf8_encode($OfficesHTML).'
-          </p>
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <p class="card-text marg0">
+                '.$Tags.'
+                '.utf8_encode($Doctor['description']).$BR.'
+                '.$MN.'
+                '.$MP.'
+                '.$Email.'
+                '.$Website.'
+              </p>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <p class="card-text marg0">
+              '.utf8_encode($OfficesHTML).'
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>';
   }
   if($_POST['search_key'] || $_GET['search'])
   {
-    $Search = $HTML? $HTML : '<div class="row wow zoomIn fadeIn deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
+    $Search = $HTML? $HTML : '<div class="row deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
     echo $Search;
     //echo $Query;
     die();
@@ -130,7 +138,7 @@
             <h4>Atenci&oacute;n en Consultorios Privados</h4>
             <hr>
           </div>
-          <div class="row wow zoomIn fadeIn txC mapFarmacias">
+          <div class="row txC mapFarmacias">
             <iframe src="https://www.google.com/maps/d/embed?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs" width="100%" height="480px"></iframe>
           </div>
           <div class="horizontal-list consultMapRef">
@@ -142,10 +150,10 @@
             </ul>
           </div>
           <hr class="hrStrong">
-          <div class="row wow zoomIn fadeIn sectionTitsSmall">
+          <div class="row sectionTitsSmall">
             <h3>Consultorios Privados<!--M&eacute;dicos--></h3>
           </div>
-          <div class="row searchFilters wow zoomIn fadeIn ">
+          <div class="row searchFilters">
             <div class="form-group searchFiltersInner">
               <div class="searchIcon" id="SearchIcon" style="cursor:pointer;"><i class="fa fa-search"></i></div>
               <input id="search" class="form-control" placeholder="Ingrese una provincia, una zona o un nombre y presione enter..." type="text">

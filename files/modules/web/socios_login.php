@@ -7,14 +7,14 @@ if($_SESSION['user'])
   header("Location: revista_socios.php");
   die();
 }
-    
+
 if($_POST['user'] && $_POST['password'])
 {
   include_once("../../classes/class.database.php");
   $DB = new DataBase();
   $User = strtolower(addslashes($_POST['user']));
   $Pass = md5(addslashes($_POST['password']));
-  
+
   $Data = $DB->fetchAssoc("doctor","*","user = '".$User."' AND password = '".$Pass."'");
   if($Data[0]['user']==$User)
   {
@@ -27,8 +27,8 @@ if($_POST['user'] && $_POST['password'])
   }
   die();
 }
-  
-  
+
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -43,7 +43,16 @@ if($_POST['user'] && $_POST['password'])
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <!-- /// Left Floating Menu /// -->
-        <?php include('../../../files/includes/inc.menu.alumnos.php') ?>
+        <?php  if ($_GET['view']== 'socios') {
+
+          include('../../../files/includes/inc.menu.socios.php');
+
+        } else {
+
+          include('../../../files/includes/inc.menu.alumnos.php');
+
+        }
+        ?>
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
@@ -79,10 +88,10 @@ if($_POST['user'] && $_POST['password'])
                   <div class="checkbox">
                     <label><input value="remember-me" type="checkbox"> Recordarme</label>
                   </div>
-                  
+
                   <input type="button" id="SubmitUser" class="btn btn-lg btn-primary btn-block btnPColor" value="Ingresar" />
                   <!--<button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>-->
-                  
+
                 </form>
               </div>
             </div>
@@ -126,10 +135,10 @@ if($_POST['user'] && $_POST['password'])
               }
             });
           }
-          
+
         });
       });
-      
+
     </script>
   </body>
 </html>

@@ -61,8 +61,8 @@
           <li><a href='socios_carrera_docente.php'>Ingreso a la Carrera Docente</a></li>
           <li><a href='socios_grupodeestudio.php'>Grupo de estudio</a></li>
           <li><a href='tienda_online.php'>Tienda Online</a></li>
-          <li><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
-          <li><a href='revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
+          <li><a href='socios_login.php?view=socios'>Revista Homeopat&iacute;a</a></li>
+          <li><a href='revistapt.php?view=socios'>Revista Homeopat&iacute;a para todos</a></li>
           <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
         </ul>
       </li>

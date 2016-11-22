@@ -38,8 +38,8 @@
       <li class="<?php echo $currentPage == 'socios_carrera_docente.php' ? 'active' : ''; ?>"><a href='socios_carrera_docente.php'>Ingreso a la carrera docente</a></li>
       <li class="<?php echo $currentPage == 'socios_grupodeestudio.php' ? 'active' : ''; ?>"><a href='socios_grupodeestudio.php'>Grupo de estudio</a></li>
       <li class="<?php echo $currentPage == 'tienda_online.php' ? 'active' : ''; ?>"><a href='tienda_online.php'>Tienda Online</a></li>
-      <li class="<?php echo $currentPage == 'revista_socios.php' ? 'active' : ''; ?>"><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
-      <li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>"><a href='revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
+      <li class="<?php echo $currentPage == 'socios_login.php' ? 'active' : ''; ?>"><a href='socios_login.php?view=socios'>Revista Homeopat&iacute;a</a></li>
+      <li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>"><a href='revistapt.php?view=socios'>Revista Homeopat&iacute;a para todos</a></li>
       <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
     </ul>
   </div>
@@ -85,8 +85,8 @@
       <li class="<?php echo $currentPage == 'socios_carrera_docente.php' ? 'active' : ''; ?>"><a href='socios_carrera_docente.php'>Ingreso a la carrera docente</a></li>
       <li class="<?php echo $currentPage == 'socios_grupodeestudio.php' ? 'active' : ''; ?>"><a href='socios_grupodeestudio.php'>Grupo de estudio</a></li>
       <li class="<?php echo $currentPage == 'tienda_online.php' ? 'active' : ''; ?>"><a href='tienda_online.php'>Tienda Online</a></li>
-      <li class="<?php echo $currentPage == 'revista_socios.php' ? 'active' : ''; ?>"><a href='socios_login.php'>Revista Homeopat&iacute;a</a></li>
-      <li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>"><a href='revistapt.php'>Revista Homeopat&iacute;a para todos</a></li>
+      <li class="<?php echo $currentPage == 'socios_login.php' ? 'active' : ''; ?>"><a href='socios_login.php?view=socios'>Revista Homeopat&iacute;a</a></li>
+      <li class="<?php echo $currentPage == 'alumnos_revistapt.php' ? 'active' : ''; ?>"><a href='revistapt.php?view=socios'>Revista Homeopat&iacute;a para todos</a></li>
       <li><a href='http://www.famha.org.ar/' target="_blank">F.A.M.H.A.</a></li>
     </ul>
   </div>

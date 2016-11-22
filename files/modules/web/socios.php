@@ -40,12 +40,12 @@
                 <p>Tienda Online</p>
               </div>
             </a>
-            <a href="http://amha.org.ar/files/modules/web/socios_login.php" target="_blank">
+            <a href="socios_login.php?view=socios">
               <div class="col-xs-12 linkWrapper">
                 <p>Revista Homeopat&iacute;a</p>
               </div>
             </a>
-            <a href="http://amha.org.ar/files/modules/web/revistapt.php" target="_blank">
+            <a href="revistapt.php?view=socios">
               <div class="col-xs-12 linkWrapper">
                 <p>Revista Homeopat&iacute;a para todos</p>
               </div>

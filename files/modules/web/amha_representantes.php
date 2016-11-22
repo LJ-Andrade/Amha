@@ -29,11 +29,11 @@
                 </div>
                 <div class="col-md-9">
                   <a href="http://www.famha.org.ar/colegiomedhomeo.htm" target="_blank"><p><b>COLEGIO DE M&Eacute;DICOS HOME&Oacute;PATAS</b></p></a>
-                  <b>Presidente:</b> Dra. Silvia Mercado</br>
-                  <b>Secretario:</b> Dr. Adolfo Campanelli</br>
-                  <b>Vocal 1&deg;:</b> Dra. Viviana Tachella</br>
-                  <b>Vocal suplente:</b> Dr. Lucas Yraola</br>
-                  <b>Revisor cuentas:</b> Dr. Eduardo Yahbes</br></br>
+                  <b>Presidente:</b> Dr. Gustavo Pirra <br>
+                  <b>Vocal Titular 1º:</b> Dr. Adolfo Campanelli <br>
+                  <b>Vocal suplente 1º:</b> Dra. Viviana Tachella <br>
+                  <b>Comité &Eacute;tica:</b> Dr. Roque Penna <br>
+                  <b>Delegado A.M.H.A:</b> Lucas Yraola <br><br>
                 </div>
                 <div class="col-md-12">
                   <p class="justify">Creado en diciembre de 1999 en el seno de la F.A.M.H.A. para:</br>
@@ -52,11 +52,11 @@
                 </div>
                 <div class="col-md-9">
                   <a href="http://www.famha.org.ar" target="_blank"><p><b>FEDERACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</b></a><br>
-                    <b>Presidente:</b> Dr. Gustavo Pirra <br>
-                    <b>Vocal Titular 1º:</b> Dr. Adolfo Campanelli <br>
-                    <b>Vocal suplente 1º:</b> Dra. Viviana Tachella <br>
-                    <b>Comité &Eacute;tica:</b> Dr. Roque Penna <br>
-                    <b>Delegado A.M.H.A:</b> Lucas Yraola <br>
+                    <b>Presidente:</b> Dra. Silvia Mercado</br>
+                    <b>Secretario:</b> Dr. Adolfo Campanelli</br>
+                    <b>Vocal 1&deg;:</b> Dra. Viviana Tachella</br>
+                    <b>Vocal suplente:</b> Dr. Lucas Yraola</br>
+                    <b>Revisor cuentas:</b> Dr. Eduardo Yahbes</br></br>
                 </div>
                 <div class="col-md-12">
                   <p class="justify">
