@@ -33,13 +33,13 @@
     if($DoctorProvince!=$Doctor['province'])
     {
       $DoctorProvince = $Doctor['province'];
-      $HTML .= '<div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div>';
+      $HTML .= '<hr><div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div><hr>';
     }
 
     if($DoctorZone!=$Doctor['zone'])
     {
       $DoctorZone = $Doctor['zone'];
-      $HTML .= '<div class="row section titleSeparator2 consultNb deleteable"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div>';
+      //$HTML .= '<div class="row section titleSeparator2 consultNb deleteable"><h5><b class="w">'.utf8_encode($Doctor['zone']).'<b></h5></div><hr>';
     }
 
 
@@ -62,7 +62,7 @@
       $Tags.= $Tags? ', ':'<b>Especialidad'.$Es.': </b>';
       $Tags .= utf8_encode($Specialty['title']);
     }
-    if($Tags) $Tags.='</p><hr><p>';
+    if($Tags) $Tags = '</p><hr><p>'.$Tags;
 
     //$X=0;
     //foreach($Offices as $Office)
@@ -75,26 +75,32 @@
       //                 <br>Horarios de atenci&oacute;n: '.$Office['timetable'];
     //}
     //$S = $X>1? 's':'';
+    $Map = '<hr><a class="btn btn-info" href="https://www.google.com/maps/d/viewer?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs&ll=-34.5975449846109%2C-58.49240180910647&z=11" target="_blank">Ver Mapa</a>';
     $OfficesHTML.='<hr>
-                      <span class="consultLocation">'.$Doctor['zone'].', '.$Doctor['province'].'</span>
-                      <br>Direcci&oacute;n: '.$Doctor['address'].'
-                      <br>Pedir turnos al: '.$Doctor['phone'].'
-                      <br>Horarios de atenci&oacute;n: '.$Doctor['timetable'];
-    $OfficesHTML = '<b>Consultorio'.$S.':</b>'.$OfficesHTML;
+                      <span class="consultLocation"><b>'.$Doctor['zone'].', '.$Doctor['province'].'</b></span>
+                      <br><b>Direcci&oacute;n:</b> '.$Doctor['address'].'
+                      <br><b>Pedir turnos al:</b> '.$Doctor['phone'].'
+                      <br><b>Horarios de atenci&oacute;n:</b> '.$Doctor['timetable'];
+    $OfficesHTML = '<b>Consultorio'.$S.':</b>'.$OfficesHTML.$Map;
+    
     $HTML    .= '
     <div class="row deleteable">
       <div class="col-sm-12 itemContainer">
-        <div class="card-header '.$TypeClass.'"><h5 class="card-title">'.$Name.' ('.$Type.')</h5></div>
+        <div class="card-header '.$TypeClass.'"><h5 class="card-title">'.$Name.'</h5></div>
         <div class="card card-block">
           <div class="row">
             <div class="col-md-6 col-xs-12">
               <p class="card-text marg0">
-                '.$Tags.'
+              <b>'.$Type.'</b>
+              </p>
+              <hr>
+              <p>
                 '.utf8_encode($Doctor['description']).$BR.'
                 '.$MN.'
                 '.$MP.'
                 '.$Email.'
                 '.$Website.'
+                '.$Tags.'
               </p>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -138,21 +144,21 @@
             <h4>Atenci&oacute;n en Consultorios Privados</h4>
             <hr>
           </div>
-          <div class="row txC mapFarmacias">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs" width="100%" height="480px"></iframe>
-          </div>
-          <div class="horizontal-list consultMapRef">
-            <ul>
-              <li><span><b>Referencias: </b></span></li>
-              <li><img src="../../../skin/images/body/icons/locationpin3.png" alt="" /><span class="consultMapRef"><b>M&eacute;dicos</b></span></li>
-              <li><img src="../../../skin/images/body/icons/locationpin.png" alt="" /><span class="consultMapRef"><b>Odont&oacute;logos</b></span></li>
-              <li><img src="../../../skin/images/body/icons/locationpin2.png" alt="" /><span class="consultMapRef"><b>Veterinarios</b></span></li>
-            </ul>
-          </div>
-          <hr class="hrStrong">
-          <div class="row sectionTitsSmall">
-            <h3>Consultorios Privados<!--M&eacute;dicos--></h3>
-          </div>
+          <!--<div class="row txC mapFarmacias">-->
+          <!--  <iframe src="https://www.google.com/maps/d/embed?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs" width="100%" height="480px"></iframe>-->
+          <!--</div>-->
+          <!--<div class="horizontal-list consultMapRef">-->
+          <!--  <ul>-->
+          <!--    <li><span><b>Referencias: </b></span></li>-->
+          <!--    <li><img src="../../../skin/images/body/icons/locationpin3.png" alt="" /><span class="consultMapRef"><b>M&eacute;dicos</b></span></li>-->
+          <!--    <li><img src="../../../skin/images/body/icons/locationpin.png" alt="" /><span class="consultMapRef"><b>Odont&oacute;logos</b></span></li>-->
+          <!--    <li><img src="../../../skin/images/body/icons/locationpin2.png" alt="" /><span class="consultMapRef"><b>Veterinarios</b></span></li>-->
+          <!--  </ul>-->
+          <!--</div>-->
+          <!--<hr class="hrStrong">-->
+          <!--<div class="row sectionTitsSmall">-->
+          <!--  <h3>Consultorios Privados</h3>-->
+          <!--</div>-->
           <div class="row searchFilters">
             <div class="form-group searchFiltersInner">
               <div class="searchIcon" id="SearchIcon" style="cursor:pointer;"><i class="fa fa-search"></i></div>

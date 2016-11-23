@@ -26,6 +26,7 @@ foreach($Pharmacies as $Pharmacy)
   $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i> </b>'.utf8_encode($Pharmacy['whatsapp']).'<br>':'';
   $Website  = $Pharmacy['website']? '<b><i class="fa fa-globe"></i> </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
   $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
+  $Other    = utf8_encode($Pharmacy['other']);
   if($Pharmacy['facebook'])
   {
     $Fb = array_reverse(explode("/",$Pharmacy['facebook']));
@@ -63,6 +64,7 @@ foreach($Pharmacies as $Pharmacy)
           '.$Mail.'
           '.$Website.'
           '.$Facebook.'
+          '.$Other.'
         </p><!-- Data -->
       </div>
     </div>

@@ -77,7 +77,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "author"=>"Dr. Mario Draiman",
                     "image"=>"../../../skin/images/products/asignaturahomeopatica.jpg",
                     "description"=>"El autor desarrolla en una primera parte varios temas, algunos pol&eacute;micos, que ha venido  investigando  durante  muchos a&ntilde;os  como son: la evoluci&oacute;n del pensamiento miasm&aacute;tico, el espectro miasm&aacute;tico, la enfermedad mental, el  autismo o TGD, la ecuaci&oacute;n m&oacute;rbida y el c&aacute;ncer, y en una segunda parte las personalidades homeop&aacute;ticas de varios medicamentos  (carcinosin, magnesia carb&oacute;nica,  natrum carbonicum, chamomilla y opium, y de los celosos) ampliando as&iacute; la larga lista de medicamentos de  sus dos libros anteriores.",
-                    "price"=>"30",
+                    "price"=>"45",
                     "new"=>false,
                     "paypal"=>"YQJL3XSRJ9ZEW",
                     "mercadopago"=>"229260528-77bcd140-30e3-4ac2-89df-7a507b952eb8");
@@ -119,7 +119,7 @@ Entiende al miasma como una perturbaci&oacute;n del tono bioenerg&eacute;tico y 
                     "author"=>"Dr. Gustavo Pirra",
                     "image"=>"../../../skin/images/products/organonelartedecurar.jpg",
                     "description"=>"El autor, profesor titular de la AMHA y ex Presidente de la misma, realiza una excelente traducci&oacute;n al espa&ntilde;ol del Organon de Hahnemann directamente del tratado original en alem&aacute;n con lo que logra una obra esclarecedora,  in&eacute;dita y fidedigna del genio de Meissen.",
-                    "price"=>"55",
+                    "price"=>"35",
                     "new"=>false,
                     "paypal"=>"NZGKVYKWXURP2",
                     "mercadopago"=>"229260528-7e12ab06-3888-4511-9a95-fead8febdfea");
@@ -275,7 +275,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
                     "title"=>"LAS SERPIENTES",
                     "author"=>"Dr. Lugenio F. Candegabe",
                     "image"=>"../../../skin/images/products/tapa_las_serpientes.jpg",
-                    "description"=>"Comparada Hoemop&aacute;tica. 3er libro de M.M. Comparada del autor. En el se sigue la metodolog&iacute;a creada por el autor desde hace casi 60 a&ntilde;os para el estudio de las mismas.",
+                    "description"=>"Tercer libro de Materia M&eacute;dica Comparada. En el se sigue la metodolog&iacute;a creada por el autor desde hace casi 60 a&ntilde;os para el estudio de las mismas.",
                     "price"=>"35",
                     "new"=>true,
                     "paypal"=>"3W3NRQBHJBZ96",
