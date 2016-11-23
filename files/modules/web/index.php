@@ -60,7 +60,7 @@
                 <div class="inner">
                   <img src="../../../skin/images/body/menu/itemhome4.jpg" alt="">
                   <div class="inner-desc">
-                    <p><b>Visitar</b></p>
+                    <p><b>Acceda a los libros m&aacute;s reconocidos</b></p>
                   </div>
                 </div>
               </div>
