@@ -33,7 +33,7 @@
     if($DoctorProvince!=$Doctor['province'])
     {
       $DoctorProvince = $Doctor['province'];
-      $HTML .= '<hr class="deleteable"><div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div><hr>';
+      $HTML .= '<hr class="deleteable"><div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Doctor['province']).'</b></h5></div><hr class="deleteable">';
     }
 
     if($DoctorZone!=$Doctor['zone'])
