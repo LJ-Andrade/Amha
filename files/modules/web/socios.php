@@ -32,7 +32,7 @@
             </a>
             <a href="http://www.famha.org.ar/" target="_blank">
               <div class="col-xs-12 linkWrapper">
-                <p>Federaci&oacute;n de Asociaciones M&eacute;dicas Homeop&aacute;ticas Argentinas</p>
+                <p>Federaci&oacute;n de Asociaciones M&eacute;dicas Homeop&aacute;ticas Argentinas (F.A.M.H.A.)</p>
               </div>
             </a>
             <a href="tienda_online.php">

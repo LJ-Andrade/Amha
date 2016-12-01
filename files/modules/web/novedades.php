@@ -152,6 +152,24 @@
                   </p>
                 </div>
               </div>
+              
+              <!-- New -->
+              <!--<div class="col-md-12 infoContainer accordion">-->
+              <!--  <div class="accordionTitle">-->
+              <!--    <b>Pr&oacute;ximo Congreso FAMHA 2018</b>-->
+              <!--  </div>-->
+              <!--  <div class="accordionInfo">-->
+              <!--    <p class="justify">-->
+              <!--      "Homeopat&iacute;a, paradigma del SXXI"<br>-->
+              <!--      <hr>-->
+              <!--      <b>Fecha:</b> Del 24 al 27 de octubre de 2018.<br>-->
+              <!--      <b>Temas:</b><br>-->
+              <!--      &#9679;  Doctrina: "Investigaci&oacute;n en homeopat&iacute;a" y "Vitalismo del S. XXI".<br>-->
+              <!--      &#9679;  Materia M&eacute;dica: "Nuevos medicamentos con patogenesia"<br><br>-->
+              <!--      <b>Sede:</b> a designar.<br>-->
+              <!--    </p>-->
+              <!--  </div>-->
+              <!--</div>-->
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
@@ -161,7 +179,7 @@
                   <p class="justify">
                     "Homeopat&iacute;a, paradigma del SXXI"<br>
                     <hr>
-                    <b>Fecha:</b> Del 24 al 27 de octubre de 2018.<br>
+                    <b>Fecha:</b> A determinar.<br>
                     <b>Temas:</b><br>
                     &#9679;  Doctrina: "Investigaci&oacute;n en homeopat&iacute;a" y "Vitalismo del S. XXI".<br>
                     &#9679;  Materia M&eacute;dica: "Nuevos medicamentos con patogenesia"<br><br>
@@ -169,6 +187,7 @@
                   </p>
                 </div>
               </div>
+              
             </div><!-- row -->
           </div><!-- container -->
           <!-- /Content inside this div -->
