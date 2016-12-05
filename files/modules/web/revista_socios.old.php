@@ -21,10 +21,10 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <!-- /// Left Floating Menu /// -->
-        <?php  if ($_GET['view'] == 'socios') {
+        <?php  if ($_GET['view']== 'socios') {
 
           include('../../../files/includes/inc.menu.socios.php');
-
+          
         } else {
 
           include('../../../files/includes/inc.menu.alumnos.php');
@@ -51,33 +51,13 @@
             ejemplares</b>, adem&aacute;s del acceso y descarga de la <b>revista en forma digital.</b>
             </p><br>
 
-          <?php
-  $revistas = array(  array("Homeopat&iacute;a Vol&uacute;men 80",          "../../../skin/files/revistasocios/revistasocios80-2015.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 79 N&deg;1",  "../../../skin/files/revistasocios/revistasocios79-2014.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 78 N&deg;4",  "../../../skin/files/revistasocios/revistasocios78-4-2013.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 77 N&deg;3/4","../../../skin/files/revistasocios/revistasocios77-2012.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 76 N&deg;2",  "../../../skin/files/revistasocios/revistasocios76-2011.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 76",          "../../../skin/files/revistasocios/revistasocios76-12-2011.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 75",          "../../../skin/files/revistasocios/revistasocios75-11-2010.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 75 N&deg;4",  "../../../skin/files/revistasocios/revistasocios75-4-2010.pdf"),
-                    );
-
-          ?>
-          <div class="row revistas vertical-list">
-            <ul class="revistas-horiz">
-              <?php foreach ($revistas as $revista): ?>
-                <a href="<?php echo $revista[1] ?> " target="_blank"><li><span><?php echo $revista[0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
-              <?php endforeach; ?>
-            </ul>
-          </div>
-
-
-          <!-- <div class="row revistas">
+          <div class="row revistas">
             <ul>
+              <!-- Last Edition -->
               <li><span class="editionN">Vol. 80</span><br><a href="../../../skin/files/revistasocios/revistasocios80-2015.pdf" target="_blank">
-                <span class="lastEdition">&Uacute;ltima edici&oacute;n</span>
+                <span class="lastEdition">&Uacute;ltima edici&oacute;n</span><!-- Add this to show last edition ribbon-->
                 <img src="../../../skin/files/revistasocios/revistasocios80-2015.jpg" alt="" /></a>
-              </li>
+              </li><!-- Last Edition -->
               <li><span class="editionN">Vol 79</span><br><a href="../../../skin/files/revistasocios/revistasocios79-2014.pdf" target="_blank">
                 <img src="../../../skin/files/revistasocios/revistasocios79-2014.jpg" alt="" /></a>
               </li>
@@ -103,8 +83,7 @@
                 <img src="../../../skin/files/revistasocios/revistasocios75-4-2010.jpg" alt="" /></a>
               </li>
             </ul>
-          </div> -->
-          <!-- revistas -->
+          </div><!-- revistas -->
 
           <!-- Content -->
         </div><!-- /autoridades -->

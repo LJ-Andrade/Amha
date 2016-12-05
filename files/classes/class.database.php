@@ -2,21 +2,21 @@
 class DataBase
 {
 
-  var $UserDB		  = 'amha';
-  var $PasswordDB	= 'Amh567ah';
-  var $DataBase	  = 'amha_web';
-  var $ServerDB	  = 'localhost';
-  var $TypeDB 	  = 'Mysql';
-  var $SchemaDB	  = 'testing,public';
-  var $PortDB 	  = 3306;
-
-  // var $UserDB		  = 'root';
-  // var $PasswordDB	= '';
-  // var $DataBase	  = 'amha';
-  // var $ServerDB	  = '127.0.0.1';
+  // var $UserDB		  = 'amha';
+  // var $PasswordDB	= 'Amh567ah';
+  // var $DataBase	  = 'amha_web';
+  // var $ServerDB	  = 'localhost';
   // var $TypeDB 	  = 'Mysql';
   // var $SchemaDB	  = 'testing,public';
   // var $PortDB 	  = 3306;
+
+  var $UserDB		  = 'root';
+  var $PasswordDB	= 'root';
+  var $DataBase	  = 'amha';
+  var $ServerDB	  = '127.0.0.1';
+  var $TypeDB 	  = 'Mysql';
+  var $SchemaDB	  = 'testing,public';
+  var $PortDB 	  = 3306;
 
 
   var $AfectedRows;
