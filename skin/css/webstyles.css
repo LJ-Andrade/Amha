@@ -1292,6 +1292,17 @@ span.topSlogan {
 .consultMapRef span {
   margin: 4px; }
 
+.searchOptions {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #e7e7dd; }
+  .searchOptions .row {
+    padding: 0; }
+  .searchOptions h5 {
+    margin-bottom: 10px;
+    margin-left: 5px; }
+
 .searchFilters {
   border: 1px solid #dfdfdf;
   background-color: #e7e7dd;
@@ -1687,6 +1698,12 @@ span.topSlogan {
     background-color: #645d87;
     color: #fff; }
 
+.btnMarg {
+  margin: 3px; }
+
+.btnMargTop {
+  margin-top: 10px; }
+
 .payPalBtn {
   background-color: #11559d; }
   .payPalBtn:hover {
@@ -1696,6 +1713,33 @@ span.topSlogan {
   background-color: #009fe3; }
   .mpBtn:hover {
     background-color: #100d9e; }
+
+.docBtn {
+  background-color: #5881FD;
+  color: #fff;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  margin: 3px; }
+  .docBtn:hover {
+    background-color: #3d64da; }
+
+.vetBtn {
+  background-color: #9c89d7;
+  color: #fff;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  margin: 3px; }
+  .vetBtn:hover {
+    background-color: #8978bf; }
+
+.odontBtn {
+  background-color: #319f4e;
+  color: #fff;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  margin: 3px; }
+  .odontBtn:hover {
+    background-color: #26853f; }
 
 .titleSeparator {
   margin-top: 2px;
@@ -1926,6 +1970,26 @@ span.topSlogan {
 .horizontalList ul li {
   display: inline-block;
   list-style: none; }
+
+.vertical-list ul li {
+  display: block;
+  list-style: none; }
+
+.revistas-horiz li {
+  position: relative;
+  margin-bottom: 4px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px 10px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s; }
+  .revistas-horiz li:hover {
+    background-color: #ebebeb; }
+  .revistas-horiz li img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 100%;
+    width: 30px; }
 
 .checkbox-custom, .radio-custom {
   opacity: 0;
