@@ -35,7 +35,7 @@ foreach($Pharmacies as $Pharmacy)
   }else{
     unset($Facebook);
   }
-  
+
   $Emails   = str_replace(" ","/",$Emails);
   $Emails   = str_replace("|","/",$Emails);
   $Emails   = str_replace("//","/",$Emails);
@@ -93,7 +93,10 @@ foreach($Pharmacies as $Pharmacy)
     </header>
     <div class="mainWrapper">
       <div class="container mainContainer">
-        <div class="col-lg-9 col-md-12 col-xs-12">
+        <!-- /// Left Floating Menu /// -->
+        <?php include('../../../files/includes/inc.menu.agenda.php') ?>
+        <!-- /// /Left Floating Menu /// -->
+        <div class="col-lg-7 col-md-12 col-xs-12">
           <!-- Content inside this div -->
           <!-- title -->
           <div class="sectionTits"><h1 class="txC">Farmacias</h1></div>

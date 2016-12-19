@@ -144,6 +144,8 @@
             <h4>Atenci&oacute;n en Consultorios Privados</h4>
             <hr>
           </div>
+
+
           <!--<div class="row txC mapFarmacias">-->
           <!--  <iframe src="https://www.google.com/maps/d/embed?mid=1Pu-vk8IlC6I-uoGRk_JjJI7tqQs" width="100%" height="480px"></iframe>-->
           <!--</div>-->
@@ -159,6 +161,52 @@
           <!--<div class="row sectionTitsSmall">-->
           <!--  <h3>Consultorios Privados</h3>-->
           <!--</div>-->
+
+          <!-- search buttons 1-->
+          <div class="row searchOptions">
+            <h5>Qu&eacute; est&aacute;s buscando?</h5>
+            <hr>
+            <button type="button" class="btn docBtn" name="button">M&eacute;dicos</button>
+            <button type="button" class="btn odontBtn" name="button">Odont&oacute;logos</button>
+            <button type="button" class="btn vetBtn" name="button">Veterinarios</button>
+          </div>
+          <!-- /search buttons 1 -->
+          <!-- search buttons 2-->
+          <div class="row searchOptions">
+            <h5>Tipo de Atenci&oacute;n</h5>
+            <hr>
+            <button type="button" class="btn searchBtn btnMarg" name="button"><i class="fa fa-building"></i> En consultorio</button>
+            <button type="button" class="btn searchBtn btnMarg" name="button"><i class="fa fa-home"></i> A Domicilio</button>
+          </div>
+          <!-- /search buttons 2 -->
+          <!-- Ubication -->
+          <div class="row searchOptions">
+            <h5>Ubicaci&oacute;n</h5>
+            <hr>
+            <div class="col-md-6 col-xs-12">
+              <select class="form-control">
+                <option selected disabled>Seleccione...</option>
+                <option>Provincia</option>
+                <option>Otra</option>
+                <option>Otra</option>
+                <option>Otra</option>
+                <option>Otra</option>
+              </select>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <select class="form-control">
+                <option selected disabled>Seleccione...</option>
+                <option>Provincia</option>
+                <option>Otra</option>
+                <option>Otra</option>
+                <option>Otra</option>
+                <option>Otra</option>
+              </select>
+            </div>
+            <button type="button" class="btn searchBtn btnMargTop" name="button">Buscar</button>
+          </div>
+          <!-- Ubication -->
+
           <div class="row searchFilters">
             <div class="form-group searchFiltersInner">
               <div class="searchIcon" id="SearchIcon" style="cursor:pointer;"><i class="fa fa-search"></i></div>

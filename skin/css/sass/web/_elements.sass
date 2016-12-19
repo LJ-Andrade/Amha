@@ -3,9 +3,12 @@
 //            COLORS                //
 //                                  //
 //////////////////////////////////////
-
-
-
+$vet: #9c89d7
+$vetHover: #8978bf
+$odont: #319f4e
+$odontHover: #26853f
+$doc: #5881FD
+$docHover: #3d64da
 //////////////////////////////////////
 //                                  //
 //           BACKGROUNDS            //
@@ -31,7 +34,6 @@
 //           BUTTOS                 //
 //                                  //
 //////////////////////////////////////
-
 
 
 .mainBtn
@@ -88,6 +90,12 @@
     background-color: $secBtnHover
     color: $secBtnTxtHover
 
+.btnMarg
+  margin: 3px
+
+.btnMargTop
+  margin-top: 10px
+
 .payPalBtn
   background-color: #11559d
   &:hover
@@ -96,6 +104,31 @@
   background-color: #009fe3
   &:hover
     background-color: #100d9e
+
+
+.docBtn
+  background-color: $doc
+  color: #fff
+  @include transition(0.2s)
+  margin: 3px
+  &:hover
+    background-color: $docHover
+
+.vetBtn
+  background-color: $vet
+  color: #fff
+  @include transition(0.2s)
+  margin: 3px
+  &:hover
+    background-color: $vetHover
+
+.odontBtn
+  background-color: $odont
+  color: #fff
+  @include transition(0.2s)
+  margin: 3px
+  &:hover
+    background-color: $odontHover
 
 //////////////////////////////////////
 //                                  //
@@ -345,7 +378,11 @@
     max-width: 100%
 
 
-//////////// LISTS ////////////
+////////////////////////////////////////
+//																		//
+//             LISTS  								//
+//																		//
+////////////////////////////////////////
 .horizontal-list ul li
   display: inline-block
   list-style: none
@@ -354,7 +391,28 @@
   display: inline-block
   list-style: none
 
+.vertical-list ul li
+  display: block
+  list-style: none
 
+
+/////////// REVISTAS LIST ///////////
+
+.revistas-horiz
+  li
+    position: relative
+    margin-bottom: 4px
+    background-color: rgba(255, 255, 255, 0.85)
+    padding: 10px 10px
+    @include transition(0.2s)
+    &:hover
+      background-color: rgb(235, 235, 235)
+    img
+      position: absolute
+      right: 5px
+      top: 5px
+      border-radius: 100%
+      width: 30px
 
 ////////////////////////////////////////
 //																		//
