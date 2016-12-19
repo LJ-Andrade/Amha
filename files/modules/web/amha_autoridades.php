@@ -44,7 +44,7 @@
                             <b>Directora Revista Homeopat&iacute;a:</b> Dra. Mónica Moreno Galaud<br>
                             <b>Director Revista Homeopat&iacute;a para Todos:</b> Dr. Andr&eacute;s Carmody<br>
                             <b>&aacute;rea Socios:</b> Dra. Laura Svirnovsky<br>
-                            <b>Asesor honor&iacute;fico:</b> Dr. David Milstein<br>
+                            <b>Asesor honor&iacute;fico:</b> Dr. Eduardo A. Yahbes<br>
                           </div>
                           <div class="col-md-6">
                             <b>Contador p&uacute;blico:</b> Dr. Gustavo Lederbur<br>
@@ -127,7 +127,7 @@
                             <h3>Medicina</h3>
                             <p class="card-text">
                              <b>Profesores Extraordinarios:</b><br>
-                             Farm. Lucia Marchante | Dr. Carlos Valenzuela | Dr. David Milstein<br></p>
+                             Farm. Lucia Marchante<br></p>
 
                             <b>Profesor Titular Em&eacute;rito:</b> Dr. Eduardo A. Yahbes<br><br>
                             <div class="col-md-12">

@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-md-12">
                   <p class="justify">Fundada en 1925 con sede en Köthen, Alemania.</br>
-                  Representante por Argentina (National Vice-President for Argentina) <b>Dra. Silvia Cristina Mercado</b> de la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina (A.M.H.A.).</p>
+                  Representante por Argentina (National Vice-President for Argentina) <b>Dra. Miriam Garc&iacute;a de Vallerotto</b> de C.E.M.H.H.Cba.</p>
                 </div>
               </div><!-- /row -->
               <hr>
