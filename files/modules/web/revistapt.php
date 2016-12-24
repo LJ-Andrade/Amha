@@ -80,7 +80,7 @@
                 </ul>
               </div>
 
-
+              <!-- Revistas with images -->
               <!-- <div class="row revistas">
                 <ul>
                   <li>
