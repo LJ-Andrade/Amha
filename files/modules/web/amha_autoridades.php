@@ -124,7 +124,7 @@
                               Dra Diana O. Cabrera<br>
                               <br>
                               <b>&Aacute;rea Investigaci&oacute;n Hist&oacute;rica:</b> Dr. Adolfo Campanelli<br><br>
-                              
+
                             </p>
                           </div>
                           <div class="col-md-6">
@@ -140,7 +140,7 @@
                             Dr. Mario Draiman<br>
                             Dr. Angel O. Minotti<br>
                             <br>
-                            <div class="col-md-12">
+
                               <p class="card-text">
                               <b>Profesores Titulares</b><br>
                               Dr. Juan Carlos Pellegrino<br>
@@ -151,7 +151,7 @@
                               Dr. Juan Carlos Tsuji<br>
                               Dra. Silvia Cristina Mercado<br>
                               Dra. Viviana Tachella<br><br>
-                              
+
                               <b>Profesores Adjuntos</b><br>
                               Dra. Ruth Faingold<br>
                               Dra. Mar&iacute;a Isabel Messia<br>
@@ -167,10 +167,8 @@
                               Dr. Adolfo Campanelli<br>
                               Dr. Lucas Yraola<br>
                               Dr. Roberto Zald&uacute;a<br>
-                              
+
                               </p>
-                            </div>
-                            <div class="col-md-12">
                               <p class="card-text">
                                 <b>Docentes Adscriptos</b><br>
                               Dra. Patricia Atenor<br>
@@ -184,9 +182,6 @@
                               Dr. Mariano Ortolani<br>
                               Dr. Esteban Busto<br>
                               </p>
-                            </div>
-
-                            <div class="col-md-12">
                               <p class="card-text">
                               <p>
                                 <b>Docentes Libres:</b> Dra. Nora Taubin<br><br>
@@ -201,7 +196,6 @@
                                 <b>Docente Adscripta de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Marina Gal&aacute;n<br>
                               </p>
                               </p>
-                            </div>
                           </div>
                         </div><!-- /Row -->
                       </div><!-- /card-block -->
