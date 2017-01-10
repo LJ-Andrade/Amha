@@ -43,7 +43,7 @@
                             <b>Director de Biblioteca:</b> Dr. Adolfo Campanelli<br>
                             <b>Directora Revista Homeopat&iacute;a:</b> Dra. Mónica Moreno Galaud<br>
                             <b>Director Revista Homeopat&iacute;a para Todos:</b> Dr. Andr&eacute;s Carmody<br>
-                            <b>&aacute;rea Socios:</b> Dra. Laura Svirnovsky<br>
+                            <b>&Aacute;rea Socios:</b> Dra. Laura Svirnovsky<br>
                             <b>Asesor honor&iacute;fico:</b> Dr. Eduardo A. Yahbes<br>
                           </div>
                           <div class="col-md-6">
@@ -56,6 +56,7 @@
                               Dr. Mario Draiman<br>
                               Dr. Angel Minotti<br>
                               Dr. Juan Carlos Pellegrino<br>
+                              Dr. Roque Penna<br>
                               Vet. Dr. Horacio De Medio<br>
                               Farm. Ana Mar&iacute;a Fernandez<br>
                             </p>
@@ -84,41 +85,46 @@
                               <b>Subdirectora:</b> Dra. Eva Blaho<br>
                               <b>Secretaria de Medicina:</b> Dra. Elena Figari<br>
                               <b>Prosecretaria de Medicina:</b> Dra. Mariana Tamini<br>
-                              <b>Secretaria de Odontoestomatolog&iacute;a:</b> Dra. Silvia B. Palacios<br>
+                              <b>Secretaria de Odontoestomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Secretario de Medicina Veterinaria:</b> Vet. Dr. Horacio De Medio<br>
                               <b>Secretaria de Farmacia:</b> Farm. Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
-                              <b>Directora de Ateneos:</b> Dra. M&oacute;nica Prunell
+                              <b>Director de Ateneos:</b> Dr. Lucas Yraola
                             </p><br>
                             <h2>Campus Virtual</h2>
                             <hr>
                             <p class="card-text">
-                              <b>Coordinaci&oacute;n General:</b> Dra. Eva Blaho<br>
+                              <!--<b>Coordinaci&oacute;n General:</b> Dra. Eva Blaho<br>-->
                               <b>Foro 1° a&ntilde;o:</b> Dra. Astrid Motura<br>
                               <b>Foro 2° a&ntilde;o:</b> Dra. Elena Figari<br>
-                              <b>Foro 3° a&ntilde;o:</b> Dr. Adolfo Campanelli<br>
-                              <b>Foro Odontoestomatolog&iacute;a:</b> Dra. Silvia Palacios<br>
+                              <b>Foro 3° a&ntilde;o:</b> Dr. Lucas Yraola<br>
+                              <b>Foro Odontoestomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Foro Farmacia:</b> Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
-                              <b>Foro Graduados:</b> Dra. M&oacute;nica Prunell
+                              <b>Foro Graduados:</b> Dr. Adolfo Campanelli
                             </p><br>
                             <h2>Departamento de Investigaci&oacute;n</h2>
                             <hr>
                             <p class="card-text">
                               <b>Coordinador General:</b> Dr. Roque Penna<br>
                               <b>Coordinador Patogenesias:</b> Dr. &aacute;ngel Minotti<br>
-                              <b>Coordinador Investigaci&oacute;n B&aacute;sica:</b> Dr. Roque Penna<br>
-                              <b>Coordinadora Investigaci&oacute;n Cl&iacute;nica:</b> Dra. Ruth Faingold<br>
-                              <b>Coordinadores Investigaci&oacute;n Hist&oacute;rica:</b> Dra. Silvia Mercado<br>
-                              Dr. Adolfo Campanelli<br><br>
+                              <b>Coordinador Investigaci&oacute;n B&aacute;sica y Cl&iacute;nica:</b> Dr. Roque Penna<br>
+                              <!--<b>Coordinadora Investigaci&oacute;n Cl&iacute;nica:</b> Dra. Ruth Faingold<br>-->
+                              <b>Coordinadora Investigaci&oacute;n Hist&oacute;rica:</b> Dra. Silvia Mercado<br><br>
 
-                              <b>Patogenesias</b><br>
+                              <b>&Aacute;rea Patogenesias</b><br>
                               Dra. M&oacute;nica Moreno Galaud<br>
                               Dr. Adolfo Campanelli<br><br>
 
-                              <b>Investigaci&oacute;n B&aacute;sica:</b> Dra. Astrid Motura<br><br>
+                              <!--<b>Investigaci&oacute;n B&aacute;sica:</b> Dra. Astrid Motura<br><br>-->
 
-                              <b>Investigaci&oacute;n Cl&iacute;nica</b><br>
-                              Dr. Guillermo Mur<br>
-                              Dr. Jos&eacute; De Robertis<br>
+                              <b>&Aacute;rea Investigaci&oacute;n B&aacute;sica y Cl&iacute;nica</b><br>
+                              Dra. Astrid Motura<br>
+                              <!--Dr. Guillermo Mur<br>-->
+                              <!--Dr. Jos&eacute; De Robertis<br>-->
+                              Dra. Mariana Tamini<br>
+                              Dra Diana O. Cabrera<br>
+                              <br>
+                              <b>&Aacute;rea Investigaci&oacute;n Hist&oacute;rica:</b> Dr. Adolfo Campanelli<br><br>
+                              
                             </p>
                           </div>
                           <div class="col-md-6">
@@ -129,12 +135,14 @@
                              <b>Profesores Extraordinarios:</b><br>
                              Farm. Lucia Marchante<br></p>
 
-                            <b>Profesor Titular Em&eacute;rito:</b> Dr. Eduardo A. Yahbes<br><br>
+                            <b>Profesores Titulares Em&eacute;ritos:</b><br>
+                            Dr. Eduardo A. Yahbes<br>
+                            Dr. Mario Draiman<br>
+                            Dr. Angel O. Minotti<br>
+                            <br>
                             <div class="col-md-12">
                               <p class="card-text">
                               <b>Profesores Titulares</b><br>
-                              Dr. Mario Draiman<br>
-                              Dr. &aacute;ngel Oscar Minotti<br>
                               Dr. Juan Carlos Pellegrino<br>
                               Dr. Roque Penna<br>
                               Dr. Ra&uacute;l Gustavo Pirra<br>
@@ -165,12 +173,16 @@
                             <div class="col-md-12">
                               <p class="card-text">
                                 <b>Docentes Adscriptos</b><br>
-                              Dra. Nilda Grzesko<br>
+                              Dra. Patricia Atenor<br>
+                              <!--Dra. Nilda Grzesko<br>-->
                               Dra. Astrid Motura<br>
                               Dr. Jos&eacute; De Robertis<br>
-                              Dra. Liliana Szab&oacute;<br>
+                              <!--Dra. Liliana Szab&oacute;<br>-->
                               Dra. Mariana Tamini<br>
                               Dr. Gustavo Valy<br>
+                              Dra. Carolina Alonso<br>
+                              Dr. Mariano Ortolani<br>
+                              Dr. Esteban Busto<br>
                               </p>
                             </div>
 
@@ -179,9 +191,14 @@
                               <p>
                                 <b>Docentes Libres:</b> Dra. Nora Taubin<br><br>
                                 <b>Profesor Titular de Veterinaria Homeop&aacute;tica:</b><br> Dr. Horacio De Medio<br>
+                                <b>Docente Adscripto de Veterinaria Homeop&aacute;tica:</b><br> Dr. Carlos Angeleri<br>
                                 <b>Profesora Titular de Farmacia Homeop&aacute;tica:</b><br> Farm. Ana Mar&iacute;a Fern&aacute;ndez<br>
+                                <b>Prof. Extraordinaria de Farmacia Homeop&aacute;tica:</b><br> Farm. Lucía Marchante<br>
+                                <b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br>
+                                <!--<b>Profesor Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto D&iacute;az Campos<br>-->
                                 <b>Profesora Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Viviana Tachella<br>
-                                <b>Docente Adscripta de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Silvia B. Palacios<br>
+                                <b>Profesor Adjunto de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>
+                                <b>Docente Adscripta de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Marina Gal&aacute;n<br>
                               </p>
                               </p>
                             </div>
