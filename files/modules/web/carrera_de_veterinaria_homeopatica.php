@@ -41,7 +41,7 @@
                  aliviando de esta forma, la agenda de los veterinarios que viven alejados de la Ciudad Aut&oacute;noma de Buenos Aires.
               </p>
               <hr>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrerade-veterinaria-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
+              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-veterinaria-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
               <div class="col-md-6 margTop20">
                 <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>

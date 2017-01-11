@@ -54,7 +54,7 @@
                             <p>
                               <b>Tribunal de Honor</b><br>
                               Dr. Mario Draiman<br>
-                              Dr. Angel Minotti<br>
+                              Dr. &Aacute;ngel Minotti<br>
                               Dr. Juan Carlos Pellegrino<br>
                               Dr. Roque Penna<br>
                               Vet. Dr. Horacio De Medio<br>
@@ -105,7 +105,7 @@
                             <hr>
                             <p class="card-text">
                               <b>Coordinador General:</b> Dr. Roque Penna<br>
-                              <b>Coordinador Patogenesias:</b> Dr. &aacute;ngel Minotti<br>
+                              <b>Coordinador Patogenesias:</b> Dr. &Aacute;ngel Minotti<br>
                               <b>Coordinador Investigaci&oacute;n B&aacute;sica y Cl&iacute;nica:</b> Dr. Roque Penna<br>
                               <!--<b>Coordinadora Investigaci&oacute;n Cl&iacute;nica:</b> Dra. Ruth Faingold<br>-->
                               <b>Coordinadora Investigaci&oacute;n Hist&oacute;rica:</b> Dra. Silvia Mercado<br><br>
@@ -138,7 +138,7 @@
                             <b>Profesores Titulares Em&eacute;ritos:</b><br>
                             Dr. Eduardo A. Yahbes<br>
                             Dr. Mario Draiman<br>
-                            Dr. Angel O. Minotti<br>
+                            Dr. &Aacute;ngel O. Minotti<br>
                             <br>
 
                               <p class="card-text">
@@ -192,7 +192,7 @@
                                 <b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br>
                                 <!--<b>Profesor Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto D&iacute;az Campos<br>-->
                                 <b>Profesora Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Viviana Tachella<br>
-                                <b>Profesor Adjunto de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>
+                                <b>Profesor Adjunto a Cargo de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>
                                 <b>Docente Adscripta de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Marina Gal&aacute;n<br>
                               </p>
                               </p>

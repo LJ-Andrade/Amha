@@ -36,16 +36,15 @@
 
                 <b>Se entregar&aacute; certificado con m&aacute;s del 80% de asistencia.</b>  <br>
 
-                <b>Lugar:</b> Los encuentros que se realizar&aacute;n en la sede AMHA Juncal 2884. <br>
+                <b>Lugar:</b> Los encuentros que se realizar&aacute;n en la sede de Juncal 2884. <br>
 
-                <b>Horario y fechas:</b> Se dictar&aacute; un viernes por mes, de mayo a noviembre de 13 a 14:30 hs <br>
-                Mayo 20, Junio 17, Julio 22, Agosto 12, Septiembre 16, Octubre 21, Noviembre 18.<br>
+                <b>Horario y fechas:</b> Se dictar&aacute; de 13 a 14.30hs. un viernes por mes desde Abril a Noviembre.<br>
               </p>
               <hr><br>
               <p><b>GEHOVET <br>
                 (Grupo de Estudios Homeop&aacute;ticos Veterinarios)</b></p>
               <p class="justify">
-                Iniciar&aacute; en el presente a&ntilde;o 2016 su 26º a&ntilde;o de actividad continuada de Ateneos Veterinarios.
+                Iniciar&aacute; en el presente a&ntilde;o 2017 su 28º a&ntilde;o de actividad continuada de Ateneos Veterinarios.
                 Reuniones los 2º viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.
               </p>
 

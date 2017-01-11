@@ -24,62 +24,64 @@
           <!-- Content -->
           <div class="container">
             <div class="row">
-              <p><b>Directora:</b>  Dra. M&oacute;nica Prunell</p>
+              <p><b>Director:</b>  Dr. Lucas Yraola</p>
               <p class="justify">
-                Los Ateneos son uno de los pilares de la vida acad&eacute;mica de nuestra Escuela.<br>
-                Este a&ntilde;o, como en los anteriores, nos reuniremos una vez por mes en el transcurso del a&ntilde;o lectivo para escuchar la exposici&oacute;n de
-                los integrantes de  una de nuestras c&aacute;tedras acerca de un tema de inter&eacute;s cl&iacute;nico homeop&aacute;tico. El objeto de estas reuniones es
-                transmitir el conocimiento que s&oacute;lo se construye a trav&eacute;s de la experiencia concreta.  El Ateneo es la oportunidad de acceder a
-                distintos enfoques y diferentes pr&aacute;cticas que pueden darse en el marco de los principios homeop&aacute;ticos.<br>
-                Los temas de exposici&oacute;n ser&aacute;n anunciados con la debida anticipaci&oacute;n para que todos los participantes de este acto acad&eacute;mico puedan
-                enriquecer el debate con sus aportes.<br>
-                La Direcci&oacute;n de la Escuela espera a todos los alumnos, socios y docentes en los Ateneos de este ciclo 2016 para que cada encuentro sea
-                la fiesta cl&iacute;nico-intelectual que, como representantes de una forma distinta de medicina, nos merecemos.<br>
+                La Direcci&oacute;n de la Escuela invita, como todos los a&ntilde;os, a los alumnos, socios y docentes, al ciclo de Ateneos de 2017.<br>
+                El Ateneo constituye una de las actividades m&aacute;s importantes de la vida acad&eacute;mica de nuestra Escuela. Las C&aacute;tedras presentan en ellos, tanto temas de inter&eacute;s cl&iacute;nico-homeop&aacute;tico, como la  toma de casos de pacientes con la posterior discusi&oacute;n del mismo, constituyendo un punto de encuentro en el que todos podemos participar.<br>
+                Las distintas opiniones, l&iacute;neas de pensamiento, discusiones y/o consensos que surgen, hacen del Ateneo un espacio ideal para la revisi&oacute;n de nuestra pr&aacute;ctica de la Homeopat&iacute;a, con el deseable resultado del enriquecimiento mutuo y el consecuente crecimiento Institucional.<br>
+                Los temas ser&aacute;n informados con la debida anticipaci&oacute;n. Los Ateneos ser&aacute;n subidos a la  p&aacute;gina de la Instituci&oacute;n, y se evaluar&aacute; la posibilidad de ser publicados como art&iacute;culos en la revista “Homeopat&iacute;a”,  &Oacute;rgano Oficial de la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina.<br>
+                &#33;Los esperamos!<br>
+                <!--Este a&ntilde;o, como en los anteriores, nos reuniremos una vez por mes en el transcurso del a&ntilde;o lectivo para escuchar la exposici&oacute;n de-->
+                <!--los integrantes de  una de nuestras c&aacute;tedras acerca de un tema de inter&eacute;s cl&iacute;nico homeop&aacute;tico. El objeto de estas reuniones es-->
+                <!--transmitir el conocimiento que s&oacute;lo se construye a trav&eacute;s de la experiencia concreta.  El Ateneo es la oportunidad de acceder a-->
+                <!--distintos enfoques y diferentes pr&aacute;cticas que pueden darse en el marco de los principios homeop&aacute;ticos.<br>-->
+                <!--Los temas de exposici&oacute;n ser&aacute;n anunciados con la debida anticipaci&oacute;n para que todos los participantes de este acto acad&eacute;mico puedan-->
+                <!--enriquecer el debate con sus aportes.<br>-->
+                <!--La Direcci&oacute;n de la Escuela espera a todos los alumnos, socios y docentes en los Ateneos de este ciclo 2016 para que cada encuentro sea-->
+                <!--la fiesta cl&iacute;nico-intelectual que, como representantes de una forma distinta de medicina, nos merecemos.<br>-->
               </p>
-              <p><b>Fechas:</b> los viernes coincidentes con 3º a&ntilde;o de Medicina de 12.30 a 14.30 hs.</p><br>
+              <p><b>Fechas:</b> los viernes coincidentes con 3&deg; a&ntilde;o de Medicina de 12.30 a 14.30 hs.<br>Programa sujeto a modificaciones.</p><br>
               <table class="table table-bordered">
                 <tbody>
                   <tr>
                     <td>ABRIL</td>
-                    <td>08</td>
-                    <td>Jornadas 2015 REDIMEH (Dra. Motura).<br> Brindis por el d&iacute;a de la Homeopat&iacute;a.</td>
+                    <td>07</td>
+                    <td>Grupo Investigaci&oacute;n Hist&oacute;rica: Dres. Mercado y Campanelli</td>
                   </tr>
                   <tr>
                     <td>MAYO</td>
-                    <td>13</td>
-                    <td>Toma del caso cl&iacute;nico</td>
+                    <td>05</td>
+                    <td>C&aacute;tedra Dr. &Aacute;ngel Minotti</td>
                   </tr>
                   <tr>
                     <td>JUNIO</td>
-                    <td>03</td>
-                    <td>Cine-debate</td>
+                    <td>02</td>
+                    <td>C&aacute;tedra Dr. Juan Carlos Pellegrino</td>
                   </tr>
                   <tr>
                     <td>JULIO</td>
-                    <td>15</td>
-                    <td>Los diarios cl&iacute;nicos de Hahnemann <br>
-                    (Investigaci&oacute;n hist&oacute;rica. Dres Mercado y Campanelli)</td>
+                    <td>14</td>
+                    <td>C&aacute;tedra Dra. Eva Blaho</td>
                   </tr>
                   <tr>
                     <td>AGOSTO</td>
-                    <td>05</td>
-                    <td>Proyecto de Investigaci&oacute;n Cl&iacute;nica en Odontoestomatolog&iacute;a<br>
-                    (Dras. Tachella y Palacios).</td>
+                    <td>04</td>
+                    <td>C&aacute;tedra Farmacia</td>
                   </tr>
                   <tr>
                     <td>SEPTIEMBRE</td>
-                    <td>09</td>
-                    <td>Veterinaria</td>
+                    <td>01</td>
+                    <td>C&aacute;tedra Veterinaria</td>
                   </tr>
                   <tr>
                     <td>OCTUBRE</td>
-                    <td>14</td>
-                    <td>Vacunaci&oacute;n. Dr. Eduardo Yahbes.</td>
+                    <td>13</td>
+                    <td>C&aacute;tedra Dr. Pirra</td>
                   </tr>
                   <tr>
-                    <td>OCTUBRE</td>
-                    <td>04</td>
-                    <td>Casos dif&iacute;ciles de los consultorios de c&aacute;tedra.</td>
+                    <td>NOVIEMBRE</td>
+                    <td>03</td>
+                    <td>C&aacute;tedra Dr. Tsuji</td>
                   </tr>
                 </tbody>
               </table>

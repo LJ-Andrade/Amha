@@ -23,7 +23,7 @@
               <h1 class="txC">Carreras de Odontoestomatolog&iacute;a Homeop&aacute;tica</h1>
               <hr>
               <b>Dirigido a:</b> Odont&oacute;logos <br>
-              <b>Duraci&oacute;n:</b> 2 asos<br>
+              <b>Duraci&oacute;n:</b> 2 a&ntilde;s<br>
               <b>D&iacute;as de cursada:</b> Lunes<br>
               <b>Comienza:</b> Abril - <b>Finaliza:</b> Noviembre<br>
               <b>Requisitos:</b> Ser odont&oacute;logo. <br>
@@ -51,7 +51,7 @@
                 DOCTRINA y MATERIA M&Eacute;DICA  -  PR&Aacute;CTICA  -  INVESTIGACI&oacute;N<br>
               </p>
               <hr>
-              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-odontoestomatologia-homeopatica-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
+              <div class="col-md-6 downloadPdf"><a href="../../../skin/files/carreras/carrera-odontoestomatologia-programa.pdf" target="_blank"><img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <span>Descargar Programa</span></a></div>
               <div class="col-md-6 margTop20">
                 <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>
