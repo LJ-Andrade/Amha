@@ -8,22 +8,22 @@
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
     $Subject = "Mensaje de contacto desde el sitio web AMHA";
-    $Msg .= 'Remitente: <b>'.utf8_encode($Name).'</b><br>';
-    $Msg .= 'Tel&eacute;fono: <b>'.utf8_encode($Phone).'</b><br>';
-    $Msg .= 'Email: <b><a href="'.$Email.'">'.utf8_encode($Email).'</a></b><br>';
-    $Msg .= '<br>Mensaje: <br><b>'.utf8_encode($_POST['msg']).'</b>';
+    $Msg .= 'Remitente: <b>'.$Name.'</b><br>';
+    $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
+    $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
+    $Msg .= '<br>Mensaje: <br><b>'.$_POST['msg'].'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
     $Headers  = "From: ".$Name." < ".$Email." >\n";
     $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
     $Headers .= 'X-Mailer: PHP/' . phpversion();
-    $Headers .= "X-Priority: 2\n"; // Urgent message!
+    $Headers .= "X-Priority: 3\n"; // Urgent message!
     $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
     $Headers .= "MIME-Version: 1.0\r\n";
     $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
 
     //send email
-    mail($AdminEmail, "$Subject", $Msg, $Headers);
+    //mail($AdminEmail, "$Subject", $Msg, $Headers);
     mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
@@ -133,6 +133,7 @@
       if(validate.validateFields('*'))
       {
         sendMsg();
+        $("#send").attr("disabled",true);
       }
     });
 

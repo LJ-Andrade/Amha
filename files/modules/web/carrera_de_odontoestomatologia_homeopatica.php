@@ -23,7 +23,7 @@
               <h1 class="txC">Carreras de Odontoestomatolog&iacute;a Homeop&aacute;tica</h1>
               <hr>
               <b>Dirigido a:</b> Odont&oacute;logos <br>
-              <b>Duraci&oacute;n:</b> 2 a&ntilde;s<br>
+              <b>Duraci&oacute;n:</b> 2 a&ntilde;os<br>
               <b>D&iacute;as de cursada:</b> Lunes<br>
               <b>Comienza:</b> Abril - <b>Finaliza:</b> Noviembre<br>
               <b>Requisitos:</b> Ser odont&oacute;logo. <br>

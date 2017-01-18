@@ -76,7 +76,7 @@
               </p>
               <hr>
               <div class="col-md-4 downloadPdf txC">
-                <a href="../../../skin/files/carreras/carrera-medicina-programa.docx" target="_blank">
+                <a href="../../../skin/files/carreras/carrera-medicina-programa.pdf" target="_blank">
                   <img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <br>
                   <span class="margLeft0">Descargar Programa</span></a></div>
               <div class="col-md-4 downloadPdf txC">

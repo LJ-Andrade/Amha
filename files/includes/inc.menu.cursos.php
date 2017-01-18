@@ -46,6 +46,9 @@
           case 'practica_homeopatica_para_alumnos_libres.php';
             echo 'active';
             break;
+          case 'cursos_deteoriapractica.php';
+            echo 'active';
+            break;
           case 'odontoestomatologia_veterinaria_homeopatica.php';
             echo 'active';
             break;
@@ -66,6 +69,7 @@
         <ul class="leftDDcursos animated fadeIn Hidden">
           <li class="floatDD <?php echo $currentPage == 'carrera_de_medicina_homeopatica_3_en_1.php' ? 'active' : ''; ?>"><a href="carrera_de_medicina_homeopatica_3_en_1.php">Carrera de Medicina Homeop&aacute;tica 3 en 1</a></li>
           <li class="floatDD <?php echo $currentPage == 'practica_homeopatica_para_alumnos_libres.php' ? 'active' : ''; ?>"><a href="practica_homeopatica_para_alumnos_libres.php">Curso de pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>
+          <li class="floatDD <?php echo $currentPage == 'cursos_deteoriapractica.php' ? 'active' : ''; ?>"><a href="cursos_deteoriapractica.php">"De La Teor&iacute;a A La Pr&aacute;ctica" Curso Superior 2017</a></li>
           <li class="floatDD <?php echo $currentPage == 'odontoestomatologia_veterinaria_homeopatica.php' ? 'active' : ''; ?>"><a href="odontoestomatologia_veterinaria_homeopatica.php">Curso Superior de Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</a></li>
           <li class="floatDD <?php echo $currentPage == 'cursos_libres_para_alumnos_y_socios.php' ? 'active' : ''; ?>"><a href="cursos_libres_para_alumnos_y_socios.php">Cursos libres para alumnos y socios</a></li>
           <li class="floatDD <?php echo $currentPage == 'odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php' ? 'active' : ''; ?>"><a href="odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php">Carreras de odontoestomatolog&iacute;a y veterinaria homeop&aacute;tica 2 en 1</a></li>

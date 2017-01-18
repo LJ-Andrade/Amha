@@ -14,11 +14,16 @@ $DB = new DataBase();
 //   $Where = "first_name LIKE '%".$V."%' OR last_name LIKE '%".$V."%' OR description LIKE '%".$V."%' OR national_medical_enrollment LIKE '%".$V."%'  OR provincial_medical_enrollment LIKE '%".$V."%'  OR email LIKE '%".$V."%'  OR website LIKE '%".$V."%'";
 //
 // }
-$Pharmacies = $DB->fetchAssoc('pharmacy','*',$Where);
+$Pharmacies = $DB->fetchAssoc('pharmacy a, country_province b','a.*,b.title as province','a.province_id = b.province_id','a.province_id,a.name');
 //var_dump($DB);die();
 
 foreach($Pharmacies as $Pharmacy)
 {
+  if($Province != $Pharmacy['province_id'])
+  {
+    $HTML .= '<hr class="deleteable"><div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.utf8_encode($Pharmacy['province']).'</b></h5></div><hr class="deleteable">';
+    $Province = $Pharmacy['province_id'];
+  }
 
   $Name     = ucfirst(utf8_encode($Pharmacy['name']));
   $Address  = '<b><i class="fa fa-building"></i> </b>'.utf8_encode($Pharmacy['address']).'<br>';
