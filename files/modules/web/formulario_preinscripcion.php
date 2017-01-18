@@ -146,6 +146,7 @@
         if(validate.validateFields('*') && $("#selected_career").val()!="")
         {
           sendMsg();
+          $("#send").attr("disabled",true);
         }else{
           if($("#selected_career").val()=="")
           {

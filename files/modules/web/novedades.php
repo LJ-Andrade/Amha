@@ -53,7 +53,7 @@
                 <div class="accordionInfo">
                   <p class="justify">
                     <hr>
-                    Iniciar&aacute; en el presente a&ntilde;o 2017 su 27&deg; a&ntilde;o de actividad continuada de Ateneos Veterinarios.<br>
+                    Iniciar&aacute; en el presente a&ntilde;o 2017 su 28&deg; a&ntilde;o de actividad continuada de Ateneos Veterinarios.<br>
                     Reuniones los 2&deg; viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.<br>
                   </p>
                 </div>
