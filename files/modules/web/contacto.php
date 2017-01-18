@@ -20,10 +20,10 @@
     $Headers .= "X-Priority: 3\n"; // Urgent message!
     $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
     $Headers .= "MIME-Version: 1.0\r\n";
-    $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+    $Headers .= "Content-Type: text/html; charset=utf-8\n";
 
     //send email
-    //mail($AdminEmail, "$Subject", $Msg, $Headers);
+    mail($AdminEmail, "$Subject", $Msg, $Headers);
     mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();

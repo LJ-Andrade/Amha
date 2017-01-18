@@ -12,14 +12,14 @@
     $Document = $_POST['doc'];
     $Occupation = $_POST['occupation'];
     $Subject = "Formulario de pre inscripcion enviado desde el sitio web AMHA";
-    $Msg .= 'Remitente: <b>'.utf8_encode($Name).'</b><br>';
-    $Msg .= 'Carrera seleccionada: <b>'.utf8_encode($Career).'</b><br>';
-    $Msg .= 'Sexo: <b>'.utf8_encode($Sex).'</b><br>';
-    $Msg .= 'Documento: <b>'.utf8_encode($Document).'</b><br>';
-    $Msg .= 'Tel&eacute;fono: <b>'.utf8_encode($Phone).'</b><br>';
+    $Msg .= 'Remitente: <b>'.$Name.'</b><br>';
+    $Msg .= 'Carrera seleccionada: <b>'.$Career.'</b><br>';
+    $Msg .= 'Sexo: <b>'.$Sex.'</b><br>';
+    $Msg .= 'Documento: <b>'.$Document.'</b><br>';
+    $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
     $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
-    $Msg .= 'Ocupaci&oacute;n: <b>'.utf8_encode($Occupation).'</b><br>';
-    $Msg .= '<br>Como nos contact&oacute;: <br><b>'.utf8_encode($_POST['msg']).'</b>';
+    $Msg .= 'Ocupaci&oacute;n: <b>'.$Occupation.'</b><br>';
+    $Msg .= '<br>Como nos contact&oacute;: <br><b>'.$_POST['msg'].'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
     $Headers  = "From: ".$Name." < ".$Email." >\n";
@@ -28,7 +28,7 @@
     $Headers .= "X-Priority: 2\n"; // Urgent message!
     $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
     $Headers .= "MIME-Version: 1.0\r\n";
-    $Headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+    $Headers .= "Content-Type: text/html; charset=utf-8\n";
 
     //send email
     mail($AdminEmail, "$Subject", $Msg, $Headers);
