@@ -48,12 +48,12 @@
               <h4>Horarios de Atenci&oacute;n</h4><br>
               <p>
                 <b>Lunes</b><br>
-                09 a 12 hs. : Cátedra de Profesor Titular Dr. Juan Carlos Tsuji<br>
-                9 a 12 hs: Cátedra de la Profesora Titular Dr. Viviana Tachella.<br>
-                14 a  17 hs. : Cátedra de la Profesora Titular Dra. Silvia Mercado<br>
+                9.30 a 12 hs. : Cátedra de Profesor Titular Dr. Juan Carlos Tsuji<br>
+                9.45 a 12 hs: Cátedra de la Profesora Titular Dr. Viviana Tachella.<br>
+                15 a  17 hs. : Cátedra de la Profesora Titular Dra. Silvia Mercado<br>
 
                 <b>Martes</b><br>
-                09 a 12 hs: Cátedra de la Profesora Titular Dra. Eva Blaho<br>
+                9.30 a 12 hs: Cátedra de la Profesora Titular Dra. Eva Blaho<br>
                 16.30 a 19 hs: Cátedra del Profesor Titular Dr. Ángel Minotti<br>
 
                 <b>Miércoles</b><br>
@@ -74,8 +74,8 @@
               <h4>Consultorios de Extensi&oacute;n de C&aacute;tedra y Consultorios Privados</h4>
               <hr>
               <p>
-                <b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o
-                dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>
+                <!--<b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o-->
+                <!--dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>-->
                 <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
                 <b>Turnos:</b> 4963-1841 | 4962-6812 <br>
                 <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
@@ -83,35 +83,31 @@
 
 
                 <b>Lunes</b><br>
-                13 a 20 hs: Dra. Viviana Tachella (Privado)<br>
-                13 a 15 Dra: Ruth Faingold (Ext. de cátedra)<br>
-                15 a 20 hs: Dra. Ruth Faingold (Privado)<br>
-                14 a 20 hs: Dra. Eva Blaho (Privado)<br>
-                15 a 17 hs: Dr. Gustavo Martello (Privado)<br>
-                18 a 20 hs: Dra. Mónica Prunell (Privado)<br>
+                13 a 20 hs: Dra. Viviana Tachella<br>
+                13 a 20 hs: Dra. Ruth Faingold<br>
+                14 a 20 hs: Dra. Eva Blaho<br>
+                14 a 18 hs: Dr. Gustavo Martello<br>
+                18 a 20 hs: Dra. Mónica Prunell<br>
                 <b>Martes</b><br>
-                9 a 12 hs: Dra. Laura Svirnovsky (Privado)<br>
-                9 a 12 hs: Dr. Jorge Traverso (Privado)<br>
-                9 a 13 hs: Dra. Mónica Prunell (Ext. de cátedra)<br>
-                12 a 20 hs: Dr. José De Robertis (Ext. de cátedra)<br>
-                13 a 20 hs: Dr. Andrés Carmody (Privado)<br>
-                15 a 20 hs: Dra. Mónica Galaud (Privado)<br>
+                9 a 15 hs: Dra. Laura Svirnovsky<br>
+                9 a 12 hs: Dr. Jorge Traverso<br>
+                9 a 13 hs: Dra. Mónica Prunell<br>
+                12 a 20 hs: Dr. José De Robertis<br>
+                13 a 20 hs: Dr. Andrés Carmody<br>
+                15 a 20 hs: Dra. Mónica Moreno<br>
                 <b>Miércoles</b><br>
-                9 a 14 hs: Dra. Viviana Tachella (Privado)<br>
-                9 a 12 hs: Dra. Gustavo Valy  (Ext. de cátedra)<br>
-                12 a 17 hs: Dra. Ruth Faingold (Privado)<br>
-                13 a 17 hs: Dra. Eva Blaho (Privado)<br>
+                9 a 15 hs: Dra. Viviana Tachella<br>
+                9 a 12 hs: Dr. José De Robertis<br>
+                12 a 16 hs: Dra. Ruth Faingold<br>
+                14 a 16 hs: Dra. Eva Blaho<br>
                 <b>Jueves</b><br>
-                9 a 12 hs: Dra. Laura Svirnovsky (Privado)<br>
-                9 a 12 hs: Dr. Jorge Traverso (Privado)<br>
-                9 a 12 hs: Dr. Gustavo Martello (Privado)<br>
-                15 a 17 hs: Dra. Gustavo Valy  (Ext. de cátedra)<br>
-                15 a 20 hs: Dra. Elena Figari  (Ext. de cátedra)<br>
-                18 a 20 hs: Dra. Laura Svirnovsky (Privado)<br>
+                9 a 13 hs: Dr. Gustavo Martello<br>
+                9 a 12 hs: Dra. Laura Svirnovsky<br>
+                9 a 12 hs: Dr. Jorge Traverso<br>
+                18 a 20 hs: Dra. Laura Svirnovsky<br>
                 <b>Viernes</b><br>
-                9 a 12 hs: Astrid Mostura (Ext. de cátedra)<br>
-                9 a 20 hs: Dr. Roberto Díaz Campos (Privado)<br>
-                9 a 20 hs: Dra. Elena Figari  (Privado)<br><br>
+                9 a 28.30 hs: Dr. Roberto Díaz Campos<br>
+                9 a 20 hs: Dra. Elena Figari<br><br>
 
 
 
