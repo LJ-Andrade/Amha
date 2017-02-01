@@ -52,23 +52,34 @@
             </p><br>
 
           <?php
-  $revistas = array(  array("Homeopat&iacute;a Vol&uacute;men 80",          "../../../skin/files/revistasocios/revistasocios80-2015.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 79 N&deg;1",  "../../../skin/files/revistasocios/revistasocios79-2014.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 78 N&deg;4",  "../../../skin/files/revistasocios/revistasocios78-4-2013.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 77 N&deg;3/4","../../../skin/files/revistasocios/revistasocios77-2012.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 76 N&deg;2",  "../../../skin/files/revistasocios/revistasocios76-2011.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 76",          "../../../skin/files/revistasocios/revistasocios76-12-2011.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 75",          "../../../skin/files/revistasocios/revistasocios75-11-2010.pdf"),
-                      array("Homeopat&iacute;a Vol&uacute;men 75 N&deg;4",  "../../../skin/files/revistasocios/revistasocios75-4-2010.pdf"),
-                    );
+                  $Dir = '../../../skin/files/revistasocios';
+                  $Magazines = scandir($Dir,1);
+                  $Count = 0;
+                  foreach($Magazines as $Num => $Mag)
+                  {
+                    if(strtolower(substr($Mag,-3))=='pdf')
+                    {
+                      $Revistas[$Count] = array(substr($Mag, 0, -4),$Dir.'/'.$Mag);
+                      $Count++;
+                    }
+                  }
 
           ?>
           <div class="row revistas vertical-list">
-            <ul class="revistas-horiz">
-              <?php foreach ($revistas as $revista): ?>
-                <a href="<?php echo $revista[1] ?> " target="_blank"><li><span><?php echo $revista[0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
-              <?php endforeach; ?>
-            </ul>
+            <div class="col-md-6 col-sm-12">
+              <ul class="revistas-horiz">
+                <?php for($I=0;$I<count($Revistas);$I=$I+2){ ?>
+                  <a href="<?php echo $Revistas[$I][1] ?> " target="_blank"><li><span><?php echo $Revistas[$I][0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
+                <?php } ?>
+              </ul>  
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <ul class="revistas-horiz">
+                <?php for($I=1;$I<count($Revistas);$I=$I+2){ ?>
+                  <a href="<?php echo $Revistas[$I][1] ?> " target="_blank"><li><span><?php echo $Revistas[$I][0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
+                <?php } ?>
+              </ul>  
+            </div>
           </div>
 
 

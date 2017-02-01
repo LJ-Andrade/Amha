@@ -22,7 +22,7 @@
         <span id="openDDsociosBenef" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
       </li>
         <ul class="leftDDSociosBenef Hidden animated fadeIn">
-          <li class="floatDD <?php echo $currentPage == 'consultoriosamha.php' ? 'active' : ''; ?>"><a href="consultoriosamha.php">Atenci&oacute;n Pacientes Amha</a></li>
+          <li class="floatDD <?php echo $currentPage == 'consultoriosamha.php' ? 'active' : ''; ?>"><a href="consultoriosamha.php">Atenci&oacute;n Pacientes A.M.H.A.</a></li>
           <li class="floatDD <?php echo $currentPage == 'consultoriosprivados.php' ? 'active' : ''; ?>"><a href="consultoriosprivados.php">Atenci&oacute;n Consultorios Privados</a></li>
         </ul>
       <li class="<?php echo $currentPage == 'farmacias.php' ? 'active' : ''; ?>"><a href='farmacias.php'>Farmacias</a></li>
@@ -54,8 +54,8 @@
         <span id="openDDsociosBenef" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
       </li>
         <ul class="leftDDSociosBenef Hidden animated fadeIn">
-          <li class="floatDD <?php echo $currentPage == 'consultoriosamha.php' ? 'active' : ''; ?>"><a href="consultoriosamha.php">Atenci&oacute;n Pacientes Amha</a></li>
-          <li class="floatDD <?php echo $currentPage == 'consultoriosprivados.php' ? 'active' : ''; ?>"><a href="consultoriosprivados.php">Atenci&oacute;n Consultorios Privados</a></li>
+          <li class="floatDD <?php echo $currentPage == 'consultoriosamha.php' ? 'active' : ''; ?>"><a href="consultoriosamha.php"><div style="width:100%;">Atenci&oacute;n Pacientes Amha</div></a></li>
+          <li class="floatDD <?php echo $currentPage == 'consultoriosprivados.php' ? 'active' : ''; ?>"><a href="consultoriosprivados.php"><div>Atenci&oacute;n Consultorios Privados</div></a></li>
         </ul>
       <li class="<?php echo $currentPage == 'farmacias.php' ? 'active' : ''; ?>"><a href='farmacias.php'>Farmacias</a></li>
     </ul>

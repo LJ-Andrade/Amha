@@ -51,33 +51,53 @@
               </span><br><br>
 
               <?php
-              $revistas = array(  //array (text, image, pdf);
-                                  array("Edici&oacute;n 58", "../../../skin/files/revistapt/revistahpt58.pdf"),
-                                  array("Edici&oacute;n 57", "../../../skin/files/revistapt/revista57.pdf"),
-                                  array("Edici&oacute;n 56", "../../../skin/files/revistapt/revistahpt56.pdf"),
-                                  array("Edici&oacute;n 55", "../../../skin/files/revistapt/homeopatia-para-todos-55.pdf"),
-                                  array("Edici&oacute;n 54", "../../../skin/files/revistapt/revistahpt54.pdf"),
-                                  array("Edici&oacute;n 53", "../../../skin/files/revistapt/homeopatia-para-todos-53.pdf"),
-                                  array("Edici&oacute;n 52",       "../../../skin/files/revistapt/homeopatiaparatodos52.pdf"),
-                                  array("Edici&oacute;n 51",       "../../../skin/files/revistapt/homeopatiaparatodos51.pdf"),
-                                  array("Edici&oacute;n 50",       "../../../skin/files/revistapt/homeopatiaparatodos50.pdf"),
-                                  array("Edici&oacute;n 49",       "../../../skin/files/revistapt/homeopatiaparatodos49.pdf"),
-                                  array("Edici&oacute;n 48",       "../../../skin/files/revistapt/homeopatiaparatodos48.pdf"),
-                                  array("Edici&oacute;n 47",       "../../../skin/files/revistapt/homeopatiaparatodos47.pdf"),
-                                  array("Edici&oacute;n 46",       "../../../skin/files/revistapt/homeopatiatodos46.pdf"),
-                                  array("Edici&oacute;n 45",       "../../../skin/files/revistapt/homeopatiatodos45.pdf"),
-                                  array("Edici&oacute;n 44",       "../../../skin/files/revistapt/homeopatiatodos44.pdf"),
-                                  array("Edici&oacute;n 43",       "../../../skin/files/revistapt/homeopatiatodos43.pdf")
-
-                                );
+              $Dir = '../../../skin/files/revistapt';
+              $Magazines = scandir($Dir,1);
+                  $Count = 0;
+                  foreach($Magazines as $Num => $Mag)
+                  {
+                    if(strtolower(substr($Mag,-3))=='pdf')
+                    {
+                      $Revistas[$Count] = array(substr($Mag, 0, -4),$Dir.'/'.$Mag);
+                      $Count++;
+                    }
+                  }
+              
+              // $Revistas = array(  //array (text, image, pdf);
+              //             array("Edici&oacute;n 58", "../../../skin/files/revistapt/revistahpt58.pdf"),
+              //             array("Edici&oacute;n 57", "../../../skin/files/revistapt/revista57.pdf"),
+              //             array("Edici&oacute;n 56", "../../../skin/files/revistapt/revistahpt56.pdf"),
+              //             array("Edici&oacute;n 55", "../../../skin/files/revistapt/homeopatia-para-todos-55.pdf"),
+              //             array("Edici&oacute;n 54", "../../../skin/files/revistapt/revistahpt54.pdf"),
+              //             array("Edici&oacute;n 53", "../../../skin/files/revistapt/homeopatia-para-todos-53.pdf"),
+              //             array("Edici&oacute;n 52", "../../../skin/files/revistapt/homeopatiaparatodos52.pdf"),
+              //             array("Edici&oacute;n 51", "../../../skin/files/revistapt/homeopatiaparatodos51.pdf"),
+              //             array("Edici&oacute;n 50", "../../../skin/files/revistapt/homeopatiaparatodos50.pdf"),
+              //             array("Edici&oacute;n 49", "../../../skin/files/revistapt/homeopatiaparatodos49.pdf"),
+              //             array("Edici&oacute;n 48", "../../../skin/files/revistapt/homeopatiaparatodos48.pdf"),
+              //             array("Edici&oacute;n 47", "../../../skin/files/revistapt/homeopatiaparatodos47.pdf"),
+              //             array("Edici&oacute;n 46", "../../../skin/files/revistapt/homeopatiatodos46.pdf"),
+              //             array("Edici&oacute;n 45", "../../../skin/files/revistapt/homeopatiatodos45.pdf"),
+              //             array("Edici&oacute;n 44", "../../../skin/files/revistapt/homeopatiatodos44.pdf"),
+              //             array("Edici&oacute;n 43", "../../../skin/files/revistapt/homeopatiatodos43.pdf")
+              // );
               ?>
 
               <div class="row revistas vertical-list">
-                <ul class="revistas-horiz">
-                  <?php foreach ($revistas as $revista): ?>
-                    <a href="<?php echo $revista[1] ?> " target="_blank"><li><span><?php echo $revista[0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
-                  <?php endforeach; ?>
-                </ul>
+                <div class="col-md-6 col-sm-12">
+                  <ul class="revistas-horiz">
+                    <?php for($I=0;$I<count($Revistas);$I=$I+2){ ?>
+                      <a href="<?php echo $Revistas[$I][1] ?> " target="_blank"><li><span><?php echo $Revistas[$I][0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
+                    <?php } ?>
+                  </ul>  
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <ul class="revistas-horiz">
+                    <?php for($I=1;$I<count($Revistas);$I=$I+2){ ?>
+                      <a href="<?php echo $Revistas[$I][1] ?> " target="_blank"><li><span><?php echo $Revistas[$I][0]; ?></span><img src="../../../skin/images/body/icons/pdficon.png" alt=""></li></a>
+                    <?php } ?>
+                  </ul>  
+                </div>
               </div>
 
               <!-- Revistas with images -->

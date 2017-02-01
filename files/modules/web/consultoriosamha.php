@@ -70,9 +70,9 @@
 
               <hr class="hrStrong">
               <h4><b>En Consultorios Charcas</b></h4>
-              <hr>
-              <h4>Consultorios de Extensi&oacute;n de C&aacute;tedra y Consultorios Privados</h4>
-              <hr>
+              <!--<hr>-->
+              <!--<h4>Consultorios Privados</h4>-->
+              <!--<hr>-->
               <p>
                 <!--<b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o-->
                 <!--dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>-->
