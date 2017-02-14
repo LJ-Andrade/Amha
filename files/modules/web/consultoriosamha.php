@@ -106,7 +106,7 @@
                 9 a 12 hs: Dr. Jorge Traverso<br>
                 18 a 20 hs: Dra. Laura Svirnovsky<br>
                 <b>Viernes</b><br>
-                9 a 28.30 hs: Dr. Roberto Díaz Campos<br>
+                9 a 20.30 hs: Dr. Roberto Díaz Campos<br>
                 9 a 20 hs: Dra. Elena Figari<br><br>
 
 
