@@ -19,6 +19,18 @@
               <!-- New -->
                <div class="col-md-12 infoContainer accordion">
                  <div class="accordionTitle">
+                   <p><b> CHARLA INFORMATIVA 2017 </b><br></p>
+                 </div>
+                 <div class="accordionInfo">
+                   <p class="justify">
+                     <hr>
+                     El 17 de marzo a las 14.00hs se realizará la <b>charla informativa 2017</b>. La <b>directora</b> de la Escuela, la Dra. Silvia Mercado, resolverá consultas e informará sobre los programas y objetivos de cada una de las  carreras dictadas en la AMHA. El ciclo lectivo 2017 comienza en el mes de Abril. Si estás interesado en participar deberás inscribirte previamente. Puedes enviar un mail a <a href="mailto:escuela@amha.org.ar" class="text-primary">escuela@amha.org.ar</a>  o comunicarte al teléfono (011) 4827.2907 
+                 </div>
+               </div>
+               <!-- New -->
+               <!-- New -->
+               <div class="col-md-12 infoContainer accordion">
+                 <div class="accordionTitle">
                    <p><b> A.M.H.A  presente en 71&deg; Congreso LMHI </b><br></p>
                  </div>
                  <div class="accordionInfo">

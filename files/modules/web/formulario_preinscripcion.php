@@ -108,7 +108,7 @@
                   <label class="radio-inline"><input type="radio" id="sex2" name="sex" value="Mujer">Femenino</label>
                 </div>
                 <div class="form-group">
-                 <label for="msg">&iquest;C&oacute;mo se ha contactado con la instituci&oacute;n?</label>
+                 <label for="msg">Deje su mensaje o consulta:</label>
                  <textarea class="form-control" validateEmpty="Este campo es obligatorio" rows="5" id="msg"></textarea>
                 </div>
                 <!-- Temp Link - Delete -->
