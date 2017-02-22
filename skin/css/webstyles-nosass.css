@@ -1,0 +1,32 @@
+.searchOptions {
+    position: relative;
+}
+
+.searchBackBtn {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background-color: transparent;
+    border: 0;
+    color: #5C5C5C;
+    font-size: 30px;
+}
+
+.searchBackBtn:hover {
+    color: #9E4242;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    
+}
+
+.searchPreview span {
+    font-size: 20px;
+}
+
+.searchPreview {
+    text-align: center;
+    padding: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: #e7e7dd;
+}

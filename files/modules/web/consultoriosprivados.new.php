@@ -141,7 +141,7 @@
           <div class="sectionTits">
             <h1>Consultorios</h1>
             <hr>
-            <h4>Atenci&oacute;n en Consultorios Privados</h4>
+            <h4>Atenci&oacute;n en Consultorios Privados<!--<br><span style="font-size:10px">Médicos>En Consultorio></span>--></h4>
             <hr>
           </div>
 
@@ -161,26 +161,31 @@
           <!--<div class="row sectionTitsSmall">-->
           <!--  <h3>Consultorios Privados</h3>-->
           <!--</div>-->
-
+          <div id="searchPreview" class="row searchPreview Hidden">
+             <span id="searchPreview1" class="Hidden">Test</span>
+             <span id="searchPreview2" class="Hidden"></span>
+             <span id="searchPreview3" class="Hidden"></span>
+          </div>
           <!-- search buttons 1-->
-          <div class="row searchOptions">
+          <div id="SearchOption1" class="row searchOptions animated fadeIn">
             <h5>Qu&eacute; est&aacute;s buscando?</h5>
             <hr>
-            <button type="button" class="btn docBtn" name="button">M&eacute;dicos</button>
-            <button type="button" class="btn odontBtn" name="button">Odont&oacute;logos</button>
-            <button type="button" class="btn vetBtn" name="button">Veterinarios</button>
+            <button type="button" id="SearchOption1Btn1" data="med" class="SearchOption1Btn btn docBtn" name="button">M&eacute;dicos</button>
+            <button type="button" id="SearchOption1Btn2" data="odo" class="SearchOption1Btn btn odontBtn" name="button">Odont&oacute;logos</button>
+            <button type="button" id="SearchOption1Btn3" data="vet" class="SearchOption1Btn btn vetBtn" name="button">Veterinarios</button>
           </div>
           <!-- /search buttons 1 -->
           <!-- search buttons 2-->
-          <div class="row searchOptions">
+          <div id="SearchOption2" class="row searchOptions animated fadeIn Hidden">
             <h5>Tipo de Atenci&oacute;n</h5>
             <hr>
-            <button type="button" class="btn searchBtn btnMarg" name="button"><i class="fa fa-building"></i> En consultorio</button>
-            <button type="button" class="btn searchBtn btnMarg" name="button"><i class="fa fa-home"></i> A Domicilio</button>
+            <button type="button" id="SearchOption2Btn1" data="con" class="SearchOption2Btn btn searchBtn btnMarg" name="button"><i class="fa fa-building"></i> En consultorio</button>
+            <button type="button" id="SearchOption3Btn2" data="dom" class="SearchOption2Btn btn searchBtn btnMarg" name="button"><i class="fa fa-home"></i> A Domicilio</button>
+            <button class="SearchBackBtn searchBackBtn" btn="1"><i class="fa fa-arrow-circle-left"></i></button>
           </div>
           <!-- /search buttons 2 -->
           <!-- Ubication -->
-          <div class="row searchOptions">
+          <div id="SearchOption3" class="row searchOptions animated fadeIn Hidden">
             <h5>Ubicaci&oacute;n</h5>
             <hr>
             <div class="col-md-6 col-xs-12">
@@ -204,10 +209,10 @@
               </select>
             </div>
             <button type="button" class="btn searchBtn btnMargTop" name="button">Buscar</button>
+            <button class="SearchBackBtn searchBackBtn" btn="2"><i class="fa fa-arrow-circle-left"></i></button>
           </div>
           <!-- Ubication -->
-
-          <div class="row searchFilters">
+          <div class="row searchFilters Hidden">
             <div class="form-group searchFiltersInner">
               <div class="searchIcon" id="SearchIcon" style="cursor:pointer;"><i class="fa fa-search"></i></div>
               <input id="search" class="form-control" placeholder="Ingrese una provincia, una zona o un nombre y presione enter..." type="text">
@@ -223,7 +228,9 @@
           <!--  <h5>Floresta</h5>-->
           <!--</div>-->
           <!-- Test -->
-          <?php echo $HTML; ?>
+          <div id="searchResult" class="Hidden">
+            <?php echo $HTML; ?>
+          </div>
         </div><!-- /contentContainer -->
         <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->
@@ -231,6 +238,7 @@
     </div><!-- /mainWrapper -->
     <!-- Footer -->
     <?php include('../../includes/inc.web.scripts.php'); ?> <!-- Scripts -->
+    <script src="../../js/script.web.searcher.js" </script> <!-- Scripts -->
   </body>
   <script>
     function removeResult()
