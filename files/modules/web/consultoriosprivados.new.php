@@ -161,10 +161,20 @@
           <!--<div class="row sectionTitsSmall">-->
           <!--  <h3>Consultorios Privados</h3>-->
           <!--</div>-->
-          <div id="searchPreview" class="row searchPreview Hidden">
+          <!--<div id="ClearSearchPreview" class="row searchPreview Hidden">-->
+          <!--   <button type="button" id="ClearSearch" class="btn" name="ClearSearch">Nueva b&uacute;squeda</button>-->
+          <!--</div>-->
+          <div id="searchPreview" class="row searchPreview Hidden fadeIn">
+            <div class="row">
+              <div class="col-xs-12 col-sm-9">
              <span id="searchPreview1" class="Hidden">Test</span>
              <span id="searchPreview2" class="Hidden"></span>
              <span id="searchPreview3" class="Hidden"></span>
+             </div>
+             <div class="col-xs-12 col-sm-3">
+               <button type="button" id="ClearSearch" class="btn" name="ClearSearch">Nueva b&uacute;squeda</button>
+             </div>
+            </div>
           </div>
           <!-- search buttons 1-->
           <div id="SearchOption1" class="row searchOptions animated fadeIn">

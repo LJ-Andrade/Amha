@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>AMHA</title>
@@ -17,33 +17,53 @@
           <div class="container">
             <div class="row">
               <!-- New -->
+               <!--<div class="col-md-12 infoContainer accordion">-->
+               <!--  <div class="accordionTitle">-->
+               <!--    <p><b> CHARLA INFORMATIVA 2017 </b><br></p>-->
+               <!--  </div>-->
+               <!--  <div class="accordionInfo">-->
+               <!--    <p class="justify">-->
+               <!--      <hr>-->
+               <!--      El 17 de marzo a las 14.00hs se realizará la <b>charla informativa 2017</b>. La <b>directora</b> de la Escuela, la Dra. Silvia Mercado, resolverá consultas e informará sobre los programas y objetivos de cada una de las  carreras dictadas en la AMHA. El ciclo lectivo 2017 comienza en el mes de Abril. Si estás interesado en participar deberás inscribirte previamente. Puedes enviar un mail a <a href="mailto:escuela@amha.org.ar" class="text-primary">escuela@amha.org.ar</a>  o comunicarte al teléfono (011) 4827.2907 -->
+               <!--  </div>-->
+               <!--</div>-->
+               <!-- New -->
                <div class="col-md-12 infoContainer accordion">
-                 <div class="accordionTitle">
-                   <p><b> CHARLA INFORMATIVA 2017 </b><br></p>
-                 </div>
-                 <div class="accordionInfo">
-                   <p class="justify">
-                     <hr>
-                     El 17 de marzo a las 14.00hs se realizará la <b>charla informativa 2017</b>. La <b>directora</b> de la Escuela, la Dra. Silvia Mercado, resolverá consultas e informará sobre los programas y objetivos de cada una de las  carreras dictadas en la AMHA. El ciclo lectivo 2017 comienza en el mes de Abril. Si estás interesado en participar deberás inscribirte previamente. Puedes enviar un mail a <a href="mailto:escuela@amha.org.ar" class="text-primary">escuela@amha.org.ar</a>  o comunicarte al teléfono (011) 4827.2907 
-                 </div>
-               </div>
-               <!-- New -->
-               <!-- New -->
-               <div class="col-md-12 infoContainer accordion">
-                 <div class="accordionTitle">
-                   <p><b> A.M.H.A  presente en 71&deg; Congreso LMHI </b><br></p>
-                 </div>
-                 <div class="accordionInfo">
-                   <p class="justify">
-                     <hr>
-                     Se llev&oacute; a cabo en Buenos Aires del 24 al 27 de Agosto el <b>71&deg; Congreso de la Liga M&eacute;dica Homeop&aacute;tica Internacional</b>
-                      conjuntamente con el <b>11&deg; Congreso de la FAMHA.</b>   Se desarrollaron con  la presencia de home&oacute;patas de las escuelas
-                       de nuestro pa&iacute;s y de m&aacute;s de 20 pa&iacute;ses en un clima de absoluta camarader&iacute;a. Muchos de nuestros profesores realizaron Conferencias
-                      o presentaron trabajos de mucho valor para una mejor difusi&oacute;n de la Homeopat&iacute;a Argentina en el mundo.
-                   </p>
-                 </div>
-               </div>
-               <!-- New -->
+                <div class="accordionTitle">
+                  <b>Pr&oacute;ximo Congreso FAMHA 2018</b>
+                </div>
+                <div class="accordionInfo">
+                  <p class="justify">
+                    "Homeopat&iacute;a, paradigma del SXXI"<br>
+                    <hr>
+                    <b>Fecha:</b> A determinar.<br>
+                    <b>Temas:</b><br>
+                    &#9679;  Homeopatía Siglo XXI.<br>
+                    &#9679;  Temario Vitalismo del siglo XXI.<br>
+                    &#9679;  Investigación en Homeopatia.<br>
+                    &#9679;  Nuevas Patogenesias. Temas libres.<br>
+                    <br>
+                    <b>Sede:</b> Hotel Centuria, Suipacha 30, CABA.<br>
+                  </p>
+                </div>
+              </div><!-- 1-->
+              <!-- New -->
+              <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
+                  <p><b>Cursos de cocina</b><br></p>
+                </div>
+                <div class="accordionInfo">
+                  <hr>
+                  <p class="justify">
+                    La <b>A.M.H.A</b> los invita a participar del taller anual de cocina natural. <br>
+                    Este taller es totalmente gratuito, solo requiere de la colaboraci&oacute;n a voluntad para las instituciones que ofrecen los
+                     talleres y la entrega de alimentos no perecederos para donaci&oacute;n a poblaciones carenciadas.Se dictan de Abril a Noviembre.<br><br>
+                    <b>Taller anual de cocina natural:</b> "La vida como escuela" <br>
+                    (se entregar&aacute;n apuntes). <br>
+                    M&aacute;s informaci&oacute;n comun&iacute;quese al 4827-2907
+                  </p>
+                </div>
+              </div><!-- 2-->
   	         <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
@@ -55,8 +75,30 @@
                     2x1 en las inscripciones de los cursos de medicina, odontoestamotolog&iacute;a y veterinaria de un a&ntilde;o de duraci&oacute;n.
                   </p>
                 </div>
-              </div>
+              </div><!-- 3-->
               <!-- New -->
+              <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
+                  <p><b>Cursos Mar del Plata</b></p>
+                </div>
+                <div class="accordionInfo">
+                  <hr>
+                  <p class="justify">
+                    Ahora podes estudiar tambi&eacute;n en la sede de Mar del Plata las carreras:<br><br>
+                    Carrera de Medicina Homeop&aacute;tica en Mar del Plata - Curso Regular: Con un criterio de pr&aacute;ctica intensiva, el alumno aprender&aacute; profundamente
+                    la doctrina homeop&aacute;tica, su materia m&eacute;dica y su aplicaci&oacute;n.<br> <b>Duraci&oacute;n:</b> 3 a&ntilde;os.<br><br>
+
+                    Carrera de Veterinaria Homeop&aacute;tica en Mar del Plata: Formaci&oacute;n te&oacute;rico-pr&aacute;ctica con temas
+                    espec&iacute;ficos de la especialidad. <br><b>Duraci&oacute;n:</b> 2 a&ntilde;os.<br><br>
+
+                    <b>Para m&aacute;s informaci&oacute;n:</b><br>
+                    <b>Contacto:</b> Dr. O. Mariano Ortolani.<br>
+                    <b>Tel.:</b> (0223) 476-3545<br>
+                    <b>Mail:</b> marianoortolani@hotmail.com<br>
+                    <b>D&iacute;as y horarios:</b> De Lunes a viernes de 9 a  20 hs. de Lunes a viernes<br><br>
+                  </p>
+                </div>
+              </div><!-- 4-->
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
@@ -69,7 +111,7 @@
                     Reuniones los 2&deg; viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.<br>
                   </p>
                 </div>
-              </div>
+              </div><!-- 5-->
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
@@ -89,7 +131,7 @@
                     <b>Horario y fechas:</b> Se dictar&aacute; de 13 a 14.30hs. un viernes por mes desde Abril a Noviembre.
                   </p>
                 </div>
-              </div>
+              </div><!-- 6-->
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
@@ -121,47 +163,22 @@
                     <!--<b>18 de Noviembre:</b> Dra. Laura Svirnovsky "Miasmas, ¿Si o No?"<br><br>-->
                   </p>
                 </div>
-              </div>
+              </div><!-- 7-->
               <!-- New -->
-              <div class="col-md-12 infoContainer accordion">
-                <div class="accordionTitle">
-                  <p><b>Cursos de cocina</b><br></p>
-                </div>
-                <div class="accordionInfo">
-                  <hr>
-                  <p class="justify">
-                    La <b>A.M.H.A</b> los invita a participar del taller anual de cocina natural. <br>
-                    Este taller es totalmente gratuito, solo requiere de la colaboraci&oacute;n a voluntad para las instituciones que ofrecen los
-                     talleres y la entrega de alimentos no perecederos para donaci&oacute;n a poblaciones carenciadas.Se dictan de Abril a Noviembre.<br><br>
-                    <b>Taller anual de cocina natural:</b> "La vida como escuela" <br>
-                    (se entregar&aacute;n apuntes). <br>
-                    M&aacute;s informaci&oacute;n comun&iacute;quese al 4827-2907
-                  </p>
-                </div>
-              </div>
-              <!-- New -->
-              <div class="col-md-12 infoContainer accordion">
-                <div class="accordionTitle">
-                  <p><b>Cursos Mar del Plata</b></p>
-                </div>
-                <div class="accordionInfo">
-                  <hr>
-                  <p class="justify">
-                    Ahora podes estudiar tambi&eacute;n en la sede de Mar del Plata las carreras:<br><br>
-                    Carrera de Medicina Homeop&aacute;tica en Mar del Plata - Curso Regular: Con un criterio de pr&aacute;ctica intensiva, el alumno aprender&aacute; profundamente
-                    la doctrina homeop&aacute;tica, su materia m&eacute;dica y su aplicaci&oacute;n.<br> <b>Duraci&oacute;n:</b> 3 a&ntilde;os.<br><br>
-
-                    Carrera de Veterinaria Homeop&aacute;tica en Mar del Plata: Formaci&oacute;n te&oacute;rico-pr&aacute;ctica con temas
-                    espec&iacute;ficos de la especialidad. <br><b>Duraci&oacute;n:</b> 2 a&ntilde;os.<br><br>
-
-                    <b>Para m&aacute;s informaci&oacute;n:</b><br>
-                    <b>Contacto:</b> Dr. O. Mariano Ortolani.<br>
-                    <b>Tel.:</b> (0223) 476-3545<br>
-                    <b>Mail:</b> marianoortolani@hotmail.com<br>
-                    <b>D&iacute;as y horarios:</b> De Lunes a viernes de 9 a  20 hs. de Lunes a viernes<br><br>
-                  </p>
-                </div>
-              </div>
+               <div class="col-md-12 infoContainer accordion">
+                 <div class="accordionTitle">
+                   <p><b> A.M.H.A  presente en 71&deg; Congreso LMHI </b><br></p>
+                 </div>
+                 <div class="accordionInfo">
+                   <p class="justify">
+                     <hr>
+                     Se llev&oacute; a cabo en Buenos Aires del 24 al 27 de Agosto el <b>71&deg; Congreso de la Liga M&eacute;dica Homeop&aacute;tica Internacional</b>
+                      conjuntamente con el <b>11&deg; Congreso de la FAMHA.</b>   Se desarrollaron con  la presencia de home&oacute;patas de las escuelas
+                       de nuestro pa&iacute;s y de m&aacute;s de 20 pa&iacute;ses en un clima de absoluta camarader&iacute;a. Muchos de nuestros profesores realizaron Conferencias
+                      o presentaron trabajos de mucho valor para una mejor difusi&oacute;n de la Homeopat&iacute;a Argentina en el mundo.
+                   </p>
+                 </div>
+               </div><!-- 8-->
               
               <!-- New -->
               <!--<div class="col-md-12 infoContainer accordion">-->
@@ -181,22 +198,7 @@
               <!--  </div>-->
               <!--</div>-->
               <!-- New -->
-              <div class="col-md-12 infoContainer accordion">
-                <div class="accordionTitle">
-                  <b>Pr&oacute;ximo Congreso FAMHA 2018</b>
-                </div>
-                <div class="accordionInfo">
-                  <p class="justify">
-                    "Homeopat&iacute;a, paradigma del SXXI"<br>
-                    <hr>
-                    <b>Fecha:</b> A determinar.<br>
-                    <b>Temas:</b><br>
-                    &#9679;  Doctrina: "Investigaci&oacute;n en homeopat&iacute;a" y "Vitalismo del S. XXI".<br>
-                    &#9679;  Materia M&eacute;dica: "Nuevos medicamentos con patogenesia"<br><br>
-                    <b>Sede:</b> a designar.<br>
-                  </p>
-                </div>
-              </div>
+              
               
             </div><!-- row -->
           </div><!-- container -->

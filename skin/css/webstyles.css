@@ -1630,16 +1630,16 @@ span.topSlogan {
         cursor: pointer; }
 
 .vetConsultBack {
-  background-color: #9c89d7; }
+  background-color: #C0A5EA; }
 
 .odontConsultBack {
-  background-color: #319f4e; }
+  background-color: #7597E0; }
 
 .medicConsultBack {
-  background-color: #5881FD; }
+  background-color: #20B99E; }
 
 .consultProv {
-  background-color: #daa658;
+  background-color: #AFB1B6;
   color: #fff; }
 
 .consultNb {
@@ -1715,16 +1715,16 @@ span.topSlogan {
     background-color: #100d9e; }
 
 .docBtn {
-  background-color: #5881FD;
+  background-color: #20B99E;
   color: #fff;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   margin: 3px; }
   .docBtn:hover {
-    background-color: #3d64da; }
+    background-color: #26853f; }
 
 .vetBtn {
-  background-color: #9c89d7;
+  background-color: #C0A5EA;
   color: #fff;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
@@ -1733,13 +1733,13 @@ span.topSlogan {
     background-color: #8978bf; }
 
 .odontBtn {
-  background-color: #319f4e;
+  background-color: #7597E0;
   color: #fff;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   margin: 3px; }
   .odontBtn:hover {
-    background-color: #26853f; }
+    background-color: #3d64da; }
 
 .titleSeparator {
   margin-top: 2px;

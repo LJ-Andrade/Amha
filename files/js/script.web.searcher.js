@@ -32,8 +32,14 @@ $(function(){
         {
             $('#searchResult').addClass('Hidden');
             $('#searchPreview').addClass('Hidden');
+            // $('#ClearSearchPreview').addClass('Hidden');
         }
     });
+    $('#ClearSearch').click(function(){
+        $('.SearchBackBtn[btn="2"]').click();
+        $('.SearchBackBtn[btn="1"]').click();
+    });
+    
  
 });
 
