@@ -30,20 +30,23 @@
                <!-- New -->
                <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <b>Pr&oacute;ximo Congreso FAMHA 2018</b>
+                  <b>CONGRESO FAMHA 2018</b>
                 </div>
                 <div class="accordionInfo">
                   <p class="justify">
-                    "Homeopat&iacute;a, paradigma del SXXI"<br>
+                    "HOMEOPAT&Iacute;A, PARADIGMA SIGLO XXI"<br>
                     <hr>
-                    <b>Fecha:</b> A determinar.<br>
+                    <b>Fecha:</b> 24 al 27 de Octubre de 2018<br>
                     <b>Temas:</b><br>
-                    &#9679;  Homeopatía Siglo XXI.<br>
-                    &#9679;  Temario Vitalismo del siglo XXI.<br>
+                    &#9679;  Vitalismo del Siglo XXI.<br>
                     &#9679;  Investigación en Homeopatia.<br>
-                    &#9679;  Nuevas Patogenesias. Temas libres.<br>
+                    &#9679;  Nuevas Patogenesias.<br>
+                    &#9679;  Temas libres.<br>
                     <br>
-                    <b>Sede:</b> Hotel Centuria, Suipacha 30, CABA.<br>
+                    <b>Sede:</b> Hotel Centuria, Suipacha 30. CABA.<br>
+                    <br>
+                    <br>
+                    <b><a href="formulario_preinscripcion.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n
                   </p>
                 </div>
               </div><!-- 1-->
@@ -179,7 +182,7 @@
                    </p>
                  </div>
                </div><!-- 8-->
-              
+
               <!-- New -->
               <!--<div class="col-md-12 infoContainer accordion">-->
               <!--  <div class="accordionTitle">-->
@@ -198,8 +201,8 @@
               <!--  </div>-->
               <!--</div>-->
               <!-- New -->
-              
-              
+
+
             </div><!-- row -->
           </div><!-- container -->
           <!-- /Content inside this div -->
