@@ -31,12 +31,14 @@ foreach($Pharmacies as $Pharmacy)
   $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i> </b>'.utf8_encode($Pharmacy['whatsapp']).'<br>':'';
   $Website  = $Pharmacy['website']? '<b><i class="fa fa-globe"></i> </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.strtolower($Pharmacy['website']).'</a><br>':'';
   $Logo     = $Pharmacy['logo']? $Pharmacy['logo'] : '../../../skin/images/products/farmacias/pharmacygeneric.jpg';
-  $Other    = utf8_encode($Pharmacy['other']);
+  $Other    = '<br>'.utf8_encode($Pharmacy['other']);
   if($Pharmacy['facebook'])
   {
     $Fb = array_reverse(explode("/",$Pharmacy['facebook']));
     if($Fb[0])
       $Facebook = '<b><i class="fa fa-facebook"></i> </b><a href="https://www.facebook.com/'.$Fb[0].'" target="_blank">facebook.com/'.$Fb[0].'</a>';
+    else
+      $Fb = array();
   }else{
     unset($Facebook);
   }
