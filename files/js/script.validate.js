@@ -1,24 +1,8 @@
 // JavaScript Document
 
-//////////////////////////////////////////////////// Value In Array ////////////////////////////////////////////////////
-function inArray(needle, haystack) {
-    var length = haystack.length;
-    for(var i = 0; i < length; i++) {
-        if(haystack[i] == needle) return true;
-    }
-    return false;
-}
-
-
-//////////////////////////////////////////////////// Element Visible ////////////////////////////////////////////////////////
-
-function isVisible(object)
-{
-    return $(object).is (':visible') && $(object).parents (':hidden').length == 0;
-}
-
-
 /****************************************************************\
+Validate Fields V 1.2.28
+Develped by Alejandro Romero (romero.m.alejandro@gmail.com)
 
 VALIDATION ATRIBUTES:
 
@@ -27,15 +11,15 @@ VALIDATION ATRIBUTES:
 	Data: Text
 
 2)	validateMinLength: Checks if the field have a minimum quantity of characters.
-	Declaration: 'validateMinLenght="5/Please, enter at least 5 characters"'
-	Data: MinVal/Text
+	Declaration: 'validateMinLenght="5///Please, enter at least 5 characters"'
+	Data: MinVal///Text
 
 3)	validateMaxLength: Checks if the field reaches a maximum quantity of characters.
-	Declaration: 'validateMaxLenght="25/Please, enter less than 25 characters"'
-	Data: MaxVal/Text
+	Declaration: 'validateMaxLenght="25///Please, enter less than 25 characters"'
+	Data: MaxVal///Text
 
 4)	validateEmail: Checks if the field contains a valid email.
-	Declaration: 'validateEmail="Please, enter a valid email"'
+	Declaration: 'validateEmail:"Please, enter a valid email"'
 	Data: Text
 
 5) 	validateOnlyNumbers: Checks if the field contains only numbers.
@@ -43,18 +27,18 @@ VALIDATION ATRIBUTES:
 	Data: Text
 
 6) validateEqualToField: Checks if the field value is equal to the value of the field specificated in the argument.
-	Declaration: 'validateEqualToField="fieldID/Both fields must match"'
-	Data: TargetField/Text
+	Declaration: 'validateEqualToField="fieldID///Both fields must match"'
+	Data: TargetField///Text
 
 7)	validateFromFile: Matchs the field value with a file.
-	Declaration: 'validateFromFile="process.php/User already exists/otherfieldid/variable:=value"'
-	Data: File/Text/(FieldID)/.../(Key:=Value)/...
+	Declaration: 'validateFromFile="process.php///User already exists///otherfieldid///variable:=value"'
+	Data: File///Text///(FieldID)///...///(Key:=Value)///...
 
 8)	mustBeChecked: Checks if a number of checkboxes are checked.
-	Declaration: 'mustBeChecked="1/At least 1 of the checkboxes must be checked"'
-	Declaration: 'mustBeChecked="3/Only 3 of the checkboxes can be checked/limited"'
-	Declaration: 'mustBeChecked="2/Only 2 of the checkboxes can be checked/strict"'
-	Data: Value/Text/(Mode)
+	Declaration: 'mustBeChecked="1///At least 1 of the checkboxes must be checked"'
+	Declaration: 'mustBeChecked="3///Only 3 of the checkboxes can be checked///limited"'
+	Declaration: 'mustBeChecked="2///Only 2 of the checkboxes can be checked///strict"'
+	Data: Value///Text///(Mode)
 
 
 \****************************************************************/
@@ -65,12 +49,13 @@ VALIDATION ATRIBUTES:
 	var validateTag;
 	var validateValid;
 	var validateElements;
-	var validateDelimiter	= '/';
-	var checkboxGroups		= new Array();
+	var validateErrorElements = "";
+	var validateDelimiter	= '///';
+	var validateCheckboxGroups		= new Array();
 
 	function ValidateFields() {
 		validateErrorClass 	= "ErrorText Red";
-		validateElements	= "input, select, textarea";
+		validateElements	= "input[type!='hidden'],select,textarea";
 		validateTag			= "div";
 		validateValid;
 	}
@@ -107,6 +92,8 @@ VALIDATION ATRIBUTES:
 
 	ValidateFields.prototype.createErrorDivs = function()
 	{
+		$(validateTag+'[id$="ErrorDiv"]').remove();
+		
 		$(validateElements).each( function(){
 			$(this).parent().append('<'+validateTag+' id="'+$(this).attr("id")+'ErrorDiv" class="'+validateErrorClass+'"></'+validateTag+'>');
 		});
@@ -231,7 +218,10 @@ VALIDATION ATRIBUTES:
 
 	ValidateFields.prototype.isOnlyNumbers	= function(value)
 	{
+		if(value.length > 0)
 		  return !isNaN(parseFloat(value)) && isFinite(value);
+		else
+			return true;
 	}
 
 	ValidateFields.prototype.isNotFilled	= function(object)
@@ -301,9 +291,9 @@ VALIDATION ATRIBUTES:
 		var disabled	= $(object).attr("disabled");
 		var display		= isVisible(object);
 
-		if($(object).attr("mustBeChecked") && disabled!="disabled" && display && !inArray(name,checkboxGroups))
+		if($(object).attr("mustBeChecked") && disabled!="disabled" && display && !inArray(name,validateCheckboxGroups))
 		{
-			checkboxGroups.push(name);
+			validateCheckboxGroups.push(name);
 			//$('input[type="checkbox"][name="'+name+'"]').each(function(){if(this!=object)$(this).attr('mustBeChecked','')});
 			var properties	= $(object).attr("mustBeChecked").split(validateDelimiter);
 			var checks 		= properties[0];
@@ -328,19 +318,31 @@ VALIDATION ATRIBUTES:
 			return false;
 		}
 	}
+	
+	ValidateFields.prototype.getLastValidation = function()
+	{
+		return validateErrorElements;
+	}
 
 
 	ValidateFields.prototype.validateFields	= function(Form)
 	{
 		validateValid		= true;
-		checkboxGroups		= new Array();
+		validateCheckboxGroups		= new Array();
 		var validateObject;
 
 		if(!Form || Form=='*')
+		{
 			validateObject	= $(validateElements);
-		else
-			validateObject	= $('#'+Form+' '+validateElements);
-
+		}else{
+			var elements = validateElements.split(',');
+			validateObject	= $('#'+Form+' '+elements.join(',#'+Form+' '));
+			//alert('#'+Form+' '+elements.join(',#'+Form+' '));
+			//validateObject	= $('#'+Form+' '+validateElements);
+		}
+			
+		//console.log($('#'+Form+' '+validateElements));
+		//validateObject	= $('#'+Form).find(validateElements);
 		if(!validateObject.attr('id')) validateValid	= false;
 
 
@@ -358,7 +360,7 @@ VALIDATION ATRIBUTES:
 
 	ValidateFields.prototype.validateOneField	= function(object)
 	{
-		checkboxGroups		= new Array();
+		validateCheckboxGroups		= new Array();
 		ValidateFields.prototype.validateField(object);
 
 	}
@@ -366,7 +368,6 @@ VALIDATION ATRIBUTES:
 	ValidateFields.prototype.validateField	= function(object)
 	{
 			var valid			= true
-
 			if(!ValidateFields.prototype.isClearDiv(object)) ValidateFields.prototype.hideDiv(object);
 
 			if(ValidateFields.prototype.empty(object))
@@ -379,14 +380,14 @@ VALIDATION ATRIBUTES:
 			if(valid && ValidateFields.prototype.minLength(object))
 			{
 				valid	= false;
-				var text	= $(object).attr("validateMinLength").substring($(object).attr("validateMinLength").indexOf(validateDelimiter)+1);
+				var text	= $(object).attr("validateMinLength").substring($(object).attr("validateMinLength").indexOf(validateDelimiter)+validateDelimiter.length);
 				$("#"+$(object).attr("id")+"ErrorDiv").html(text);
 			}
 
 			if(valid && ValidateFields.prototype.maxLength(object))
 			{
 				valid	= false;
-				var text	= $(object).attr("validateMaxLength").substring($(object).attr("validateMaxLength").indexOf(validateDelimiter)+1);
+				var text	= $(object).attr("validateMaxLength").substring($(object).attr("validateMaxLength").indexOf(validateDelimiter)+validateDelimiter.length);
 				$("#"+$(object).attr("id")+"ErrorDiv").html(text);
 			}
 
@@ -405,23 +406,23 @@ VALIDATION ATRIBUTES:
 			if(valid && ValidateFields.prototype.equalToField(object))
 			{
 				valid	= false;
-				var text	= $(object).attr("validateEqualToField").substring($(object).attr("validateEqualToField").indexOf(validateDelimiter)+1);
+				var text	= $(object).attr("validateEqualToField").substring($(object).attr("validateEqualToField").indexOf(validateDelimiter)+validateDelimiter.length);
 				$("#"+$(object).attr("id")+"ErrorDiv").html(text);
 			}
 
 			if(valid && ValidateFields.prototype.mustBeChecked(object))
 			{
 				valid			= false;
-				var text		= $(object).attr("mustBeChecked").substring($(object).attr("mustBeChecked").indexOf(validateDelimiter)+1);
-				// var errormsg	= new Message();
-				// errormsg.error(text,1500);
-				$("#"+$(object).attr("id")+"ErrorDiv").html(text);
+				var text		= $(object).attr("mustBeChecked").substring($(object).attr("mustBeChecked").indexOf(validateDelimiter)+validateDelimiter.length);
+				var errormsg	= new Message();
+				errormsg.error(text,1500);
+				//$("#"+$(object).attr("id")+"ErrorDiv").html(text);
 			}
 
 			if(valid && ValidateFields.prototype.fromFile(object))
 			{
 				valid		= false;
-				var text	= $(object).attr("validateFromFile").substring($(object).attr("validateFromFile").indexOf(validateDelimiter)+1);
+				var text	= $(object).attr("validateFromFile").substring($(object).attr("validateFromFile").indexOf(validateDelimiter)+validateDelimiter.length);
 				text		= text.substring(0,text.indexOf(validateDelimiter))
 				$("#"+$(object).attr("id")+"ErrorDiv").html(text);
 			}
@@ -465,6 +466,7 @@ VALIDATION ATRIBUTES:
 
 	ValidateFields.prototype.showDiv	= function(object)
 	{
+		validateErrorElements = validateErrorElements + $(object).attr("id") + " ";
 		if(!validateValid){
 			switch(validateShowEffect)
 			{
