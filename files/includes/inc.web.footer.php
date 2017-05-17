@@ -1,14 +1,18 @@
+<?php
+  $Data = $DB->fetchAssoc('configuration','*');
+  $Data = $Data[0];
+?>
+
 ﻿  <div class="container footerData">
     <div class="row">
       <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 foterDataAddress">
         <!-- Contact Data -->
         <p>
-          <b>Turnos:</b> 4826-5852 - 4821.5888 <br>
-          <b>Atenci&oacute;n al socio:</b> 4826-0911 <br>
-          <b>Administración:</b> 4825-2194 <br>
-          <b>Escuela:</b> 4827-2907 - <b>Direcci&oacute;n:</b>  Juncal 2884, Recoleta| Buenos Aires<br>
-          <b>Consultorios privados AMHA:</b> 4961-0562 / 4963-1841 /4962-6812
-          Charcas 2744 - piso 2 dpto 6, Barrio Norte| Buenos Aires
+          <b>Turnos:</b> <?php echo $Data['data_1'] ?><br>
+          <b>Atenci&oacute;n al socio:</b> <?php echo $Data['data_2'] ?><br>
+          <b>Administración:</b> <?php echo $Data['data_3'] ?><br>
+          <b>Escuela:</b> <?php echo $Data['data_4'] ?> - <b>Direcci&oacute;n:</b>  <?php echo $Data['data_5'] ?><br>
+          <b>Consultorios privados AMHA:</b> <?php echo $Data['data_6'] ?>
         </p>
 
         <!-- <p>

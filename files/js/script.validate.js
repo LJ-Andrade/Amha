@@ -497,3 +497,8 @@ VALIDATION ATRIBUTES:
 		do { curDate = new Date(); }
 		while(curDate-date < millis);
 	}
+
+function isVisible(object)
+{
+    return $(object).is (':visible') && $(object).parents (':hidden').length == 0;
+}

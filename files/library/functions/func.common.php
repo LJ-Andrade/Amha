@@ -100,7 +100,7 @@
 		$FormatedMonth[11]	= 'Noviembre';
 		$FormatedMonth[12]	= 'Diciembre';
 		
-		return $FormatedMonth[$Month];
+		return $FormatedMonth[intval($Month)];
 	}
 	
 	function AddSlashesArray($Array)

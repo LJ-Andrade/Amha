@@ -1,8 +1,8 @@
 <?php
   include('../../includes/inc.main.php');
   $Doctor = new Doctor();
-  $Head->setTitle("Clientes");
-  $Head->setIcon('<i class="fa fa-plus"></i>');
+  $Head->setTitle("M&eacute;dicos");
+  $Head->setIcon('<i class="fa fa-group"></i>');
   $Head->setSubTitle('Listado de M&eacute;dicos');
   $Head->setHead();
 

@@ -113,6 +113,7 @@ function initMap(mapID) {
     //console.log($('#map'+mapID+'_lat').val());
     var lat = parseFloat($('#map'+mapID+'_lat').val());
     var lng = parseFloat($('#map'+mapID+'_lng').val());
+    var full_address = $('#map'+mapID+'_address').val() + ", " + $('#map'+mapID+'_zone').val() + ". " + $('#map'+mapID+'_province_short').val();
     if(lat && lng)
     {
       var myLatlng = {lat: lat, lng: lng};
@@ -146,6 +147,8 @@ function initMap(mapID) {
     if(typeof myLatlng !== 'undefined')
     {
       marker.setPosition(myLatlng);
+      infowindow.setContent('<div><strong>' + full_address + '</strong>');
+      infowindow.open(map, marker);
     }
 
     autocomplete.addListener('place_changed', function() {
@@ -199,9 +202,9 @@ function initMap(mapID) {
     document.getElementById("map"+mapID+"_lat").value = place.geometry.location.lat();
     document.getElementById("map"+mapID+"_lng").value = place.geometry.location.lng();
     //parent.$('body').contents().find('#google_maps_button').trigger('click');
-        
       infowindow.setContent('<div><strong>' + address + '</strong>');
-      infowindow.open(map, marker);
+      infowindow.open(map, marker);  
+      
     });
   }
   

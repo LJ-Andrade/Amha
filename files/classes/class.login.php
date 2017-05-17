@@ -15,6 +15,7 @@ class Login extends DataBase
 	var 	$Target;
 	var		$Return;
 	var 	$Link;
+	//var		$Users = array('amha'=>'b88f798eb70443c4de2a3f5a3a3013ffab74cc9f','cheketo'=>'49e09dc76bf5ba6fdcbfb710a7d8842d867bad54');
 
 	const 	HOURS 		= 2;
 	const 	MAX_TRIES	= 13;
@@ -38,7 +39,8 @@ class Login extends DataBase
 
 	public function setSessionVars()
 	{
-		$_SESSION['user'] 				= 'amha';
+		$_SESSION['user'] 			= $this->User;
+		$_SESSION['password'] 		= $this->PasswordHash;
 		$_SESSION['admin_id'] 		= '9999';
 		$_SESSION['company_id'] 	= '1';
 		$_SESSION['first_name'] 	= 'Asociación Médica';
@@ -90,10 +92,9 @@ class Login extends DataBase
 		$this->setData(strtolower($_POST['user']),$_POST['password']);
 		//$this->setLogin();
 
-		/* PROCESS */
-		if($this->User=='amha')
+		if($_SESSION['users'][$this->User])
 		{
-				if($_POST['password'] == 'Asoc1810')
+				if($this->PasswordHash == $_SESSION['users'][$this->User])
 				{
 						$this->setSessionVars();
 						$this->setCookies();

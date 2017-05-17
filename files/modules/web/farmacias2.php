@@ -7,22 +7,16 @@
   $Pharmacies = $DB->fetchAssoc('pharmacy a LEFT JOIN geolocation_province b ON (a.province_id = b.province_id)','a.*,b.name as province',"status='A'",'a.province_id,a.name');
 //var_dump($Pharmacies);die();
 
-  $Lat = 0;
-  $Lng = 0;
-
 foreach($Pharmacies as $Pharmacy)
 {
-  $Lat += $Pharmacy['lat'];
-  $Lng += $Pharmacy['lng']; 
-  
   if($Province != $Pharmacy['province_id'])
   {
     $HTML .= '<hr class="deleteable"><div class="row section titleSeparator consultProv deleteable"><h5><b class="w">'.$Pharmacy['province'].'</b></h5></div><hr class="deleteable">';
     $Province = $Pharmacy['province_id'];
   }
 
-  $Name     = $Pharmacy['name'];
-  $Address  = '<b><i class="fa fa-map-signs"></i> </b>'.$Pharmacy['address'].'<br>';
+  $Name     = ucfirst($Pharmacy['name']);
+  $Address  = '<b><i class="fa fa-building"></i> </b>'.$Pharmacy['address'].'<br>';
   $Phone    = $Pharmacy['phone']?'<b><i class="fa fa-phone"></i> </b>'.$Pharmacy['phone'].'<br>':'';
   $Whatsapp = $Pharmacy['whatsapp']?'<b><i class="fa fa-whatsapp"></i> </b>'.$Pharmacy['whatsapp'].'<br>':'';
   $Website  = $Pharmacy['website']? '<b><i class="fa fa-globe"></i> </b><a href="http://'.$Pharmacy['website'].'" target="_blank">'.$Pharmacy['website'].'</a><br>':'';
@@ -60,8 +54,8 @@ foreach($Pharmacies as $Pharmacy)
         <img src="'.$Logo.'" alt="" />
       </div>
       <div class="col-md-10 col-sm-12 col-xs-12 item2ColInnerText">
-        <h5>Farmacia '.$Name.'</h5>
-        <p id="p'.$Pharmacy['pharmacy_id'].'">
+        <h5>'.$Name.'</h5>
+        <p>
           '.$Address.'
           '.$Phone.'
           '.$Whatsapp.'
@@ -76,9 +70,6 @@ foreach($Pharmacies as $Pharmacy)
   ';
   unset($Mail);
 }
-
-$Lat = $Lat/count($Pharmacies);
-$Lng = $Lng/count($Pharmacies);
 ?>
 
 
@@ -124,55 +115,75 @@ $Lng = $Lng/count($Pharmacies);
     
     
     <script>
-      var map;
-      function initMap(){
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
-          //center: new google.maps.LatLng(-34.355058,-61.940918),
-          center: new google.maps.LatLng(<?php echo $Lat.','.$Lng; ?>),
-          mapTypeId: 'terrain'
+      var customLabel = {
+        restaurant: {
+          label: 'R'
+        },
+        bar: {
+          label: 'B'
+        }
+      };
+
+        function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(-33.863276, 151.207977),
+          zoom: 12
         });
+        var infoWindow = new google.maps.InfoWindow;
 
-        // Create a <script> tag and set the USGS URL as the source.
-        //var script = document.createElement('script');
-        // This example uses a local copy of the GeoJSON stored at
-        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
-        //script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
-        // script.src = '../pharmacies/markers.php';
-        
-        // document.getElementsByTagName('head')[0].appendChild(script);
-        
-        <?php $I=1; foreach($Pharmacies as $Pharmacy){ ?>
-          var latLng = new google.maps.LatLng(<?php echo $Pharmacy['lat'].','.$Pharmacy['lng'] ?>);
-          var marker<?php echo $I ?> = new google.maps.Marker({
-            position: latLng,
-            map: map,
-            title: '<?php echo $Pharmacy['name'] ?>',
-            icon: 'http://icons.iconarchive.com/icons/icons-land/gis-gps-map/64/Pharmacy-icon.png'
-          });
-          var contentString<?php echo $I ?> = '<h2>&#160;Farmacia <?php echo $Pharmacy['name'] ?></h2><p>'+$('#p<?php echo $Pharmacy['pharmacy_id'] ?>').html()+'</p>';
+          // Change this depending on the name of your PHP or XML file
+          downloadUrl('../pharmacies/markers2.php', function(data) {
+            var xml = data.responseXML;
+            var markers = xml.documentElement.getElementsByTagName('marker');
+            Array.prototype.forEach.call(markers, function(markerElem) {
+              var name = markerElem.getAttribute('name');
+              var address = markerElem.getAttribute('address');
+              var type = markerElem.getAttribute('type');
+              var point = new google.maps.LatLng(
+                  parseFloat(markerElem.getAttribute('lat')),
+                  parseFloat(markerElem.getAttribute('lng')));
 
-          window<?php echo $I ?> = new google.maps.InfoWindow({
-            content: contentString<?php echo $I ?>
-          });
+              var infowincontent = document.createElement('div');
+              var strong = document.createElement('strong');
+              strong.textContent = name
+              infowincontent.appendChild(strong);
+              infowincontent.appendChild(document.createElement('br'));
 
-          google.maps.event.addListener(marker<?php echo $I ?>, 'click', function() {
-            window<?php echo $I ?>.open(map,marker<?php echo $I ?>);
+              var text = document.createElement('text');
+              text.textContent = address
+              infowincontent.appendChild(text);
+              var icon = customLabel[type] || {};
+              var marker = new google.maps.Marker({
+                map: map,
+                position: point,
+                label: icon.label
+              });
+              marker.addListener('click', function() {
+                infoWindow.setContent(infowincontent);
+                infoWindow.open(map, marker);
+              });
+            });
           });
-          <?php ;$I++;} ?>
-        
+        }
+
+
+
+      function downloadUrl(url, callback) {
+        var request = window.ActiveXObject ?
+            new ActiveXObject('Microsoft.XMLHTTP') :
+            new XMLHttpRequest;
+
+        request.onreadystatechange = function() {
+          if (request.readyState == 4) {
+            request.onreadystatechange = doNothing;
+            callback(request, request.status);
+          }
+        };
+
+        request.open('GET', url, true);
+        request.send(null);
       }
 
-      // Loop through the results array and place a marker for each
-      // set of coordinates.
-        
-        // window.pharmcies_callback = function(results) {
-        // for (var i = 0; i < results.length; i++) {
-          // var lat = results[i].lat;
-          // var lng = results[i].lng;
-          
-      //   }
-      // }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuMB_Fpcn6USQEoumEHZB_s31XSQeKQc0&callback=initMap"></script>
   </body>

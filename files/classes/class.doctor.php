@@ -5,9 +5,10 @@ class Doctor extends DataBase
 	var	$ID;
 	var $Data;
 	var $ImgGalDir		= '../../../skin/images/doctor/';
-	var $Offices 			= array();
-	var $Table				= "doctor";
-	var $TableID			= "doctor_id";
+	var $Offices 		= array();
+	var $Specialties	= array();
+	var $Table			= "doctor";
+	var $TableID		= "doctor_id";
 
 	const DEFAULTIMG	= "../../../skin/images/doctors/default/default.png";
 
@@ -20,7 +21,10 @@ class Doctor extends DataBase
 			$Data = $this->fetchAssoc($this->Table,"*",$this->TableID."=".$ID);
 			$this->Data = $Data[0];
 			$this->Data['offices'] = $this->GetOffices();
-			$this->Data['name'] = $this->Data['first_name']." ".$this->Data['last_name'];
+			$this->Data['specialties'] = $this->GetSpecialties();
+			$this->Data['sex'] = strtolower($this->Data['sex']);
+			$this->Data['prefix'] = $this->Data['sex']=='m'? 'Dr.' : 'Dra.';
+			$this->Data['name'] = $this->Data['prefix']." ".$this->Data['last_name'].", ".$this->Data['first_name'];
 		}
 	}
 
@@ -30,19 +34,36 @@ class Doctor extends DataBase
 		{
 			$this->Offices = $this->fetchAssoc(
 			$this->Table."_office a
-				LEFT JOIN country b ON (a.country_id = b.country_id)
-				LEFT JOIN country_province c ON (a.province_id = c.province_id)
-				LEFT JOIN country_zone e ON (a.zone_id = e.zone_id)
+				LEFT JOIN geolocation_country b ON (a.country_id = b.country_id)
+				LEFT JOIN geolocation_province c ON (a.province_id = c.province_id)
+				LEFT JOIN geolocation_zone e ON (a.zone_id = e.zone_id)
 				",
-				"a.*,b.title as country,c.title as province,e.title as zone",
-				$this->TableID."=".$this->ID,'a.province_id DESC,a.branch_id');
+				"a.*,b.name as country,c.short_name as province,e.short_name as zone",
+				$this->TableID."=".$this->ID,'a.province_id DESC');
 		}
 		return $this->Offices;
+	}
+	
+	public function GetSpecialties()
+	{
+		if(empty($this->Specialties))
+		{
+			$this->Specialties = $this->fetchAssoc(
+				"relation_doctor_specialty a
+				LEFT JOIN doctor_specialty b ON (a.specialty_id = b.specialty_id)
+				",
+				"b.*",
+				$this->TableID."=".$this->ID,'b.title');
+		}
+		return $this->Specialties;
 	}
 
 	public function GetDefaultImg()
 	{
-		return self::DEFAULTIMG;
+		// if($this->Data['sex']=='f')
+			return "../../../skin/images/doctors/default/default_".$this->Data['sex'].".ico";
+		// else
+		// 	return self::DEFAULTIMG;
 	}
 
 	public function GetImg()
@@ -60,30 +81,33 @@ class Doctor extends DataBase
 			mkdir($Dir);
 		return $Dir;
 	}
-
-public function GetSpecialties()
-{
-	return 'Clinico';
-}
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////// SEARCHLIST FUNCTIONS ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-public function MakeRegs($Mode="List")
+public function MakeRegs($Mode="list")
 	{
 		$Rows	= $this->GetRegs();
 		//echo $this->lastQuery();
 		for($i=0;$i<count($Rows);$i++)
 		{
 			$Row	=	new Doctor($Rows[$i][$this->TableID]);
-			//var_dump($Row);
-			// $UserGroups = $Row->GetGroups();
-			// $Groups='';
-			// foreach($UserGroups as $Group)
-			// {
-			// 	$Groups .= '<span class="label label-warning">'.$Group['title'].'</span> ';
-			// }
-			// if(!$Groups) $Groups = 'Ninguno';
-			$Actions	= 	'<span class="roundItemActionsGroup"><a><button type="button" class="btn btnGreen ExpandButton" id="expand_'.$Row->ID.'"><i class="fa fa-plus"></i></button></a>';
+			$Row->Data['type'] = $Rows[$i]['type_'.$Row->Data['sex']];
+			switch($Row->Data['type_id'])
+			{
+				case "2": $Label = "green"; break;
+				case "3": $Label = "purple"; break;
+				default: $Label = "aqua"; break;
+			}
+			
+			$Advert = strtolower($Row->Data['advertising'])=='y'? '<span class="label label-warning"> SI ' : '<span class="label bg-gray"> NO ';
+			$Advert .= '</span>';
+			
+			$Payment = strtolower($Row->Data['payment'])=='y'? '<span class="label label-success"> SI ' : '<span class="label label-danger"> NO ';
+			$Payment .= '</span>';
+			
+			$Actions	= 	'<span class="roundItemActionsGroup">';
+			if(strtolower($Mode)=='list')
+				$Actions .= '<a><button type="button" class="btn btnGreen ExpandButton" id="expand_'.$Row->ID.'"><i class="fa fa-plus"></i></button></a>';
 			$Actions	.= 	'<a href="edit.php?id='.$Row->ID.'"><button type="button" class="btn btnBlue"><i class="fa fa-pencil"></i></button></a>';
 			if($Row->Data['status']=="A")
 			{
@@ -92,36 +116,52 @@ public function MakeRegs($Mode="List")
 				$Actions	.= '<a class="activateElement" process="../../library/processes/proc.common.php" id="activate_'.$Row->ID.'"><button type="button" class="btn btnGreen"><i class="fa fa-check-circle"></i></button></a>';
 			}
 			$Actions	.= '</span>';
-			// echo '<pre>';
-			// print_r($Row->Data['branches']);
-			// echo '</pre>';
 
 			$Offices = '';
 			$I=0;
+			
 			foreach($Row->Data['offices'] as $Office)
 			{
 				$I++;
 				$RowClass = $I % 2 != 0? 'bg-gray':'';
+				
+				$Floor = $Office['floor']? ' '.$Office['floor'].'°':'';
+            	$Apartment = $Office['apartment']? ' '.$Office['apartment']:'';
 
-				$OfficeAddress = $Office['address'].', '.$Office['zone'].', '.$Office['province'];//.', '.$Office['country'];
+				$OfficeAddress = $Office['address'].$Floor.$Apartment.', '.$Office['zone'].', '.$Office['province'];//.', '.$Office['country'];
 
 				$OfficeDataFields = '';
-				$OfficeDataFields .= $Branch['phone']? '<span class="smallDetails"><i class="fa fa-phone"></i> '.$Office['phone'].'</span>':'';
-				$OfficeDataFields .= $Branch['email']? '<span class="smallDetails"><i class="fa fa-envelope"></i> '.$Office['email'].'</span>':'';
-				$OfficeDataFields .= $Branch['timetable']? '<span class="smallDetails"><i class="fa fa-fax"></i> '.$Office['timetable'].'</span>':'';
+				$OfficeDataFields .= $Office['phone']? '<span class="smallDetails"><i class="fa fa-phone"></i> '.$Office['phone'].'</span>':'';
+				$OfficeDataFields .= $Office['email']? '<span class="smallDetails"><i class="fa fa-envelope"></i> '.$Office['email'].'</span>':'';
+				$OfficeDataFields .= $Office['timetable']? '<span class="smallDetails"><i class="fa fa-clock-o"></i> '.$Office['timetable'].'</span>':'';
 				$OfficeData = $OfficeDataFields? '<div class="col-md-4 col-md-6 col-sm-12"><div class="listRowInner"><span class="listTextStrong">Datos del Consultorio</span>'.$OfficeDataFields.'</div></div>':'';
 
 				$Offices .= '
-							<div class="row '.$RowClass.'">
+							<div class="row '.$RowClass.'" style="margin-top:1em;">
 								<div class="col-md-4 col-md-6 col-sm-12">
 									<div class="listRowInner">
-										<span class="smallDetails">'.$OfficeAddress.'</span>
+										<span class="listTextStrong"><i class="fa fa-map-marker"></i> '.$OfficeAddress.'</span>
 									</div>
 								</div>
 								'.$OfficeData.'
 							</div>';
 			}
-
+			
+			$Specialties = '';
+			foreach($Row->Data['specialties'] as $Specialty)
+			{
+				$Specialties .= '<span class="label label-primary">'.$Specialty['title'].'</span> ';
+			}
+			if($Specialties) //$Specialties = ' No especificadas';
+				
+			$Specialties = '<div class="row" style="padding-top:1em;">
+								<div class="col-sm-12">
+									<div class="listRowInner">
+										<span class="listTextStrong" style="text-align:left!important;">Especialidad: '.$Specialties.'</span>
+									</div>
+								</div>
+							</div>';
+			
 			switch(strtolower($Mode))
 			{
 				case "list":
@@ -133,23 +173,23 @@ public function MakeRegs($Mode="List")
 										<div class="listRowInner">
 											<img class="img-circle" src="'.$Row->GetImg().'" alt="'.$Row->Data['name'].'">
 											<span class="listTextStrong">'.$Row->Data['name'].'</span>
-											<span class="smallDetails"><i class="fa fa-map-marker"></i> '.$Row->Data['offices'][0]['address'].', '.$Row->Data['offices'][0]['zone'].'</span>
-											'.$Phone.'
+											<span class="smallDetails"><span class="label bg-'.$Label.'">'.$Row->Data['type'].'</span></span>
 										</div>
 									</div>
 									<div class="col-lg-2 col-md-3 col-sm-2 hideMobile990">
 										<div class="listRowInner">
-											<span class="listTextStrong">Especialidades</span>
-											<span class="emailTextResp"><span class="label label-success">'.$Row->GetSpecialties().'</span>
+											<span class="listTextStrong">Pago Cuota '.MonthFormat(date('m')).'</span>
+											<span class="emailTextResp">'.$Payment.'</span>
 										</div>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-2 hideMobile990">
 										<div class="listRowInner">
-											<span class="listTextStrong">Tipo Cliente</span>
-											<span class="listTextStrong"><span class="label label-primary">'.$Rows[$i]['type'].'</span></span>
+											<span class="listTextStrong">Publicidad</span>
+											<span class="listTextStrong">'.$Advert.'</span>
 										</div>
 									</div>
 									<div class="animated DetailedInformation Hidden col-md-12">
+										'.$Specialties.'
 										'.$Offices.'
 									</div>
 									<div class="listActions flex-justify-center Hidden">
@@ -172,57 +212,48 @@ public function MakeRegs($Mode="List")
 						              </div>
 						              <div class="roundItemText">
 						                <p><b>'.$Row->Data['name'].'</b></p>
-						                <p>'.ucfirst($Row->Data['iibb']).'</p>
-						                <p>('.$Row->Data['cuit'].')</p>
+						                <p>('.$Row->Data['type'].')</p>
 						              </div>
 						            </div>
 						          </li>';
 				break;
 			}
         }
-        if(!$Regs) $Regs.= '<div class="callout callout-info"><h4><i class="icon fa fa-info-circle"></i> No se encontraron empresas.</h4><p>Puede crear una empresa haciendo click <a href="new.php">aqui</a>.</p></div>';
+        if(!$Regs) $Regs.= '<div class="callout callout-info"><h4><i class="icon fa fa-info-circle"></i> No se encontraron m&eacute;dicos.</h4><p>Puede agregar un m&eacute;dico haciendo click <a href="new.php">aqui</a>.</p></div>';
 		return $Regs;
 	}
 
 	protected function InsertSearchField()
 	{
-		if(!$_GET['country'])
-		{
-			$CountryField = '<!-- Country -->
-          <div class="input-group">
-            <span class="input-group-addon order-arrows" order="country" mode="asc"><i class="fa fa-sort-alpha-asc"></i></span>
-            '.insertElement('text','country','','form-control','placeholder="Pa&iacute;s"').'
-          </div>';
-		}
 
 		return '
 				<!-- Name -->
           <div class="input-group">
             <span class="input-group-addon order-arrows sort-activated" order="name" mode="asc"><i class="fa fa-sort-alpha-asc"></i></span>
-            '.insertElement('text','name','','form-control','placeholder="Nombre"').'
+            '.insertElement('text','name','','form-control','placeholder="M&eacute;dico/a"').'
           </div>
           <!-- Province -->
           <div class="input-group">
             <span class="input-group-addon order-arrows" order="province" mode="asc"><i class="fa fa-sort-alpha-asc"></i></span>
-            '.insertElement('text','','province','form-control','placeholder="Provincia"').'
-          </div>
-          <!-- IIBB -->
-          <div class="input-group">
-            <span class="input-group-addon order-arrows" order="iibb" mode="asc"><i class="fa fa-sort-alpha-asc"></i></span>
-            '.insertElement('text','iibb','','form-control','placeholder="Ingresos Brutos"').'
+            '.insertElement('select','province','','form-control','placeholder="Provincia"',$this->fetchAssoc('geolocation_province','province_id,short_name'),'','Provincia').'
           </div>
           <!-- Address -->
           <div class="input-group">
             <span class="input-group-addon order-arrows" order="address" mode="asc"><i class="fa fa-sort-alpha-asc"></i></span>
             '.insertElement('text','address','','form-control','placeholder="Direcci&oacute;n"').'
           </div>
-          '.$CountryField;
+          <!-- Type -->
+          <div class="input-group">
+            <span class="input-group-addon order-arrows" order="type" mode="asc"><i class="fa fa-sort-alpha-asc"></i></span>
+            '.insertElement('select','type','','form-control','',$this->fetchAssoc('doctor_type','type_id,title_m'),'','Tipo').'
+          </div>
+          ';
 	}
 
 	protected function InsertSearchButtons()
 	{
 		return '<!-- New Button -->
-		    	<a href="new.php"><button type="button" class="NewElementButton btn btnGreen animated fadeIn"><i class="fa fa-user-plus"></i> Nuevo Cliente</button></a>
+		    	<a href="new.php"><button type="button" class="NewElementButton btn btnGreen animated fadeIn"><i class="fa fa-user-plus"></i> Nuevo M&eacute;dico</button></a>
 		    	<!-- /New Button -->';
 	}
 
@@ -230,30 +261,21 @@ public function MakeRegs($Mode="List")
 	{
 		$this->SetTable(
 			$this->Table.' a
-			INNER JOIN doctor_office b ON (b.doctor_id = a.doctor_id)
+			LEFT JOIN doctor_office b ON (b.doctor_id = a.doctor_id)
 			INNER JOIN doctor_type d ON (d.type_id = a.type_id)
-			LEFT JOIN relation_doctor_specialty e ON (e.doctor_id = d.doctor_id)
-			LEFT JOIN doctor_specialty c ON (c.specialty_id = a.specialty_id)
-			LEFT JOIN country g ON (g.country_id = b.country_id)
-			LEFT JOIN country_province h ON (h.province_id = b.province_id)
-			LEFT JOIN country_zone j ON (j.zone_id = b.zone_id)
+			LEFT JOIN relation_doctor_specialty e ON (e.doctor_id = a.doctor_id)
+			LEFT JOIN doctor_specialty c ON (c.specialty_id = e.specialty_id)
+			LEFT JOIN geolocation_country g ON (g.country_id = b.country_id)
+			LEFT JOIN geolocation_province h ON (h.province_id = b.province_id)
+			LEFT JOIN geolocation_zone j ON (j.zone_id = b.zone_id)
 		');
 		$this->SetFields('
 			a.*,
 			b.office_id AS office_id,
-			d.name AS type
+			d.title_m AS type_m,
+			d.title_f AS type_f
 			');
-			// b.name as branch_name,
-			// b.phone as branch_phone,
-			// b.email as branch_email
-			// b.website as branch_website
-			// b.postal_code as branch_postal_code
-			// g.name as branch_country
-			// h.name as branch_province
-			// i.name as branch_region
-			// j.name as branch_zone
 		//$this->AddWhereString(" AND c.company_id = a.company_id");
-		$this->SetOrder('name');
 		$this->SetGroupBy("a.".$this->TableID);
 
 		foreach($_POST as $Key => $Value)
@@ -261,9 +283,11 @@ public function MakeRegs($Mode="List")
 			$_POST[$Key] = $Value;
 		}
 
-		if($_POST['name']) $this->SetWhereCondition("a.name","LIKE","%".$_POST['name']."%");
+		if($_POST['name']) //$this->SetWhereCondition("a.first_name","LIKE","%".$_POST['name']."%");
+			$this->AddWhereString(" AND (a.first_name LIKE '%".$_POST['name']."%' OR a.last_name LIKE '%".$_POST['name']."%')");
 		if($_POST['address']) $this->SetWhereCondition("b.address","LIKE","%".$_POST['address']."%");
-		//if($_POST['cuit_number']) $this->SetWhereCondition("a.cuit","=",$_POST['cuit_number']);
+		if($_POST['province']) $this->SetWhereCondition("b.province_id","=",$_POST['province']);
+		if($_POST['type']) $this->SetWhereCondition("d.type_id","=",$_POST['type']);
 
 		if($_POST['country']) $this->SetWhereCondition("g.name","LIKE", '%'.$_POST['country'].'%');
 		if($_GET['country']) $this->SetWhereCondition("g.name","LIKE", '%'.$_GET['country'].'%');
@@ -275,8 +299,8 @@ public function MakeRegs($Mode="List")
 		}else{
 			$this->SetWhereCondition("a.status","=","A");
 		}
-		if($_POST['view_order_field'])
-		{
+		// if($_POST['view_order_field'])
+		// {
 			if(strtolower($_POST['view_order_mode'])=="desc")
 				$Mode = "DESC";
 			else
@@ -292,15 +316,21 @@ public function MakeRegs($Mode="List")
 				break;
 				case "province":
 					//$this->AddWhereString(" AND a.customer_id = b.customer_id");
-					$Order = 'title';
+					$Order = 'name';
 					$Prefix = "h.";
 				break;
+				case "type":
+					//$this->AddWhereString(" AND a.customer_id = b.customer_id");
+					$Order = 'title_m';
+					$Prefix = "d.";
+				break;
 				default:
+					$Order = 'last_name';
 					$Prefix = "a.";
 				break;
 			}
 			$this->SetOrder($Prefix.$Order." ".$Mode);
-		}
+		// }
 		if($_POST['regsperview'])
 		{
 			$this->SetRegsPerView($_POST['regsperview']);
@@ -331,35 +361,46 @@ public function MakeRegs($Mode="List")
 	public function Insert()
 	{
 		// Basic Data
-		//$Image 			= $_POST['newimage'];
 		$Type 			= $_POST['type'];
-		$Name			= $_POST['name'];
-		$CUIT			= str_replace('-','',$_POST['cuit']);
-		$IVA			= $_POST['iva'];
-		$GrossIncome	= $_POST['gross_income_number'];
-		$International	= $_POST['international'];
+		$FirstName		= $_POST['first_name'];
+		$LastName		= $_POST['last_name'];
+		$Sex			= $_POST['sex'];
+		$NMedEnr		= $_POST['national_medical_enrollment'];
+		$PMedEnr		= $_POST['provincial_medical_enrollment'];
+		$User			= $_POST['user'];
+		$Password		= $_POST['password'];
+		$Email			= $_POST['email'];
+		$Website		= $_POST['website'];
+		if($_POST['service']==2)
+		{
+			$Phone		= $_POST['phone'];
+			$Fax		= $_POST['fax'];
+			$Office 	= 'N';
+		}else{
+			$Office 	= 'Y';
+		}
+		
+		$Advertising	= $_POST['advertising'];
+		$Payment		= $_POST['payment'];
+		
+		$Description	= $_POST['description'];
+		
+		$Notes			= $_POST['notes'];
+		
 
 		//VALIDATIONS
-		if(!$Name) echo 'Falta Nombre';
+		if(!$FirstName) echo 'Falta Nombre';
+		if(!$LastName) echo 'Falta Apellido';
 		if(!$Type) echo 'Tipo incompleto';
-		// if(!$CUIT) echo 'CUIT incompleto';
-		// if(!$IVA) echo 'IVA incompleto';
-		// if(!$GrossIncome) echo 'IIBB incompleto';
+		if(!$Sex) echo 'Falta Sexo';
 
-		$Insert			= $this->execQuery('INSERT',$this->Table,'type_id,name,cuit,iva,iibb,international,creation_date,created_by,company_id',"'".$Type."','".$Name."',".$CUIT.",".$IVA.",".$GrossIncome.",'".$International."',NOW(),".$_SESSION['admin_id'].",".$_SESSION['company_id']);
+		$Insert	= $this->execQuery('INSERT',$this->Table,'type_id,first_name,last_name,office,sex,national_medical_enrollment,provincial_medical_enrollment,user,password,email,phone,fax,website,advertising,payment,description,notes',"'".$Type."','".$FirstName."','".$LastName."','".$Office."','".$Sex."','".$NMedEnr."','".$PMedEnr."','".$User."','".$Password."','".$Email."','".$Phone."','".$Fax."','".$Website."','".$Advertising."','".$Payment."','".$Description."','".$Notes."'");
 		//echo $this->lastQuery();
-		$NewID 		= $this->GetInsertId();
+		$NewID 	= $this->GetInsertId();
 		$New 	= new Doctor($NewID);
-		// $Dir 	= array_reverse(explode("/",$Image));
-		// if($Dir[1]!="default")
-		// {
-		// 	$Temp 	= $Image;
-		// 	$Image 	= $New->ImgGalDir().$Dir[0];
-		// 	copy($Temp,$Image);
-		// }
-		// $this->execQuery('update',$this->Table,"logo='".$Image."'",$this->TableID."=".$NewID);
-
 		$New->InsertOfficeInfo();
+		$New->InsertSpecialties();
+		
 	}
 
 	public function Update()
@@ -368,30 +409,37 @@ public function MakeRegs($Mode="List")
 		$Edit	= new Doctor($ID);
 
 		// Basic Data
-		// $Image 			= $_POST['newimage'];
-		$Type 		= $_POST['type'];
-		$Name			= $_POST['name'];
-		// $CUIT			= str_replace('-','',$_POST['cuit']);
-		// $IVA			= $_POST['iva'];
-		// $GrossIncome	= $_POST['gross_income_number'];
+		$Type 			= $_POST['type'];
+		$FirstName		= $_POST['first_name'];
+		$LastName		= $_POST['last_name'];
+		$Sex			= $_POST['sex'];
+		$NMedEnr		= $_POST['national_medical_enrollment'];
+		$PMedEnr		= $_POST['provincial_medical_enrollment'];
+		$User			= $_POST['user'];
+		$Password		= $_POST['password'];
+		$Email			= $_POST['email'];
+		$Website		= $_POST['website'];
+		if($_POST['service']==2)
+		{
+			$Phone		= $_POST['phone'];
+			$Fax		= $_POST['fax'];
+			$Office 	= 'N';
+		}else{
+			$Office 	= 'Y';
+		}
+		
+		
+		$Advertising	= $_POST['advertising'];
+		$Payment		= $_POST['payment'];
+		
+		$Description	= $_POST['description'];
+		
+		$Notes			= $_POST['notes'];
 
-		// CREATE NEW IMAGE IF EXISTS
-		// if($Image!=$Edit->Data['logo'])
-		// {
-		// 	if($Image!=$Edit->GetDefaultImg())
-		// 	{
-		// 		if(file_exists($Edit->GetImg()))
-		// 			unlink($Edit->GetImg());
-		// 		$Dir 	= array_reverse(explode("/",$Image));
-		// 		$Temp 	= $Image;
-		// 		$Image 	= $Edit->ImgGalDir().$Dir[0];
-		// 		copy($Temp,$Image);
-		// 	}
-		// }
-
-		$Update		= $this->execQuery('update',$this->Table,"name='".$Name."',type_id='".$Type."',cuit=".$CUIT.",iva='".$IVA."',iibb='".$GrossIncome."',updated_by=".$_SESSION['admin_id'],$this->TableID."=".$ID);
+		$Update		= $this->execQuery('update',$this->Table,"first_name='".$FirstName."',last_name='".$LastName."',type_id='".$Type."',office='".$Office."',sex='".$Sex."',national_medical_enrollment='".$NMedEnr."',provincial_medical_enrollment='".$PMedEnr."',user='".$User."',password='".$Password."',email='".$Email."',phone='".$Phone."',fax='".$Fax."',website='".$Website."',advertising='".$Advertising."',payment='".$Payment."',description='".$Description."',notes='".$Notes."'",$this->TableID."=".$ID);
 		//echo $this->lastQuery();
 		$Edit->InsertOfficeInfo(1);
+		$Edit->InsertSpecialties();
 
 	}
 
@@ -412,42 +460,39 @@ public function MakeRegs($Mode="List")
 		$this->ConfigureSearchRequest();
 		echo $this->InsertSearchResults();
 	}
-
-	// public function Newimage()
-	// {
-	// 	if(count($_FILES['image'])>0)
-	// 	{
-	// 		$ID	= $_POST['id'];
-	// 		if($ID)
-	// 		{
-	// 			$New = new Customer($ID);
-	// 			if($_POST['newimage']!=$New->GetImg() && file_exists($_POST['newimage']))
-	// 				unlink($_POST['newimage']);
-	// 			$TempDir= $this->ImgGalDir;
-	// 			$Name	= "customer".intval(rand()*rand()/rand());
-	// 			$Img	= new FileData($_FILES['image'],$TempDir,$Name);
-	// 			echo $Img	-> BuildImage(100,100);
-	// 		}else{
-	// 			if($_POST['newimage']!=$this->GetDefaultImg() && file_exists($_POST['newimage']))
-	// 				unlink($_POST['newimage']);
-	// 			$TempDir= $this->ImgGalDir;
-	// 			$Name	= "customer".intval(rand()*rand()/rand());
-	// 			$Img	= new FileData($_FILES['image'],$TempDir,$Name);
-	// 			echo $Img	-> BuildImage(100,100);
-	// 		}
-	// 	}
-	// }
-
-	public function Validate()
+	
+	public function InsertSpecialties()
 	{
-		$Name 			= strtolower($_POST['name']);
-		$ActualName 	= strtolower($_POST['actualname']);
-
-	    if($ActualName)
-	    	$TotalRegs  = $this->numRows($this->Table,'*',"name = '".$Name."' AND name <> '".$ActualName."'");
-    	else
-		    $TotalRegs  = $this->numRows($this->Table,'*',"name = '".$Name."'");
-		if($TotalRegs>0) echo $TotalRegs;
+		$this->execQuery('DELETE','relation_doctor_specialty','doctor_id = '.$this->ID);
+		//echo $this->lastQuery();
+		$Specialties = explode(',',$_POST['brokers']);
+		// INSERT SPECIALTIES
+		$Fields="";
+		foreach($Specialties as $Specialty)
+		{
+			if(!is_numeric($Specialty))
+			{
+				if(trim($Specialty))
+					$Query = $this->execQuery('INSERT','doctor_specialty','title',"'".$Specialty."'");
+				//echo $this->lastQuery();
+				if($Query)
+					$Specialty = $this->GetInsertId();
+				else
+					$Specialty = 0;
+			}
+			if($Specialty>0)
+			{
+				if($Fields)
+					$Fields .= "),(";
+				$Fields .= $this->ID.",".$Specialty;
+			}
+		}
+		if($Fields)
+		{
+			$this->execQuery('insert','relation_doctor_specialty','doctor_id,specialty_id',$Fields);
+			//echo $this->lastQuery().'<br><br>';
+		}
+			
 	}
 
 	public function InsertOfficeInfo($DeleteInfo=0)
@@ -458,47 +503,108 @@ public function MakeRegs($Mode="List")
 		{
 			$this->execQuery('DELETE','doctor_office',"doctor_id=".$this->ID);
 		}
-
-		// OFFICES
-		for($I=1;$I<=$_POST['total_offices'];$I++)
+		
+		if($_POST['service']==1)
 		{
-			if($_POST['office_name_'.$I])
+			// OFFICES
+			for($I=1;$I<=$_POST['total_branches'];$I++)
 			{
-				$Branches[$I]['name']			= $_POST['office_name_'.$I];
-				$Branches[$I]['website']		= $_POST['website_'.$I];
-				$Branches[$I]['fax']			= $_POST['fax_'.$I];
-				$Branches[$I]['email']			= $_POST['email_'.$I];
-				$Branches[$I]['phone']			= $_POST['phone_'.$I];
-
-				if($I==1)
-					$Branches[$I]['main_office']			= 'Y';
-				else
-					$Branches[$I]['main_office']			= 'N';
-
-				// LOCATION DATA
-				$Branches[$I]['lat']			= $_POST['map'.$I.'_lat'];
-				$Branches[$I]['lng']			= $_POST['map'.$I.'_lng'];
-
-				$Branches[$I]['address']		= $_POST['map'.$I.'_address_short'];
-				if(!$Branches[$I]['address'])
-					$Branches[$I]['address']	= $_POST['address_'.$I];
-				$Branches[$I]['postal_code']	= $_POST['map'.$I.'_postal_code'];
-				if(!$Branches[$I]['postal_code'])
-					$Branches[$I]['postal_code']= $_POST['postal_code_'.$I];
-
-				// $Branches[$I]['zone_short']		= $_POST['map'.$I.'_zone_short'];
-				// $Branches[$I]['region_short']	= $_POST['map'.$I.'_region_short'];
-				// $Branches[$I]['province_short']	= $_POST['map'.$I.'_province_short'];
-				// $Branches[$I]['country_short']	= $_POST['map'.$I.'_country_short'];
-
-				$Branches[$I]['zone']			= $_POST['map'.$I.'_zone'];
-				$Branches[$I]['region'] 		= $_POST['map'.$I.'_region'];
-				$Branches[$I]['province']		= $_POST['map'.$I.'_province'];
-				$Branches[$I]['country']		= $_POST['map'.$I.'_country'];
-
-				$this->execQuery("INSERT","doctor_office","doctor_id,country_id,province_id,zone_id,name,address,phone,email,website,fax,postal_code,main_branch,lat,lng,creation_date,created_by,company_id",$this->ID.",".$Branches[$I]['country_id'].",".$Branches[$I]['province_id'].",".$Branches[$I]['region_id'].",".$Branches[$I]['zone_id'].",'".$Branches[$I]['name']."','".$Branches[$I]['address']."','".$Branches[$I]['phone']."','".$Branches[$I]['email']."','".$Branches[$I]['website']."','".$Branches[$I]['fax']."','".$Branches[$I]['postal_code']."','".$Branches[$I]['main_branch']."',".$Branches[$I]['lat'].",".$Branches[$I]['lng'].",NOW(),".$_SESSION['admin_id'].",".$_SESSION['company_id']);
-				//echo $this->lastQuery();
-				$BranchID 		= $this->GetInsertId();
+				if($_POST['address_'.$I])
+				{
+					$Offices[$I]['floor']		= $_POST['floor_'.$I];
+					//$Offices[$I]['floor']		= $Offices[$I]['floor']? $Offices[$I]['floor'] : 0;
+					$Offices[$I]['apartment']	= $_POST['apartment_'.$I];
+					// $Offices[$I]['name']		= $_POST['office_name_'.$I];
+					$Offices[$I]['timetable']	= $_POST['timetable_'.$I];
+					$Offices[$I]['fax']			= $_POST['fax_'.$I];
+					// $Offices[$I]['email']		= $_POST['email_'.$I];
+					$Offices[$I]['phone']		= $_POST['phone_'.$I];
+	
+					if($I==1)
+						$Offices[$I]['main_office']			= 'Y';
+					else
+						$Offices[$I]['main_office']			= 'N';
+	
+					// LOCATION DATA
+					$Offices[$I]['lat']			= $_POST['map'.$I.'_lat'];
+					$Offices[$I]['lng']			= $_POST['map'.$I.'_lng'];
+	
+					$Offices[$I]['address']		= $_POST['map'.$I.'_address_short'];
+					if(!$Offices[$I]['address'])
+						$Offices[$I]['address']	= $_POST['address_'.$I];
+					if($_POST['number_'.$I])
+						$Offices[$I]['address']	= $Offices[$I]['address'].' '.$_POST['number_'.$I];
+					$Offices[$I]['postal_code']	= $_POST['map'.$I.'_postal_code'];
+					if(!$Offices[$I]['postal_code'])
+						$Offices[$I]['postal_code']= $_POST['postal_code_'.$I];
+	
+					$Offices[$I]['zone_short']		= $_POST['map'.$I.'_zone_short'];
+					$Offices[$I]['region_short']	= $_POST['map'.$I.'_region_short'];
+					$Offices[$I]['province_short']	= $_POST['map'.$I.'_province_short'];
+					$Offices[$I]['country_short']	= $_POST['map'.$I.'_country_short'];
+	
+					$Offices[$I]['zone']		= $_POST['map'.$I.'_zone'];
+					$Offices[$I]['region'] 		= $_POST['map'.$I.'_region'];
+					$Offices[$I]['province']	= $_POST['map'.$I.'_province'];
+					$Offices[$I]['country']		= $_POST['map'.$I.'_country'];
+					
+					if(!$Offices[$I]['zone_short'])
+						$Offices[$I]['zone_short'] = $Offices[$I]['zone'];
+					if(!$Offices[$I]['region_short'])
+						$Offices[$I]['region_short'] = $Offices[$I]['region'];
+					if(!$Offices[$I]['province_short'])
+						$Offices[$I]['province_short'] = $Offices[$I]['province'];
+					
+					// INSERT NEW LOCATIONS
+	
+					// COUNTRY
+					$DBQ = $this->fetchAssoc('geolocation_country','country_id as id',"name='".$Offices[$I]['country']."'");
+					if($DBQ[0]['id'])
+					{
+						$Offices[$I]['country_id'] = $DBQ[0]['id'];
+					}else{
+						// INSERT NEW COUNTRY
+						$this->execQuery('INSERT','geolocation_country','name,short_name',"'".$Offices[$I]['country']."','".$Offices[$I]['country_short']."'");
+						$Offices[$I]['country_id'] = $this->GetInsertId();
+					}
+	
+					//PROVINCE
+					$DBQ = $this->fetchAssoc('geolocation_province','province_id as id',"country_id = ".$Offices[$I]['country_id']." AND ( name='".$Offices[$I]['province_short']."' OR short_name='".$Offices[$I]['province_short']."')");
+					if($DBQ[0]['id'])
+					{
+						$Offices[$I]['province_id'] = $DBQ[0]['id'];
+					}else{
+						// INSERT NEW PROVINCE
+						$this->execQuery('INSERT','geolocation_province','name,short_name,country_id',"'".$Offices[$I]['province']."','".$Offices[$I]['province_short']."',".$Offices[$I]['country_id']);
+						$Offices[$I]['province_id'] = $this->GetInsertId();
+					}
+	
+					//REGION
+					$DBQ = $this->fetchAssoc('geolocation_region','region_id as id',"country_id = ".$Offices[$I]['country_id']." AND province_id = ".$Offices[$I]['province_id']." AND (name='".$Offices[$I]['region']."' OR short_name='".$Offices[$I]['region']."')");
+					if($DBQ[0]['id'])
+					{
+						$Offices[$I]['region_id'] = $DBQ[0]['id'];
+					}else{
+						// INSERT NEW REGION
+						$this->execQuery('INSERT','geolocation_region','name,short_name,country_id,province_id',"'".$Offices[$I]['region']."','".$Offices[$I]['region_short']."',".$Offices[$I]['country_id'].",".$Offices[$I]['province_id']);
+						$Offices[$I]['region_id'] = $this->GetInsertId();
+					}
+	
+					//ZONE
+					$DBQ = $this->fetchAssoc('geolocation_zone','zone_id as id',"country_id = ".$Offices[$I]['country_id']." AND province_id = ".$Offices[$I]['province_id']." AND region_id = ".$Offices[$I]['region_id']." AND (name='".$Offices[$I]['zone']."' OR short_name='".$Offices[$I]['zone']."' )");
+					if($DBQ[0]['id'])
+					{
+						$Offices[$I]['zone_id'] = $DBQ[0]['id'];
+					}else{
+						// INSERT NEW ZONE
+						$this->execQuery('INSERT','geolocation_zone','name,short_name,country_id,province_id,region_id',"'".$Offices[$I]['zone']."','".$Offices[$I]['zone_short']."',".$Offices[$I]['country_id'].",".$Offices[$I]['province_id'].",".$Offices[$I]['region_id']);
+						$Offices[$I]['zone_id'] = $this->GetInsertId();
+					}
+	
+					$this->execQuery("INSERT","doctor_office","doctor_id,country_id,province_id,region_id,zone_id,address,floor,apartment,phone,timetable,fax,postal_code,lat,lng",$this->ID.",".$Offices[$I]['country_id'].",".$Offices[$I]['province_id'].",".$Offices[$I]['region_id'].",".$Offices[$I]['zone_id'].",'".$Offices[$I]['address']."','".$Offices[$I]['floor']."','".$Offices[$I]['apartment']."','".$Offices[$I]['phone']."','".$Offices[$I]['timetable']."','".$Offices[$I]['fax']."','".$Offices[$I]['postal_code']."',".$Offices[$I]['lat'].",".$Offices[$I]['lng']);
+					//echo $this->lastQuery();
+					//$OfficeID 		= $this->GetInsertId();
+				}
 			}
 		}
 	}
@@ -515,49 +621,8 @@ public function MakeRegs($Mode="List")
 			$Agents	= array();
 		}else{
 			$BranchName = $Data['name'];
-			$Results	= $this->fetchAssoc('relation_customer_broker','broker_id','branch_id='.$Data['branch_id']);
-			foreach($Results as $Broker)
-		    {
-		      $Brokers .= $Brokers? ','.$Broker['broker_id'] : $Broker['broker_id'];
-		    }
-		    $Agents	= $this->fetchAssoc('customer_agent','*','branch_id='.$Data['branch_id']);
-		    $A=0;
-		    $AgentsHTML = "";
-		    foreach($Agents as $Agent)
-		    {
-		    	$A++;
-		    	$Charge = $Agent['charge']? '<br><span><i class="fa fa-briefcase"></i> '.$Agent['charge'].'</span>':'';
-		    	$Email = $Agent['email']? '<br><span><i class="fa fa-envelope"></i> '.$Agent['email'].'</span>':'';
-		    	$Phone = $Agent['phone']? '<br><span><i class="fa fa-phone"></i> '.$Agent['phone'].'</span>':'';
-		    	$Extra = $Agent['extra']? '<br><span><i class="fa fa-info-circle"></i> '.$Agent['extra'].'</span>':'';
-		    	$AgentsHTML .= '<div class="col-md-6 col-sm-6 col-xs-12 AgentCard"><div class="info-card-item"><input type="hidden" id="agent_name_'.$A.'_'.$ID.'" value="'.$Agent['name'].'" /><input type="hidden" id="agent_charge_'.$A.'_'.$ID.'" value="'.$Agent['charge'].'" /><input type="hidden" id="agent_email_'.$A.'_'.$ID.'" value="'.$Agent['email'].'" /><input type="hidden" id="agent_phone_'.$A.'_'.$ID.'" value="'.$Agent['phone'].'" /><input type="hidden" id="agent_extra_'.$A.'_'.$ID.'" value="'.$Agent['extra'].'" /><div class="close-btn DeleteAgent"><i class="fa fa-times"></i></div><span><i class="fa fa-user"></i> <b>'.$Agent['name'].'</b></span>'.$Charge.$Phone.$Email.$Extra.'</div></div>';
-		    }
-		    // if($A==0)
-		    // {
-		    // 	$NoAgents = '<span id="empty_agent_'.$ID.'" class="Info-Card-Empty info-card-empty">No hay representantes ingresados</span>';
-		    // }
 		}
-
-		if(!$A)
-	    {
-	    	$NoAgents = '<span id="empty_agent_'.$ID.'" class="Info-Card-Empty info-card-empty">No hay representantes ingresados</span>';
-	    }
-
-
-    	if($ID>1)
-    	{
-    		$BranchNameHTML = '<div class="row form-group inline-form-custom">
-						<div class="col-xs-12 col-sm-4">
-                            Nombre de la Sucursal:
-                        </div>
-                        <div class="col-xs-12 col-sm-8">
-                            '.insertElement('text','branch_name_'.$ID,$BranchName,'form-control branchname','branch="'.$ID.'" placeholder="Nombre" validateEmpty="Ingrese un nombre de sucursal"').'
-                        </div>
-                        </div>';
-    	}else{
-    		$BranchName = 'Central';
-    		$BranchNameHTML = insertElement('hidden','branch_name_'.$ID,$BranchName);
-    	}
+    	$BranchNameHTML = insertElement('hidden','branch_name_'.$ID,$BranchName);
 
         $HTML .= '
         <!-- //// BEGIN BRANCH MODAL '.$ID.' //// -->
@@ -567,23 +632,45 @@ public function MakeRegs($Mode="List")
                 <div class="modal-content">
                     <div class="modal-header">
                         <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
-                        <h4 class="modal-title" id="BranchTitle'.$ID.'">Editar Sucursal '.$BranchName.'</i></h4>
+                        <h4 class="modal-title" id="BranchTitle'.$ID.'">Editar Consultorio</i></h4>
                     </div>
                     <div class="modal-body" style="max-height:35em;overflow-y:scroll;">
                     <form id="branch_form_'.$ID.'" name="branch_form_'.$ID.'">
                             '.$BranchNameHTML.'
-                        <h4 class="subTitleB"><i class="fa fa-globe"></i> Geolocalizaci&oacute;n</h4>
+                        <h4 class="subTitleB"><i class="fa fa-map"></i> Geolocalizaci&oacute;n</h4>
                         <div class="row form-group inline-form-custom">
                             <div class="col-xs-12 col-sm-6">
                                 <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                                    <span class="input-group-addon" alt="Direcci&oacute;n" title="Direcci&oacute;n"><i class="fa fa-map-marker"></i></span>
                                     '.insertElement('text','address_'.$ID,$Data['address'],'form-control','disabled="disabled" placeholder="Direcci&oacute;n" validateMinLength="4///La direcci&oacute;n debe contener 4 caracteres como m&iacute;nimo."').'
                                 </span>
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-bookmark"></i></span>
+                                    <span class="input-group-addon" alt="C&oacute;digo postal" title="C&oacute;digo postal"><i class="fa fa-bookmark"></i></span>
                                     '.insertElement('text','postal_code_'.$ID,$Data['postal_code'],'form-control','disabled="disabled" placeholder="C&oacute;digo Postal" validateMinLength="4///La direcci&oacute;n debe contener 4 caracteres como m&iacute;nimo."').'
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row form-group inline-form-custom">
+                            <div class="col-xs-12 col-sm-6">
+                                <span class="input-group">
+                                    <span class="input-group-addon" alt="Piso" title="Piso"><i class="fa fa-server"></i></span>
+                                    '.insertElement('text','floor_'.$ID,$Data['floor'],'form-control','placeholder="Piso"').'
+                                </span>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <span class="input-group">
+                                    <span class="input-group-addon" alt="Departamento" title="Departamento"><i class="fa fa-hdd-o"></i></span>
+                                    '.insertElement('text','apartment_'.$ID,$Data['apartment'],'form-control','placeholder="Departamento"').'
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row form-group inline-form-custom">
+                            <div class="col-xs-12">
+                                <span class="input-group">
+                                    <span class="input-group-addon" alt="Complemento para el campo direcci&oacute;n" title="Complemento para el campo de direcci&oacute;n"><i class="fa fa-road"></i></span>
+                                    '.insertElement('text','number_'.$ID,'','form-control','placeholder="Complemento direcci&oacute;n"').'
                                 </span>
                             </div>
                         </div>
@@ -594,108 +681,30 @@ public function MakeRegs($Mode="List")
                         </div>
 
                         <br>
-                        <h4 class="subTitleB"><i class="fa fa-phone"></i> Datos de contacto</h4>
+                        <h4 class="subTitleB"><i class="fa fa-globe"></i> Datos de contacto</h4>
                         <div class="row form-group inline-form-custom">
                             <div class="col-sm-6 col-xs-12">
                                 <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    '.insertElement('text','email_'.$ID,$Data['email'],'form-control',' placeholder="Email"').'
-                                </span>
-                            </div>
-                            <div class="col-sm-6 col-xs-12">
-                                <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                    <span class="input-group-addon" alt="Tel&eacute;fono" title="Tel&eacute;fono"><i class="fa fa-phone"></i></span>
                                     '.insertElement('text','phone_'.$ID,$Data['phone'],'form-control',' placeholder="Tel&eacute;fono"').'
                                 </span>
                             </div>
-                        </div>
-                        <div class="row form-group inline-form-custom">
                             <div class="col-sm-6 col-xs-12">
                                 <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-desktop"></i></span>
-                                    '.insertElement('text','website_'.$ID,$Data['website'],'form-control',' placeholder="Sitio Web"').'
-                                </span>
-                            </div>
-                            <div class="col-sm-6 col-xs-12">
-                                <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-fax"></i></span>
+                                    <span class="input-group-addon" alt="Fax" title="Fax"><i class="fa fa-fax"></i></span>
                                     '.insertElement('text','fax_'.$ID,$Data['fax'],'form-control',' placeholder="Fax"').'
                                 </span>
                             </div>
                         </div>
-                        </form>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-12 info-card">
-                                <h4 class="subTitleB"><i class="fa fa-male"></i> Representantes</h4>
-                                '.$NoAgents.'
-                                <div id="agent_list_'.$ID.'" branch="'.$ID.'" class="row">
-                                '.$AgentsHTML.'
-                                </div>
-                                <div class="row txC">
-                                    <button id="agent_new_'.$ID.'" branch="'.$ID.'" type="button" class="btn btn-warning Info-Card-Form-Btn agent_new"><i class="fa fa-plus"></i> Agregar un representante</button>
-                                </div>
-                                '.insertElement("hidden","branch_total_agents_".$ID,count($Agents),'','branch="'.$ID.'"').'
-                                <div id="agent_form_'.$ID.'" class="Info-Card-Form Hidden">
-                                    <form id="new_agent_form_'.$ID.'">
-                                        <div class="info-card-arrow">
-                                            <div class="arrow-up"></div>
-                                        </div>
-                                        <div class="info-card-form animated fadeIn">
-                                            <div class="row form-group inline-form-custom">
-                                                <div class="col-xs-12 col-sm-6">
-                                                    <span class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                        '.insertElement('text','agentname_'.$ID,'','form-control',' placeholder="Nombre y Apellido" validateEmpty="Ingrese un nombre"').'
-                                                    </span>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-6">
-                                                    <span class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-briefcase"></i></span>
-                                                        '.insertElement('text','agentcharge_'.$ID,'','form-control',' placeholder="Cargo"').'
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row form-group inline-form-custom">
-                                                <div class="col-xs-12 col-sm-6">
-                                                    <span class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                                        '.insertElement('text','agentemail_'.$ID,'','form-control',' placeholder="Email" validateEmail="Ingrese un email v&aacute;lido."').'
-                                                    </span>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-6">
-                                                    <span class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                                        '.insertElement('text','agentphone_'.$ID,'','form-control',' placeholder="Tel&eacute;fono"').'
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row form-group inline-form-custom">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <span class="input-group">
-                                                        <span class="input-group-addon"><i class="fa fa-info-circle"></i></span>
-                                                        '.insertElement('textarea','agentextra_'.$ID,'','form-control','rows="1" placeholder="Informaci&oacute;n Extra"').'
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row txC">
-                                                <button id="agent_add_'.$ID.'" branch="'.$ID.'" type="button" class="Info-Card-Form-Done btn btnGreen agent_add"><i class="fa fa-check"></i> Agregar</button>
-                                                <button id="agent_cancel_'.$ID.'" branch="'.$ID.'" type="button" class="Info-Card-Form-Done btn btnRed agent_cancel"><i class="fa fa-times"></i> Cancelar</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
-                        <br>
-                        <h4 class="subTitleB"><i class="fa fa-briefcase"></i> Corredores</h4>
-                        <div id="agent_list_'.$ID.'" branch="'.$ID.'" class="row">
+                        <div class="row form-group inline-form-custom">
                             <div class="col-xs-12">
-                                '.insertElement('multiple','select_broker_'.$ID,$Brokers,'form-control select2 selectTags BrokerSelect','style="width:100%;" branch="'.$ID.'"',$this->fetchAssoc('admin_user',"admin_id,CONCAT(first_name,' ',last_name) as name","status='A' AND profile_id = 361",'name'),'0','Seleccione una Opci&oacute;n').'
-                                '.insertElement('hidden','brokers_'.$ID,$Brokers).'
+                                <span class="input-group">
+                                    <span class="input-group-addon" alt="D&iacute;s y horarios de atenci&oacute;n" title="D&iacute;s y horarios de atenci&oacute;n"><i class="fa fa-clock-o"></i></span>
+                                    '.insertElement('textarea','timetable_'.$ID,$Data['timetable'],'form-control',' placeholder="D&iacute;as y horarios de atenci&oacute;n"').'
+                                </span>
                             </div>
                         </div>
+                        </form>
 
                     </div>
                     <div class="modal-footer txC" style="background-color:#6f69bd!important;">

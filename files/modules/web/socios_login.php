@@ -15,7 +15,7 @@ if($_POST['user'] && $_POST['password'])
   $User = strtolower(addslashes($_POST['user']));
   $Pass = md5(addslashes($_POST['password']));
 
-  $Data = $DB->fetchAssoc("doctor","*","user = '".$User."' AND password = '".$Pass."'");
+  $Data = $DB->fetchAssoc("doctor","*","user = '".$User."' AND (password = '".$Pass."' OR password = '".$_POST['password']."')");
   if($Data[0]['user']==$User)
   {
     $_SESSION['user'] = $User;

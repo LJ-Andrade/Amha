@@ -8,7 +8,7 @@
 
   <div class="login-box-body">
     <div class="login-logo">
-    <span style="color:#FFF;font-size:1em;"><b><i class="fa fa-plus"></i> AMHA</b></span>
+    <span style="color:#FFF;font-size:1em;"><img src="../../../skin/images/body/logos/weblogo.png" style="width:7em;height:7em;"></img></span>
   </div>
   <!-- /.login-logo -->
     <p class="login-box-msg" style="color:#CCC;">INICIAR SESI&Oacute;N</p>
