@@ -38,7 +38,7 @@
                 <hr>
                  <b>Para m&aacute;s informes e inscripci&oacute;n:</b><br>
                  <b>Sra. Graciela M&eacute;ndez</b><br>
-                 <b>E-Mail:</b> socios@amha.org.ar<br>
+                 <b>E-Mail:</b> amhasocios@gmail.com<br>
                  <b>Tel&eacute;fono:</b> 4826-0911 <br>
                  Lunes a viernes de 09 a 16 horas.<br>
 

@@ -41,7 +41,7 @@
                 <li>Participar en las <b>Asambleas</b> para elección de autoridades de la A.M.H.A.</li>
                 <li>Entre otros!</li>
               </ol>
-              <i>Si desea asociarse a la A.M.H.A., env&iacute;enos un e-mail a socios@amha.org.ar y lo asesoraremos para que pueda completar el tr&aacute;mite o
+              <i>Si desea asociarse a la A.M.H.A., env&iacute;enos un e-mail a amhasocios@gmail.com y lo asesoraremos para que pueda completar el tr&aacute;mite o
               comuniquese al <b>011-4826-0911 -  Sra. Graciela M&eacute;ndez</b><br><br></i>
               </p>
               <div class="col-xs-12 linkWrapper sociosSublinks">

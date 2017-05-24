@@ -62,7 +62,7 @@
                 <p>Consultorios privados de los m&eacute;dicos de la A.M.H.A.<br>
                 <b>Charcas 2744 - piso 2 departamento "6"</b><br> Barrio Norte, Buenos Aires, Argentina<br>
                 <b>Tel:</b> (011) 4963-1841 /4962-6812<br>
-		D&iacute;as y horarios: Lunes a Viernes 9 a 18hs.
+		            <b>D&iacute;as y horarios:</b> Lunes a Viernes 9 a 20hs.
               </div>
               <hr class="hrMobile">
               <div class="col-md-4">
@@ -78,9 +78,9 @@
                 <div class="col-md-8">
                   <hr>
                   <p>
-                  <b>ESCUELA DE POSGRADO:</b> Tel: 4826-5852 int 37 | 4827-2907 | escuela@amha.org.ar <br>
-                  <b>ADMINISTRACI&Oacute;N:</b> Tel: 4826-5852 int 36 - administracion@amha.org.ar<br>
-                  <b>SOCIOS:</b> Tel:  4826-5852 int 32 / 4826-0911 - socios@amha.org.ar<br>
+                  <b>ESCUELA DE POSGRADO:</b> Tel: (011) 4827-2907 | escuela@amha.org.ar <br>
+                  <b>ADMINISTRACI&Oacute;N:</b> Tel: (011) 4825-2194 / 4826-5852 / 4821-5888 | administracion@amha.org.ar<br>
+                  <b>SOCIOS:</b> Tel: (011) 4826-0911 - amhasocios@gmail.com<br>
                   </p>
                 </div>
                 <div class="col-md-4">
