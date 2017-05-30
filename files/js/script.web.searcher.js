@@ -11,6 +11,7 @@ $(function(){
     });
     
     $('.SearchOption2Btn').click(function(){
+        $('#SearchName').removeClass('Hidden');
         $('#option2').val($(this).attr('data'));
         $('#SearchOption2').addClass('Hidden');
         $('#searchPreview2').removeClass('Hidden');
@@ -38,15 +39,26 @@ $(function(){
             }
             $('#searchPreview3').html('> <i class="fa fa-map"></i> '+$("#province").find(":selected").text()+zone);
         }
+        if($("#search").val())
+        {
+            $('#searchPreview4').removeClass('Hidden');
+            $('#searchPreview4').html('> <i class="fa fa-search"></i> '+$("#search").val());
+        }else{
+            $('#searchPreview4').addClass('Hidden');
+        }
     });
     
     $('.SearchBackBtn').click(function(){
         $("#province").val('');
         $("#zone").val('');
+        $("#search").val('');
+        $('#SearchName').addClass('Hidden');
         $('#searchResult').addClass('Hidden');
         $(this).parent().addClass('Hidden');
         var id = $(this).attr('btn');
         $("#searchPreview3").addClass('Hidden');
+        $("#searchPreview4").addClass('Hidden');
+        $("#searchPreview4").html('');
         $('#SearchOption'+id).removeClass('Hidden');
         $('#searchPreview'+id).addClass('Hidden');
         $(".searchFilters").addClass('Hidden');

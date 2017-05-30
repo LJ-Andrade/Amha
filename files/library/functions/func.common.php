@@ -264,7 +264,7 @@
 		$Str = str_replace("Ó","O",$Str);
 		$Str = str_replace("ú","u",$Str);
 		$Str = str_replace("Ú","U",$Str);
-		$Str = str_replace(" ","",$Str);
+		//$Str = str_replace(" ","",$Str);
 		$Str = str_replace("ä","a",$Str);
 		$Str = str_replace("Ä","A",$Str);
 		$Str = str_replace("ë","e",$Str);

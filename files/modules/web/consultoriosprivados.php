@@ -19,6 +19,7 @@
   
   if($_POST['type'] || $_POST['office'] || $_POST['province'] || $_POST['zone'])
   {
+    $Where = "";
     if($_POST['type'])
     {
       switch($_POST['type'])
@@ -27,27 +28,32 @@
         case 'vet': $DocType = 2;  break;
         default: $DocType = 1; break;
       }
-      $Condition1 = " AND a.type_id = ".$DocType;
+      $Where .= " AND a.type_id = ".$DocType;
     }
     if($_POST['office'])
     {
       if($_POST['office']=='con')
-        $Condition2 = " AND a.office = 'Y'";
+        $Where .= " AND a.office = 'Y'";
       else
-        $Condition2 = " AND a.office = 'N'";
+        $Where .= " AND a.office = 'N'";
     }
     
     if($_POST['province'])
     {
-        $Condition3 = " AND g.province_id = ".$_POST['province'];
+        $Where .= " AND g.province_id = ".$_POST['province'];
     }
     
     if($_POST['zone'])
     {
-        $Condition4 = " AND f.zone_id = ".$_POST['zone'];
+        $Where .= " AND f.zone_id = ".$_POST['zone'];
     }
     
-    $Where = $Condition1.$Condition2.$Condition3.$Condition4;
+    // if($_POST['name'])
+    // {
+    //   $Where .= " AND (a.first_name LIKE '".$_POST['name']."' OR a.last_name LIKE '".$_POST['name']."')";
+    // }
+    
+    //$Where = $Condition1.$Condition2.$Condition3.$Condition4;
   }
   
   
@@ -57,6 +63,24 @@
 "a.type_id, g.province_id, a.last_name, a.first_name",
 "code"
 );
+  
+  if($_POST['name'])
+  {
+    $Name = ReplaceLatin($_POST['name']);
+    $NewDoctors = array();
+    
+    foreach($Doctors as $Doctor)
+    {
+      if(stripos(ReplaceLatin($Doctor['first_name']), $Name) !== false || stripos(ReplaceLatin($Doctor['last_name']), $Name) !== false)
+      {
+        $NewDoctors[] = $Doctor;
+      }
+    }
+    $Doctors = $NewDoctors;
+    // echo '<br><br>';
+    // print_r($Doctors);
+  }
+
   $Query = $DB->lastQuery();
   foreach($Doctors as $Doctor)
   {
@@ -171,7 +195,7 @@
   }
   if($_POST['search_key'] || $_GET['search'])
   {
-    $Search = $HTML? $HTML : '<div class="row deleteable"><div class="col-sm-12 itemContainer">No se ha encontrado ning&uacute;n resultado.</div></div>';
+    $Search = $HTML? $HTML : '<div class="row deleteable"><div class="col-sm-12 itemContainer txC"><h3><strong>No se ha encontrado ning&uacute;n resultado.</strong></h3></div></div>';
     echo $Search;
     //echo $Query;
     die();
@@ -225,6 +249,7 @@
              <span id="searchPreview1" class="Hidden"></span>
              <span id="searchPreview2" class="Hidden"></span>
              <span id="searchPreview3" class="Hidden"></span>
+             <span id="searchPreview4" class="Hidden"></span>
              </div>
              <div class="col-xs-12 col-sm-3">
                <button type="button" id="ClearSearch" class="btn bg-gray-active" name="ClearSearch">Nueva b&uacute;squeda</button>
@@ -266,6 +291,14 @@
             <button class="SearchBackBtn searchBackBtn" btn="2"><i class="fa fa-arrow-circle-left"></i></button>
           </div>
           
+          <!-- Ubication -->
+          <div class="row searchFilters Hidden" id="SearchName">
+            <div class="form-group searchFiltersInner">
+              <div class="searchIcon" id="SearchIcon" style="cursor:pointer;"><i class="fa fa-search"></i></div>
+              <input id="search" class="form-control" placeholder="Ingrese un nombre o apellido y presione enter..." type="text">
+            </div>
+          </div>
+          
           <div id="searchResult" class="Hidden">
             <?php echo $HTML; ?>
           </div>
@@ -286,12 +319,12 @@
 
     function searchDoctors()
     {
-      var data = $("#search").val();
-      if(data=="") var get = "all";
+      var search = $("#search").val();
+      if(search=="") var get = "all";
       $.ajax({
         method: "POST",
-        url: "consultoriosprivados.php?province="+$("#province").val()+"&zone="+$("#zone").val()+"&type="+$("#option1").val()+"&office="+$("#option2").val()+"&search="+get,
-        data: { search_key: data, province: $("#province").val(), zone: $("#zone").val(), type:$("#option1").val(),office:$("#option2").val()},
+        url: "consultoriosprivados.php?province="+$("#province").val()+"&zone="+$("#zone").val()+"&type="+$("#option1").val()+"&office="+$("#option2").val()+"&name="+$("#search").val()+"&search="+get,
+        data: { search_key: search, province: $("#province").val(), zone: $("#zone").val(), type:$("#option1").val(),office:$("#option2").val(),name:$("#search").val()},
         success: function(callback){
           removeResult();
           $("#searchResult").append(callback);
@@ -312,16 +345,24 @@
     }
     
     $("#SearchIcon").click(function(){
-      searchDoctors();
+      //searchDoctors();
+      searchName();
     });
 
     $("#search").keypress(function(event){
       // if ( event.which != 13 && event.which != 9 && event.which != 16 && event.which != 17 && event.which != 18 && event.which != 20 && event.which != 91 && event.which != 92 ) {
-      if ( event.which == 13)
+      if(event.which == 13)
       {
-        searchDoctors();
+        //searchDoctors();
+        searchName();
       }
     });
+    
+    function searchName()
+    {
+      $("#lastSearch").click();
+      //$('#SearchName').addClass('Hidden');
+    }
       
       
       function initMaps(){
