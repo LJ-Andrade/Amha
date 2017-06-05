@@ -152,55 +152,36 @@
       // });
 
       $("#send").click(function(){
-        if(validate.validateFields('*') && $("#selected_career").val()!="")
+        if(validate.validateFields('*'))
         {
           sendMsg();
           $("#send").attr("disabled",true);
-        }else{
-          if($("#selected_career").val()=="")
-          {
-            alert("Seleccione una carrera.");
-          }
-
-          // if($("#selected_sex").val()!="")
-          // {
-          //   alert("Seleccione un sexo.")
-          // }
         }
       });
 
-      $("input[name=career]").click(function(){
-        $("#selected_career").val($(this).val());
-      });
-
-      $("input[name=sex]").click(function(){
-        $("#selected_sex").val($(this).val());
-      });
+      
 
       function sendMsg()
       {
         //if($('#career').is(':checked')) { alert($('input[name=career]:checked').val()); }
-        var career = $("#selected_career").val();
-        var sex = $("#selected_sex").val();
-        var name = $("#name").val();
+        
+        var fname = $("#first_name").val();
+        var lname = $("#last_name").val();
         var address = $("#address").val();
-        var doc = $("#document").val();
         var email = $("#email").val();
         var phone = $("#phone").val();
-        var occupation = $("#occupation").val();
-        var msg = $("#msg").val();
 
         $.ajax({
           method: "POST",
-          url: "formulario_preinscripcion.php",
-          data: { name:name, email:email, phone:phone, msg:msg,career:career,sex:sex,address:address,doc:doc,occupation:occupation},
+          url: "formulario_congreso.php",
+          data: { first_name:fname, last_name:lname, email:email, phone:phone ,address:address},
           success: function(callback){
             if(callback)
             {
               console.log(callback);
             }else{
-              $(".sociosLoginInner").html('<br><br><h3 class="form-signin-heading"><b>Su mensaje ha sido enviado.<br>Gracias por contactarse.</b></h3>');
-              alert("Mensaje enviado correctamente");
+              $(".sociosLoginInner").html('<br><br><h3 class="form-signin-heading"><b>Hemos recibido el formulario de pre inscripci&oacute;n.<br>Gracias por contactarse.</b></h3>');
+              alert("Formulario enviado correctamente");
             }
           }
         });
