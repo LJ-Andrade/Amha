@@ -13,7 +13,7 @@
         <!-- Home main menu -->
         <div class="row homeMenu">
           <div class="row">
-            <a href="cursos_y_carreras.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span>CURSOS Y CARRERAS</span></div></a></a>
+            <a href="formulario_congreso.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
             <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span>CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
@@ -136,8 +136,10 @@
               <div class="card card-block">
                 <!--<a href="formulario_preinscripcion.php">-->
                 <!--<a href="amha_homeopatia.php">-->
-                <a href="novedades.php">
-                  <img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">
+                <a href="cursos_y_carreras.php">
+                <!--<a href="novedades.php">-->
+                  <!--<img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">-->
+                  <img class="card-img" src="../../../skin/images/body/menu/hmcursos.jpg" alt="Que es la homeopatia">
                   <h3 class="card-title">Informate</h3>
                 </a>
               </div>

@@ -72,7 +72,8 @@
               <br>
               El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía.Para poder participar, deberá inscribirse previamente.<br><br>
               COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN<br><br>
-              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!
+              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
+              Consultar sobre valores especiales para alumnos y médicos colegiados
             </p>
           </div>
           <div class="sociosLogin">
