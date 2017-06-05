@@ -1,21 +1,14 @@
 <?php
   if (isset($_POST['email']))  {
-    //Email information
 
     $AdminEmail = "administracion@amha.org.ar";
     $AdminEmail2 = "romero.m.alejandro@gmail.com";
     $Name = $_POST['first_name'].' '.$_POST['last_name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
-    // $Career = $_POST['career'];
-    // $Sex = $_POST['sex'];
-    // $Document = $_POST['doc'];
     $Address = $_POST['address'];
     $Subject = "Formulario de pre inscripcion congreso FAMHA";
     $Msg .= 'Remitente: <b>'.$Name.'</b><br>';
-    // $Msg .= 'Carrera seleccionada: <b>'.$Career.'</b><br>';
-    // $Msg .= 'Sexo: <b>'.$Sex.'</b><br>';
-    // $Msg .= 'Documento: <b>'.$Document.'</b><br>';
     $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
     $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
     $Msg .= 'Direcci&oacute;n: <b>'.$Address.'</b><br>';
@@ -34,6 +27,7 @@
     mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
+    $DB->Connect();
     //$DB->execQuery("INSERT","inscription_form_message","name,email,phone,career,sex,document,occupation,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($Career)."','".addslashes($Sex)."','".addslashes($Document)."','".addslashes($Occupation)."','".addslashes($_POST['msg'])."',NOW()");
     $DB->execQuery("INSERT","inscription_congress","first_name,last_name,address,email,phone,creation_date","'".addslashes($_POST['first_name'])."','".addslashes($_POST['last_name'])."','".addslashes($Address)."','".addslashes($Email)."','".addslashes($Phone)."',NOW()");
     //echo $DB->lastQuery();
@@ -178,6 +172,8 @@
           success: function(callback){
             if(callback)
             {
+              alert("Se produjo un error al enviar el formulario. Por favor, intente de nuevo.");
+              $("#send").attr("disabled",false);
               console.log(callback);
             }else{
               $(".sociosLoginInner").html('<br><br><h3 class="form-signin-heading"><b>Hemos recibido el formulario de pre inscripci&oacute;n.<br>Gracias por contactarse.</b></h3>');
