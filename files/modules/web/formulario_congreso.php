@@ -176,7 +176,7 @@
               $("#send").attr("disabled",false);
               console.log(callback);
             }else{
-              $(".sociosLoginInner").html('<br><br><h3 class="form-signin-heading"><b>Hemos recibido el formulario de pre inscripci&oacute;n.<br>Gracias por contactarse.</b></h3>');
+              $(".sociosLoginInner").html('<br><br><h3 class="form-signin-heading"><b>Hemos recibido el formulario de pre inscripci&oacute;n.<br>Gracias por contactarse.</b></h3><br><br>');
               alert("Formulario enviado correctamente");
             }
           }
