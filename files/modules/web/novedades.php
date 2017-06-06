@@ -46,7 +46,7 @@
                     <b>Sede:</b> Hotel Centuria, Suipacha 30. CABA.<br>
                     <br>
                     <br>
-                    <b><a href="formulario_preinscripcion.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n
+                    <b><a href="formulario_congreso.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n
                   </p>
                 </div>
               </div><!-- 1-->
