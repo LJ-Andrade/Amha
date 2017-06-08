@@ -39,6 +39,31 @@
 <head>
   <title>AMHA</title>
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
+  <style type="text/css">
+    .row-table {
+      display: table;
+      background-color:white;
+    }
+    
+    .row-table .col-header {
+      background-color: #726961;
+      color:white;
+      font-weight:bold;
+    }
+    
+    
+    
+    .row-table [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .pre-header {
+      font-weight:bold;
+      color:#1b5c77;
+    }
+  </style>
 </head>
   <body>
     <header>
@@ -72,13 +97,65 @@
               <br>
               El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía.Para poder participar, deberá inscribirse previamente.<br><br>
               COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN<br><br>
-              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
-              Consultar sobre valores especiales para alumnos y médicos colegiados
+              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!
             </p>
           </div>
+          <br>
+          <div class="form-info txC">
+            <h4 class="pre-header">¡Descuentos y formas de pago!</h4>
+          </div>
+          <div class="row row-table">
+            <div class="col-xs-6 form-info txC col-header">Formas de Pago</div>
+            <div class="col-xs-2 form-info txC col-header">Valores Socios</div>
+            <div class="col-xs-2 form-info txC col-header">Valores Colegiados</div>
+            <div class="col-xs-2 form-info txC col-header">Valores Alumnos</div>
+          </div>
+          
+          <div class="row row-table">
+            <div class="col-xs-6 form-info">
+              <b>Hasta el 31 DE JULIO DE 2017</b><br>
+              1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>
+            </div>
+            <div class="col-xs-2 form-info txC">$ 4.000.-</div>
+            <div class="col-xs-2 form-info txC">$ 3.600.-</div>
+            <div class="col-xs-2 form-info txC">$ 2.400.-</div>
+          </div>
+          
+          <div class="row row-table">
+            <div class="col-xs-6 form-info">
+              <b>Desde AGOSTO 2017</b><br>
+              1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>
+            </div>
+            <div class="col-xs-2 form-info txC">$ 4.800.-</div>
+            <div class="col-xs-2 form-info txC">$ 4.320.-</div>
+            <div class="col-xs-2 form-info txC">$ 2.880.-</div>
+          </div>
+          
+          <div class="row row-table">
+            <div class="col-xs-6 form-info">
+              <b>Desde ENERO 2018</b><br>
+              1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 6 cuotas.</span>
+            </div>
+            <div class="col-xs-2 form-info txC">$ 5.000.-</div>
+            <div class="col-xs-2 form-info txC">$ 4.500.-</div>
+            <div class="col-xs-2 form-info txC">$ 3.000.-</div>
+          </div>
+          
+          <div class="row row-table">
+            <div class="col-xs-6 form-info">
+              <b>Desde JULIO 2018</b><br>
+              1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 3 cuotas.</span>
+            </div>
+            <div class="col-xs-2 form-info txC">$ 5.500.-</div>
+            <div class="col-xs-2 form-info txC">$ 4.950.-</div>
+            <div class="col-xs-2 form-info txC">$ 3.300.-</div>
+          </div>
+          
           <div class="sociosLogin">
             <div class="sociosLoginInner">
+              
               <form  id="inscriptionForm" class="form-signin" action="" method="post">
+                <div class="form-info">
                 <h3 class="form-signin-heading">Ingrese los datos requeridos</h3>
                 <hr class="hrStrong">
                 <!--<div class="form-group form-boxedLines">-->
@@ -117,7 +194,7 @@
                 <!--</div>-->
                 <!-- Temp Link - Delete -->
                 <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Solicitar Inscripci&oacute;n</button>
-              </form><br>
+              </div></form><br>
             </div>
           </div>
 
