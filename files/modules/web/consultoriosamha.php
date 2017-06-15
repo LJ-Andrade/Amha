@@ -48,24 +48,25 @@
               <h4>Horarios de Atenci&oacute;n</h4><br>
               <p>
                 <b>Lunes</b><br>
-                9.30 a 12 hs. : Cátedra de Profesor Titular Dr. Juan Carlos Tsuji<br>
-                9.45 a 12 hs: Cátedra de la Profesora Titular Dr. Viviana Tachella.<br>
-                15 a  17 hs. : Cátedra de la Profesora Titular Dra. Silvia Mercado<br>
-
+                De 9:30 a 12:00 hs - Cátedra de Profesor Titular Dr. Juan Carlos Tsuji<br>
+                De 14:00 a 17:00 hs - Cátedra de la Profesora Titular Dra. Silvia Mercado<br>
+                <br>
                 <b>Martes</b><br>
-                9.30 a 12 hs: Cátedra de la Profesora Titular Dra. Eva Blaho<br>
-                16.30 a 19 hs: Cátedra del Profesor Titular Dr. Ángel Minotti<br>
-
+                De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dra. Eva Blaho<br>
+                De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dr. Viviana Tachella<br>
+                De 16:30 a 19:00 hs - Cátedra del Profesor Titular Dr. Ángel Minotti<br>
+                <br>
                 <b>Miércoles</b><br>
-                09.30 a 12 hs: Cátedra del Profesor Titular Dr. Roque Penna<br>
-                15.30 a 18.30 hs: Cátedra de la Profesora Titular Dra. Mónica Moreno Galaud<br>
-
+                De 9:30 a 12:00 hs - Cátedra del Profesor Titular Dr. Roque Penna<br>
+                De 16:30 a 19:00 hs - Cátedra de la Profesora Titular Dra. Mónica Moreno Galaud<br>
+                <br>
                 <b>Jueves</b><br>
-                09.30 a 12 hs: Cátedra del Profesor Titular Dr. Mario Draiman<br>
-                15 a 18 hs: Cátedra del Profesor Titular Dr. Juan Carlos Pellegrino<br>
-
+                De 9:30 a 12:00 hs -  Cátedra del Profesor Titular Dr. Mario Draiman<br>
+                De 15:00 a 18:00 hs - Cátedra del Profesor Titular Dr. Juan Carlos Pellegrino<br>
+                <br>
                 <b>Viernes</b><br>
-                09.30 a 12.30 hs: Cátedra del Profesor Titular Dr. Gustavo Pirra<br>
+                De 09:30 a 12:30 hs - Cátedra del Profesor Titular Dr. Gustavo Pirra<br>
+                <br>
               </p>
 
               <hr class="hrStrong">
@@ -83,31 +84,34 @@
 
 
                 <b>Lunes</b><br>
-                13 a 20 hs: Dra. Viviana Tachella<br>
-                13 a 20 hs: Dra. Ruth Faingold<br>
-                14 a 20 hs: Dra. Eva Blaho<br>
-                14 a 18 hs: Dr. Gustavo Martello<br>
-                18 a 20 hs: Dra. Mónica Prunell<br>
+                De 13:00 a 19:30 hs – Dra. Eva Blaho<br>
+                De 13:00 a 19:30 hs – Dra. Ruth Faingold<br>
+                De 13:00 a 19:30 hs – Dra. Viviana Tachella<br>
+                De 14:00 a 17:30 hs – Dr. Gustavo Martello<br>
+                <br>
                 <b>Martes</b><br>
-                9 a 15 hs: Dra. Laura Svirnovsky<br>
-                9 a 12 hs: Dr. Jorge Traverso<br>
-                9 a 13 hs: Dra. Mónica Prunell<br>
-                12 a 20 hs: Dr. José De Robertis<br>
-                13 a 20 hs: Dr. Andrés Carmody<br>
-                15 a 20 hs: Dra. Mónica Moreno<br>
+                De 9:00 a 12:30 hs – Dra. Mónica Prunell<br>
+                De 13:00 a 20:00 hs – Dr. Andrés Carmody<br>
+                De 12:00 a 19:30 hs – Dr. José De Robertis<br>
+                De 15:00 a 19:30 hs – Dra. Mónica Moreno<br>
+                De 9:00 a 11:30 hs – Dr. Jorge Traverso<br>
+                De 9:00 a 14:30 hs – Dra. Laura Svirnosky<br>
+                <br>
                 <b>Miércoles</b><br>
-                9 a 15 hs: Dra. Viviana Tachella<br>
-                9 a 12 hs: Dr. José De Robertis<br>
-                12 a 16 hs: Dra. Ruth Faingold<br>
-                14 a 16 hs: Dra. Eva Blaho<br>
+                De 13:00 a 19.30 hs – Dra. Eva Blaho<br>
+                De 10:00 a 14:30 hs - Dr. José De Robertis<br>
+                De 12:00 a 19:00 hs - Dra. Ruth Faingold<br>
+                De 12:00 a 19:30 hs – Dra. Laura Svirnosky<br>
+                <br>
                 <b>Jueves</b><br>
-                9 a 13 hs: Dr. Gustavo Martello<br>
-                9 a 12 hs: Dra. Laura Svirnovsky<br>
-                9 a 12 hs: Dr. Jorge Traverso<br>
-                18 a 20 hs: Dra. Laura Svirnovsky<br>
+                De 9:00 a 11:30 hs  – Dr. Gustavo Martello<br>
+                De 9:00 a 11:30 hs -  Dr. Jorge Traverso<br>
+                De 15:00 a 19:30 hs  - Dra. Elena Figari<br>
+                <br>
                 <b>Viernes</b><br>
-                9 a 20.30 hs: Dr. Roberto Díaz Campos<br>
-                9 a 20 hs: Dra. Elena Figari<br><br>
+                De 9:00 a 18:30 hs – Dr. Roberto Díaz Campos<br>
+                De 9:00 a 19:00 hs - Dra. Elena Figari<br>
+                <br>
 
 
 
