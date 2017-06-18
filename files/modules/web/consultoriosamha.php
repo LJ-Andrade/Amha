@@ -80,7 +80,7 @@
                 <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
                 <b>Turnos:</b> 4963-1841 | 4962-6812 <br>
                 <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
-                <b>Horarios de atenci&oacute;n:</b>  Lunes, Martes, jueves y viernes de 9 a 20 hs. - Mi&eacute;rcoles de 9 a 17 hs.<br><br>
+                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 8 a 20 hs.<br><br>
 
 
                 <b>Lunes</b><br>
