@@ -59,7 +59,7 @@
                   {
                     if(strtolower(substr($Mag,-3))=='pdf')
                     {
-                      $Revistas[$Count] = array(substr($Mag, 0, -4),$Dir.'/'.$Mag);
+                      $Revistas[$Count] = array('Revista Homeopat&iacute;a Vol. '.str_replace(".20"," - 20",substr($Mag, 0, -4)),$Dir.'/'.$Mag);
                       $Count++;
                     }
                   }

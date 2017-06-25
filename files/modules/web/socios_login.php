@@ -10,8 +10,10 @@ if($_SESSION['user'])
 
 if($_POST['user'] && $_POST['password'])
 {
+  include_once("../../library/functions/func.common.php");
   include_once("../../classes/class.database.php");
   $DB = new DataBase();
+  $DB->Connect();
   $User = strtolower(addslashes($_POST['user']));
   $Pass = md5(addslashes($_POST['password']));
 
@@ -28,6 +30,7 @@ if($_POST['user'] && $_POST['password'])
     $_SESSION['last_name'] = 'Romero';
     $_SESSION['sex'] = 'M';
   }else{
+    echo $DB->lastQuery();
     echo "Verifique los datos ingresados.";
   }
   die();
