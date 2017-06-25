@@ -150,20 +150,20 @@
                               Dra. M&oacute;nica Moreno Galaud<br>
                               Dr. Juan Carlos Tsuji<br>
                               Dra. Silvia Cristina Mercado<br>
-                              Dra. Viviana Tachella<br><br>
+                              Dra. Viviana Tachella<br>
+                              Dr. Roberto Luis D&iacute;az Campos<br>
+                              Dra. Laura Svirnovsky<br><br>
 
                               <b>Profesores Adjuntos</b><br>
                               Dra. Ruth Faingold<br>
                               Dra. Mar&iacute;a Isabel Messia<br>
                               Dr. Jorge Antonio Traverso<br>
-                              Dr. Roberto Luis D&iacute;az Campos<br>
                               Dra. M&oacute;nica Prunell<br>
                               Dr. Francisco Goldstein Herman<br>
                               Dra. Silvia Aschkar<br>
                               Dra. Elena Figari<br>
                               Dr. Andr&eacute;s Carmody<br>
                               Dr. Gustavo Martello<br>
-                              Dra. Laura Svirnovsky<br>
                               Dr. Adolfo Campanelli<br>
                               Dr. Lucas Yraola<br>
                               Dr. Roberto Zald&uacute;a<br>

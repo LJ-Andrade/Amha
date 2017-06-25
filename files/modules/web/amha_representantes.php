@@ -52,11 +52,9 @@
                 </div>
                 <div class="col-md-9">
                   <a href="http://www.famha.org.ar" target="_blank"><p><b>FEDERACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</b></a><br>
-                    <b>Presidente:</b> Dra. Silvia Mercado</br>
-                    <b>Secretario:</b> Dr. Adolfo Campanelli</br>
-                    <b>Vocal 1&deg;:</b> Dra. Viviana Tachella</br>
-                    <b>Vocal suplente:</b> Dr. Lucas Yraola</br>
-                    <b>Revisor cuentas:</b> Dr. Eduardo Yahbes</br></br>
+                    <b>Tesorera:</b> Dra. Silvia Mercado</br></br>
+                    <b>Vocal 3&deg; Titular:</b> Dr. Adolfo Campanelli</br>
+                    <b>Vocal 3&deg; Suplente:</b> Dr. Lucas Yraola</br>
                 </div>
                 <div class="col-md-12">
                   <p class="justify">

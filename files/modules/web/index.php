@@ -20,7 +20,7 @@
           <div class="row">
             <a href="agenda.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>AGENDA: CONSULTORIOS Y FARMACIAS</span></div></a>
             <a href="carrera_de_farmacia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CURSO DE FARMACIA HOMEOP&Aacute;TICA</span></div></a>
-            <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA ODONTOESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
+            <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA ODONTOLOG&Iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
         </div><!-- home main menu -->
         <div class="col-lg-9 col-md-12 wow zoomIn fadeIn">

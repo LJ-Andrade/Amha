@@ -83,8 +83,8 @@
           </div>
           <div class="form-info">
             <p class="txL">
-              Tenemos el agrado de invitarlo a participar del próximo 12º Congreso FAMHA que se realizará del 24 a l 27 de Octubre de 2018.<br><br>
-              Estará a cargo de la ASOCIACIÓN MÉDICA HOMEOPÁTICA ARGENTINA.<br><br>
+              Tenemos el agrado de invitarlo a participar del próximo 12º Congreso FAMHA que se realizará del 24 al 27 de Octubre de 2018 en el Hotel Centuria (Suipacha 30, CABA).<br><br>
+              La organización del mismo se encuentra a cargo de la ASOCIACIÓN MÉDICA HOMEOPÁTICA ARGENTINA.<br><br>
               En el mismo se tratarán los siguientes temas:
               <div class="container">
               <ul>
@@ -95,9 +95,10 @@
               </ul>
               </div>
               <br>
-              El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía.Para poder participar, deberá inscribirse previamente.<br><br>
+              El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha limite de entrega de trabajos: 30 de Junio de 2018.-<br><br>
+              Para poder participar, deberá inscribirse previamente.<br>
+              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
               COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN<br><br>
-              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!
             </p>
           </div>
           <br>
