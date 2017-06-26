@@ -97,7 +97,7 @@
               <br>
               El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha limite de entrega de trabajos: 30 de Junio de 2018.-<br><br>
               Para poder participar, deberá inscribirse previamente.<br>
-              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
+              ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
               COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN<br><br>
             </p>
           </div>
