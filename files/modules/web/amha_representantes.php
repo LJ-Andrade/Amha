@@ -52,9 +52,22 @@
                 </div>
                 <div class="col-md-9">
                   <a href="http://www.famha.org.ar" target="_blank"><p><b>FEDERACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</b></a><br>
-                    <b>Tesorera:</b> Dra. Silvia Mercado</br></br>
-                    <b>Vocal 3&deg; Titular:</b> Dr. Adolfo Campanelli</br>
-                    <b>Vocal 3&deg; Suplente:</b> Dr. Lucas Yraola</br>
+                    <br>
+                    <b>Presidente:</b> Dr. Eduardo Bitis (EMHA)<br>
+                    <b>Vicepresidente:</b> Dra. Myriam Sorbera (CEMHHC)<br>
+                    <b>Secretario:</b> Dr. Mario Weisman (EMHA)<br>
+                    <b>Tesorera:</b> Dra. Silvia Mercado (AMHA)<br>
+                    <b>Vocal 1º Titular:</b> Dr. Héctor González (EMHA)<br>
+                    <b>Vocal 2º Titular:</b> Dra. Beatriz Molteni (CEMHHC)<br>
+                    <b>Vocal 3º Titular:</b> Dr. Adolfo Campanelli (AMHA)<br>
+                    <b>Vocal 1º Suplente:</b> Dra. Leonor Bardolla (EMHA)<br>
+                    <b>Vocal 2º Suplente:</b> Dra. Graciela Fo (CEMHHC)<br>
+                    <b>Vocal 3º Suplente:</b> Dr. Lucas Yraola (AMHA)<br>
+                    <br>
+                    <b>Órgano fiscalizador</b><br>
+                    <b>Revisores de cuenta:</b><br>
+                    Dra. Patricia Macagno (EMHA)<br> 
+                    Dr. Lorenzo Mendizábal (CEMHHC)<br>
                 </div>
                 <div class="col-md-12">
                   <p class="justify">

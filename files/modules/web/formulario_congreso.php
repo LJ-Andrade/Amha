@@ -76,7 +76,7 @@
         <!-- /// /Left Floating Menu /// -->
         <div class="col-lg-7 col-md-8 col-xs-12 contentContainer">
           <div class="sectionTits">
-            <h1 class="txC">12º Congreso FAMHA - Homeopatia, paradigma del SXXI</h1>
+            <h1 class="txC">12º Congreso FAMHA<br>Homeopatia, paradigma del SXXI</h1>
             <hr>
             <h4 class="txC">Formulario de Pre-Inscripci&oacute;n</h4>
             <hr>
@@ -98,7 +98,7 @@
               El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha limite de entrega de trabajos: 30 de Junio de 2018.-<br><br>
               Para poder participar, deberá inscribirse previamente.<br>
               ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
-              COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN<br><br>
+              COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN
             </p>
           </div>
           <br>
