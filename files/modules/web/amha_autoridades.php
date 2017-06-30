@@ -192,7 +192,7 @@
                                 <b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br>
                                 <!--<b>Profesor Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto D&iacute;az Campos<br>-->
                                 <b>Profesora Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Viviana Tachella<br>
-                                <b>Profesor Adjunto a Cargo de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>
+                                <!--<b>Profesor Adjunto a Cargo de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>-->
                                 <b>Docente Adscripta de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Marina Gal&aacute;n<br>
                               </p>
                               </p>
