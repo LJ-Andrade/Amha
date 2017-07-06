@@ -60,7 +60,7 @@
                     <b>Vocal 1º Titular:</b> Dr. Héctor González (EMHA)<br>
                     <b>Vocal 2º Titular:</b> Dra. Beatriz Molteni (CEMHHC)<br>
                     <b>Vocal 3º Titular:</b> Dr. Adolfo Campanelli (AMHA)<br>
-                    <b>Vocal 1º Suplente:</b> Dra. Leonor Bardolla (EMHA)<br>
+                    <b>Vocal 1º Suplente:</b> Dr. Leonor Bardolla (EMHA)<br>
                     <b>Vocal 2º Suplente:</b> Dra. Graciela Fo (CEMHHC)<br>
                     <b>Vocal 3º Suplente:</b> Dr. Lucas Yraola (AMHA)<br>
                     <br>
