@@ -97,6 +97,7 @@
               <br>
               El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha limite de entrega de trabajos: 30 de Junio de 2018.-<br><br>
               Para poder participar, deberá inscribirse previamente.<br>
+              Reglamento para las presentaciones. <a href="../../../skin/files/conferences/congreso_famha_2018-reglamento_trabajos.pdf" target="_blank"><button class="btn btn-primary btnPColor" type="button">Click Aquí</button></a><br>
               ¡Inscribiéndose antes del 31 de Julio de 2017 accede a grandes descuentos!<br><br>
               COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN
             </p>
