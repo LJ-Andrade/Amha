@@ -43,7 +43,7 @@
                     &#9679;  Nuevas Patogenesias.<br>
                     &#9679;  Temas libres.<br>
                     <br>
-                    <b>Sede:</b> Hotel Centuria, Suipacha 30. CABA.<br>
+                    <b>Sede:</b> A confirmar<br> <!-- Hotel Centuria, Suipacha 30. CABA.<br> -->
                     <br>
                     <br>
                     <b><a href="formulario_congreso.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n

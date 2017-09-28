@@ -49,10 +49,10 @@
               Por resoluci&oacute;n de comisi&oacute;n directiva se decide por unanimidad que el art&iacute;culo 5 del reglamento debe interpretarse como
               [...] Tendr&aacute;n derecho a ser Socios Activos, todos aquellos que viniendo de otras escuelas de Homeopat&iacute;a, PERTENECIENTES A LA F.A.H.M.A.
                hayan cursado y aprobado el 3º a&ntilde;o de la carrera de medicina homeop&aacute;tica DE LA A.M.H.A.<br><br>
-              <b>Montos</b><br>
-              La cuota para socios activos durante el a&ntilde;o 2016, ser&aacute; de $ 1.700,00, que podr&aacute; abonarse en un solo pago, o en dos pagos de $ 850,00
-               cada una, cuyo vencimiento ser&aacute; para la primera cuota el 30/04/2016 y la segunda el 31/07/2016 (podr&aacute; abonarse en efectivo, con cheque
-                personal, tarjeta de d&eacute;bito o cr&eacute;dito en dos cuotas). Los pagos fuera de fecha tendr&aacute;n un recargo del 10%.
+              <!--<b>Montos</b><br>-->
+              <!--La cuota para socios activos durante el a&ntilde;o 2016, ser&aacute; de $ 1.700,00, que podr&aacute; abonarse en un solo pago, o en dos pagos de $ 850,00-->
+              <!-- cada una, cuyo vencimiento ser&aacute; para la primera cuota el 30/04/2016 y la segunda el 31/07/2016 (podr&aacute; abonarse en efectivo, con cheque-->
+              <!--  personal, tarjeta de d&eacute;bito o cr&eacute;dito en dos cuotas). Los pagos fuera de fecha tendr&aacute;n un recargo del 10%.-->
                 </p>
               </div>
               <hr>

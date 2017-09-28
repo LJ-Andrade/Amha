@@ -83,7 +83,7 @@
           </div>
           <div class="form-info">
             <p class="txL">
-              Tenemos el agrado de invitarlo a participar del próximo 12º Congreso FAMHA que se realizará del 24 al 27 de Octubre de 2018 en el Hotel Centuria (Suipacha 30, CABA).<br><br>
+              Tenemos el agrado de invitarlo a participar del próximo 12º Congreso FAMHA que se realizará del 24 al 27 de Octubre de 2018.<br><br>
               La organización del mismo se encuentra a cargo de la ASOCIACIÓN MÉDICA HOMEOPÁTICA ARGENTINA.<br><br>
               En el mismo se tratarán los siguientes temas:
               <div class="container">

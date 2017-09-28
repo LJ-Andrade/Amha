@@ -40,9 +40,9 @@
                 <b>Requisitos</b><br>
                 Artículo 5º del Estatuto de la A.M.H.A. Título 3. Asociados: condición de admisión, Inciso "b"
                 Los profesionales de la salud que no reúnan las cualidades para ser socio activo y sean aceptados por la Comisión Directiva.<br><br>
-                <b>Montos</b><br>
-                La cuota anual para los socios adherentes durante el año 2016, será de $ 2700,00. La cuota anual podrá pagarse
-                en seis cuotas de 450 ó 2700 en un pago. Los pagos fuera de fecha tendrán un recargo del 10%.
+                <!--<b>Montos</b><br>-->
+                <!--La cuota anual para los socios adherentes durante el año 2016, será de $ 2700,00. La cuota anual podrá pagarse-->
+                <!--en seis cuotas de 450 ó 2700 en un pago. Los pagos fuera de fecha tendrán un recargo del 10%.-->
                 </p>
               </div>
               <hr>
