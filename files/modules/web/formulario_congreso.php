@@ -1,7 +1,8 @@
 <?php
   if (isset($_POST['email']))  {
 
-    $AdminEmail = "administracion@amha.org.ar";
+    //$AdminEmail = "administracion@amha.org.ar";
+    $AdminEmail = "congreso2018@amha.org.ar";
     $AdminEmail2 = "romero.m.alejandro@gmail.com";
     $Name = $_POST['first_name'].' '.$_POST['last_name'];
     $Email = $_POST['email'];
