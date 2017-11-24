@@ -33,11 +33,11 @@
                           <div class="col-md-6">
                             <p class="card-text">
                             <b>Presidente:</b> Dr. Roque Penna<br>
-                            <b>Vicepresidente:</b> Dra. M&oacute;nica Moreno Galaud<br>
+                            <b>Vicepresidente:</b> Dra. Eva Blaho<br>
                             <b>Secretario:</b> Dr. Roberto Luis Diaz Campos<br>
-                            <b>Tesorero:</b> Dr. Francisco Herman Goldstein<br>
+                            <b>Tesorera:</b> Dra. Silvia Aschkar<br>
                             <b>Vocal primero:</b> Dra. Laura Svirnovsky<br>
-                            <b>Vocal segundo:</b> Dra. Silvia Aschkar<br>
+                            <b>Vocal segundo:</b> Dra. Mariana Tamini<br>
                             <b>Vocal suplente:</b> Dr. José De Robertis<br>
                             <b>Director de Consultorios Externos:</b> Dr. Andres Carmody<br>
                             <b>Director de Biblioteca:</b> Dr. Adolfo Campanelli<br>
@@ -81,14 +81,14 @@
                             <h2>Comit&eacute; Directivo</h2>
                             <hr>
                             <p class="card-text">
-                              <b>Directora:</b> Dra. Silvia Cristina Mercado<br>
-                              <b>Subdirectora:</b> Dra. Eva Blaho<br>
-                              <b>Secretaria de Medicina:</b> Dra. Elena Figari<br>
-                              <b>Prosecretaria de Medicina:</b> Dra. Mariana Tamini<br>
-                              <b>Secretaria de Odontoestomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
+                              <b>Director:</b> Dr. Adolfo Campanelli<br>
+                              <b>Subdirector:</b> Dr. Andres Carmody<br>
+                              <b>Secretario de Medicina:</b> Dr. Lucas Yraola<br>
+                              <b>Prosecretaria de Medicina:</b> Dra. Carolina Alonso<br>
+                              <b>Secretaria de <!--Odontolog&iacute;a-->Odontoestomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Secretario de Medicina Veterinaria:</b> Vet. Dr. Horacio De Medio<br>
                               <b>Secretaria de Farmacia:</b> Farm. Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
-                              <b>Director de Ateneos:</b> Dr. Lucas Yraola
+                              <b>Directora de Ateneos:</b> Dra. Astrid Motura
                             </p><br>
                             <h2>Campus Virtual</h2>
                             <hr>
