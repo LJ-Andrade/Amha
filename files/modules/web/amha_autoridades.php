@@ -39,7 +39,7 @@
                             <b>Vocal primero:</b> Dra. Laura Svirnovsky<br>
                             <b>Vocal segundo:</b> Dra. Mariana Tamini<br>
                             <b>Vocal suplente:</b> Dr. José De Robertis<br>
-                            <b>Director de Consultorios Externos:</b> Dr. Andres Carmody<br>
+                            <b>Director de Consultorios Externos:</b> Dr. Andr&eacute;s Carmody<br>
                             <b>Director de Biblioteca:</b> Dr. Adolfo Campanelli<br>
                             <b>Directora Revista Homeopat&iacute;a:</b> Dra. Mónica Moreno Galaud<br>
                             <b>Director Revista Homeopat&iacute;a para Todos:</b> Dr. Andr&eacute;s Carmody<br>
@@ -82,10 +82,10 @@
                             <hr>
                             <p class="card-text">
                               <b>Director:</b> Dr. Adolfo Campanelli<br>
-                              <b>Subdirector:</b> Dr. Andres Carmody<br>
+                              <b>Subdirector:</b> Dr. Andr&eacute;s Carmody<br>
                               <b>Secretario de Medicina:</b> Dr. Lucas Yraola<br>
                               <b>Prosecretaria de Medicina:</b> Dra. Carolina Alonso<br>
-                              <b>Secretaria de <!--Odontolog&iacute;a-->Odontoestomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
+                              <b>Secretaria de Odontolog&iacute;a<!--Odontoestomatolog&iacute;a-->:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Secretario de Medicina Veterinaria:</b> Vet. Dr. Horacio De Medio<br>
                               <b>Secretaria de Farmacia:</b> Farm. Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
                               <b>Directora de Ateneos:</b> Dra. Astrid Motura
