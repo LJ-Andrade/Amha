@@ -40,7 +40,7 @@
                  <b>Sra. Graciela M&eacute;ndez</b><br>
                  <b>E-Mail:</b> amhasocios@gmail.com<br>
                  <b>Tel&eacute;fono:</b> 4826-0911 <br>
-                 Lunes a viernes de 09 a 16 horas.<br>
+                 Lunes a viernes de 10 a 16 horas.<br>
 
                 </p>
               </div>
