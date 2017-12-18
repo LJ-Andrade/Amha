@@ -80,14 +80,14 @@
                 <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
                 <b>Turnos:</b> 4963-1841 | 4962-6812 <br>
                 <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
-                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 8 a 20 hs.<br><br>
+                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 9.00 a 20.00 hs.<br><br>
 
 
                 <b>Lunes</b><br>
                 De 13:00 a 19:30 hs – Dra. Eva Blaho<br>
-                De 13:00 a 19:30 hs – Dra. Ruth Faingold<br>
+                De 13:00 a 18:30 hs – Dra. Ruth Faingold<br>
                 De 13:00 a 19:30 hs – Dra. Viviana Tachella<br>
-                De 14:00 a 17:30 hs – Dr. Gustavo Martello<br>
+                De 14:00 a 18:30 hs – Dr. Gustavo Martello<br>
                 <br>
                 <b>Martes</b><br>
                 De 9:00 a 12:30 hs – Dra. Mónica Prunell<br>
@@ -100,7 +100,7 @@
                 <b>Miércoles</b><br>
                 De 13:00 a 19.30 hs – Dra. Eva Blaho<br>
                 De 10:00 a 14:30 hs - Dr. José De Robertis<br>
-                De 12:00 a 19:00 hs - Dra. Ruth Faingold<br>
+                De 12:00 a 18:30 hs - Dra. Ruth Faingold<br>
                 De 12:00 a 19:30 hs – Dra. Laura Svirnosky<br>
                 <br>
                 <b>Jueves</b><br>
