@@ -32,6 +32,25 @@
                 homeop&aacute;tica."
               </p>
               <hr><br>
+              <b>Carrera docente</b><br>
+                Para ingresar a la carrera docente, deberá cumplir los siguientes requisitos:<br>
+                A. DOS AÑOS como SOCIO ACTIVO<br>
+                B. Ser MÉDICO, ODONTÓLOGO, VETERINARIO o FARMACÉUTICO<br>
+                <br>
+                <b>ASOCIACIÓN MÉDICA HOMEOPÁTICA ARGENTINA</b><br>
+                C. UN AÑO como AYUDANTE DE CÁTEDRA<br>
+                D. CONCURSO DE OPOSICIÓN, primero como Docentes Adscriptos, luego como Profesores<br>
+                <br>
+                <b>
+                Adjuntos y finalmente como Profesores Titulares.<br>
+                Requisitos para ser Ayudantes de Cátedra<br>
+                </b>
+                El Profesor Titular de la Cátedra a la que concurra el graduado, deberá presentar una nota en la
+                Secretaría Administrativa de la Escuela, solicitando la incorporación del postulante, adjuntando su
+                Curriculum Vitae. La asistencia a los Ateneos por parte del Ayudante de Cátedra, será tomada en
+                cuenta en los concursos para la carrera docente, además de otorgar puntaje para la recertificación del
+                Colegio de Médicos Homeópatas.<br>
+              <hr><br>
               <p><b>ASOCIARSE TIENE SUS BENEFICIOS</b></p>
               <p><b>Capacitaci&oacute;n continua </b></p>
 

@@ -42,8 +42,8 @@
               Pago en seis (6) cuotas con tarjeta de cr&eacute;dito "Visa", "Mastercard", cheques personales diferidos con vencimiento el 10 de cada mes:
                $  10.500.- c/u.- <br><br>
 
-              <b>Matr&iacute;cula de Inscripci&oacute;n:</b> $  8.100.-<br>
-              <b>Derecho de Examen:</b> $  8.100.-<br><br>
+              <b>Matr&iacute;cula de Inscripci&oacute;n:</b> $  4.920.-<br>
+              <b>Derecho de Examen:</b> $  4.920.-<br><br>
               <div class="col-md-12">
                 <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>

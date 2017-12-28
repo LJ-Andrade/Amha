@@ -36,11 +36,30 @@
                 <b>Por resoluci&oacute;n de comisi&oacute;n directiva se decide por unanimidad que el art&iacute;culo 5 del reglamento debe interpretarse como</b>
                 [...] Tendr&aacute;n derecho a ser Socios Activos, todos aquellos que viniendo de otras escuelas de Homeopat&iacute;a, PERTENECIENTES A LA F.A.H.M.A.
                 hayan cursado y aprobado el 3º a&ntilde;o de la carrera de medicina homeop&aacute;tica DE LA A.M.H.A.. <br><br>
-
+                
+                <b>Carrera docente</b><br>
+                Para ingresar a la carrera docente, deberá cumplir los siguientes requisitos:<br>
+                A. DOS AÑOS como SOCIO ACTIVO<br>
+                B. Ser MÉDICO, ODONTÓLOGO, VETERINARIO o FARMACÉUTICO<br>
+                <br>
+                <b>ASOCIACIÓN MÉDICA HOMEOPÁTICA ARGENTINA</b><br>
+                C. UN AÑO como AYUDANTE DE CÁTEDRA<br>
+                D. CONCURSO DE OPOSICIÓN, primero como Docentes Adscriptos, luego como Profesores<br>
+                <br>
+                <b>
+                Adjuntos y finalmente como Profesores Titulares.<br>
+                Requisitos para ser Ayudantes de Cátedra<br>
+                </b>
+                El Profesor Titular de la Cátedra a la que concurra el graduado, deberá presentar una nota en la
+                Secretaría Administrativa de la Escuela, solicitando la incorporación del postulante, adjuntando su
+                Curriculum Vitae. La asistencia a los Ateneos por parte del Ayudante de Cátedra, será tomada en
+                cuenta en los concursos para la carrera docente, además de otorgar puntaje para la recertificación del
+                Colegio de Médicos Homeópatas.<br>
+                <br>
                 <b>Beneficios</b>
                 <ol>
                   <li> Asistir a las clases de los cursos regulares (para m&eacute;dicos, veterinarios, odont&oacute;logos, farmac&eacute;uticos), intensivos (para m&eacute;dicos del interior o exterior) y libres que cada c&aacute;tedra dicta en forma previa a la atenci&oacute;n de pacientes, as&iacute; como a los ateneos mensuales. <br></li>
-                  <li> Asociarse al Colegio M&eacute;dico de home&oacute;patas (S&oacute;lo para m&eacute;dicos home&oacute;patas) (Ver m&aacute;s informaci&oacute;n) <br></li>
+                  <li> Asociarse al Colegio M&eacute;dico de home&oacute;patas (S&oacute;lo para m&eacute;dicos home&oacute;patas)<br></li>
                   <li> Concurrir a los consultorios m&eacute;dicos de las c&aacute;tedras, y a los consultorios de extensi&oacute;n de c&aacute;tedra. <br></li>
                   <li> Asesoramiento sobre casos cl&iacute;nicos o dudas, con los profesores de la A.M.H.A. <br></li>
                   <li> Hacer uso de la biblioteca (tres mil ejemplares de libros y revistas de todo el mundo), de la videoteca y de los programas de repertorizaci&oacute;n computarizados. <br></li>

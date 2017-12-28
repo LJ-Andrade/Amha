@@ -116,45 +116,46 @@
                 </div>
               </div><!-- 5-->
               <!-- New -->
-              <div class="col-md-12 infoContainer accordion">
-                <div class="accordionTitle">
-                  <p><b>Curso:</b> "En B&uacute;squeda del Pensamiento Original de Hahnemann. Estudio de los escritos Originales de la Sexta Edici&oacute;n del Organon":</p>
-                </div>
-                <div class="accordionInfo">
-                  <p class="justify">
-                    <hr>
-                    <b>Coordinador:</b> Profesor Titular Dr. Ra&uacute;l Gustavo Pirra.<br>
-                    <b>Metodolog&iacute;a:</b> Se trabajar&aacute; sobre la "Sexta Edici&oacute;n del Organon" a luz de su "escrito original de pu&ntilde;o y letra",
-                    "Enfermedades Cr&oacute;nicas Segunda Edici&oacute;n" y otras publicaciones realizadas por Hahnemann. Se desarrollar&aacute;n los grandes ejes
-                    tem&aacute;ticos, con sus par&aacute;grafos y p&aacute;rrafos relacionados, en base a la "Sistem&aacute;tica de Estudio Multinivel del Organon". horas.<br>
-                    <b>Dirigido a:</b> Docentes, Socios y Alumnos de la "Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina", como tambi&eacute;n a los M&eacute;dicos
-                    Socios del "Colegio de M&eacute;dicos Home&oacute;patas de la FAMHA".<br>
-                    Se entregar&aacute; certificado con m&aacute;s del 80% de asistencia.<br>
-                    <b>Lugar:</b> Los encuentros que se realizar&aacute;n en la sede AMHA Juncal 2884.<br>
-                    <b>Horario y fechas:</b> Se dictar&aacute; de 13 a 14.30hs. un viernes por mes desde Abril a Noviembre.
-                  </p>
-                </div>
-              </div><!-- 6-->
+              <!--<div class="col-md-12 infoContainer accordion">-->
+              <!--  <div class="accordionTitle">-->
+              <!--    <p><b>Curso:</b> "En B&uacute;squeda del Pensamiento Original de Hahnemann. Estudio de los escritos Originales de la Sexta Edici&oacute;n del Organon":</p>-->
+              <!--  </div>-->
+              <!--  <div class="accordionInfo">-->
+              <!--    <p class="justify">-->
+              <!--      <hr>-->
+              <!--      <b>Coordinador:</b> Profesor Titular Dr. Ra&uacute;l Gustavo Pirra.<br>-->
+              <!--      <b>Metodolog&iacute;a:</b> Se trabajar&aacute; sobre la "Sexta Edici&oacute;n del Organon" a luz de su "escrito original de pu&ntilde;o y letra",-->
+              <!--      "Enfermedades Cr&oacute;nicas Segunda Edici&oacute;n" y otras publicaciones realizadas por Hahnemann. Se desarrollar&aacute;n los grandes ejes-->
+              <!--      tem&aacute;ticos, con sus par&aacute;grafos y p&aacute;rrafos relacionados, en base a la "Sistem&aacute;tica de Estudio Multinivel del Organon". horas.<br>-->
+              <!--      <b>Dirigido a:</b> Docentes, Socios y Alumnos de la "Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina", como tambi&eacute;n a los M&eacute;dicos-->
+              <!--      Socios del "Colegio de M&eacute;dicos Home&oacute;patas de la FAMHA".<br>-->
+              <!--      Se entregar&aacute; certificado con m&aacute;s del 80% de asistencia.<br>-->
+              <!--      <b>Lugar:</b> Los encuentros que se realizar&aacute;n en la sede AMHA Juncal 2884.<br>-->
+              <!--      <b>Horario y fechas:</b> Se dictar&aacute; de 13 a 14.30hs. un viernes por mes desde Abril a Noviembre.-->
+              <!--    </p>-->
+              <!--  </div>-->
+              <!--</div>-->
+              <!-- 6-->
               <!-- New -->
-              <div class="col-md-12 infoContainer accordion">
-                <div class="accordionTitle">
-                  <b>Curso:</b> "De La Teor&iacute;a A La Pr&aacute;ctica" Curso Superior 2017:<br>
-                </div>
-                <div class="accordionInfo">
-                  <p class="justify">
-                    <hr>
-                    &#9679; Profesores: Dr. Ra&uacute;l Gustavo Pirra, Dr. Andr&eacute;s Carmody, Dr. Adolfo Campanelli, Dra. Silvia Aschkar, Dra. Laura Svirnovsky, Dr. Jos&eacute; De Robertis.<br>
-                    &#9679; Profesora Invitada: Dra. Viviana Tachella.<br><br>
+              <!--<div class="col-md-12 infoContainer accordion">-->
+              <!--  <div class="accordionTitle">-->
+              <!--    <b>Curso:</b> "De La Teor&iacute;a A La Pr&aacute;ctica" Curso Superior 2017:<br>-->
+              <!--  </div>-->
+              <!--  <div class="accordionInfo">-->
+              <!--    <p class="justify">-->
+              <!--      <hr>-->
+              <!--      &#9679; Profesores: Dr. Ra&uacute;l Gustavo Pirra, Dr. Andr&eacute;s Carmody, Dr. Adolfo Campanelli, Dra. Silvia Aschkar, Dra. Laura Svirnovsky, Dr. Jos&eacute; De Robertis.<br>-->
+              <!--      &#9679; Profesora Invitada: Dra. Viviana Tachella.<br><br>-->
 
-                    <b>Objetivo:</b> Abordaje homeop&aacute;tico de las entidades cl&iacute;nicas habituales.<br><br>
+              <!--      <b>Objetivo:</b> Abordaje homeop&aacute;tico de las entidades cl&iacute;nicas habituales.<br><br>-->
 
-                    <b>Din&aacute;mica:</b> Las clases se desarrollar&aacute;n un viernes por mes de 15 a 17.30hs. Habr&aacute; una “Exposici&oacute;n Te&oacute;rica” continuando luego de un intervalo, con una “Mesa Redonda” donde se debatir&aacute; sobre el tema expuesto, participando todos los docentes del curso. Ser&aacute; realizado de Mayo a Noviembre.<br>
-                    <b>Dirigido a:</b> Docentes, Socios y Alumnos Avanzados (con 2 a&ntilde;o del curso regular aprobado) de la "Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina",
-                    como tambi&eacute;n a los M&eacute;dicos Socios del "Colegio de M&eacute;dicos Home&oacute;patas de la FAMHA".<br>
-                    Se entregar&aacute; certificado con m&aacute;s del 70% de asistencia. Otorga puntaje para la
-                    Recertificaci&oacute;n CMH.<br>
-                    <b>Lugar:</b> los encuentros se realizar&aacute;n en la sede AMHA Juncal 2884.<br>
-                    <b>Arancel:</b> anual $2.000.- (descuento CMH 10%, pago 1 a 6 cuotas con tarjetas).<br><br>
+              <!--      <b>Din&aacute;mica:</b> Las clases se desarrollar&aacute;n un viernes por mes de 15 a 17.30hs. Habr&aacute; una “Exposici&oacute;n Te&oacute;rica” continuando luego de un intervalo, con una “Mesa Redonda” donde se debatir&aacute; sobre el tema expuesto, participando todos los docentes del curso. Ser&aacute; realizado de Mayo a Noviembre.<br>-->
+              <!--      <b>Dirigido a:</b> Docentes, Socios y Alumnos Avanzados (con 2 a&ntilde;o del curso regular aprobado) de la "Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina",-->
+              <!--      como tambi&eacute;n a los M&eacute;dicos Socios del "Colegio de M&eacute;dicos Home&oacute;patas de la FAMHA".<br>-->
+              <!--      Se entregar&aacute; certificado con m&aacute;s del 70% de asistencia. Otorga puntaje para la-->
+              <!--      Recertificaci&oacute;n CMH.<br>-->
+              <!--      <b>Lugar:</b> los encuentros se realizar&aacute;n en la sede AMHA Juncal 2884.<br>-->
+              <!--      <b>Arancel:</b> anual $2.000.- (descuento CMH 10%, pago 1 a 6 cuotas con tarjetas).<br><br>-->
 
                     <!--Cronograma y Clases<br>-->
                     <!--<b>1&deg; de Julio:</b><br>-->
@@ -164,9 +165,10 @@
                     <!--<b>23 de Septiembre:</b> Dr. Adolfo Campanelli "¿Era Hahnemann Hahnemaniano?"<br>-->
                     <!--<b>28 de Octubre:</b> Dr. Andr&eacute;s Carmody "Casos de la Cl&iacute;nica Homeop&aacute;tica"<br>-->
                     <!--<b>18 de Noviembre:</b> Dra. Laura Svirnovsky "Miasmas, ¿Si o No?"<br><br>-->
-                  </p>
-                </div>
-              </div><!-- 7-->
+              <!--    </p>-->
+              <!--  </div>-->
+              <!--</div>-->
+              <!-- 7-->
               <!-- New -->
                <div class="col-md-12 infoContainer accordion">
                  <div class="accordionTitle">

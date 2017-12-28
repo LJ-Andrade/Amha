@@ -65,13 +65,14 @@
                 Tambi&eacute;n ser&aacute; muy &uacute;til para quienes viven en el interior del pa&iacute;s, ya que estar&aacute;n al d&iacute;a con todo el material cient&iacute;fico-acad&eacute;mico de inter&eacute;s para su nivel.
                 <a href="www.escuelaamha.com.ar" target="_blank"></a>www.escuelaamha.com.ar
               </p>
-              <hr>
-              <b>CLASES DE APOYO Y REPASO</b>
-              <p>
-                Habr&aacute; clases de apoyo para todos los niveles, para afianzar los conocimientos adquiridos y aclarar dudas, en las siguientes fechas:
-                Viernes 2/9 de 14 a 16 hs. Repaso de Doctrina
-                Viernes 7/10 de 14 a 16 hs. Repaso de Materia M&eacute;dica
-              </p><br>
+              <!--<hr>-->
+              <!--<b>CLASES DE APOYO Y REPASO</b>-->
+              <!--<p>-->
+              <!--  Habr&aacute; clases de apoyo para todos los niveles, para afianzar los conocimientos adquiridos y aclarar dudas, en las siguientes fechas:-->
+              <!--  Viernes 2/9 de 14 a 16 hs. Repaso de Doctrina-->
+              <!--  Viernes 7/10 de 14 a 16 hs. Repaso de Materia M&eacute;dica-->
+              <!--</p>-->
+              <br>
             </div>
           </div>
           <!-- Content -->

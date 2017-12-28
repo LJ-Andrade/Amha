@@ -30,11 +30,11 @@
               </ol>
               <br>
 
-              <b>Arancel:</b> $ 5.600.-<br>
+              <b>Arancel:</b> $ 7.280.-<br>
               <ol>
-                <li class="vig"> Pagadero en cuatro cuotas iguales de $ 1.400.-  (con tarjeta de cr&eacute;dito Visa o Mastercard, d&eacute;bito, o cheques
+                <li class="vig"> Pagadero en cuatro cuotas iguales de $ 1.820.-  (con tarjeta de cr&eacute;dito Visa o Mastercard, d&eacute;bito, o cheques
                 personales diferidos con vencimiento el 10 de cada mes)</li>
-                <li  class="vig"> Pago en efectivo, o con tarjeta de d&eacute;bito, o un solo pago con tarjeta de cr&eacute;dito Visa o Mastercard: <br>   $ 5.040.-
+                <li  class="vig"> Pago en efectivo, o con tarjeta de d&eacute;bito, o un solo pago con tarjeta de cr&eacute;dito Visa o Mastercard: <br>   $ 6.552.-
                 con un descuento del 10% por pago anticipado.</li>
               </ol>
               <div class="col-md-12 margTop20">
