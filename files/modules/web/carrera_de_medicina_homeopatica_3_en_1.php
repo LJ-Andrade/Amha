@@ -35,12 +35,13 @@
               cumpliendo con todos los requisitos de cada nivel (ver los programas de Medicina).<br>
 
               <b>Arancel:</b> $ 63.000.-<br>
-              Bonificaci&oacute;n por pago al contado, un pago con cheque personal al d&iacute;a, un pago con tarjeta <br>de D&eacute;bito: $ 56.700.-<br>
-              Un pago con tarjeta de cr&eacute;dito "Visa", "Mastercard": $  63.000.<br>
-              Pago en tres (3) cuotas con tarjeta de cr&eacute;dito "Visa", "Mastercard", cheques personales diferidos con vencimiento el 10 de cada mes:
-               $  21.000.- c/u.<br>
-              Pago en seis (6) cuotas con tarjeta de cr&eacute;dito "Visa", "Mastercard", cheques personales diferidos con vencimiento el 10 de cada mes:
-               $  10.500.- c/u.- <br><br>
+              <ul class="PayList">
+                <li>Bonificaci&oacute;n por pago al contado, un pago con cheque personal al d&iacute;a, un pago con tarjeta <br>de D&eacute;bito: $ 56.700.-</li>
+                <li>Un pago con tarjeta de cr&eacute;dito "Visa", "Mastercard": $  63.000.</li>
+                <li>Pago en tres (3) cuotas con tarjeta de cr&eacute;dito "Visa", "Mastercard", cheques personales diferidos con vencimiento el 10 de cada mes: $  21.000.- c/u.</li>
+                <li>Pago en seis (6) cuotas con tarjeta de cr&eacute;dito "Visa", "Mastercard", cheques personales diferidos con vencimiento el 10 de cada mes: $  10.500.- c/u.-</li>
+              </ul>
+              <br>
 
               <b>Matr&iacute;cula de Inscripci&oacute;n:</b> $  4.920.-<br>
               <b>Derecho de Examen:</b> $  4.920.-<br><br>

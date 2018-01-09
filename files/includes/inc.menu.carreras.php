@@ -3,7 +3,7 @@
   <div class="leftFloatMenu">
     <ul>
       <a href='carrera_de_medicina_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_medicina_homeopatica.php' ? 'active' : ''; ?>">Carrera de Medicina Homeop&aacute;tica</li></a>
-      <a href='carrera_de_odontoestomatologia_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_odontoestomatologia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Odontoestomatolog&iacute;a Homeop&aacute;tica</li></a>
+      <a href='carrera_de_odontoestomatologia_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_odontoestomatologia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</li></a>
       <a href='carrera_de_veterinaria_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_veterinaria_homeopatica.php' ? 'active' : ''; ?>">Carrera de Veterinaria Homeop&aacute;tica</li></a>
       <a href='carrera_de_farmacia_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_farmacia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Farmacia Homeop&aacute;tica</li></a>
     </ul>
@@ -15,7 +15,7 @@
   <div class=" leftFloatMenu leftMenuInLine">
     <ul>
       <a href='carrera_de_medicina_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_medicina_homeopatica.php' ? 'active' : ''; ?>">Carrera de Medicina Homeop&aacute;tica</li></a>
-      <a href='carrera_de_odontoestomatologia_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_odontoestomatologia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Odontoestomatolog&iacute;a Homeop&aacute;tica</li></a>
+      <a href='carrera_de_odontoestomatologia_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_odontoestomatologia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</li></a>
       <a href='carrera_de_veterinaria_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_veterinaria_homeopatica.php' ? 'active' : ''; ?>">Carrera de Veterinaria Homeop&aacute;tica</li></a>
       <a href='carrera_de_farmacia_homeopatica.php'><li class="<?php echo $currentPage == 'carrera_de_farmacia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Farmacia Homeop&aacute;tica</li></a>
     </ul>

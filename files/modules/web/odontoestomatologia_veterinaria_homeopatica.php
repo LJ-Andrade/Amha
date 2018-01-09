@@ -20,7 +20,8 @@
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h1 class="txC">Curso Superior de Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</h1>
+              <!--<h1 class="txC">Curso Superior de Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</h1>-->
+              <h1 class="txC">Curso Superior de Perfeccionamiento Continuo en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</h1>
               <hr>
               <p class="justify">
                 Para m&eacute;dicos, odont&oacute;logos y veterinarios home&oacute;patas o profesionales habilitados seg&uacute;n la legislaci&oacute;n

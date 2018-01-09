@@ -19,7 +19,7 @@
     $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
     $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
     $Msg .= 'Ocupaci&oacute;n: <b>'.$Occupation.'</b><br>';
-    $Msg .= '<br>Como nos contact&oacute;: <br><b>'.$_POST['msg'].'</b>';
+    $Msg .= '<br>Mensaje: <br><b>'.$_POST['msg'].'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
     $Headers  = "From: ".$Name." < ".$Email." >\n";
@@ -35,8 +35,9 @@
     mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
+    $DB->Connect();
     $DB->execQuery("INSERT","inscription_form_message","name,email,phone,career,sex,document,occupation,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($Career)."','".addslashes($Sex)."','".addslashes($Document)."','".addslashes($Occupation)."','".addslashes($_POST['msg'])."',NOW()");
-    //echo $DB->lastQuery();
+    // echo $DB->lastQuery();
     die();
   }
 ?>

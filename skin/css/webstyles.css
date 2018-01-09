@@ -2027,3 +2027,20 @@ span.topSlogan {
     outline: 1px solid #ddd; }
 
 /*# sourceMappingURL=webstyles.css.map */
+
+.PayList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.PayList li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+.PayList li::before {
+  content: "• ";
+  color: #436952; /* or whatever color you prefer */
+  font-weight:bolder;
+}

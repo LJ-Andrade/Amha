@@ -20,7 +20,7 @@
             </a>
             <a href="carrera_de_odontoestomatologia_homeopatica.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Carrera de Odontoestomatolog&iacute;a Homeop&aacute;tica</p>
+                <p>Carrera de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</p>
               </div>
             </a>
             <a href="carrera_de_veterinaria_homeopatica.php">

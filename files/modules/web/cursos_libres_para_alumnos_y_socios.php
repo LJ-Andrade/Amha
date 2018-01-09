@@ -93,7 +93,7 @@
               
               <hr>
               <h4>C&aacute;tedra Martes de tarde</h4>
-              <b>XXVII CURSO DE SEMIOLOG&Iacute;A HOMEOP&Aacute;TICA REPERTORIAL Y MATERIA M&eacute;DICA CL&iacute;NICA.</b><br>
+              <b>XXVII CURSO DE SEMIOLOG&Iacute;A HOMEOP&Aacute;TICA REPERTORIAL Y MATERIA M&Eacute;DICA CL&Iacute;NICA.</b><br>
               <b class="b">Prof. Titular:</b> Dr. &Aacute;ngel Oscar Minotti<br>
               <b class="b">Prof. Adjunto:</b> Dr. Roberto Luis D&iacute;az Campos<br>
               <b class="b">Docente Adscripto:</b> Dr. Esteban Busto<br>

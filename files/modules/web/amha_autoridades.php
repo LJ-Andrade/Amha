@@ -41,13 +41,13 @@
                             <b>Vocal suplente:</b> Dr. José De Robertis<br>
                             <b>Director de Consultorios Externos:</b> Dr. Andr&eacute;s Carmody<br>
                             <b>Director de Biblioteca:</b> Dr. Adolfo Campanelli<br>
-                            <b>Directora Revista Homeopat&iacute;a:</b> Dra. Mónica Moreno Galaud<br>
+                            <b>Directora Revista Homeopat&iacute;a:</b> Dra. Eva Blaho<br>
                             <b>Director Revista Homeopat&iacute;a para Todos:</b> Dr. Andr&eacute;s Carmody<br>
                             <b>&Aacute;rea Socios:</b> Dra. Laura Svirnovsky<br>
-                            <b>Asesor honor&iacute;fico:</b> Dr. Eduardo A. Yahbes<br>
+                            <!--<b>Asesor honor&iacute;fico:</b> Dr. Eduardo A. Yahbes<br>-->
                           </div>
                           <div class="col-md-6">
-                            <b>Contador p&uacute;blico:</b> Dr. Gustavo Lederbur<br>
+                            <b>Contador p&uacute;blico:</b> Dr. Gustavo Ledebur<br>
                             <b>Secretaria Administrativa:</b> Sra. M. Alejandra Binimelis<br>
                             <b>Secretaria Escuela de Posgrado:</b> Sra. Martha Lugo<br>
                             <b>Secretaria &Aacute;rea Socios:</b> Sra. Graciela M&eacute;ndez<br></p><br>
@@ -85,7 +85,7 @@
                               <b>Subdirector:</b> Dr. Andr&eacute;s Carmody<br>
                               <b>Secretario de Medicina:</b> Dr. Lucas Yraola<br>
                               <b>Prosecretaria de Medicina:</b> Dra. Carolina Alonso<br>
-                              <b>Secretaria de Odontolog&iacute;a<!--Odontoestomatolog&iacute;a-->:</b> Dra. Marina Gal&aacute;n<br>
+                              <b>Secretaria de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas<!--Odontoestomatolog&iacute;a-->:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Secretario de Medicina Veterinaria:</b> Vet. Dr. Horacio De Medio<br>
                               <b>Secretaria de Farmacia:</b> Farm. Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
                               <b>Directora de Ateneos:</b> Dra. Astrid Motura
@@ -145,7 +145,7 @@
                               <b>Profesores Titulares</b><br>
                               Dr. Juan Carlos Pellegrino<br>
                               Dr. Roque Penna<br>
-                              Dr. Ra&uacute;l Gustavo Pirra<br>
+                              <!--Dr. Ra&uacute;l Gustavo Pirra<br>-->
                               Dra. Eva Blaho<br>
                               Dra. M&oacute;nica Moreno Galaud<br>
                               Dr. Juan Carlos Tsuji<br>
@@ -170,30 +170,30 @@
 
                               </p>
                               <p class="card-text">
-                                <b>Docentes Adscriptos</b><br>
-                              Dra. Patricia Atenor<br>
-                              <!--Dra. Nilda Grzesko<br>-->
+                              <b>Docentes Adscriptos</b><br>
                               Dra. Astrid Motura<br>
                               Dr. Jos&eacute; De Robertis<br>
-                              <!--Dra. Liliana Szab&oacute;<br>-->
                               Dra. Mariana Tamini<br>
                               Dr. Gustavo Valy<br>
+                              Dra. Patricia Atenor<br>
+                              <!--Dra. Nilda Grzesko<br>-->
+                              <!--Dra. Liliana Szab&oacute;<br>-->
                               Dra. Carolina Alonso<br>
                               Dr. Mariano Ortolani<br>
                               Dr. Esteban Busto<br>
                               </p>
                               <p class="card-text">
                               <p>
-                                <b>Docentes Libres:</b> Dra. Nora Taubin<br><br>
+                                <b>Docente Libre:</b> Dra. Nora Taubin<br><br>
                                 <b>Profesor Titular de Veterinaria Homeop&aacute;tica:</b><br> Dr. Horacio De Medio<br>
-                                <b>Docente Adscripto de Veterinaria Homeop&aacute;tica:</b><br> Dr. Carlos Angeleri<br>
+                                <!--<b>Docente Adscripto de Veterinaria Homeop&aacute;tica:</b><br> Dr. Carlos Angeleri<br>-->
                                 <b>Profesora Titular de Farmacia Homeop&aacute;tica:</b><br> Farm. Ana Mar&iacute;a Fern&aacute;ndez<br>
                                 <b>Prof. Extraordinaria de Farmacia Homeop&aacute;tica:</b><br> Farm. Lucía Marchante<br>
-                                <b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br>
+                                <!--<b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br>-->
                                 <!--<b>Profesor Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto D&iacute;az Campos<br>-->
-                                <b>Profesora Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Viviana Tachella<br>
+                                <b>Profesora Titular de Odontolog&iacute;a y Estomatolog&iacute;a<!--Odontoestomatolog&iacute;a--> Homeop&aacute;ticas:</b><br> <!--Dra. Viviana Tachella--><br>
                                 <!--<b>Profesor Adjunto a Cargo de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>-->
-                                <b>Docente Adscripta de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dra. Marina Gal&aacute;n<br>
+                                <b>Docente Adscripta de Odontolog&iacute;a y Estomatolog&iacute;a<!--Odontoestomatolog&iacute;a--> Homeop&aacute;ticas:</b><br> Dra. Marina Gal&aacute;n<br>
                               </p>
                               </p>
                           </div>

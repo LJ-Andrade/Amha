@@ -53,7 +53,7 @@
                 <br>
                 <b>Martes</b><br>
                 De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dra. Eva Blaho<br>
-                De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dr. Viviana Tachella<br>
+                De 9:30 a 12:00 hs - Cátedra de Odontología y Estomatología<br>
                 De 16:30 a 19:00 hs - Cátedra del Profesor Titular Dr. Ángel Minotti<br>
                 <br>
                 <b>Miércoles</b><br>
@@ -61,11 +61,11 @@
                 De 16:30 a 19:00 hs - Cátedra de la Profesora Titular Dra. Mónica Moreno Galaud<br>
                 <br>
                 <b>Jueves</b><br>
-                De 9:30 a 12:00 hs -  Cátedra del Profesor Titular Dr. Mario Draiman<br>
+                De 9:30 a 12:00 hs -  Cátedra de la Profesora Titular Dra. Laura Svirnovsky<br>
                 De 15:00 a 18:00 hs - Cátedra del Profesor Titular Dr. Juan Carlos Pellegrino<br>
                 <br>
                 <b>Viernes</b><br>
-                De 09:30 a 12:30 hs - Cátedra del Profesor Titular Dr. Gustavo Pirra<br>
+                De 09:30 a 12:30 hs - Cátedra de la Profesora Titular Dr. Viviana Tachella<br>
                 <br>
               </p>
 
