@@ -75,21 +75,27 @@
                     <!--<td>C&aacute;tedra Farmacia</td>-->
                   </tr>
                   <tr>
-                    <td>SEPTIEMBRE</td>
-                    <td>07</td>
-                    <td>C&aacute;tedra Dra. Blaho (Dra. Nora Taubin)</td>
-                    <!--<td>C&aacute;tedra Veterinaria</td>-->
+                    <td>AGOSTO</td>
+                    <td>31</td>
+                    <td>Dra. Nora Taubin (Docente Libre de la C&aacute;tedra Martes a la ma&ntilde;ana)</td>
+                    <!--<td>C&aacute;tedra Farmacia</td>-->
                   </tr>
+                  <!--<tr>-->
+                  <!--  <td>SEPTIEMBRE</td>-->
+                  <!--  <td>07</td>-->
+                  <!--  <td>C&aacute;tedra Dra. Blaho (Dra. Nora Taubin)</td>-->
+                    <!--<td>C&aacute;tedra Veterinaria</td>-->
+                  <!--</tr>-->
                   <tr>
                     <td>OCTUBRE</td>
-                    <td>19</td>
+                    <td>05</td>
                     <td>C&aacute;tedra de Odontolog&iacute;a y Estomatolog&iacute;a</td>
                     <!--<td>C&aacute;tedra Dr. Pirra</td>-->
                   </tr>
                   <tr>
                     <td>NOVIEMBRE</td>
                     <td>02</td>
-                    <td>C&aacute;tedra Dra. Mercado (Dra. M&oacute;nica Prunell).</td>
+                    <td>Dra. M&oacute;nica Prunell (Profesora adjunta de la C&aacute;tedra Lunes a la tarde)</td>
                     <!--<td>C&aacute;tedra Dr. Tsuji</td>-->
                   </tr>
                 </tbody>
