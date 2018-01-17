@@ -30,7 +30,7 @@
             <!--</a>-->
             <a href="odontoestomatologia_veterinaria_homeopatica.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Curso Superior de Perfeccionamiento Continuo en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</p>
+                <p>Curso Superior de Perfeccionamiento en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas y Veterinaria Homeop&aacute;tica</p>
               </div>
             </a>
             <a href="cursos_libres_para_alumnos_y_socios.php">

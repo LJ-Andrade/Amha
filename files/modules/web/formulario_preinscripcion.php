@@ -22,17 +22,24 @@
     $Msg .= '<br>Mensaje: <br><b>'.$_POST['msg'].'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
-    $Headers  = "From: ".$Name." < ".$Email." >\n";
-    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
-    $Headers .= 'X-Mailer: PHP/' . phpversion();
-    $Headers .= "X-Priority: 2\n"; // Urgent message!
-    $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
     $Headers .= "MIME-Version: 1.0\r\n";
     $Headers .= "Content-Type: text/html; charset=utf-8\n";
+    $Headers  = "To: ".$AdminEmail."\r\n";
+    $Headers  = "From: ".$Name." < ".$Email." >\r\n";
+    $Headers  = "Reply-To: ".$Email."\r\n";
+    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\r\n";
+    $Headers .= 'X-Mailer: PHP/' . phpversion();
+    $Headers .= "X-Priority: 3\r\n";
+    $Headers .= "X-MSMail-Priority: Normal\r\n";
+    $Headers .= "Importance: Normal\r\n";
+    $Headers .= "Return-Path: ".$AdminEmail."\r\n"; // Return path for errors
+    
 
     //send email
-    mail($AdminEmail, "$Subject", $Msg, $Headers);
-    mail($AdminEmail2, "$Subject", $Msg, $Headers);
+    if(!mail($AdminEmail, $Subject, $Msg, $Headers))
+      echo "X";
+    if(!mail($AdminEmail2, $Subject, $Msg, $Headers))
+      echo "XX";
     include("../../classes/class.database.php");
     $DB = new DataBase();
     $DB->Connect();

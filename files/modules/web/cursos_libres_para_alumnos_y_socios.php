@@ -46,26 +46,26 @@
               Se otorgar&aacute; certificado con el 80% de asistencia.<br>
               Curso no arancelado<br><br>
               
+              <!--<hr>-->
+              <!--<h4>C&aacute;tedra Lunes de tarde</h4>-->
+              <!--<b>DOCTRINA, REPERTORIO Y MATERIA M&Eacute;DICA HOMEP&Aacute;TICA</b><br>-->
+              <!--<b class="b">Prof. Titular:</b> Dra. Silvia Mercado<br>-->
+              <!--<b class="b">Prof. Adjunta:</b> Dra. M&oacute;nica Prunell<br>-->
+              <!--<b class="b">Docente Adscripta:</b> Dra. Patricia Atenor<br>-->
+              <!--<b class="b">Te&oacute;rico:</b> de 14 a 15 hs.<br>-->
+              <!--<b class="b">Pr&aacute;ctico:</b> de 15 a 17:30 hs.<br>-->
+              <!--Se otorgar&aacute; certificado con el 80% de asistencia.<br>-->
+              <!--Curso no arancelado<br><br>-->
+
               <hr>
               <h4>C&aacute;tedra Lunes de tarde</h4>
-              <b>DOCTRINA, REPERTORIO Y MATERIA M&Eacute;DICA HOMEP&Aacute;TICA</b><br>
+              <b>CL&Iacute;NICA HOMEOP&Aacute;TICA. MANEJO DEL REPERTORIO. ISOPAT&iacute;A.</b><br>
               <b class="b">Prof. Titular:</b> Dra. Silvia Mercado<br>
               <b class="b">Prof. Adjunta:</b> Dra. M&oacute;nica Prunell<br>
               <b class="b">Docente Adscripta:</b> Dra. Patricia Atenor<br>
-              <b class="b">Te&oacute;rico:</b> de 14 a 15 hs.<br>
-              <b class="b">Pr&aacute;ctico:</b> de 15 a 17:30 hs.<br>
-              Se otorgar&aacute; certificado con el 80% de asistencia.<br>
-              Curso no arancelado<br><br>
-
-              <!--<hr>-->
-              <!--<h4>C&aacute;tedra Lunes de tarde</h4>-->
-              <!--<b>CL&Iacute;NICA HOMEOP&Aacute;TICA. MANEJO DEL REPERTORIO. ISOPAT&iacute;A.</b><br>-->
-              <!--<b class="b">Prof. Extraordinario:</b> Dr. David Milstein<br>-->
-              <!--<b class="b">Prof. Titular:</b> Dra. Silvia Mercado<br>-->
-              <!--<b class="b">Prof. Adjunta:</b> Dra. M&oacute;nica Prunell<br>-->
-              <!--<b class="b">Horario:</b> de 14 a 17 hs.<br>-->
-              <!--Curso no arancelado.<br>-->
-              <!--Se otorgar&aacute; certificado con el 80% de asistencia.<br><br>-->
+              <b class="b">Horario:</b> de 14 a 17 hs.<br>
+              Curso no arancelado.<br>
+              Se otorgar&aacute; certificado con el 80% de asistencia.<br><br>
 
               <hr>
               <h4>C&aacute;tedra Martes de ma&ntilde;ana</h4>
@@ -94,13 +94,14 @@
               <hr>
               <h4>C&aacute;tedra Martes de tarde</h4>
               <b>XXVII CURSO DE SEMIOLOG&Iacute;A HOMEOP&Aacute;TICA REPERTORIAL Y MATERIA M&Eacute;DICA CL&Iacute;NICA.</b><br>
-              <b class="b">Prof. Titular:</b> Dr. &Aacute;ngel Oscar Minotti<br>
-              <b class="b">Prof. Adjunto:</b> Dr. Roberto Luis D&iacute;az Campos<br>
+              <b class="b">Prof. Em&eacute;rito:</b> Dr. &Aacute;ngel Oscar Minotti<br>
+              <b class="b">Prof. Titular:</b> Dr. Roberto Luis D&iacute;az Campos<br>
+              <b class="b">Porf. Adjuntos:</b> Dra. Silvia Aschkar y Dr. Adolfo Campanelli<br>
               <b class="b">Docente Adscripto:</b> Dr. Esteban Busto<br>
               <b class="b">Horario del Curso:</b> 14:30 a 15:30 hs, desde abril hasta noviembre<br>
               <b class="b">Casos Cl&iacute;nicos:</b> 16:30 a 19 hs.<br>
-              Se entregar&aacute; certificado de asistencia.<br>
-              Curso arancelado<br><br>
+              Curso arancelado<br>
+              Se entregar&aacute; certificado de asistencia.<br><br>
 
               <hr>
               <h4>C&aacute;tedra Mi&eacute;rcoles de ma&ntilde;ana</h4>
@@ -153,7 +154,7 @@
               <b>XXVII CURSO ANUAL DE SEMIOLOG&iacute;A Y PR&Aacute;CTICA HOMEOP&Aacute;TICA</b><br>
               <b class="b">Prof. Titular:</b> Dr. Juan Carlos Pellegrino<br>
               <b class="b">Prof. Adjuntos:</b> Dr. Jorge Antonio Traverso y Dr. Roberto Zald&uacute;a<br>
-              <b class="b">Horario:</b> 15:00 a 18 hs. con pr&aacute;ctica cl&iacute;nica<br>
+              <b class="b">Horario:</b> 15 a 18 hs. con pr&aacute;ctica cl&iacute;nica<br>
               Curso no arancelado.<br><br>
               
               <hr>

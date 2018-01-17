@@ -90,7 +90,7 @@
             <li><a href='carrera_de_medicina_homeopatica_3_en_1.php'>Carreras de Medicina Homeop&aacute;tica 3 en 1</a></li>
             <li><a href='practica_homeopatica_para_alumnos_libres.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>
             <!--<li><a href='cursos_deteoriapractica.php'>"De La Teor&iacute;a A La Pr&aacute;ctica" Curso Superior 2017</a></li>-->
-            <li class="longLink"><a href='odontoestomatologia_veterinaria_homeopatica.php'>Perfeccionamiento Continuo en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</a></li>
+            <li class="longLink"><a href='odontoestomatologia_veterinaria_homeopatica.php'>Curso Superior de Perfeccionamiento en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas y Veterinaria Homeop&aacute;tica</a></li>
             <li><a href='cursos_libres_para_alumnos_y_socios.php'>Cursos libres para alumnos y socios</a></li>
             <li class="longLink"><a href='odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php'>Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas y Veterinaria Homeop&aacute;tica 2 en 1</a></li>
           </ul>

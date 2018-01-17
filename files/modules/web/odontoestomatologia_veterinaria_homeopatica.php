@@ -21,7 +21,7 @@
           <div class="container textSection">
             <div class="row">
               <!--<h1 class="txC">Curso Superior de Perfeccionamiento Continuo en Medicina, Odontoestomatolog&iacute;a y Veterinaria Homeop&aacute;tica</h1>-->
-              <h1 class="txC">Curso Superior de Perfeccionamiento Continuo en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</h1>
+              <h1 class="txC">Curso Superior de Perfeccionamiento en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas y Veterinaria Homeop&aacute;tica</h1>
               <hr>
               <p class="justify">
                 Para m&eacute;dicos, odont&oacute;logos y veterinarios home&oacute;patas o profesionales habilitados seg&uacute;n la legislaci&oacute;n
@@ -110,7 +110,7 @@
                 </ol>
 
                 <p class="justify">
-                En caso de no tener los conocimientos b&aacute;sicos en Homeopat&iacute;a anteriormente enunciados, el alumno podr&aacute; realizar las Jornadas Docentes de Nivelaci&oacute;n para poder comenzar con el Curso Superior de Perfeccionamiento continuo en Medicina Homeop&aacute;tica. <br><br>
+                En caso de no tener los conocimientos b&aacute;sicos en Homeopat&iacute;a anteriormente enunciados, el alumno podr&aacute; realizar las Jornadas Docentes de Nivelaci&oacute;n para poder comenzar con el Curso Superior de Perfeccionamiento en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas y Veterinaria Homeop&aacute;tica. <br><br>
                 </p>
                 <b>ARANCEL:</b> U$S 900.- (d&oacute;lares novecientos) por ciclo.<br>
                 <b>Derecho a examen:</b> U$S 80.- (d&oacute;lares ochenta)<br>
