@@ -93,22 +93,22 @@
                   <label class="radio-inline"><input id="career4" type="radio" name="career" value="Veterinaria">Veterinaria</label>
                 </div>
                 <div class="form-group">
-                  <input id="name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Apellido y Nombre" autofocus="" type="name">
+                  <input id="name" validateEmpty="Ingrese su nombre y apellido" class="form-control" placeholder="Apellido y Nombre" autofocus="" type="text">
                 </div>
                 <div class="form-group">
-                  <input id="document" <?php //validateOnlyNumbers="Ingrese solo n&uacute;meros"?> class="form-control" placeholder="D.N.I." type="name">
+                  <input id="document" <?php //validateOnlyNumbers="Ingrese solo n&uacute;meros"?> class="form-control" placeholder="D.N.I." type="text">
                 </div>
                 <div class="form-group">
                   <input id="address" class="form-control" placeholder="Domicilio" type="name">
                 </div>
                 <div class="form-group">
-                  <input id="phone" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Tel&eacute;fono / Celular" type="tel">
+                  <input id="phone" validateEmpty="Ingrese un tel&eacute;fono" class="form-control" placeholder="Tel&eacute;fono / Celular" type="text">
                 </div>
                 <div class="form-group">
-                  <input id="email" validateEmpty="Este campo es obligatorio" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
+                  <input id="email" validateEmpty="Ingrese un email" validateEmail="Ingrese un email v&aacute;lido" class="form-control" placeholder="E-Mail" type="text">
                 </div>
                 <div class="form-group">
-                  <input id="occupation" class="form-control" placeholder="Ocupaci&oacute;n" type="name">
+                  <input id="occupation" class="form-control" placeholder="Ocupaci&oacute;n" type="text">
                 </div>
                 <div class="form-group  form-boxedLines">
                   <label class="sexInput" for="">Sexo: </label>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="form-group">
                  <label for="msg">Deje su mensaje o consulta:</label>
-                 <textarea class="form-control" validateEmpty="Este campo es obligatorio" rows="5" id="msg"></textarea>
+                 <textarea class="form-control" validateEmpty="Ingrese un mensaje o consulta" rows="5" id="msg"></textarea>
                 </div>
                 <!-- Temp Link - Delete -->
                 <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Enviar</button>

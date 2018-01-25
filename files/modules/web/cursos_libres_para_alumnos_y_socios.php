@@ -27,11 +27,11 @@
               <b>PEDIATR&Iacute;A HOMEOP&Aacute;TICA Y FAMILIA</b> <br>
               <b class="b">Prof. Titular:</b> Dr. Juan Carlos Tsuji  <br>
               <b class="b">Prof. Adjuntos:</b> Dra. Ruth Faingold y Dr. Gustavo Martello  <br>
-              <b class="b">Docente Adscripta:</b> Dra. Liliana Szab&oacute; <br>
+              <!--<b class="b">Docente Adscripta:</b> Dra. Liliana Szab&oacute; <br>-->
               Desde abril a octubre.  <br>
               Se entregar&aacute; certificado. <br>
               <b class="b">Teorico:</b> 08:30 a 09:30 hs. <br>
-              <b class="b">Casos cl&iacute;nicos:</b> 9.30 a 12 hs. <br>
+              <b class="b">Casos cl&iacute;nicos:</b> 9:30 a 12 hs. <br>
               Curso no arancelado. <br><br>
               
               <hr>

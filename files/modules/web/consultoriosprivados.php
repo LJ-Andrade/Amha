@@ -59,7 +59,7 @@
   
   $Doctors = $DB->fetchAssoc('doctor a LEFT JOIN doctor_office b ON (a.doctor_id = b.doctor_id) LEFT JOIN doctor_type c ON (a.type_id = c.type_id) LEFT JOIN relation_doctor_specialty d ON (d.doctor_id = a.doctor_id) LEFT JOIN doctor_specialty e ON (e.specialty_id = d.specialty_id) LEFT JOIN geolocation_zone f ON (f.zone_id = b.zone_id) LEFT JOIN geolocation_province g ON (g.province_id = b.province_id) LEFT JOIN geolocation_region h ON (h.region_id = b.region_id)',
 "a.*,b.office_id,b.lat as lat,b.lng as lng,(a.doctor_id + (IFNULL(b.office_id,0)*99999)) as code,b.address,b.floor,b.apartment,b.timetable as office_timetable,b.phone as office_phone,c.title_m AS title_m,c.title_f AS title_f,IFNULL(g.name,'A domicilio') AS province,g.short_name as short_province,f.name AS zone",
-"a.advertising = 'Y' ".$Where,
+"a.advertising = 'Y' AND a.status='A' ".$Where,
 "a.type_id, g.province_id, a.last_name, a.first_name",
 "code"
 );

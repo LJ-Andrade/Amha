@@ -115,25 +115,25 @@
             <div class="col-xs-2 form-info txC col-header">Valores Alumnos</div>
           </div>
           
-          <div class="row row-table">
-            <div class="col-xs-6 form-info">
-              <b>Hasta el 31 DE JULIO DE 2017</b><br>
-              1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>
-            </div>
-            <div class="col-xs-2 form-info txC">$ 4.000.-</div>
-            <div class="col-xs-2 form-info txC">$ 3.600.-</div>
-            <div class="col-xs-2 form-info txC">$ 2.400.-</div>
-          </div>
+          <!--<div class="row row-table">-->
+          <!--  <div class="col-xs-6 form-info">-->
+          <!--    <b>Hasta el 31 DE JULIO DE 2017</b><br>-->
+          <!--    1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>-->
+          <!--  </div>-->
+          <!--  <div class="col-xs-2 form-info txC">$ 4.000.-</div>-->
+          <!--  <div class="col-xs-2 form-info txC">$ 3.600.-</div>-->
+          <!--  <div class="col-xs-2 form-info txC">$ 2.400.-</div>-->
+          <!--</div>-->
           
-          <div class="row row-table">
-            <div class="col-xs-6 form-info">
-              <b>Desde AGOSTO 2017</b><br>
-              1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>
-            </div>
-            <div class="col-xs-2 form-info txC">$ 4.800.-</div>
-            <div class="col-xs-2 form-info txC">$ 4.320.-</div>
-            <div class="col-xs-2 form-info txC">$ 2.880.-</div>
-          </div>
+          <!--<div class="row row-table">-->
+          <!--  <div class="col-xs-6 form-info">-->
+          <!--    <b>Desde AGOSTO 2017</b><br>-->
+          <!--    1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>-->
+          <!--  </div>-->
+          <!--  <div class="col-xs-2 form-info txC">$ 4.800.-</div>-->
+          <!--  <div class="col-xs-2 form-info txC">$ 4.320.-</div>-->
+          <!--  <div class="col-xs-2 form-info txC">$ 2.880.-</div>-->
+          <!--</div>-->
           
           <div class="row row-table">
             <div class="col-xs-6 form-info">
