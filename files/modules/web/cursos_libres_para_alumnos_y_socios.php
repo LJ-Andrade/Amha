@@ -35,7 +35,7 @@
               Curso no arancelado. <br><br>
               
               <hr>
-              <h4>C&aacute;tedra Lunes de ma&ntilde;ana de Odontoestomatolog&iacute;a</h4>
+              <h4>C&aacute;tedra Lunes de ma&ntilde;ana de Odontolog&iacute;a Estomatolog&iacute;a</h4>
               <b>6º CURSO DE ODONTOLOG&iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</b><br>
               <b class="b">Prof. Titular:</b> <!--Dra. Viviana Tachella--><br>
               <b class="b">Docente Adscripta:</b> Dra. Marina Gal&aacute;n<br>
