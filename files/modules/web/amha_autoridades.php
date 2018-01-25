@@ -97,9 +97,10 @@
                               <b>Foro 1° a&ntilde;o:</b> Dra. Astrid Motura<br>
                               <b>Foro 2° a&ntilde;o:</b> Dra. Elena Figari<br>
                               <b>Foro 3° a&ntilde;o:</b> Dr. Lucas Yraola<br>
-                              <b>Foro Odontoestomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
+                              <b>Foro Odontolog&iacute;a y Estomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Foro Farmacia:</b> Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
                               <b>Foro Graduados:</b> Dr. Adolfo Campanelli
+                              <b>Foro Mar del Plata:</b> Dra. Silvia Mercado
                             </p><br>
                             <h2>Departamento de Investigaci&oacute;n</h2>
                             <hr>

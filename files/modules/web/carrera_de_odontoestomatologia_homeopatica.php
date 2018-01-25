@@ -20,7 +20,7 @@
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h1 class="txC">Carreras de Odontoestomatolog&iacute;a Homeop&aacute;tica</h1>
+              <h1 class="txC">Carreras de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;tica</h1>
               <hr>
               <b>Dirigido a:</b> Odont&oacute;logos <br>
               <b>Duraci&oacute;n:</b> 2 a&ntilde;os<br>
@@ -29,7 +29,7 @@
               <b>Requisitos:</b> Ser odont&oacute;logo. <br>
               Presentar fotocopia autenticada y en tama&ntilde;o reducido de ambas caras del t&iacute;tulo y fotocopia de ambas caras de la matr&iacute;cula. <br>
               Fotos carnet: 2 (dos)<br>
-              <h5>PROGRAMA ODONTOESTOMALOG&Iacute;A HOMEOP&Aacute;TICA</h5>
+              <h5>PROGRAMA ODONTOLOG&Iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</h5>
 
               <p class="justify">
                 <b>OBJETIVO:</b> Capacitar al Odont&oacute;logo en el manejo homeop&aacute;tico de la patolog&iacute;a aguda y cr&oacute;nica del
@@ -47,7 +47,7 @@
                 d&iacute;as y horarios de Segundo
                 A&ntilde;o de Medicina, (ver programa de Segundo A&ntilde;o de Medicina). Se dictar&aacute;n en el aula del primer piso de la
                  instituci&oacute;n.<br><br>
-                La formaci&oacute;n en Odontoestomatolog&iacute;a Homeop&aacute;tica se asentar&aacute; en el tr&iacute;pode: <br>
+                La formaci&oacute;n en Odontolog&iacute;a y estomatolog&iacute;a Homeop&aacute;tica se asentar&aacute; en el tr&iacute;pode: <br>
                 DOCTRINA y MATERIA M&Eacute;DICA  -  PR&Aacute;CTICA  -  INVESTIGACI&oacute;N<br>
               </p>
               <hr>
