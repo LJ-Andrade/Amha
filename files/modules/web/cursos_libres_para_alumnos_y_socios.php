@@ -129,7 +129,7 @@
               <h4>C&aacute;tedra Jueves de ma&ntilde;ana</h4>
               <!--<b>MATERIA M&Eacute;DICA COMPARADA-CL&Iacute;NICA HOMEOP&Aacute;TICA</b><br>-->
               <b>XXIII CURSO EXTRACURRICULAR DE MEDICINA HOMEOP&Aacute;TICA</b><br>
-              Charlas con el Profesor Dr. Carlos Valenzuela, 2do. Jueves de cada mes.<br>
+              <!--Charlas con el Profesor Dr. Carlos Valenzuela, 2do. Jueves de cada mes.<br>-->
               <b class="b">Prof. Em&eacute;rito:</b> Dr. Mario Draiman<br>
               <b class="b">Prof. Titular:</b> Dra. Laura Svirnovsky<br>
               <b class="b">Prof. Adjunta:</b> Dra. Mar&iacute;a Isabel Messia<br>
@@ -151,7 +151,7 @@
               
               <hr>
               <h4>C&aacute;tedra Jueves de tarde</h4>
-              <b>XXVII CURSO ANUAL DE SEMIOLOG&iacute;A Y PR&Aacute;CTICA HOMEOP&Aacute;TICA</b><br>
+              <b>XXVI CURSO ANUAL DE SEMIOLOG&iacute;A Y PR&Aacute;CTICA HOMEOP&Aacute;TICA</b><br>
               <b class="b">Prof. Titular:</b> Dr. Juan Carlos Pellegrino<br>
               <b class="b">Prof. Adjuntos:</b> Dr. Jorge Antonio Traverso y Dr. Roberto Zald&uacute;a<br>
               <b class="b">Horario:</b> 15 a 18 hs. con pr&aacute;ctica cl&iacute;nica<br>

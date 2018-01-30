@@ -99,7 +99,7 @@
                               <b>Foro 3° a&ntilde;o:</b> Dr. Lucas Yraola<br>
                               <b>Foro Odontolog&iacute;a y Estomatolog&iacute;a:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Foro Farmacia:</b> Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
-                              <b>Foro Graduados:</b> Dr. Adolfo Campanelli
+                              <b>Foro Graduados:</b> Dr. Adolfo Campanelli<br>
                               <b>Foro Mar del Plata:</b> Dra. Silvia Mercado
                             </p><br>
                             <h2>Departamento de Investigaci&oacute;n</h2>

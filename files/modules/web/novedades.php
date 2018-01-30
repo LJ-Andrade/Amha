@@ -51,6 +51,27 @@
                 </div>
               </div><!-- 1-->
               <!-- New -->
+              <!-- New -->
+               <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
+                  <b>CHARLA INFORMATIVA 2018</b>
+                </div>
+                <div class="accordionInfo">
+                  <p class="justify">
+                    Particip&aacute; de la charla informativa que la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina 
+                    brinda el 09 de Abril a las 12,30hs.<br>
+                    La charla ser&aacute; dictada por la Dra. Silvia Mercado y ser&aacute; sobre los cursos y carreras que pueden realizar en AMHA.<br>
+                    Los cupos son limitados. No dudes en resolver tus consultas.<br>
+                    Inscribite, click <b><a href="http://amha.org.ar/files/modules/web/formulario_preinscripcion.php" target="_blank">aqu&iacute;</a></b>!
+                    <hr>
+                    <b>INSCRIPCIONES Y CONSULTAS:</b><br>
+                    &#9679;  Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" style="cursor:pointer;" target="_blank">escuela@amha.org.ar</a></b><br>
+                    &#9679;  Tel&eacute;fono: (011) 4827-2907<br>
+                    &#9679;  Sede: Juncal 2884, CABA.
+                  </p>
+                </div>
+              </div><!-- 1-->
+              <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
                   <p><b>Cursos de cocina</b><br></p>
@@ -110,8 +131,8 @@
                 <div class="accordionInfo">
                   <p class="justify">
                     <hr>
-                    Iniciar&aacute; en el presente a&ntilde;o 2017 su 28&deg; a&ntilde;o de actividad continuada de Ateneos Veterinarios.<br>
-                    Reuniones los 2&deg; viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.<br>
+                    Iniciar&aacute; en el presente a&ntilde;o 2018 su 29&deg; a&ntilde;o de actividad continuada de Ateneos Veterinarios.<br>
+                    Reuniones los 2&deg; viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.  
                   </p>
                 </div>
               </div><!-- 5-->
