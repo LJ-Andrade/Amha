@@ -36,9 +36,9 @@
     
 
     //send email
-    if(!mail($AdminEmail, $Subject, $Msg, $Headers))
+    mail($AdminEmail, $Subject, $Msg, $Headers);
       // echo "X";
-    if(!mail($AdminEmail2, $Subject, $Msg, $Headers))
+    mail($AdminEmail2, $Subject, $Msg, $Headers);
       // echo "XX";
     include("../../classes/class.database.php");
     $DB = new DataBase();
