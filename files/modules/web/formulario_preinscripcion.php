@@ -19,7 +19,7 @@
     $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
     $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
     $Msg .= 'Ocupaci&oacute;n: <b>'.$Occupation.'</b><br>';
-    $Msg .= '<br>Mensaje: <br><b>'.$_POST['msg'].'</b>';
+    $Msg .= '<br>Mensaje: <br><b>'.htmlentities($_POST['msg']).'</b>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
     $Headers .= "MIME-Version: 1.0\r\n";
@@ -37,9 +37,9 @@
 
     //send email
     if(!mail($AdminEmail, $Subject, $Msg, $Headers))
-      echo "X";
+      // echo "X";
     if(!mail($AdminEmail2, $Subject, $Msg, $Headers))
-      echo "XX";
+      // echo "XX";
     include("../../classes/class.database.php");
     $DB = new DataBase();
     $DB->Connect();
