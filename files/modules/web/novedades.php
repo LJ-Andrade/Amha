@@ -59,7 +59,7 @@
                 <div class="accordionInfo">
                   <p class="justify">
                     Particip&aacute; de la charla informativa que la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina 
-                    brinda el 16 de Marzo a las 18hs.<br>
+                    brinda el 16 de Marzo a las 14hs.<br>
                     La charla ser&aacute; dictada por la Dra. Silvia Mercado y ser&aacute; sobre los cursos y carreras que pueden realizar en AMHA.<br>
                     Los cupos son limitados. No dudes en resolver tus consultas.<br>
                     Inscribite, click <b><a href="http://amha.org.ar/files/modules/web/formulario_preinscripcion.php" target="_blank">aqu&iacute;</a></b>!
