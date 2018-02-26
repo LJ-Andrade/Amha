@@ -62,7 +62,7 @@
                 <p>Consultorios privados de los m&eacute;dicos de la A.M.H.A.<br>
                 <b>Charcas 2744 - piso 2 departamento "6"</b><br> Barrio Norte, Buenos Aires, Argentina<br>
                 <b>Tel:</b> (011) 4963-1841 /4962-6812<br>
-		            <b>D&iacute;as y horarios:</b> Lunes a Viernes 9 a 20hs.
+		            <b>D&iacute;as y horarios:</b> Lunes a Viernes de 12 a 20hs.
               </div>
               <hr class="hrMobile">
               <div class="col-md-4">
