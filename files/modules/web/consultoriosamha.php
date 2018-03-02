@@ -78,9 +78,9 @@
                 <!--<b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o-->
                 <!--dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>-->
                 <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
-                <b>Turnos:</b> 4963-1841 | 4962-6812 <br>
+                <b>Turnos:</b> (011) 4963-1841 | 4962-6812 <br>
                 <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
-                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 9.00 a 20.00 hs.<br><br>
+                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 12.00 a 20.00 hs.<br><br>
 
 
                 <b>Lunes</b><br>

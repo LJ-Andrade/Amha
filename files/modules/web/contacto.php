@@ -62,7 +62,7 @@
                 <p>Consultorios privados de los m&eacute;dicos de la A.M.H.A.<br>
                 <b>Charcas 2744 - piso 2 departamento "6"</b><br> Barrio Norte, Buenos Aires, Argentina<br>
                 <b>Tel:</b> (011) 4963-1841 /4962-6812<br>
-		            <b>D&iacute;as y horarios:</b> Lunes a Viernes de 12 a 20hs.
+		            <b>D&iacute;as y horarios:</b> Lunes a Viernes de 9 a 20hs.
               </div>
               <hr class="hrMobile">
               <div class="col-md-4">
@@ -102,7 +102,7 @@
                   <input type="email" class="form-control" id="email" placeholder="Ingrese su direcci&oacute;n de email" validateEmpty="Ingrese su email." validateEmail="Ingrese un email v&aacute;lido." validateMinLenght="10/El email debe contener al menos 10 caracteres.">
                 </fieldset>
                 <fieldset class="form-group">
-                  <input type="text" class="form-control" id="phone" placeholder="Ingrese su n&uacute;mero de tel&eacute;fono" validateEmpty="Ingrese un tel&eacute;fono.">
+                  <input type="text" class="form-control" id="phone" placeholder="Ingrese su n&uacute;mero de tel&eacute;fono">
                 </fieldset>
                 <fieldset class="form-group">
                   <textarea class="form-control" id="msg" rows="3" placeholder="Deje su consulta o mensaje" validateEmpty="Ingrese un mensaje." validateMinLenght="10/El mensaje debe tener al menos 10 caracteres." validateMaxLenght="500/El mensaje debe contener menos de 500 caracteres."></textarea>
