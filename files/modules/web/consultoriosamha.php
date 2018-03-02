@@ -83,35 +83,35 @@
                 <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 12.00 a 20.00 hs.<br><br>
 
 
-                <b>Lunes</b><br>
-                De 13:00 a 19:30 hs – Dra. Eva Blaho<br>
-                De 13:00 a 18:30 hs – Dra. Ruth Faingold<br>
-                De 13:00 a 19:30 hs – Dra. Viviana Tachella<br>
-                De 14:00 a 18:30 hs – Dr. Gustavo Martello<br>
-                <br>
-                <b>Martes</b><br>
-                De 9:00 a 12:30 hs – Dra. Mónica Prunell<br>
-                De 13:00 a 20:00 hs – Dr. Andrés Carmody<br>
-                De 12:00 a 19:30 hs – Dr. José De Robertis<br>
-                De 15:00 a 19:30 hs – Dra. Mónica Moreno<br>
-                De 9:00 a 11:30 hs – Dr. Jorge Traverso<br>
-                De 9:00 a 14:30 hs – Dra. Laura Svirnosky<br>
-                <br>
-                <b>Miércoles</b><br>
-                De 13:00 a 19.30 hs – Dra. Eva Blaho<br>
-                De 10:00 a 14:30 hs - Dr. José De Robertis<br>
-                De 12:00 a 18:30 hs - Dra. Ruth Faingold<br>
-                De 12:00 a 19:30 hs – Dra. Laura Svirnosky<br>
-                <br>
-                <b>Jueves</b><br>
-                De 9:00 a 11:30 hs  – Dr. Gustavo Martello<br>
-                De 9:00 a 11:30 hs -  Dr. Jorge Traverso<br>
-                De 15:00 a 19:30 hs  - Dra. Elena Figari<br>
-                <br>
-                <b>Viernes</b><br>
-                De 9:00 a 18:30 hs – Dr. Roberto Díaz Campos<br>
-                De 9:00 a 19:00 hs - Dra. Elena Figari<br>
-                <br>
+                <!--<b>Lunes</b><br>-->
+                <!--De 13:00 a 19:30 hs – Dra. Eva Blaho<br>-->
+                <!--De 13:00 a 18:30 hs – Dra. Ruth Faingold<br>-->
+                <!--De 13:00 a 19:30 hs – Dra. Viviana Tachella<br>-->
+                <!--De 14:00 a 18:30 hs – Dr. Gustavo Martello<br>-->
+                <!--<br>-->
+                <!--<b>Martes</b><br>-->
+                <!--De 9:00 a 12:30 hs – Dra. Mónica Prunell<br>-->
+                <!--De 13:00 a 20:00 hs – Dr. Andrés Carmody<br>-->
+                <!--De 12:00 a 19:30 hs – Dr. José De Robertis<br>-->
+                <!--De 15:00 a 19:30 hs – Dra. Mónica Moreno<br>-->
+                <!--De 9:00 a 11:30 hs – Dr. Jorge Traverso<br>-->
+                <!--De 9:00 a 14:30 hs – Dra. Laura Svirnosky<br>-->
+                <!--<br>-->
+                <!--<b>Miércoles</b><br>-->
+                <!--De 13:00 a 19.30 hs – Dra. Eva Blaho<br>-->
+                <!--De 10:00 a 14:30 hs - Dr. José De Robertis<br>-->
+                <!--De 12:00 a 18:30 hs - Dra. Ruth Faingold<br>-->
+                <!--De 12:00 a 19:30 hs – Dra. Laura Svirnosky<br>-->
+                <!--<br>-->
+                <!--<b>Jueves</b><br>-->
+                <!--De 9:00 a 11:30 hs  – Dr. Gustavo Martello<br>-->
+                <!--De 9:00 a 11:30 hs -  Dr. Jorge Traverso<br>-->
+                <!--De 15:00 a 19:30 hs  - Dra. Elena Figari<br>-->
+                <!--<br>-->
+                <!--<b>Viernes</b><br>-->
+                <!--De 9:00 a 18:30 hs – Dr. Roberto Díaz Campos<br>-->
+                <!--De 9:00 a 19:00 hs - Dra. Elena Figari<br>-->
+                <!--<br>-->
 
 
 
