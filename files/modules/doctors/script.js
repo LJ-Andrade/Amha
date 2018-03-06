@@ -363,6 +363,7 @@ $(document).ready(function(){
 	EditBranch();
 	SaveBranchEdition();
 	CancelBranchEdition();
+	DeleteBranch();
 	$(".LoadedMap").click(function(){
 		if(!$(this).hasClass('Initializated'))
 		{
