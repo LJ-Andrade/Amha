@@ -15,12 +15,12 @@
           <div class="row txC">
             <a href="consultoriosamha.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Atenci&oacute;n Pacientes A.M.H.A</p>
+                <p>Consultorios Privados de la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina</p>
               </div>
             </a>
             <a href="consultoriosprivados.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Atenci&oacute;n Consultorios Privados</p>
+                <p>Consultorios Privados - M&eacute;dicos Home&oacute;patas en todo el Pa&iacute;s</p>
               </div>
             </a>
           </div><!-- /Row -->
