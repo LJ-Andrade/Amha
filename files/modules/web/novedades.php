@@ -17,16 +17,40 @@
           <div class="container">
             <div class="row">
               <!-- New -->
-               <!--<div class="col-md-12 infoContainer accordion">-->
-               <!--  <div class="accordionTitle">-->
-               <!--    <p><b> CHARLA INFORMATIVA 2017 </b><br></p>-->
-               <!--  </div>-->
-               <!--  <div class="accordionInfo">-->
-               <!--    <p class="justify">-->
-               <!--      <hr>-->
-               <!--      El 17 de marzo a las 14.00hs se realizará la <b>charla informativa 2017</b>. La <b>directora</b> de la Escuela, la Dra. Silvia Mercado, resolverá consultas e informará sobre los programas y objetivos de cada una de las  carreras dictadas en la AMHA. El ciclo lectivo 2017 comienza en el mes de Abril. Si estás interesado en participar deberás inscribirte previamente. Puedes enviar un mail a <a href="mailto:escuela@amha.org.ar" class="text-primary">escuela@amha.org.ar</a>  o comunicarte al teléfono (011) 4827.2907 -->
-               <!--  </div>-->
-               <!--</div>-->
+               <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
+                  <b>Curso: </b>ORGANOTERAPIA DILUIDA Y DINAMIZADA
+                </div>
+                <div class="accordionInfo">
+                  <p class="justify">
+                    CURSO A CARGO DEL DR. ANGEL OSCAR MINOTTI<br>
+                    <hr>
+                    <b>Temario:</b><br>
+                    -  Principios e Indicaciones de la Organoterapia.<br>
+                    -  Aplicaci&oacute;n práctica como coayudante al tratamiento homeop&aacute;tico.<br>
+                    -  Indicaciones Cl&iacute;nicas, Posolog&iacute;a y Potencias Medicamentosas.<br>
+                    -  Correlaci&oacute;n repertorial de la Nosolog&iacute;a.<br>
+                    <br>
+                    <b>Duraci&oacute;n:</b> 6 Hs.<br>
+                    <br>
+                    <b>Fechas:</b><br>
+                    &#9679;  03 DE ABRIL: de 14.30 hs. a 16.30 hs.<br>
+                    &#9679;  08 DE MAYO: de 14.30 hs. a 16.30 hs.<br>
+                    &#9679;  05 DE JUNIO: de 14.30 hs. a 16.30 hs.<br>
+                    <br>
+                    <b>Curso Arancelado:</b> $ 1.200.-<br>
+                    <b>Socios AMHA:</b> $ 800.-<br>
+                    <b>Alumnos AMHA:</b> $ 400.-<br>
+                    <br>
+                    <b>Socios Colegio de M&eacute;dicos Hom&eacute;opatas:</b> 10% DE DESCUENTO<br>
+                    <hr>
+                    <b>Informes e Inscripciones</b><br>
+                    <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=minottimaster@gmail.com" target="_blank">minottimaster@gmail.com</a></b> ó <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@amha.org.ar" target="_blank">info@amha.org.ar</a></b><br>
+                    Tel&eacute;fono: (011) 4827-2907<br>
+                    <!--<b><a href="formulario_congreso.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n-->
+                  </p>
+                </div>
+              </div>
                <!-- New -->
                <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">

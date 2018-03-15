@@ -136,10 +136,11 @@
               <div class="card card-block">
                 <!--<a href="formulario_preinscripcion.php">-->
                 <!--<a href="amha_homeopatia.php">-->
-                <a href="cursos_y_carreras.php">
-                <!--<a href="novedades.php">-->
+                <!--<a href="cursos_y_carreras.php">-->
+                <a href="novedades.php">
                   <!--<img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">-->
-                  <img class="card-img" src="../../../skin/images/body/menu/hmcursos.jpg" alt="Que es la homeopatia">
+                  <!--<img class="card-img" src="../../../skin/images/body/menu/hmcursos.jpg" alt="Que es la homeopatia">-->
+                  <img class="card-img" src="../../../skin/images/body/menu/cursominotti.jpg" alt="Curso Organoterapia">
                   <h3 class="card-title">Informate</h3>
                 </a>
               </div>
