@@ -47,7 +47,7 @@
                     <b>Informes e Inscripciones</b><br>
                     <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=minottimaster@gmail.com" target="_blank">minottimaster@gmail.com</a></b> ó <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@amha.org.ar" target="_blank">info@amha.org.ar</a></b><br>
                     Tel&eacute;fono: (011) 4827-2907<br>
-                    <!--<b><a href="formulario_congreso.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n-->
+                    <b><a href="formulario_preinscripcion.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@
                     &#9679;  Nuevas Patogenesias.<br>
                     &#9679;  Temas libres.<br>
                     <br>
-                    <b>Sede:</b> A confirmar<br> <!-- Hotel Centuria, Suipacha 30. CABA.<br> -->
+                    <b>Sede:</b> Círculos de Oficiales de Mar, Sarmiento 1867 CABA<br> <!-- Hotel Centuria, Suipacha 30. CABA.<br> -->
                     <br>
                     <br>
                     <b><a href="formulario_congreso.php">Click aqu&iacute;</a></b> para solicitar m&aacute;s informaci&oacute;n
@@ -76,36 +76,36 @@
               </div><!-- 1-->
               <!-- New -->
               <!-- New -->
-               <div class="col-md-12 infoContainer accordion">
-                <div class="accordionTitle">
-                  <b>CHARLA INFORMATIVA 2018</b>
-                </div>
-                <div class="accordionInfo">
-                  <p class="justify">
-                    Particip&aacute; de la charla informativa que la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina 
-                    brinda el 16 de Marzo a las 14hs.<br>
-                    La charla ser&aacute; dictada por la Dra. Silvia Mercado y ser&aacute; sobre los cursos y carreras que pueden realizar en AMHA.<br>
-                    Los cupos son limitados. No dudes en resolver tus consultas.<br>
-                    Inscribite, click <b><a href="http://amha.org.ar/files/modules/web/formulario_preinscripcion.php" target="_blank">aqu&iacute;</a></b>!
-                    <hr>
-                    <b>INSCRIPCIONES Y CONSULTAS:</b><br>
-                    &#9679;  Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" style="cursor:pointer;" target="_blank">escuela@amha.org.ar</a></b><br>
-                    &#9679;  Tel&eacute;fono: (011) 4827-2907<br>
-                    &#9679;  Sede: Juncal 2884, CABA.
-                  </p>
-                </div>
-              </div><!-- 1-->
+              <!-- <div class="col-md-12 infoContainer accordion">-->
+              <!--  <div class="accordionTitle">-->
+              <!--    <b>CHARLA INFORMATIVA 2018</b>-->
+              <!--  </div>-->
+              <!--  <div class="accordionInfo">-->
+              <!--    <p class="justify">-->
+              <!--      Particip&aacute; de la charla informativa que la Asociaci&oacute;n M&eacute;dica Homeop&aacute;tica Argentina -->
+              <!--      brinda el 16 de Marzo a las 14hs.<br>-->
+              <!--      La charla ser&aacute; dictada por la Dra. Silvia Mercado y ser&aacute; sobre los cursos y carreras que pueden realizar en AMHA.<br>-->
+              <!--      Los cupos son limitados. No dudes en resolver tus consultas.<br>-->
+              <!--      Inscribite, click <b><a href="http://amha.org.ar/files/modules/web/formulario_preinscripcion.php" target="_blank">aqu&iacute;</a></b>!-->
+              <!--      <hr>-->
+              <!--      <b>INSCRIPCIONES Y CONSULTAS:</b><br>-->
+              <!--      &#9679;  Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" style="cursor:pointer;" target="_blank">escuela@amha.org.ar</a></b><br>-->
+              <!--      &#9679;  Tel&eacute;fono: (011) 4827-2907<br>-->
+              <!--      &#9679;  Sede: Juncal 2884, CABA.-->
+              <!--    </p>-->
+              <!--  </div>-->
+              <!--</div>
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <p><b>Cursos de cocina</b><br></p>
+                  <p><b>Cursos de cocina: Desde abril</b><br></p>
                 </div>
                 <div class="accordionInfo">
                   <hr>
                   <p class="justify">
                     La <b>A.M.H.A</b> los invita a participar del taller anual de cocina natural. <br>
                     Este taller es totalmente gratuito, solo requiere de la colaboraci&oacute;n a voluntad para las instituciones que ofrecen los
-                     talleres y la entrega de alimentos no perecederos para donaci&oacute;n a poblaciones carenciadas.Se dictan de Abril a Noviembre.<br><br>
+                     talleres y la entrega de alimentos no perecederos para donaci&oacute;n a poblaciones carenciadas.<b>Se dictan de Abril a Noviembre</b>.<br><br>
                     <b>Taller anual de cocina natural:</b> "La vida como escuela" <br>
                     (se entregar&aacute;n apuntes). <br>
                     M&aacute;s informaci&oacute;n comun&iacute;quese al 4827-2907
