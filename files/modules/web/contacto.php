@@ -27,8 +27,9 @@
     mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
+    $DB->Connect();
     $DB->execQuery("INSERT","contact_messages","name,email,phone,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($_POST['msg'])."',NOW()");
-    //echo $DB->lastQuery();
+    // echo $DB->lastQuery();
     die();
   }
 ?>
