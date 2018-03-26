@@ -25,7 +25,8 @@
               <hr>
               <h4>C&aacute;tedra Lunes de ma&ntilde;ana</h4>
               <b>PEDIATR&Iacute;A HOMEOP&Aacute;TICA Y FAMILIA</b> <br>
-              <b class="b">Prof. Titular:</b> Dr. Juan Carlos Tsuji  <br>
+              <b class="b">Prof. Titular:</b> Dr. Juan Carlos Tsuji<br>
+              <b class="b">Prof. Em&eacute;rito:</b> Dr. Eduardo A. Yahbes<br>
               <b class="b">Prof. Adjuntos:</b> Dra. Ruth Faingold y Dr. Gustavo Martello  <br>
               <!--<b class="b">Docente Adscripta:</b> Dra. Liliana Szab&oacute; <br>-->
               Desde abril a octubre.  <br>
