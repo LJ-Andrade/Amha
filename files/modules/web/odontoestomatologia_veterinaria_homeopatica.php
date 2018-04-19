@@ -112,9 +112,10 @@
                 <p class="justify">
                 En caso de no tener los conocimientos b&aacute;sicos en Homeopat&iacute;a anteriormente enunciados, el alumno podr&aacute; realizar las Jornadas Docentes de Nivelaci&oacute;n para poder comenzar con el Curso Superior de Perfeccionamiento en Medicina, Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas y Veterinaria Homeop&aacute;tica. <br><br>
                 </p>
-                <b>ARANCEL:</b> U$S 900.- (d&oacute;lares novecientos) por ciclo.<br>
-                <b>Derecho a examen:</b> U$S 80.- (d&oacute;lares ochenta)<br>
-                Adicional Jornadas de Nivelaci&oacute;n Docente: U$S 900.- (d&oacute;lares novecientos)<br><br>
+                <b>ARANCEL:</b> CONSULTAR<br><!--U$S 900.- (d&oacute;lares novecientos) por ciclo.<br>-->
+                <b>Derecho a examen:</b> CONSULTAR<br><!--U$S 80.- (d&oacute;lares ochenta)<br>-->
+                <b>Adicional Jornadas de Nivelaci&oacute;n Docente:</b> CONSULTAR<br><!--U$S 900.- (d&oacute;lares novecientos)<br>-->
+                <br>
 
                 Para m&aacute;s informes e inscripci&oacute;n: <br>
                 Secretar&iacute;a administrativa de la Escuela de Posgrado de 9 a 18 horas<br>
