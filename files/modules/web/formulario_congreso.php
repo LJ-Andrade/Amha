@@ -107,6 +107,40 @@
           </div>
           <br>
           <div class="form-info txC">
+            <h4 class="pre-header">Primera Jornada de Agrohomeopatía. - 27 de OCTUBRE DE 2018</h4>
+          </div>
+          <div class="form-info">
+            <p class="txL">
+              La Asociación Médica Homeopática Argentina se enorgullece en invitar a paisajistas, agrónomos y amantes de las plantas a la <b>Primera Jornada de Agrohomeopatía.</b><br>
+              <br>
+              En ella aprenderá como cuidar las plantas, jardines y cultivos de manera natural, órganica, sin toxicidad para su familia, animales y medio ambiente. También la Agrohomeopatía ha demostrado su utilidad en el incremento del rinde de los cultivos, así como también la reducción y hasta erradicación de los fertilizantes químicos y pesticidas tóxicos en el control de las plagas y enfermedades del agro, redundando en un mayor usufructo económico, una agricultura más ecológica y el consiguiente beneficio para la salud de los consumidores.<br>
+              <br>
+              Somos la Primera Escuela Argentina y una de las pocas a nivel mundial que han incorporado esta importante área del conocimiento homeopático a sus cursos.<br>
+              <br>
+              El <b>temario</b> incluye:
+              <div class="container">
+              <ul>
+                <li>Definición y alcances de la <b>Agrohomeopatía</b>, su historia y su futuro.</li>
+                <li>Integración <b>planta-suelo.</b></li>
+                <li>Repaso de la <b>anatomofisiología</b> vegetal.</li>
+                <li>Toma del caso <b>agrohomeopática</b>: Interrogatorio, <b>Semiología agrohomeopática</b> (signos, síntomas)</li>
+                <li><b>Jerarquización, repertorización y elección del medicamento.</b></li>
+                <li>Síndrome mínimo de valor máximo.</li>
+                <li>Dinamización, dosis, <b>esquemas de tratamiento.</b></li>
+                <li><b>Fitonosodes</b>, importancia y preparación</li>
+              </ul>
+              </div>
+              <br>
+              La producción sustentable es el futuro. Es una necesidad para nuestra salud y la del planeta. Seamos parte del cambio desde la Homeopatía. Aprovechemos la oportunidad para acercarnos a este conocimiento.<br>
+              <br>
+              FECHA: <b>27 DE OCTUBRE DE 2018</b><br>
+              Para poder participar deberá inscribirse previamente, consulte valores:<br>
+              Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
+              Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br> 
+            </p>
+          </div>
+          <br>
+          <div class="form-info txC">
             <h4 class="pre-header">¡Descuentos y formas de pago!</h4>
           </div>
           <div class="row row-table">

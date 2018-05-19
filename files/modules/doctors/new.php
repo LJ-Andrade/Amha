@@ -1,7 +1,8 @@
 <?php
     include("../../includes/inc.main.php");
     $New = new Doctor();
-    $Head->setTitle('<i class="fa fa-user-md"></i></span> Nuevo M&eacute;dico');
+    $Head->setTitle('Nuevo M&eacute;dico');
+    $Head->setIcon('<i class="fa fa-user-md"></i></span>');
     $Head->setStyle('../../../vendors/select2/select2.min.css'); // Select Inputs With Tags
     $Head->setStyle('../../../skin/css/maps.css'); // Google Maps CSS
     $Head->setHead();
@@ -144,7 +145,7 @@
                 <?php echo insertElement('select','service',$ServiceType,'form-control','',array("1"=>"En consultorio","2"=>"A domicilio")); ?>
               </div>
             </div>
-            <div class="row form-group inline-form-custom <?php echo $HiddenClass ?>" id="no_office">
+            <div class="row form-group inline-form-custom Hidden" id="no_office">
               <div class="col-xs-12 col-sm-6">
                 <span class="input-group">
                   <span class="input-group-addon"><i class="fa fa-phone"></i></span>
@@ -162,8 +163,9 @@
           <h4 class="subTitleB office"><i class="fa fa-building"></i> Consultorios</h4>
           <!--<div id="MapsErrorMessage" class="Hidden ErrorText Red">Complete los datos del consultorio principal.</div>-->
           <div id="branches_container" class="office">
-          <div class="row txC office" id="add_branch_button_container">
-            <button id="add_branch" type="button" class="btn btn-primary Info-Card-Form-Btn"><i class="fa fa-plus"></i> Agregar un consultorio</button>
+            <div class="row txC office" id="add_branch_button_container">
+              <button id="add_branch" type="button" class="btn btn-primary Info-Card-Form-Btn"><i class="fa fa-plus"></i> Agregar un consultorio</button>
+            </div>
           </div>
           <hr>
           <div class="row txC">
@@ -171,7 +173,6 @@
             <button type="button" class="btn btn-success btnBlue" id="BtnCreateNext"><i class="fa fa-plus"></i> Crear y Agregar Otro</button>
             <button type="button" class="btn btn-error btnRed" id="BtnCancel"><i class="fa fa-times"></i> Cancelar</button>
           </div>
-      </div>
           
         </div>
       </div>
