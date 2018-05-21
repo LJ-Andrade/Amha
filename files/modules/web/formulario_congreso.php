@@ -141,7 +141,7 @@
           </div>
           <br>
           <div class="form-info txC">
-            <h4 class="pre-header">¡Descuentos y formas de pago!</h4>
+            <h4 class="pre-header">¡CONGRESO FAMHA : Descuentos y formas de pago!</h4>
           </div>
           <div class="row row-table">
             <div class="col-xs-6 form-info txC col-header">Formas de Pago</div>
