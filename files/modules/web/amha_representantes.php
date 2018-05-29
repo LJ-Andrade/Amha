@@ -80,10 +80,10 @@
               </div><!-- /row -->
               <div class="row"><!-- lmhint -->
                 <div class="col-md-3">
-                  <a href="http://www.lmhint.net" target="_blank"><img src="../../../skin/images/web/logos/lmhint.png" alt="" /></a>
+                  <a href="http://www.lmhi.org" target="_blank"><img src="../../../skin/images/web/logos/lmhint.png" alt="" /></a>
                 </div>
                 <div class="col-md-9">
-                  <a href="http://www.lmhint.net" target="_blank"><p><b>LIGA MEDICORUM  HOMEOPATHICA INTERNATIONALIS</b></a> <br>(L.M.H.I.)</br>
+                  <a href="http://www.lmhi.org" target="_blank"><p><b>LIGA MEDICORUM  HOMEOPATHICA INTERNATIONALIS</b></a> <br>(L.M.H.I.)</br>
                   <p>Es la Sociedad M&eacute;dica Homeop&aacute;tica Internacional <br> a la que est&aacute; asociada la <b>A.M.H.A.</b></p>
                 </div>
                 <div class="col-md-12">
