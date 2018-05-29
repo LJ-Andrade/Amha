@@ -99,10 +99,11 @@
               El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha limite de entrega de trabajos: <span class="pre-header">30 de Junio de 2018</span>.-<br><br>
               Debido al éxito en la inscripción nos vimos obligados a cambiar de sede.<br>El lugar elegido es el "<b>Círculos de Oficiales de Mar, Sarmiento 1867 CABA</b>" en donde encontraremos el confort para todos los presentes.<br><br>
               
-              Para poder participar, deberá inscribirse previamente:<b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
+              Para poder participar, deberá inscribirse previamente: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
               <br>
               Reglamento para las presentaciones. <a href="../../../skin/files/conferences/congreso_famha_2018-reglamento_trabajos.pdf" target="_blank"><button class="btn btn-primary btnPColor" type="button">Click Aquí</button></a><br>
-              Para más información sobre el congreso, <a href="../../../skin/files/conferences/12_congreso_famha_informacion_amha.pdf" target="_blank">click aquí</a>.
+              <br>
+              Para más información sobre el congreso, <b><a href="../../../skin/files/conferences/12_congreso_famha_informacion_amha.pdf" target="_blank">click aquí</a></b>.<br>
               <br>
               COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN
             </p>
