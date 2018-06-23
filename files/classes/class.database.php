@@ -2,8 +2,8 @@
   class DataBase
   {
   	var $UserDB		= 'root';
-  	var $PasswordDB	= 'root';
-  	var $DataBase	= 'amha_web';
+  	var $PasswordDB	= 'mysql';
+  	var $DataBase	= 'amha';
   	var $ServerDB	= '127.0.0.1';
   	var $TypeDB 	= 'Mysql';
   	var $SchemaDB	= 'testing,public';
@@ -22,7 +22,7 @@
   	var $Table;
   	var $Fields = '*';
 
-  	public function __construct($UserDB='root', $PasswordDB='root', $DataBase='amha_web', $ServerDB='127.0.0.1',$TypeDB='Mysql'){
+  	public function __construct($UserDB='root', $PasswordDB='mysql', $DataBase='amha', $ServerDB='127.0.0.1',$TypeDB='Mysql'){
   		$this->UserDB 		= $UserDB;
   		$this->PasswordDB	= $PasswordDB;
   		$this->DataBase		= $DataBase;
@@ -269,55 +269,55 @@
 	{
 		return $this->Error;
 	}
-	
-	
+
+
 	///////////////////////////////////// Search Handler ////////////////////////////////
 	public function GetWhere()
 	{
 		return $this->Where;
 	}
-	
+
 	public function SetWhereCondition($Key="",$Operation="=",$Value="",$Connector="AND")
 	{
 		if(isset($Key))
 		{
 			$this->Where .= " ".$Connector." ".$Key." ".$Operation." '".$Value."'";
-			return $this->GetWhere();	
+			return $this->GetWhere();
 		}
 	}
-	
+
 	public function AddWhereString($String="")
 	{
 		$this->Where .= $String;
 		return $this->GetWhere();
 	}
-	
+
 	public function SetWhere($Where="")
 	{
 		$this->Where = $Where;
 		return $this->GetWhere();
 	}
-	
+
 	public function SetRegsPerView($Regs)
 	{
 		$this->RegsPerView = $Regs;
 	}
-	
+
 	public function GetRegsPerView()
 	{
 		return $this->RegsPerView;
 	}
-	
+
 	public function GetRegs()
 	{
 		if(!$this->Regs)
 		{
 			$this->Regs = $this->fetchAssoc($this->GetTable(),$this->GetFields(),$this->GetWhere(),$this->GetOrder(),$this->GetGroupBy(),$this->GetLimit());
-			
+
 		}
 		return $this->Regs;
 	}
-	
+
 	public function GetTotalRegs()
 	{
 		if($this->TotalRegs)
@@ -325,7 +325,7 @@
 		else
 			return "0";
 	}
-	
+
 	public function CalculateTotalRegs()
 	{
 		$this->TotalRegs = $this->numRows($this->GetTable(),$this->GetFields(),$this->GetWhere(),$this->GetOrder(),$this->GetGroupBy());
@@ -334,57 +334,57 @@
 		else
 			return "0";
 	}
-	
+
 	public function SetPage($Page)
 	{
 		$this->Page = $Page;
 	}
-	
+
 	public function GetPage()
 	{
 		return $this->Page;
 	}
-	
+
 	public function SetOrder($Order)
 	{
 		$this->Order = $Order;
 	}
-	
+
 	public function GetOrder()
 	{
 		return $this->Order;
 	}
-	
+
 	public function SetGroupBy($GroupBy)
 	{
 		$this->GroupBy = $GroupBy;
 	}
-	
+
 	public function GetGroupBy()
 	{
 		return $this->GroupBy;
 	}
-	
+
 	public function SetTable($Table)
 	{
 		$this->Table = $Table;
 	}
-	
+
 	public function GetTable()
 	{
 		return $this->Table;
 	}
-	
+
 	public function SetFields($Fields)
 	{
 		$this->Fields = $Fields;
 	}
-	
+
 	public function GetFields()
 	{
 		return $this->Fields;
 	}
-	
+
 	public function GetTotalPages()
 	{
 		$Total			= $this->GetTotalRegs();
@@ -393,18 +393,18 @@
 		{
 			return 0;
 		}else{
-			return intval(ceil($Total/$RegsPerView)); 	
+			return intval(ceil($Total/$RegsPerView));
 		}
-		
+
 	}
-	
+
 	public function GetLimit()
 	{
 		$TotalRegs	= $this->CalculateTotalRegs();
 		$TotalPages	= $this->GetTotalPages();
 		$Page		= $this->GetPage();
 		$RegPerView	= $this->GetRegsPerView();
-		
+
 		if($Page<=$TotalPages)
 		{
 			$From = $RegPerView * ($Page-1);
@@ -417,7 +417,7 @@
 		}
 		return $From.", ".$To;
 	}
-	
+
 	public function InsertSearchList()
 	{
 		return '<div class="box">
@@ -463,14 +463,14 @@
 			  </div><!-- /.box -->
 			  ';
 	}
-	
+
 	public function InsertSearchResults()
 	{
 		if($_POST['view_type']=='grid')
 			$ListClass = 'Hidden';
 		else
 			$GridClass = 'Hidden';
-			
+
 		return '<div class="contentContainer txC" id="SearchResult" object="'.get_class ($this).'"><!-- List Container -->
 			        <div class="GridView row horizontal-list flex-justify-center GridElement '.$GridClass.' animated fadeIn">
 			          <ul>
@@ -485,7 +485,7 @@
 			        '.insertElement('hidden','totalregs',$this->GetTotalRegs()).'
 			      </div><!-- /Content Container -->';
 	}
-	
+
 	public function InsertDefaultSearchButtons()
 	{
 		return '<!-- Select All -->

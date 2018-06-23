@@ -17,9 +17,48 @@
           <div class="container">
             <div class="row">
               <!-- New -->
-               <div class="col-md-12 infoContainer accordion">
+              <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <b>Curso: </b>ORGANOTERAPIA DILUIDA Y DINAMIZADA
+                  <h5><b>Primera Jornada de Agrohomeopatía</b></h5>
+                </div>
+                <div class="accordionInfo">
+                  <hr>
+                  <p class="justify">
+                    La Asociación Médica Homeopática Argentina se enorgullece en invitar a paisajistas, agrónomos y amantes de las plantas a la <b>Primera Jornada de Agrohomeopatía</b>.<br>
+                    <br>
+                    En ella aprenderá como cuidar las plantas, jardines y cultivos de manera natural, órganica, sin toxicidad para su familia, animales y medio ambiente. También la Agrohomeopatía ha demostrado su utilidad en el incremento del rinde de los cultivos, así como también la reducción y hasta erradicación de los fertilizantes químicos y pesticidas tóxicos en el control de las plagas y enfermedades del agro, redundando en un mayor usufructo económico, una agricultura más ecológica y el consiguiente beneficio para la salud de los consumidores.<br>
+                    <br>
+                    Somos la Primera Escuela Argentina y una de las pocas a nivel mundial que han incorporado esta importante área del conocimiento homeopático a sus cursos.<br>
+                    <br>
+                    El <b>temario</b> incluye:
+                    <div style="padding-left:2em;">
+                      <ul>
+                        <li>Definición y alcances de la <b>Agrohomeopatía</b>, su historia y su futuro.</li>
+                        <li>Integración <b>planta-suelo</b>.</li>
+                        <li>Repaso de la <b>anatomofisiología</b> vegetal.</li>
+                        <li>Toma del caso <b>agrohomeopática</b>: Interrogatorio, <b>Semiología agrohomeopática</b> (signos, síntomas)</li>
+                        <li><b>Jerarquización, repertorización y elección del medicamento</b>.</li>
+                        <li>Síndrome mínimo de valor máximo.</li>
+                        <li>Dinamización, dosis, <b>esquemas de tratamiento</b>.</li>
+                        <li><b>Fitonosodes</b>, importancia y preparación</li>
+                      </ul>
+                    </div>
+                    <br>
+                    La producción sustentable es el futuro. Es una necesidad para nuestra salud y la del planeta. Seamos parte del cambio desde la Homeopatía. Aprovechemos la oportunidad para acercarnos a este conocimiento.<br>
+                    <br>
+                    FECHA: <b>27 DE OCTUBRE DE 2018</b><br>
+                    Para poder participar deberá inscribirse previamente, consulte valores:<br>
+                    Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar" target="_blank">congreso2018@amha.org.ar</a></b><br>
+                    Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>
+                  </p>
+                </div>
+              </div>
+              <!-- New -->
+
+              <!-- New -->
+              <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
+                  <h5><b>Curso: </b>ORGANOTERAPIA DILUIDA Y DINAMIZADA</h5>
                 </div>
                 <div class="accordionInfo">
                   <p class="justify">
@@ -51,10 +90,10 @@
                   </p>
                 </div>
               </div>
-               <!-- New -->
+              <!-- New -->
                <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <b>CONGRESO FAMHA 2018</b>
+                  <h5><b>CONGRESO FAMHA 2018</b></h5>
                 </div>
                 <div class="accordionInfo">
                   <p class="justify">
@@ -98,7 +137,7 @@
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <p><b>Cursos de cocina: Desde abril</b><br></p>
+                  <h5><b>Cursos de cocina: Desde abril</b></h5>
                 </div>
                 <div class="accordionInfo">
                   <hr>
@@ -115,7 +154,7 @@
   	         <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <p><b>Beneficio exclusivo para extranjeros</b><br></p>
+                  <h5><b>Beneficio exclusivo para extranjeros</b></h5>
                 </div>
                 <div class="accordionInfo">
                   <p class="justify">
@@ -127,7 +166,7 @@
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <p><b>Cursos Mar del Plata</b></p>
+                  <h5><b>Cursos Mar del Plata</b></h5>
                 </div>
                 <div class="accordionInfo">
                   <hr>
@@ -150,13 +189,13 @@
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
-                  <p><b>Curso:</b> G.E.H.O.V.E.T (Grupo de estudios homeop&aacute;ticos veterinarios):<br></p>
+                  <h5><b>Curso:</b> G.E.H.O.V.E.T (Grupo de estudios homeop&aacute;ticos veterinarios):</h5>
                 </div>
                 <div class="accordionInfo">
                   <p class="justify">
                     <hr>
                     Iniciar&aacute; en el presente a&ntilde;o 2018 su 29&deg; a&ntilde;o de actividad continuada de Ateneos Veterinarios.<br>
-                    Reuniones los 2&deg; viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.  
+                    Reuniones los 2&deg; viernes de cada mes entre las 13.30 y 16hs. en el aula del primer piso.
                   </p>
                 </div>
               </div><!-- 5-->
@@ -217,7 +256,7 @@
               <!-- New -->
                <div class="col-md-12 infoContainer accordion">
                  <div class="accordionTitle">
-                   <p><b> A.M.H.A  presente en 71&deg; Congreso LMHI </b><br></p>
+                   <h5><b> A.M.H.A  presente en 71&deg; Congreso LMHI </b></h5>
                  </div>
                  <div class="accordionInfo">
                    <p class="justify">
