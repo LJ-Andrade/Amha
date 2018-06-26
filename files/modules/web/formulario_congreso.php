@@ -45,21 +45,21 @@
       display: table;
       background-color:white;
     }
-    
+
     .row-table .col-header {
       background-color: #726961;
       color:white;
       font-weight:bold;
     }
-    
-    
-    
+
+
+
     .row-table [class*="col-"] {
         float: none;
         display: table-cell;
         vertical-align: middle;
     }
-    
+
     .pre-header {
       font-weight:bold;
       color:#1b5c77;
@@ -96,9 +96,9 @@
               </ul>
               </div>
               <br>
-              El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha limite de entrega de trabajos: <span class="pre-header">30 de Junio de 2018</span>.-<br><br>
+              El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha límite de entrega de trabajos: <span class="pre-header">15 de Julio de 2018</span>.-<br><br>
               Debido al éxito en la inscripción nos vimos obligados a cambiar de sede.<br>El lugar elegido es el "<b>Círculos de Oficiales de Mar, Sarmiento 1867 CABA</b>" en donde encontraremos el confort para todos los presentes.<br><br>
-              
+
               Para poder participar, deberá inscribirse previamente: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
               <br>
               Reglamento para las presentaciones. <a href="../../../skin/files/conferences/congreso_famha_2018-reglamento_trabajos.pdf" target="_blank"><button class="btn btn-primary btnPColor" type="button">Click Aquí</button></a><br>
@@ -139,7 +139,7 @@
               FECHA: <b>27 DE OCTUBRE DE 2018</b><br>
               Para poder participar deberá inscribirse previamente, consulte valores:<br>
               Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
-              Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br> 
+              Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>
             </p>
           </div>
           <br>
@@ -152,7 +152,7 @@
             <div class="col-xs-2 form-info txC col-header">Valores Colegiados</div>
             <div class="col-xs-2 form-info txC col-header">Valores Alumnos</div>
           </div>
-          
+
           <!--<div class="row row-table">-->
           <!--  <div class="col-xs-6 form-info">-->
           <!--    <b>Hasta el 31 DE JULIO DE 2017</b><br>-->
@@ -162,7 +162,7 @@
           <!--  <div class="col-xs-2 form-info txC">$ 3.600.-</div>-->
           <!--  <div class="col-xs-2 form-info txC">$ 2.400.-</div>-->
           <!--</div>-->
-          
+
           <!--<div class="row row-table">-->
           <!--  <div class="col-xs-6 form-info">-->
           <!--    <b>Desde AGOSTO 2017</b><br>-->
@@ -172,7 +172,7 @@
           <!--  <div class="col-xs-2 form-info txC">$ 4.320.-</div>-->
           <!--  <div class="col-xs-2 form-info txC">$ 2.880.-</div>-->
           <!--</div>-->
-          
+
           <div class="row row-table">
             <div class="col-xs-6 form-info">
               <b>Desde ENERO 2018</b><br>
@@ -182,7 +182,7 @@
             <div class="col-xs-2 form-info txC">$ 4.500.-</div>
             <div class="col-xs-2 form-info txC">$ 3.000.-</div>
           </div>
-          
+
           <div class="row row-table">
             <div class="col-xs-6 form-info">
               <b>Desde JULIO 2018</b><br>
@@ -192,10 +192,10 @@
             <div class="col-xs-2 form-info txC">$ 4.950.-</div>
             <div class="col-xs-2 form-info txC">$ 3.300.-</div>
           </div>
-          
+
           <div class="sociosLogin">
             <div class="sociosLoginInner">
-              
+
               <form  id="inscriptionForm" class="form-signin" action="" method="post">
                 <div class="form-info">
                 <h3 class="form-signin-heading">Ingrese los datos requeridos</h3>
@@ -273,12 +273,12 @@
         }
       });
 
-      
+
 
       function sendMsg()
       {
         //if($('#career').is(':checked')) { alert($('input[name=career]:checked').val()); }
-        
+
         var fname = $("#first_name").val();
         var lname = $("#last_name").val();
         var address = $("#address").val();
