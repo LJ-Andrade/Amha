@@ -138,7 +138,7 @@
               <br>
               FECHA: <b>27 DE OCTUBRE DE 2018</b><br>
               Para poder participar deberá inscribirse previamente, consulte valores:<br>
-              Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
+              Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</a></b><br>
               Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>
             </p>
           </div>
@@ -195,52 +195,31 @@
 
           <div class="sociosLogin">
             <div class="sociosLoginInner">
-
-              <form  id="inscriptionForm" class="form-signin" action="" method="post">
+              <form  id="inscriptionForm" class="form-signin" method="post">
                 <div class="form-info">
-                <h3 class="form-signin-heading">Ingrese los datos requeridos</h3>
-                <hr class="hrStrong">
-                <!--<div class="form-group form-boxedLines">-->
-                <!--  <p>Carrera Elegida</p>-->
-                <!--  <label class="radio-inline"><input id="career1" type="radio" name="career" value="Medicina">Medicina</label>-->
-                <!--  <label class="radio-inline"><input id="career2" type="radio" name="career" value="Odontolog&iacute;a">Odontolog&iacute;a</label>-->
-                <!--  <label class="radio-inline"><input id="career3" type="radio" name="career" value="Farmacia">Farmacia</label>-->
-                <!--  <label class="radio-inline"><input id="career4" type="radio" name="career" value="Veterinaria">Veterinaria</label>-->
-                <!--</div>-->
-                <div class="form-group">
-                  <input id="first_name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Nombre" autofocus="" type="name">
+                  <h3 class="form-signin-heading">Ingrese los datos requeridos</h3>
+                  <hr class="hrStrong">
+                  <div class="form-group">
+                    <input id="first_name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Nombre" autofocus="" type="name">
+                  </div>
+                  <div class="form-group">
+                    <input id="last_name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Apellido" type="name">
+                  </div>
+                  <div class="form-group">
+                    <input id="address" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Domicilio" type="address">
+                  </div>
+                  <div class="form-group">
+                    <input id="phone" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Tel&eacute;fono / Celular" type="tel">
+                  </div>
+                  <div class="form-group">
+                    <input id="email" validateEmpty="Este campo es obligatorio" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
+                  </div>
+                  <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Solicitar Inscripci&oacute;n</button>
                 </div>
-                <div class="form-group">
-                  <input id="last_name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Apellido" type="name">
-                </div>
-                <div class="form-group">
-                  <input id="address" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Domicilio" type="address">
-                </div>
-                <div class="form-group">
-                  <input id="phone" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Tel&eacute;fono / Celular" type="tel">
-                </div>
-                <div class="form-group">
-                  <input id="email" validateEmpty="Este campo es obligatorio" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
-                </div>
-                <!--<div class="form-group">-->
-                <!--  <input id="occupation" class="form-control" placeholder="Ocupaci&oacute;n" type="name">-->
-                <!--</div>-->
-                <!--<div class="form-group  form-boxedLines">-->
-                <!--  <label class="sexInput" for="">Sexo: </label>-->
-                <!--  <label class="radio-inline"><input type="radio" id="sex1" name="sex" value="Var&oacute;n">Masculino</label>-->
-                <!--  <label class="radio-inline"><input type="radio" id="sex2" name="sex" value="Mujer">Femenino</label>-->
-                <!--</div>-->
-                <!--<div class="form-group">-->
-                <!-- <label for="msg">Deje su mensaje o consulta:</label>-->
-                <!-- <textarea class="form-control" validateEmpty="Este campo es obligatorio" rows="5" id="msg"></textarea>-->
-                <!--</div>-->
-                <!-- Temp Link - Delete -->
-                <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Solicitar Inscripci&oacute;n</button>
-              </div></form><br>
+              </form>
+              <br>
             </div>
           </div>
-
-          <!-- Content -->
         </div><!-- /autoridades -->
         <!-- ////// MODALS //////// -->
         <!-- ////// /MODALS //////// -->
