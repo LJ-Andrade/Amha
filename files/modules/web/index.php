@@ -14,15 +14,16 @@
         <div class="row homeMenu">
           <div class="row">
             <a href="formulario_congreso.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
-            <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span>CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
+            <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span  class="DarkColor">CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
           <div class="row">
             <a href="agenda.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>AGENDA: CONSULTORIOS Y FARMACIAS</span></div></a>
             <a href="carrera_de_farmacia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CURSO DE FARMACIA HOMEOP&Aacute;TICA</span></div></a>
-            <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span>CARRERA DE ODONTOLOG&Iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
+            <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span class="DarkColor">CARRERA DE ODONTOLOG&Iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
         </div><!-- home main menu -->
+        <br>
         <div class="col-lg-9 col-md-12 wow zoomIn fadeIn">
           <div class="row">
             <a href="novedades.php">
@@ -129,6 +130,7 @@
               </div>
             </div>
           </div> -->
+          <br>
           <!-- /row -->
           <!-- Content Under Big Nav -->
           <div class="row">
@@ -137,14 +139,62 @@
                 <!--<a href="formulario_preinscripcion.php">-->
                 <!--<a href="amha_homeopatia.php">-->
                 <!--<a href="cursos_y_carreras.php">-->
-                <a href="novedades.php">
+                <!-- <a href="novedades.php"> -->
+                  <a href="tienda_online.php">
                 <!-- <a href="carreras.php"> -->
                   <!--<img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">-->
                   <!--<img class="card-img" src="../../../skin/images/body/menu/hmcursos.jpg" alt="Que es la homeopatia">-->
                   <!--<img class="card-img" src="../../../skin/images/body/menu/cursominotti.jpg" alt="Curso Organoterapia">-->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
-                  <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía">
-                  <h3 class="card-title">Informate</h3>
+                  <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
+                  <img class="card-img" src="../../../skin/images/body/menu/librohomeopatiaparatodos.jpg" alt="Homeopatía para todos">
+                  <!-- <h3 class="card-title">Informate</h3> -->
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 itemHome2">
+              <div class="card card-block">
+                <!--<a href="socios_carrera_docente.php">-->
+                <!-- <a href="formulario_preinscripcion.php"> -->
+                <a href="consultoriosprivados.php">
+                  <img class="card-img" src="../../../skin/images/body/menu/agendaconsultoriosprivados.jpg" alt="Consultorios Privados">
+                  <!-- <img class="card-img" src="../../../skin/images/body/menu/item3home2.jpg" alt="Amha Carrera Docente"> -->
+                  <h3 class="card-title">Consultorios privados - Médicos homeópatas en todo el país</h3>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4 itemHome2">
+              <div class="card card-block">
+      				  <!-- <a href="http://elsimillimum.blogspot.com.ar" target="_blank"> -->
+                <a href="farmacias.php">
+      					<img class="card-img" src="../../../skin/images/body/menu/farmaciashomeopaticas.jpg" alt="Farmacias Homeopáticas">
+      					<h3 class="card-title">Farmacias Homeopáticas</h3>
+      					<!-- <p class="card-text">Texto descriptivo del art&iacute;culo.</p> -->
+      					<!-- <a href="#" class="btn btn-primary">Ver m&aacute;s</a>
+      					<p class="card-text"><small class="text-muted">Agregado el 27/06/2016</small></p> -->
+      				</a>
+              </div>
+            </div>
+          </div>
+          <!-- /Content Under Big Nav -->
+          <br>
+          <!-- ----------------------------------------------------------------------------------------------- -->
+          <div class="row">
+            <div class="col-sm-4 itemHome2">
+              <div class="card card-block">
+                <!--<a href="formulario_preinscripcion.php">-->
+                <!--<a href="amha_homeopatia.php">-->
+                <!--<a href="cursos_y_carreras.php">-->
+                <!-- <a href="novedades.php"> -->
+                <a href="cursos_ateneos.php">
+                <!-- <a href="carreras.php"> -->
+                  <!--<img class="card-img" src="../../../skin/images/body/menu/item3home1.jpg" alt="Que es la homeopatia">-->
+                  <!--<img class="card-img" src="../../../skin/images/body/menu/hmcursos.jpg" alt="Que es la homeopatia">-->
+                  <!--<img class="card-img" src="../../../skin/images/body/menu/cursominotti.jpg" alt="Curso Organoterapia">-->
+                  <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
+                  <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
+                  <img class="card-img" src="../../../skin/images/body/menu/ateneosweb.jpg" alt="Ateneos">
+                  <!-- <h3 class="card-title">Informate</h3> -->
                 </a>
               </div>
             </div>
@@ -169,7 +219,7 @@
               </div>
             </div>
           </div>
-          <!-- /Content Under Big Nav -->
+          <br>
         </div><!-- col-lg-9 -->
         <?php include('sidebar.php'); ?><!-- Right Sidebar -->
       </div><!-- /MainContainer --><!-- Content inside this div -->

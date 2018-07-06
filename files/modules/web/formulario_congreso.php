@@ -15,17 +15,38 @@
     $Msg .= 'Direcci&oacute;n: <b>'.$Address.'</b><br>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
-    $Headers  = "From: ".$Name." < ".$Email." >\n";
-    $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
-    $Headers .= 'X-Mailer: PHP/' . phpversion();
-    $Headers .= "X-Priority: 2\n"; // Urgent message!
-    $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
-    $Headers .= "MIME-Version: 1.0\r\n";
-    $Headers .= "Content-Type: text/html; charset=utf-8\n";
+    // $Headers  = "From: ".$Name." < ".$Email." >\n";
+    // $Headers .= "X-Sender: AMHA website < ".$AdminEmail." >\n";
+    // $Headers .= 'X-Mailer: PHP/' . phpversion();
+    // $Headers .= "X-Priority: 2\n"; // Urgent message!
+    // $Headers .= "Return-Path: ".$AdminEmail."\n"; // Return path for errors
+    // $Headers .= "MIME-Version: 1.0\r\n";
+    // $Headers .= "Content-Type: text/html; charset=utf-8\n";
+    /////////////////// PHP Mailer //////////////////
+    require '../../../vendors/phpmailer/PHPMailerAutoload.php';
+    $mail = new PHPMailer;
+    $mail->setFrom($AdminEmail, 'Congreso AMHA');
+    $mail->addAddress($AdminEmail, 'Congreso AMHA');
+    $mail->Subject = $Subject;
+    $mail->isHTML(true);
+    $mail->Body = $Msg;
+    if(!$mail->send()) {
+      echo 'Mailer error: ' . $mail->ErrorInfo;
+    }
 
-    //send email
-    mail($AdminEmail, "$Subject", $Msg, $Headers);
-    mail($AdminEmail2, "$Subject", $Msg, $Headers);
+    $mail = new PHPMailer;
+    $mail->setFrom($AdminEmail, 'Congreso AMHA');
+    $mail->addAddress($AdminEmail2, 'Congreso AMHA');
+    $mail->Subject = $Subject;
+    $mail->isHTML(true);
+    $mail->Body = $Msg;
+    if(!$mail->send()) {
+      echo 'Mailer error: ' . $mail->ErrorInfo;
+    }
+    //
+    // //send email
+    // mail($AdminEmail, "$Subject", $Msg, $Headers);
+    // mail($AdminEmail2, "$Subject", $Msg, $Headers);
     include("../../classes/class.database.php");
     $DB = new DataBase();
     $DB->Connect();
@@ -110,7 +131,7 @@
           </div>
           <br>
           <div class="form-info txC">
-            <h4 class="pre-header">Primera Jornada de Agrohomeopatía. - 27 de OCTUBRE DE 2018</h4>
+            <h4 class="pre-header">Primera Jornada de Agrohomeopatía</h4>
           </div>
           <div class="form-info">
             <p class="txL">
@@ -137,6 +158,8 @@
               La producción sustentable es el futuro. Es una necesidad para nuestra salud y la del planeta. Seamos parte del cambio desde la Homeopatía. Aprovechemos la oportunidad para acercarnos a este conocimiento.<br>
               <br>
               FECHA: <b>27 DE OCTUBRE DE 2018</b><br>
+              HORARIO: <b>14 a 17 hs.</b><br>
+              DISERTANTE: <b>Dr. Gustavo Martello</b><br>
               Para poder participar deberá inscribirse previamente, consulte valores:<br>
               Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</a></b><br>
               Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>

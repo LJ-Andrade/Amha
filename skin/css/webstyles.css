@@ -1022,7 +1022,8 @@ span.topSlogan {
     font-size: 1.8rem;
     line-height: 30px;
     font-weight: 500;
-    color: #fff; }
+    color: #FFF; }
+  .DarkColor {color: #222!important; }
 
 @media (max-width: 1150px) {
   .hmMenu span {
@@ -2035,7 +2036,7 @@ span.topSlogan {
 }
 
 .PayList li {
-  padding-left: 1em; 
+  padding-left: 1em;
   text-indent: -.7em;
 }
 

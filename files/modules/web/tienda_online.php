@@ -1,5 +1,14 @@
-<?php 
+<?php
   $Books = array();
+  $Books[] = array(
+                    "title"=>"HOMEOPAT&Iacute;A PARA TODOS",
+                    "author"=>"Asociación Médica Homeopática Argentina",
+                    "image"=>"../../../skin/images/products/homeopatiaparatodos.jpg",
+                    "description"=>"Esta publicación constituye la segunda recopilación de revistas Homeopatía para Todos, editadas en este caso entre los años 1996 y 1999. La misma es el órgano de difusión de la Asociación Médica Homeopática Argentina.<br>El lector encontrará artículos realizados por profesores de nuestra institución, muchos actuales así como otros que no están hoy, dado el transcurso del tiempo. Los conceptos están vigentes debido a la atemporalidad de nuestra medicina, basada en una ley inmutable, la ley de semejanza, o Similia similibus curentur, donde los semejantes son curados por los semejantes. También descubrirá situaciones cotidianas en donde se encontrará identificado pudiendo observar de que forma la homeopatía aborda esos temas, con casos clínicos de lectura fácil y diferentes abordajes por la variabilidad de los profesionales que los escriben.",
+                    "price"=>"30",
+                    "new"=>true,
+                    "paypal"=>"",
+                    "mercadopago"=>"229260528-62e8a280-b98a-4ac9-a980-88f523e43631");
   $Books[] = array(
                     "title"=>"HOMEOPAT&Iacute;A PARA TUS HIJOS",
                     "author"=>"Dr. Julio Ambros - Dr. Eduardo Yahbes",
@@ -310,7 +319,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
               <h5>Tel&eacute;fonos: (54)11-4826-5852 y (54)11-4827-2907</h5><br>
           </div>
           <div class="row wow zoomIn fadeIn">
-            <?php foreach($Books as $ID => $Book) { 
+            <?php foreach($Books as $ID => $Book) {
               $New = $Book['new']? '<span class="itemNew"> NUEVO !</span>' : '';
               echo '<!-- Shop Item -->
             <div class="col-md-12 itemWimg">
@@ -334,7 +343,7 @@ A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;c
           <!-- ////////////// Content End ////////////// -->
 
           <?php foreach($Books as $ID => $Book)
-              { 
+              {
                 if($Book['mercadopago'])
                 {
                   $MercadoPago = '<div class="col-md-6 col-xs-12 paymentOptions">
