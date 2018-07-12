@@ -14,12 +14,12 @@
         <div class="row homeMenu">
           <div class="row">
             <a href="formulario_congreso.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
-            <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span  class="DarkColor">CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
+            <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span class="DarkColor">CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
           <div class="row">
-            <a href="agenda.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span>AGENDA: CONSULTORIOS Y FARMACIAS</span></div></a>
-            <a href="carrera_de_farmacia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span>CURSO DE FARMACIA HOMEOP&Aacute;TICA</span></div></a>
+            <!--<a href="agenda.php">--><a href="formulario_congreso.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span><!--AGENDA: CONSULTORIOS Y FARMACIAS--></span></div></a>
+            <a href="carrera_de_farmacia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span class="DarkColor">CURSO DE FARMACIA HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span class="DarkColor">CARRERA DE ODONTOLOG&Iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
         </div><!-- home main menu -->
@@ -148,7 +148,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/librohomeopatiaparatodos.jpg" alt="Homeopatía para todos">
-                  <!-- <h3 class="card-title">Informate</h3> -->
+                  <h3 class="card-title">Aquirí tu libro HOMEOPATÍA PARA TODOS</h3>
                 </a>
               </div>
             </div>
@@ -194,7 +194,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/ateneosweb.jpg" alt="Ateneos">
-                  <!-- <h3 class="card-title">Informate</h3> -->
+                  <h3 class="card-title">Conocé las fechas de los ATENEOS 2018</h3>
                 </a>
               </div>
             </div>
