@@ -8,11 +8,13 @@
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
     $Address = $_POST['address'];
+    $Message = $_POST['message'];
     $Subject = "Formulario de pre inscripcion congreso FAMHA";
     $Msg .= 'Remitente: <b>'.$Name.'</b><br>';
     $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
     $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
-    $Msg .= 'Direcci&oacute;n: <b>'.$Address.'</b><br>';
+    $Msg .= 'Direcci&oacute;n: <b>'.$Address.'</b><br><br>';
+    $Msg .= 'Consulta: <b>'.$Message.'</b><br>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
 
     // $Headers  = "From: ".$Name." < ".$Email." >\n";
@@ -51,7 +53,7 @@
     $DB = new DataBase();
     $DB->Connect();
     //$DB->execQuery("INSERT","inscription_form_message","name,email,phone,career,sex,document,occupation,message,creation_date","'".addslashes($Name)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($Career)."','".addslashes($Sex)."','".addslashes($Document)."','".addslashes($Occupation)."','".addslashes($_POST['msg'])."',NOW()");
-    $DB->execQuery("INSERT","inscription_congress","first_name,last_name,address,email,phone,creation_date","'".addslashes($_POST['first_name'])."','".addslashes($_POST['last_name'])."','".addslashes($Address)."','".addslashes($Email)."','".addslashes($Phone)."',NOW()");
+    $DB->execQuery("INSERT","inscription_congress","first_name,last_name,address,email,phone,message,creation_date","'".addslashes($_POST['first_name'])."','".addslashes($_POST['last_name'])."','".addslashes($Address)."','".addslashes($Email)."','".addslashes($Phone)."','".addslashes($Message)."',NOW()");
     //echo $DB->lastQuery();
     die();
   }
@@ -100,7 +102,8 @@
           <div class="sectionTits">
             <h1 class="txC">12º Congreso FAMHA<br>Homeopatia, paradigma del SXXI</h1>
             <hr>
-            <h4 class="txC">Formulario de Pre-Inscripci&oacute;n</h4>
+            <h4 class="txC">Del 24 al 27 de Octubre de 2018</h4>
+            <!-- <h4 class="txC">Formulario de Pre-Inscripci&oacute;n</h4> -->
             <hr>
           </div>
           <div class="form-info">
@@ -117,7 +120,7 @@
               </ul>
               </div>
               <br>
-              El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. Fecha límite de entrega de trabajos: <span class="pre-header">15 de Julio de 2018</span>.-<br><br>
+              El congreso está dirigido a todos los homeópatas y alumnos de las diferentes escuelas de Homeopatía. <!-- Fecha límite de entrega de trabajos: <span class="pre-header">15 de Julio de 2018</span>.-->-<br><br>
               Debido al éxito en la inscripción nos vimos obligados a cambiar de sede.<br>El lugar elegido es el "<b>Círculos de Oficiales de Mar, Sarmiento 1867 CABA</b>" en donde encontraremos el confort para todos los presentes.<br><br>
 
               Para poder participar, deberá inscribirse previamente: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</b><br>
@@ -126,12 +129,12 @@
               <br>
               Para más información sobre el congreso, <b><a href="../../../skin/files/conferences/12_congreso_famha_informacion_amha.pdf" target="_blank">click aquí</a></b>.<br>
               <br>
-              COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN
+              <!-- COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN -->
             </p>
           </div>
           <br>
           <div class="form-info txC">
-            <h4 class="pre-header">Primera Jornada de Agrohomeopatía</h4>
+            <h4 class="pre-header">RIMERA JORNADA ARGENTINA DE AGROHOMEOPATIA - 27 DE OCTUBRE DE 2018</h4>
           </div>
           <div class="form-info">
             <p class="txL">
@@ -155,58 +158,49 @@
               </ul>
               </div>
               <br>
+              Dirigido a: Paisajistas, agrónomos, homeópatas y amantes de las plantas.<br>
+              <br>
               La producción sustentable es el futuro. Es una necesidad para nuestra salud y la del planeta. Seamos parte del cambio desde la Homeopatía. Aprovechemos la oportunidad para acercarnos a este conocimiento.<br>
               <br>
               FECHA: <b>27 DE OCTUBRE DE 2018</b><br>
               HORARIO: <b>14 a 17 hs.</b><br>
               DISERTANTE: <b>Dr. Gustavo Martello</b><br>
-              Para poder participar deberá inscribirse previamente, consulte valores:<br>
+              <span class="pre-header">Para poder participar deberá inscribirse previamente, consulte valores:</span><br>
               Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</a></b><br>
               Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>
+              <br>
+              <span class="pre-header">Valores CONGRESO FAMHA 2018:</span><br>
+              <div class="container">
+                <ul>
+                  <li>Socios: <b>$ 5.500</b>.-</li>
+                  <li>Colegiados: <b>$ 4.950</b>.-</li>
+                  <li>Alumnos: <b>$ 3.300</b>.-</li>
+                </ul>
+            </div>
             </p>
           </div>
           <br>
-          <div class="form-info txC">
+          <!-- <div class="form-info txC">
             <h4 class="pre-header">¡CONGRESO FAMHA : Descuentos y formas de pago!</h4>
-          </div>
-          <div class="row row-table">
+          </div> -->
+          <!-- <div class="row row-table">
             <div class="col-xs-6 form-info txC col-header">Formas de Pago</div>
             <div class="col-xs-2 form-info txC col-header">Valores Socios</div>
             <div class="col-xs-2 form-info txC col-header">Valores Colegiados</div>
             <div class="col-xs-2 form-info txC col-header">Valores Alumnos</div>
-          </div>
+          </div> -->
 
-          <!--<div class="row row-table">-->
-          <!--  <div class="col-xs-6 form-info">-->
-          <!--    <b>Hasta el 31 DE JULIO DE 2017</b><br>-->
-          <!--    1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>-->
-          <!--  </div>-->
-          <!--  <div class="col-xs-2 form-info txC">$ 4.000.-</div>-->
-          <!--  <div class="col-xs-2 form-info txC">$ 3.600.-</div>-->
-          <!--  <div class="col-xs-2 form-info txC">$ 2.400.-</div>-->
-          <!--</div>-->
-
-          <!--<div class="row row-table">-->
-          <!--  <div class="col-xs-6 form-info">-->
-          <!--    <b>Desde AGOSTO 2017</b><br>-->
-          <!--    1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 12 cuotas.</span>-->
-          <!--  </div>-->
-          <!--  <div class="col-xs-2 form-info txC">$ 4.800.-</div>-->
-          <!--  <div class="col-xs-2 form-info txC">$ 4.320.-</div>-->
-          <!--  <div class="col-xs-2 form-info txC">$ 2.880.-</div>-->
-          <!--</div>-->
-
-          <div class="row row-table">
+          <!-- <div class="row row-table">
             <div class="col-xs-6 form-info">
               <b>Desde ENERO 2018</b><br>
               1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 6 cuotas.</span>
             </div>
-            <div class="col-xs-2 form-info txC">$ 5.000.-</div>
-            <div class="col-xs-2 form-info txC">$ 4.500.-</div>
-            <div class="col-xs-2 form-info txC">$ 3.000.-</div>
-          </div>
+            <div class="col-xs-2 form-info txC">$ 5.500.-</div>
+            <div class="col-xs-2 form-info txC">$ 4.950.-</div>
+            <div class="col-xs-2 form-info txC">$ 3.300.-</div>
+          </div> -->
 
-          <div class="row row-table">
+          <!-- <div class="row row-table">
             <div class="col-xs-6 form-info">
               <b>Desde JULIO 2018</b><br>
               1 Pago. Contado, débito o <span class="pre-header">tarjeta de crédito (Visa o Mastercard) en 3 cuotas.</span>
@@ -214,13 +208,13 @@
             <div class="col-xs-2 form-info txC">$ 5.500.-</div>
             <div class="col-xs-2 form-info txC">$ 4.950.-</div>
             <div class="col-xs-2 form-info txC">$ 3.300.-</div>
-          </div>
+          </div> -->
 
           <div class="sociosLogin">
             <div class="sociosLoginInner">
               <form  id="inscriptionForm" class="form-signin" method="post">
                 <div class="form-info">
-                  <h3 class="form-signin-heading">Ingrese los datos requeridos</h3>
+                  <h3 class="form-signin-heading">Ingrese su consulta</h3>
                   <hr class="hrStrong">
                   <div class="form-group">
                     <input id="first_name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Nombre" autofocus="" type="name">
@@ -236,6 +230,9 @@
                   </div>
                   <div class="form-group">
                     <input id="email" validateEmpty="Este campo es obligatorio" validateEmail="Ingrese su Email" class="form-control" placeholder="E-Mail" type="email">
+                  </div>
+                  <div class="form-group">
+                    <textarea id="message" class="form-control" placeholder="Ingrese su consulta"></textarea>
                   </div>
                   <button id="send" class="btn btn-lg btn-primary btn-block btnPColor" type="button">Solicitar Inscripci&oacute;n</button>
                 </div>
@@ -286,11 +283,12 @@
         var address = $("#address").val();
         var email = $("#email").val();
         var phone = $("#phone").val();
+        var message = $("#message").val();
 
         $.ajax({
           method: "POST",
           url: "formulario_congreso.php",
-          data: { first_name:fname, last_name:lname, email:email, phone:phone ,address:address},
+          data: { first_name:fname, last_name:lname, email:email, phone:phone ,address:address,message:message},
           success: function(callback){
             if(callback)
             {
