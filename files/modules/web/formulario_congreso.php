@@ -12,7 +12,7 @@
     $Subject = "Formulario de pre inscripcion congreso FAMHA";
     $Msg .= 'Remitente: <b>'.$Name.'</b><br>';
     $Msg .= 'Tel&eacute;fono: <b>'.$Phone.'</b><br>';
-    $Msg .= 'Email: <b><a href="'.$Email.'">'.$Email.'</a></b><br>';
+    $Msg .= 'Email: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to='.$Email.'">'.$Email.'</a></b><br>';
     $Msg .= 'Direcci&oacute;n: <b>'.$Address.'</b><br><br>';
     $Msg .= 'Consulta: <b>'.$Message.'</b><br>';
     $Msg .= '<br><br><br><b>Este email ha sido generado autom&aacute;ticamente desde el sitio web de la AMHA.</b>';
@@ -130,11 +130,20 @@
               Para más información sobre el congreso, <b><a href="../../../skin/files/conferences/12_congreso_famha_informacion_amha.pdf" target="_blank">click aquí</a></b>.<br>
               <br>
               <!-- COMPLETE EL FORMULARIO DE CONTACTO PARA RECIBIR MÁS INFORMACIÓN -->
+              <!-- <br> -->
+              <span class="pre-header">Valores CONGRESO FAMHA 2018:</span><br>
+              <div class="container">
+                <ul>
+                  <li>Socios: <b>$ 5.500</b>.-</li>
+                  <li>Colegiados: <b>$ 4.950</b>.-</li>
+                  <li>Alumnos: <b>$ 3.300</b>.-</li>
+                </ul>
+              </div>
             </p>
           </div>
           <br>
           <div class="form-info txC">
-            <h4 class="pre-header">RIMERA JORNADA ARGENTINA DE AGROHOMEOPATIA - 27 DE OCTUBRE DE 2018</h4>
+            <h4 class="pre-header">PRIMERA JORNADA ARGENTINA DE AGROHOMEOPATIA - 27 DE OCTUBRE DE 2018</h4>
           </div>
           <div class="form-info">
             <p class="txL">
@@ -168,15 +177,6 @@
               <span class="pre-header">Para poder participar deberá inscribirse previamente, consulte valores:</span><br>
               Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</a></b><br>
               Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>
-              <br>
-              <span class="pre-header">Valores CONGRESO FAMHA 2018:</span><br>
-              <div class="container">
-                <ul>
-                  <li>Socios: <b>$ 5.500</b>.-</li>
-                  <li>Colegiados: <b>$ 4.950</b>.-</li>
-                  <li>Alumnos: <b>$ 3.300</b>.-</li>
-                </ul>
-            </div>
             </p>
           </div>
           <br>
