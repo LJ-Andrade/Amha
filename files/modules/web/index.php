@@ -200,10 +200,13 @@
             </div>
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <!--<a href="socios_carrera_docente.php">-->
-                <a href="formulario_preinscripcion.php">
+                <!-- <a href="socios_carrera_docente.php"> -->
+                <!-- <a href="formulario_preinscripcion.php"> -->
+                <a href="novedades.php">
+                  <!-- <img class="card-img" src="../../../skin/images/body/menu/item3home2.jpg" alt="Amha Carrera Docente"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/item3home2.jpg" alt="Amha Carrera Docente">
-                  <h3 class="card-title">Conocer m&aacute;s sobre ella</h3>
+                  <!-- <h3 class="card-title">Conocer m&aacute;s sobre ella</h3> -->
+                  <h3 class="card-title">Informate</h3>
                 </a>
               </div>
             </div>

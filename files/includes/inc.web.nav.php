@@ -11,7 +11,8 @@
   <div class="container">
     <div class="col-md-12 container topInner">
       <div class="col-md-4 col-sm-3 col-xs-12 topLogo">
-        <a href="index.php"><img src="../../../skin/images/body/logos/weblogo2.png" alt="" /></a>
+        <!-- <a href="index.php"><img src="../../../skin/images/body/logos/weblogo2.png" alt="" /></a> -->
+        <a href="index.php"><img src="../../../skin/images/body/pictures/aniversario.png" alt="" /></a>
       </div>
       <div class="col-md-8 col-sm-9 col-xs-12 topTitles">
         <span class="topName">ASOCIACI&Oacute;N M&Eacute;DICA HOMEOP&Aacute;TICA ARGENTINA</span><br>

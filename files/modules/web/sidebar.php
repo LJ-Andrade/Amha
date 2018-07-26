@@ -22,5 +22,12 @@
         <hr>
       </div>
     </a>
+    <!-- Carrera Docente -->
+    <a href="socios_carrera_docente.php">
+      <div class="col-lg-12 col-md-3 col-sm-4">
+        <img src="../../../skin/images/body/menu/item3home2.sidebar.jpg" alt="Amha Carrera Docente" class="img-responsive"/>
+        <hr>
+      </div>
+    </a>
   </div>
 </div><!-- /Right Sidebar -->

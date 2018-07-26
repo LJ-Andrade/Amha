@@ -19,6 +19,34 @@
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
+                  <h5>CURSO: <b>"DIAGNÓSTICO DEL MEDICAMENTO POR LA BIOTIPOLOGIA – CASOS CLÍNICOS"</b></h5>
+                </div>
+                <div class="accordionInfo">
+                  <hr>
+                  <p class="justify">
+                    Diagnóstico del medicamento por el estudio del color del cabello, los ojos y la tez,
+                    la expresión del rostro, la implantación de las cejas, pestañas, tamaño de los ojos,
+                    la altura, diámetro del cuello, posición de los hombros y brazos, conformación del tórax,
+                    el tono muscular, el tamaño del cráneo, el abdomen, la forma de caminar, las alteraciones
+                    ungueales, la forma de los dientes, el tamaño de las manos y dedos.<br>
+                    <br>
+                    DICTADO POR: <b>DR. ANGEL OSCAR MINOTTI</b><br>
+                    <br>
+                    Fecha de inicio:<br>
+                    <b>Comienza martes 4 de septiembre de 14.30 a 16.30<br>
+                    Un martes por mes - continúa en 2019</b><br>
+                    <br>
+                    Lugar: <b>AMHA -Asociación Médica Homeopática Argentina</b><br>
+                    Inscripción: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" target="_blank">escuela@amha.org.ar</a> - (011) 4827-2907</b><br>
+                    <br>
+                  </p>
+                </div>
+              </div>
+              <!-- New -->
+
+              <!-- New -->
+              <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
                   <h5><b>Primera Jornada de Agrohomeopatía</b></h5>
                 </div>
                 <div class="accordionInfo">
