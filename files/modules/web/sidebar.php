@@ -15,13 +15,6 @@
         <hr>
       </div>
     </a>
-    <!-- Campus Virtual -->
-    <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php" target="_blank">
-      <div class="col-lg-12 col-md-3 col-sm-4">
-        <img src="../../../skin/images/body/menu/campusvirtual.jpg" alt="" class="img-responsive"/>
-        <hr>
-      </div>
-    </a>
     <!-- Carrera Docente -->
     <a href="socios_carrera_docente.php">
       <div class="col-lg-12 col-md-3 col-sm-4">
@@ -29,5 +22,20 @@
         <hr>
       </div>
     </a>
+    <!-- Campus Virtual -->
+    <!-- <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php" target="_blank">
+      <div class="col-lg-12 col-md-3 col-sm-4">
+        <img src="../../../skin/images/body/menu/campusvirtual.jpg" alt="" class="img-responsive"/>
+        <hr>
+      </div>
+    </a> -->
+    <!-- El Simillimum -->
+    <a href="http://elsimillimum.blogspot.com.ar" target="_blank">
+      <div class="col-lg-12 col-md-3 col-sm-4">
+        <img src="../../../skin/images/body/menu/simillimum.jpg" alt="" class="img-responsive"/>
+        <hr>
+      </div>
+    </a>
+
   </div>
 </div><!-- /Right Sidebar -->

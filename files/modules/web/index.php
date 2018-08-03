@@ -148,7 +148,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/librohomeopatiaparatodos.jpg" alt="Homeopatía para todos">
-                  <h3 class="card-title">Aquirí tu libro HOMEOPATÍA PARA TODOS</h3>
+                  <h3 class="card-title">Adquirí tu libro HOMEOPATÍA PARA TODOS</h3>
                 </a>
               </div>
             </div>
@@ -194,7 +194,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/ateneosweb.jpg" alt="Ateneos">
-                  <h3 class="card-title">Conocé las fechas de los ATENEOS 2018</h3>
+                  <h3 class="card-title">Conocé las fechas 2018</h3>
                 </a>
               </div>
             </div>
@@ -210,7 +210,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-4 itemHome2">
+            <!-- <div class="col-sm-4 itemHome2">
               <div class="card card-block">
       				  <a href="http://elsimillimum.blogspot.com.ar" target="_blank">
       					<img class="card-img" src="../../../skin/images/body/menu/item3home3.jpg" alt="Amha El Simillimum">
@@ -218,9 +218,22 @@
       					<!-- <p class="card-text">Texto descriptivo del art&iacute;culo.</p> -->
       					<!-- <a href="#" class="btn btn-primary">Ver m&aacute;s</a>
       					<p class="card-text"><small class="text-muted">Agregado el 27/06/2016</small></p> -->
+      				<!-- </a>
+              </div>
+            </div> -->
+
+            <div class="col-sm-4 itemHome2">
+              <div class="card card-block">
+      				  <a href="http://www.escuelaamha.com.ar/files/modules/login/login.php" target="_blank">
+      					<img class="card-img" src="../../../skin/images/body/menu/campusvirtual.jpg" alt="Campus Virtual AMHA">
+      					<h3 class="card-title">Ingres&aacute;</h3>
+      					<!-- <p class="card-text">Texto descriptivo del art&iacute;culo.</p> -->
+      					<!-- <a href="#" class="btn btn-primary">Ver m&aacute;s</a>
+      					<p class="card-text"><small class="text-muted">Agregado el 27/06/2016</small></p> -->
       				</a>
               </div>
             </div>
+
           </div>
           <br>
         </div><!-- col-lg-9 -->
