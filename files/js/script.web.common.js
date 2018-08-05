@@ -66,6 +66,14 @@ $('#openDDcursos').click(function(){
   }
 })
 
+$('#openDDcursos2018').click(function(){
+  if ($('.leftDDcursos2018').hasClass('Hidden')) {
+    $('.leftDDcursos2018').removeClass('Hidden');
+  } else {
+    $('.leftDDcursos2018').addClass('Hidden');
+  }
+})
+
 $('#openDDcarreras2').click(function(){
   if ($('.leftDDcarreras').hasClass('Hidden')) {
     $('.leftDDcarreras').removeClass('Hidden');
@@ -125,4 +133,3 @@ function getVars(){
     }
 }
 var $get = getVars();
-

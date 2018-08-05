@@ -78,6 +78,11 @@
       </li>
       <li class=" <?php echo $currentPage == 'cursos_y_carreras.php' ? 'active' : ''; ?>"><a href='cursos_y_carreras.php'>CURSOS Y CARRERAS</a>
         <ul>
+          <li><a href='cursos2018.php'>Cursos 2018</a>
+            <ul>
+              <li><a href='curso_diagnostico.php'>Diagnóstico del medicamento por la biotipología</a></li>
+            </ul>
+          </li>
         <li><a href='carreras.php'>Carreras</a>
           <ul>
             <li><a href='carrera_de_medicina_homeopatica.php'>Carrera de Medicina Homeop&aacute;tica</a></li>

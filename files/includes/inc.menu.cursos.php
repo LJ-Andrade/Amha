@@ -5,6 +5,19 @@
       <li class="
       <?php
         switch ($currentPage) {
+          case 'curso_diagnostico.php';
+            echo 'active';
+            break;
+          } ?>
+          "><a href="cursos2018.php">Cursos 2018</a>
+        <span id="openDDcursos2018" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
+      </li>
+        <ul class="leftDDcursos2018 animated fadeIn Hidden">
+          <a href="curso_diagnostico.php"><li class="floatDD <?php echo $currentPage == 'curso_diagnostico.php' ? 'active' : ''; ?>">Diagnóstico del medicamento por la biotipología</li></a>
+        </ul>
+      <li class="
+      <?php
+        switch ($currentPage) {
           case 'carreras.php';
             echo 'active';
             break;
@@ -58,6 +71,10 @@
           case 'odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php';
             echo 'active';
             break;
+
+            case 'curso_diagnostico.php';
+              echo 'active';
+              break;
 
           default:
             '';
