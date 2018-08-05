@@ -30,7 +30,7 @@ if($_POST['user'] && $_POST['password'])
     $_SESSION['last_name'] = 'Romero';
     $_SESSION['sex'] = 'M';
   }else{
-    echo $DB->lastQuery();
+    //echo $DB->lastQuery();
     echo "Verifique los datos ingresados.";
   }
   die();

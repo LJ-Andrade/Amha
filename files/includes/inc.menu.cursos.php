@@ -34,9 +34,6 @@
             echo 'active';
             break;
 
-          default:
-            '';
-            break;
           } ?>
           "><a href="carreras.php">Carreras</a>
         <span id="openDDcarreras" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
@@ -70,14 +67,6 @@
             break;
           case 'odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php';
             echo 'active';
-            break;
-
-            case 'curso_diagnostico.php';
-              echo 'active';
-              break;
-
-          default:
-            '';
             break;
           } ?>
       "><a href="cursos.php">Cursos</a>
