@@ -11,7 +11,7 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
-          <div class="sectionTits"><h1 class="txC">Cursos</h1></div>
+          <div class="sectionTits"><h1 class="txC">Cursos de Posgrado</h1></div>
           <div class="row txC">
             <a href="carrera_de_medicina_homeopatica_3_en_1.php">
               <div class="col-xs-12 linkWrapper">
