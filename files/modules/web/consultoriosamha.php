@@ -62,7 +62,7 @@
                 <br>
                 <b>Jueves</b><br>
                 De 9:30 a 12:00 hs -  Cátedra de la Profesora Titular Dra. Laura Svirnovsky<br>
-                De 15:00 a 18:00 hs - Cátedra del Profesor Titular Dr. Juan Carlos Pellegrino<br>
+                De 15:00 a 18:00 hs - Cátedra del Profesor Titular Dr. Andrés Carmody<br>
                 <br>
                 <b>Viernes</b><br>
                 De 09:30 a 12:30 hs - Cátedra de la Profesora Titular Dr. Viviana Tachella<br>

@@ -91,7 +91,7 @@
             <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Farmacia Homeop&aacute;tica</a></li>
           </ul>
         </li>
-        <li><a href='cursos.php'>Cursos</a>
+        <li><a href='cursos.php'>Cursos de Posgrado</a>
           <ul>
             <li><a href='carrera_de_medicina_homeopatica_3_en_1.php'>Carreras de Medicina Homeop&aacute;tica 3 en 1</a></li>
             <li><a href='practica_homeopatica_para_alumnos_libres.php'>Pr&aacute;ctica Homeop&aacute;tica para alumnos libres</a></li>

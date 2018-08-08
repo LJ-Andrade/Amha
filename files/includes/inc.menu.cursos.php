@@ -69,7 +69,7 @@
             echo 'active';
             break;
           } ?>
-      "><a href="cursos.php">Cursos</a>
+      "><a href="cursos.php">Cursos de Posgrado</a>
         <span id="openDDcursos" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
       </li>
         <ul class="leftDDcursos animated fadeIn Hidden">
@@ -93,6 +93,19 @@
 <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 floatMenu2">
   <div class=" leftFloatMenu leftMenuInLine">
     <ul>
+      <li class="
+      <?php
+        switch ($currentPage) {
+          case 'curso_diagnostico.php';
+            echo 'active';
+            break;
+          } ?>
+          "><a href="cursos2018.php">Cursos 2018</a>
+        <span id="openDDcursos20182" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
+      </li>
+      <ul class="leftDDcursos2018 animated fadeIn Hidden">
+        <a href="curso_diagnostico.php"><li class="floatDD <?php echo $currentPage == 'curso_diagnostico.php' ? 'active' : ''; ?>">Diagnóstico del medicamento por la biotipología</li></a>
+      </ul>
       <li class="
       <?php
         switch ($currentPage) {
@@ -151,7 +164,7 @@
             '';
             break;
           } ?>
-      "><a href="cursos.php">Cursos</a>
+      "><a href="cursos.php">Cursos de Posgrado</a>
         <span id="openDDcursos2" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
       </li>
         <ul class="leftDDcursos animated fadeIn Hidden">

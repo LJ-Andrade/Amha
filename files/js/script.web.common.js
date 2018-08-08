@@ -66,7 +66,7 @@ $('#openDDcursos').click(function(){
   }
 })
 
-$('#openDDcursos2018').click(function(){
+$('#openDDcursos2018,#openDDcursos20182').click(function(){
   if ($('.leftDDcursos2018').hasClass('Hidden')) {
     $('.leftDDcursos2018').removeClass('Hidden');
   } else {

@@ -41,6 +41,12 @@
               <!--  <b>Horario y fechas:</b> Se dictar&aacute; de 13 a 14.30hs. un viernes por mes desde Abril a Noviembre.<br>-->
               <!--</p>-->
               <!--<hr><br>-->
+              <p><b>CÁTEDRA DE LOS JUEVES A LA TARDE<br>
+                Titular: Andrés Carmody</b></p>
+              <p class="justify">
+                "Mateando los síntomas" de 14 a 15hs a cargo del Dr. Roberto Saldua
+              </p>
+              <br>
               <p><b>GEHOVET <br>
                 (Grupo de Estudios Homeop&aacute;ticos Veterinarios)</b></p>
               <p class="justify">
