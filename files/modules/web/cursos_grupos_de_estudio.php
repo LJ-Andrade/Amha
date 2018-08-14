@@ -44,7 +44,7 @@
               <p><b>CÁTEDRA DE LOS JUEVES A LA TARDE<br>
                 Titular: Andrés Carmody</b></p>
               <p class="justify">
-                "Mateando los síntomas" de 14 a 15hs a cargo del Dr. Roberto Saldua
+                "Mateando los síntomas" de 14 a 15hs a cargo del Dr. Roberto Zaldua
               </p>
               <br>
               <p><b>GEHOVET <br>

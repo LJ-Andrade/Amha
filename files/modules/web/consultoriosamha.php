@@ -54,11 +54,11 @@
                 <b>Martes</b><br>
                 De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dra. Eva Blaho<br>
                 De 9:30 a 12:00 hs - Cátedra de Odontología y Estomatología<br>
-                De 16:30 a 19:00 hs - Cátedra del Profesor Titular Dr. Ángel Minotti<br>
+                De 16:30 a 18:00 hs - Cátedra del Profesor Titular Dr. Ángel Minotti<br>
                 <br>
                 <b>Miércoles</b><br>
                 De 9:30 a 12:00 hs - Cátedra del Profesor Titular Dr. Roque Penna<br>
-                De 16:30 a 19:00 hs - Cátedra de la Profesora Titular Dra. Mónica Moreno Galaud<br>
+                De 16:30 a 18:00 hs - Cátedra de la Profesora Titular Dra. Mónica Moreno Galaud<br>
                 <br>
                 <b>Jueves</b><br>
                 De 9:30 a 12:00 hs -  Cátedra de la Profesora Titular Dra. Laura Svirnovsky<br>
