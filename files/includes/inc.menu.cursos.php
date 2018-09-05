@@ -7,13 +7,19 @@
         switch ($currentPage) {
           case 'curso_diagnostico.php';
             echo 'active';
-            break;
+          break;
+          case 'curso_agrohomeopatia.php';
+            echo 'active';
+          break;
           } ?>
           "><a href="cursos2018.php">Cursos 2018</a>
         <span id="openDDcursos2018" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
       </li>
         <ul class="leftDDcursos2018 animated fadeIn Hidden">
           <a href="curso_diagnostico.php"><li class="floatDD <?php echo $currentPage == 'curso_diagnostico.php' ? 'active' : ''; ?>">Diagnóstico del medicamento por la biotipología</li></a>
+        </ul>
+        <ul class="leftDDcursos2018 animated fadeIn Hidden">
+          <a href="curso_agrohomeopatia.php"><li class="floatDD <?php echo $currentPage == 'curso_agrohomeopatia.php' ? 'active' : ''; ?>">Agrohomeopatía</li></a>
         </ul>
       <li class="
       <?php
