@@ -141,7 +141,7 @@
               </div>
             </p>
           </div>
-          <br>
+          <!-- <br>
           <div class="form-info txC">
             <h4 class="pre-header">PRIMERA JORNADA ARGENTINA DE AGROHOMEOPATIA - 27 DE OCTUBRE DE 2018</h4>
           </div>
@@ -178,7 +178,7 @@
               Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=congreso2018@amha.org.ar">congreso2018@amha.org.ar</a></b><br>
               Teléfonos: <b>(011) 4825-2194 - (011) 4827-2907</b><br>
             </p>
-          </div>
+          </div> -->
           <br>
           <!-- <div class="form-info txC">
             <h4 class="pre-header">¡CONGRESO FAMHA : Descuentos y formas de pago!</h4>
@@ -214,7 +214,8 @@
             <div class="sociosLoginInner">
               <form  id="inscriptionForm" class="form-signin" method="post">
                 <div class="form-info">
-                  <h3 class="form-signin-heading">Ingrese su consulta</h3>
+                  <!-- <h3 class="form-signin-heading">Ingrese su consulta</h3> -->
+                  <h3 class="form-signin-heading">Complete el formulario para inscribirse</h3>
                   <hr class="hrStrong">
                   <div class="form-group">
                     <input id="first_name" validateEmpty="Este campo es obligatorio" class="form-control" placeholder="Nombre" autofocus="" type="name">

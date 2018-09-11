@@ -81,6 +81,7 @@
           <li><a href='cursos2018.php'>Cursos 2018</a>
             <ul>
               <li><a href='curso_diagnostico.php'>Diagnóstico del medicamento por la biotipología</a></li>
+              <li><a href='curso_agrohomeopatia.php'>Agrohomeopatía</a></li>
             </ul>
           </li>
         <li><a href='carreras.php'>Carreras</a>
