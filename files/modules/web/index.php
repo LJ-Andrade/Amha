@@ -148,7 +148,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/librohomeopatiaparatodos.jpg" alt="Homeopatía para todos">
-                  <h3 class="card-title">Adquirí tu libro HOMEOPATÍA PARA TODOS</h3>
+                  <h3 class="card-title">Adquirí tu libro</h3>
                 </a>
               </div>
             </div>
