@@ -93,9 +93,6 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
                   <div class="form-group">
                     <input id="inputpass" class="form-control" placeholder="Contrase&ntilde;a" required="Ingrese" type="password">
                   </div>
-                  <div class="checkbox">
-                    <label><input value="remember-me" type="checkbox"> Recordarme</label>
-                  </div>
 
                   <input type="button" id="SubmitUser" class="btn btn-lg btn-primary btn-block btnPColor" value="Ingresar" />
                   <!--<button class="btn btn-lg btn-primary btn-block btnPColor" type="submit">Ingresar</button>-->
@@ -145,6 +142,19 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
           }
 
         });
+
+        $( "input" ).keypress( function( e )
+        {
+
+            if( e.which == 13 )
+            {
+
+                $( "#SubmitUser" ).click();
+
+            }
+
+        });
+
       });
 
     </script>
