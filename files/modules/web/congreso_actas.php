@@ -27,7 +27,7 @@
 
               $ID = substr( $Mag, 0, $Separador );
 
-              $Nombre = substr( str_replace ( '_', ' ', substr( $Mag, 0, -4 ) ), $Separador + 3 );
+              $Nombre = htmlentities( substr( str_replace ( '_', ' ', substr( $Mag, 0, -4 ) ), $Separador + 3 ) ) ;
 
               $Url = $Dir . '/' . $Mag;
 
