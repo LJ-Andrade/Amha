@@ -73,20 +73,18 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
           <div class="sociosLogin">
             <div class="row txC">
               <p>
-                Aquí encontrar&aacute; las actas disponibles de descarga exclusiva del Congreso FAMHA 2018.<br>
-                Haga click en el bot&oacute;n "Acceder" para poder ingresar a la sección de descargas de actas.<br>
+                Dejamos a su disposición las actas de los trabajos expuestos en el 12º Congreso FAMHA.<br>Las mismas estarán disponibles hasta Febrero de 2018
               </p>
             </div>
             <div class="row">
               <br>
               <div class="col-md-6">
                 <div class="sociosLoginInner">
-                  <img src="../../../skin/files/revistasocios/revistasocios.jpg" alt="" />
+                  <img src="../../../skin/files/conferences/congreso.jpg" alt="" width="380" height="200" />
                 </div>
               </div>
               <div class="col-md-6">
                 <form class="form-signin formSocios">
-                  <h3 class="form-signin-heading">Acceso</h3><br>
                   <div class="form-group">
                     <input id="inputuser" class="form-control" placeholder="Usuario" required="Ingrese su usuario." autofocus="" type="name">
                   </div>
