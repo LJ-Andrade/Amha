@@ -27,7 +27,7 @@
 
               $ID = substr( $Mag, 0, $Separador );
 
-              $Nombre = htmlentities( substr( str_replace ( '_', ' ', substr( $Mag, 0, -4 ) ), $Separador + 3 ) ) ;
+              $Nombre = htmlentities( str_replace ( '_', ' ', substr( $Mag, 0, -4 ) ) ) ;
 
               $Url = $Dir . '/' . $Mag;
 
@@ -91,7 +91,7 @@
 
             Podrá descargar los trabajos completos presentados en el 12º Congreso FAMHA - 2018. Les recordamos que este acceso estará disponible hasta Febrero de 2018.<br>
             <br>
-            <b>Nota:</b> La entidad organizadora no se responsabiliza por los conceptos utilizados por el autor. Los trabajos han sido publicados de manera exacta como fueron entregados por los mismos.
+            La asociación Médica Homeopática Argentina no se responsabiliza del contenido de los trabajos, los cuales son responsabilidad de los autores.
 
           </p>
 
