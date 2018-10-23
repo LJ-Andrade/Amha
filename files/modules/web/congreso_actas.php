@@ -10,7 +10,7 @@
 
   }
 
-  function OrderedMagazines( $Dir )
+  function OrderedMagazines( $Dir, $entities = true )
   {
 
       $Magazines = scandir( $Dir, 1 );
@@ -27,7 +27,16 @@
 
               $ID = substr( $Mag, 0, $Separador );
 
-              $Nombre = htmlentities( str_replace ( '_', ' ', substr( $Mag, 0, -4 ) ) ) ;
+							if( $entities )
+							{
+
+              		$Nombre = htmlentities( str_replace ( '_', ' ', substr( $Mag, 0, -4 ) ) );
+
+							}else{
+
+									$Nombre = str_replace ( '_', ' ', substr( $Mag, 0, -4 ) );
+
+							}
 
               $Url = $Dir . '/' . $Mag;
 
@@ -91,12 +100,84 @@
 
             Podrá descargar los trabajos completos presentados en el 12º Congreso FAMHA - 2018. Les recordamos que este acceso estará disponible hasta Febrero de 2018.<br>
             <br>
-            La asociación Médica Homeopática Argentina no se responsabiliza del contenido de los trabajos, los cuales son responsabilidad de los autores.
+            La Asociación Médica Homeopática Argentina no se responsabiliza del contenido de los trabajos, los cuales son responsabilidad de los autores.
 
           </p>
 
           <br>
           <br>
+
+					<?php $Revistas = OrderedMagazines( '../../../skin/files/conferences/actas/doctrina', false ); if( !empty( $Revistas ) ){?>
+          <h4 class="txC"><b><u>DOCTRINA</u></b></h4>
+          <br>
+          <div class="row revistas">
+            <?php foreach($Revistas as $ID => $Revista){?>
+              <div class="col-sm-12" >
+                  <div class="row">
+                      <div class="col-sm-2 col-md-1">
+                          <a href="<?php echo $Revista[1] ?> " target="_blank"><span><img src="../../../skin/images/body/icons/pdficon.png" alt="" width="50" height="50"></span></a>
+                      </div>
+                      <div class="col-sm-10 col-md-11" style="padding-top:5px">
+                          <a href="<?php echo $Revista[1] ?> " target="_blank"><span><?php echo $Revista[0]; ?></span></a>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <br>
+              <br>
+            <?php } ?>
+          </div>
+          <br>
+          <br>
+          <?php } ?>
+
+					<?php $Revistas = OrderedMagazines( '../../../skin/files/conferences/actas/materia_medica', false ); if( !empty( $Revistas ) ){?>
+          <h4 class="txC"><b><u>MATERIA MÉDICA</u></b></h4>
+          <br>
+          <div class="row revistas">
+            <?php foreach($Revistas as $ID => $Revista){?>
+              <div class="col-sm-12" >
+                  <div class="row">
+                      <div class="col-sm-2 col-md-1">
+                          <a href="<?php echo $Revista[1] ?> " target="_blank"><span><img src="../../../skin/images/body/icons/pdficon.png" alt="" width="50" height="50"></span></a>
+                      </div>
+                      <div class="col-sm-10 col-md-11" style="padding-top:5px">
+                          <a href="<?php echo $Revista[1] ?> " target="_blank"><span><?php echo $Revista[0]; ?></span></a>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <br>
+              <br>
+            <?php } ?>
+          </div>
+          <br>
+          <br>
+          <?php } ?>
+
+					<?php $Revistas = OrderedMagazines( '../../../skin/files/conferences/actas/clinica', false ); if( !empty( $Revistas ) ){?>
+          <h4 class="txC"><b><u>CLÍNICA</u></b></h4>
+          <br>
+          <div class="row revistas">
+            <?php foreach($Revistas as $ID => $Revista){?>
+              <div class="col-sm-12" >
+                  <div class="row">
+                      <div class="col-sm-2 col-md-1">
+                          <a href="<?php echo $Revista[1] ?> " target="_blank"><span><img src="../../../skin/images/body/icons/pdficon.png" alt="" width="50" height="50"></span></a>
+                      </div>
+                      <div class="col-sm-10 col-md-11" style="padding-top:5px">
+                          <a href="<?php echo $Revista[1] ?> " target="_blank"><span><?php echo $Revista[0]; ?></span></a>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <br>
+              <br>
+            <?php } ?>
+          </div>
+          <br>
+          <br>
+          <?php } ?>
 
           <?php $Revistas = OrderedMagazines( '../../../skin/files/conferences/actas/temas_libres' ); if( !empty( $Revistas ) ){?>
           <h4 class="txC"><b><u>TEMAS LIBRES</u></b></h4>
@@ -170,7 +251,7 @@
           <br>
           <?php } ?>
 
-          <?php $Revistas = OrderedMagazines( '../../../skin/files/conferences/actas/farmacia' ); if( !empty( $Revistas ) ){?>
+          <?php $Revistas = OrderedMagazines( '../../../skin/files/conferences/actas/farmacia', false ); if( !empty( $Revistas ) ){?>
           <h4 class="txC"><b><u>FARMACIA</u></b></h4>
           <br>
           <div class="row revistas">
