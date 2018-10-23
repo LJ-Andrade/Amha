@@ -78,12 +78,12 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
             </div>
             <div class="row">
               <br>
-              <div class="col-md-6">
-                <div class="sociosLoginInner">
-                  <img src="../../../skin/files/conferences/congreso.jpg" alt="" width="380" height="200" />
+              <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-0 col-lg-6">
+                <div class="sociosLoginInner txC">
+                  <img src="../../../skin/files/conferences/congreso.jpg" alt="" style="max-width:100%;" />
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-offset-0 col-lg-6">
                 <form class="form-signin formSocios">
                   <div class="form-group">
                     <input id="inputuser" class="form-control" placeholder="Usuario" required="Ingrese su usuario." autofocus="" type="name">
