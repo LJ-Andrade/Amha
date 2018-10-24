@@ -35,6 +35,15 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
 
   }
   die();
+}else{
+
+    if( $_POST[ 'user' ] || $_POST[ 'password' ] )
+    {
+
+        die();
+
+    }
+
 }
 
 
@@ -123,20 +132,28 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
             var user      = $("#inputuser").val();
             var password  = $("#inputpass").val();
 
-            $.ajax({
-              method: "POST",
-              url: "congreso_login.php",
-              data: { user:user, password:password},
-              success: function(callback){
-                if(callback)
-                {
-                  console.log(callback);
-                  alert(callback);
-                }else{
-                 document.location = 'congreso_actas.php';
+            if( user && password )
+            {
+
+              $.ajax({
+                method: "POST",
+                url: "congreso_login.php",
+                data: { user:user, password:password},
+                success: function(callback){
+                  if(callback)
+                  {
+                    console.log(callback);
+                    alert(callback);
+                  }else{
+                   document.location = 'congreso_actas.php';
+                  }
                 }
-              }
-            });
+              });
+            }else{
+
+                alert('Debe ingresar con su usuario para poder ver secciones exclusivas del congreso.');
+
+            }
           }
 
         });
