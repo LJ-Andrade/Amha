@@ -3,7 +3,7 @@
   include("../../classes/class.database.php");
   $DB = new DataBase();
   $DB->Connect();
-  
+
   if($_POST['action']=='fillzone')
   {
     $Zones = $DB->fetchAssoc('geolocation_zone','zone_id,name','province_id='.addslashes($_POST['value']),'name');
@@ -15,8 +15,8 @@
     }
     die();
   }
-  
-  
+
+
   if($_POST['type'] || $_POST['office'] || $_POST['province'] || $_POST['zone'])
   {
     $Where = "";
@@ -37,38 +37,38 @@
       else
         $Where .= " AND a.office = 'N'";
     }
-    
+
     if($_POST['province'])
     {
         $Where .= " AND g.province_id = ".$_POST['province'];
     }
-    
+
     if($_POST['zone'])
     {
         $Where .= " AND f.zone_id = ".$_POST['zone'];
     }
-    
+
     // if($_POST['name'])
     // {
     //   $Where .= " AND (a.first_name LIKE '".$_POST['name']."' OR a.last_name LIKE '".$_POST['name']."')";
     // }
-    
+
     //$Where = $Condition1.$Condition2.$Condition3.$Condition4;
   }
-  
-  
-  $Doctors = $DB->fetchAssoc('doctor a LEFT JOIN doctor_office b ON (a.doctor_id = b.doctor_id) LEFT JOIN doctor_type c ON (a.type_id = c.type_id) LEFT JOIN relation_doctor_specialty d ON (d.doctor_id = a.doctor_id) LEFT JOIN doctor_specialty e ON (e.specialty_id = d.specialty_id) LEFT JOIN geolocation_zone f ON (f.zone_id = b.zone_id) LEFT JOIN geolocation_province g ON (g.province_id = b.province_id) LEFT JOIN geolocation_region h ON (h.region_id = b.region_id)',
+
+
+  $Doctors = $DB->fetchAssoc('doctor a LEFT JOIN doctor_office b ON (a.doctor_id = b.doctor_id) LEFT JOIN doctor_type c ON (a.type_id = c.type_id) LEFT JOIN relation_doctor_specialty d ON (d.doctor_id = a.doctor_id) LEFT JOIN doctor_specialty e ON (e.specialty_id = d.specialty_id) LEFT JOIN geolocation_zone f ON (f.zone_id = b.zone_id) LEFT JOIN geolocation_province g ON (g.province_id = b.province_id)',
 "a.*,b.office_id,b.lat as lat,b.lng as lng,(a.doctor_id + (IFNULL(b.office_id,0)*99999)) as code,b.address,b.floor,b.apartment,b.timetable as office_timetable,b.phone as office_phone,c.title_m AS title_m,c.title_f AS title_f,IFNULL(g.name,'A domicilio') AS province,g.short_name as short_province,f.name AS zone",
 "a.advertising = 'Y' AND a.status='A' ".$Where,
 "a.type_id, g.province_id, a.last_name, a.first_name",
 "code"
 );
-  
+
   if($_POST['name'])
   {
     $Name = ReplaceLatin($_POST['name']);
     $NewDoctors = array();
-    
+
     foreach($Doctors as $Doctor)
     {
       if(stripos(ReplaceLatin($Doctor['first_name']), $Name) !== false || stripos(ReplaceLatin($Doctor['last_name']), $Name) !== false)
@@ -113,7 +113,7 @@
     if($DoctorZone!=$Doctor['zone'])
     {
       $DoctorZone = $Doctor['zone'];
-      
+
     }
 
 
@@ -138,7 +138,7 @@
     }
     if($Tags) $Tags = '</p><hr><p>'.$Tags;
 
-    
+
     if($Doctor['province']!='A domicilio')
     {
       $Map = '<hr><button type="button" class="btn btn-info displayMap" map="'.$Doctor['office_id'].'">Ver Mapa</button>
@@ -146,7 +146,7 @@
             <input type="hidden" id="map'.$Doctor['office_id'].'_lat" value="'.$Doctor['lat'].'" />
             <input type="hidden" id="map'.$Doctor['office_id'].'_lng" value="'.$Doctor['lng'].'" />
             <input type="hidden" id="map'.$Doctor['office_id'].'_address" value="'.$Doctor['address'].', '.$Doctor['zone'].'. '.$Doctor['short_province'].'" />
-            
+
             ';
     $Floor = $Doctor['floor']? ' '.$Doctor['floor'].'°':'';
     $Apartment = $Doctor['apartment']? ' '.$Doctor['apartment']:'';
@@ -157,7 +157,7 @@
                       <br><b>Pedir turnos al:</b> '.$Doctor['office_phone'].'
                       <br><b>Horarios de atenci&oacute;n:</b> '.$Doctor['office_timetable'];
     $OfficesHTML = '<b>Consultorio'.$S.':</b>'.$OfficesHTML.$Map;
-      
+
     }else{
     $OfficesHTML.='<hr>
                     <b>Tel&eacute;fono:</b> '.$Doctor['phone'].'';
@@ -166,7 +166,7 @@
     $HTML    .= '
     <div class="row deleteable">
       <div class="col-sm-12 itemContainer">
-        <div class="card-header '.$TypeClass.'"><h5 class="card-title">'.$Name.'</h5></div>
+        <div class="card-header '.$TypeClass.'"><h5 class="card-title"><b><span style="color:white">'.$Name.'</span></b></h5></div>
         <div class="card card-block">
           <div class="row">
             <div class="col-md-6 col-xs-12">
@@ -208,8 +208,8 @@
   <link href="../../../skin/css/base.min.css" rel="stylesheet" type="text/css" media="all" />
   <?php include('../../../files/includes/inc.web.head.php'); ?> <!-- Head -->
   <?php
-    
-    
+
+
   ?>
 </head>
   <body>
@@ -242,7 +242,7 @@
           <!--    <li><img src="../../../skin/images/body/icons/locationpin2.png" alt="" /><span class="consultMapRef"><b>Veterinarios</b></span></li>-->
           <!--  </ul>-->
           <!--</div>-->
-          
+
           <div id="searchPreview" class="row searchPreview Hidden fadeIn">
             <div class="row">
               <div class="col-xs-12 col-sm-9">
@@ -290,7 +290,7 @@
             <button type="button" class="btn searchBtn btnMargTop" id="lastSearch" name="lastSearch">Buscar</button>
             <button class="SearchBackBtn searchBackBtn" btn="2"><i class="fa fa-arrow-circle-left"></i></button>
           </div>
-          
+
           <!-- Ubication -->
           <div class="row searchFilters Hidden" id="SearchName">
             <div class="form-group searchFiltersInner">
@@ -298,7 +298,7 @@
               <input id="search" class="form-control" placeholder="Ingrese un nombre o apellido y presione enter..." type="text">
             </div>
           </div>
-          
+
           <div id="searchResult" class="Hidden">
             <?php echo $HTML; ?>
           </div>
@@ -332,7 +332,7 @@
         }
       });
     }
-    
+
     function displayMap()
     {
       $('.displayMap').click(function(e){
@@ -343,7 +343,7 @@
         initMap(map);
       });
     }
-    
+
     $("#SearchIcon").click(function(){
       //searchDoctors();
       searchName();
@@ -357,14 +357,14 @@
         searchName();
       }
     });
-    
+
     function searchName()
     {
       $("#lastSearch").click();
       //$('#SearchName').addClass('Hidden');
     }
-      
-      
+
+
       function initMaps(){
         $(".GoogleMap").each(function(){
            var mapID = $(this).attr("id");
@@ -386,13 +386,13 @@ function initMap(mapID) {
       lng = -58.3816;
       var zoom = 11;
     }
-    
+
     var map = new google.maps.Map(document.getElementById('map'+mapID), {
       center: {lat: lat, lng: lng},
       zoom: zoom,
       disableDefaultUI: true
     });
-    
+
 
     var infowindow = new google.maps.InfoWindow();
     var marker = new google.maps.Marker({

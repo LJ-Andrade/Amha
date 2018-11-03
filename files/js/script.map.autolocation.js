@@ -10,7 +10,7 @@
 //             frame.find("#map_lat").val(lat);
 //             frame.find("#map_lng").val(lng);
 //             //alert(frame.find("#map_lng").val());
-//         }  
+//         }
 //     });
 // }
 
@@ -19,7 +19,7 @@
 //     $("iframe[name*=map]").each(function(){
 //         var frame   = $(this).contents();
 //         var id      = $(this).attr('map');
-        
+
 //         $('#map'+id+'_lat').val(frame.find('#map_lat').val());
 //         $('#map'+id+'_lng').val(frame.find('#map_lng').val());
 //         $('#map'+id+'_address').val(frame.find('#map_address').val());
@@ -34,8 +34,8 @@
 //         $('#map'+id+'_country_short').val(frame.find('#map_country_short').val());
 //         $('#map'+id+'_postal_code').val(frame.find('#map_postal_code').val());
 //         $('#map'+id+'_postal_code_suffix').val(frame.find('#map_postal_code_suffix').val());
-        
-//         
+
+//
 //     });
 // }
 
@@ -48,18 +48,23 @@ function addressNotFound(place,map)
 
 function validateMap(id)
 {
-    var total = 0;
-    $('input[name*="map'+id+'_"]').each(function(){
-      if($(this).val())
-        total++;
-    });
-    if(total>3)
+    // var total = 0;
+    // $('input[name*="map'+id+'_"]').each(function(){
+    //   if($(this).val())
+    //     total++;
+    // });
+    // if(total>5)
+    if( $( 'map' + id + '_address' ).val() != '' && $( 'map' + id + '_zone' ).val() != '' && $( 'map' + id + '_province' ).val() != '' && $( 'map' + id + '_country' ).val() != '' )
     {
+
         $("#map"+id+"_ErrorMsg").addClass("Hidden");
         return true;
+
     }else{
+
         $("#map"+id+"_ErrorMsg").removeClass("Hidden");
         return false;
+
     }
 }
 
@@ -123,7 +128,7 @@ function initMap(mapID) {
       lng = -58.3816;
       var zoom = 11;
     }
-    
+
     var map = new google.maps.Map(document.getElementById('map'+mapID), {
       center: {lat: lat, lng: lng},
       zoom: zoom,
@@ -187,27 +192,27 @@ function initMap(mapID) {
           (place.address_components[6] && place.address_components[6].long_name || '')
         ].join(', ');
       }
-    
+
     var place_values = place.address_components
     place_values.reverse();
     //place_values.forEach(fillHiddenFields);
     place_values.forEach(function(value) {
         fillHiddenFields(value,mapID);
     });
-    
-    
-    
+
+
+
     // Send data to iframe parent page
     // parent.getMapsValues();//// http://www.forosdelweb.com/f13/como-puedo-obtener-datos-iframe-1036765/http://www.forosdelweb.com/f13/como-puedo-obtener-datos-iframe-1036765/
     document.getElementById("map"+mapID+"_lat").value = place.geometry.location.lat();
     document.getElementById("map"+mapID+"_lng").value = place.geometry.location.lng();
     //parent.$('body').contents().find('#google_maps_button').trigger('click');
       infowindow.setContent('<div><strong>' + address + '</strong>');
-      infowindow.open(map, marker);  
-      
+      infowindow.open(map, marker);
+
     });
   }
-  
+
     function fillHiddenFields(object,mapID)
     {
         switch(object.types[0])
@@ -247,7 +252,7 @@ function initMap(mapID) {
                 document.getElementById("map"+mapID+"_postal_code_suffix").value = object.long_name;
             break;
         }
-      
+
         if($("#postal_code_"+mapID).length>0)
         {
             if($('#map'+mapID+'_postal_code').val())
@@ -264,7 +269,7 @@ function initMap(mapID) {
                 $("#postal_code_"+mapID).val('');
             }
         }
-        
+
         if($("#address_"+mapID).length>0)
         {
             if($('#map'+mapID+'_address').val())
@@ -278,7 +283,7 @@ function initMap(mapID) {
         }
         validateMap(mapID);
     }
-  
+
   function emptyValues(mapID)
   {
     document.getElementById("map"+mapID+"_lat").value = "";

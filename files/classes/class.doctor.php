@@ -43,7 +43,7 @@ class Doctor extends DataBase
 		}
 		return $this->Offices;
 	}
-	
+
 	public function GetSpecialties()
 	{
 		if(empty($this->Specialties))
@@ -98,13 +98,13 @@ public function MakeRegs($Mode="list")
 				case "3": $Label = "purple"; break;
 				default: $Label = "aqua"; break;
 			}
-			
+
 			$Advert = strtolower($Row->Data['advertising'])=='y'? '<span class="label label-warning"> SI ' : '<span class="label bg-gray"> NO ';
 			$Advert .= '</span>';
-			
+
 			$Payment = strtolower($Row->Data['payment'])=='y'? '<span class="label label-success"> SI ' : '<span class="label label-danger"> NO ';
 			$Payment .= '</span>';
-			
+
 			$Actions	= 	'<span class="roundItemActionsGroup">';
 			if(strtolower($Mode)=='list')
 				$Actions .= '<a><button type="button" class="btn btnGreen ExpandButton" id="expand_'.$Row->ID.'"><i class="fa fa-plus"></i></button></a>';
@@ -119,12 +119,12 @@ public function MakeRegs($Mode="list")
 
 			$Offices = '';
 			$I=0;
-			
+
 			foreach($Row->Data['offices'] as $Office)
 			{
 				$I++;
 				$RowClass = $I % 2 != 0? 'bg-gray':'';
-				
+
 				$Floor = $Office['floor']? ' '.$Office['floor'].'°':'';
             	$Apartment = $Office['apartment']? ' '.$Office['apartment']:'';
 
@@ -146,14 +146,14 @@ public function MakeRegs($Mode="list")
 								'.$OfficeData.'
 							</div>';
 			}
-			
+
 			$Specialties = '';
 			foreach($Row->Data['specialties'] as $Specialty)
 			{
 				$Specialties .= '<span class="label label-primary">'.$Specialty['title'].'</span> ';
 			}
 			if($Specialties) //$Specialties = ' No especificadas';
-				
+
 			$Specialties = '<div class="row" style="padding-top:1em;">
 								<div class="col-sm-12">
 									<div class="listRowInner">
@@ -161,7 +161,7 @@ public function MakeRegs($Mode="list")
 									</div>
 								</div>
 							</div>';
-			
+
 			switch(strtolower($Mode))
 			{
 				case "list":
@@ -379,14 +379,14 @@ public function MakeRegs($Mode="list")
 		}else{
 			$Office 	= 'Y';
 		}
-		
+
 		$Advertising	= $_POST['advertising'];
 		$Payment		= $_POST['payment'];
-		
+
 		$Description	= $_POST['description'];
-		
+
 		$Notes			= $_POST['notes'];
-		
+
 
 		//VALIDATIONS
 		if(!$FirstName) echo 'Falta Nombre';
@@ -400,7 +400,7 @@ public function MakeRegs($Mode="list")
 		$New 	= new Doctor($NewID);
 		$New->InsertOfficeInfo();
 		$New->InsertSpecialties();
-		
+
 	}
 
 	public function Update()
@@ -427,13 +427,13 @@ public function MakeRegs($Mode="list")
 		}else{
 			$Office 	= 'Y';
 		}
-		
-		
+
+
 		$Advertising	= $_POST['advertising'];
 		$Payment		= $_POST['payment'];
-		
+
 		$Description	= $_POST['description'];
-		
+
 		$Notes			= $_POST['notes'];
 
 		$Update		= $this->execQuery('update',$this->Table,"first_name='".$FirstName."',last_name='".$LastName."',type_id='".$Type."',office='".$Office."',sex='".$Sex."',national_medical_enrollment='".$NMedEnr."',provincial_medical_enrollment='".$PMedEnr."',user='".$User."',password='".$Password."',email='".$Email."',phone='".$Phone."',fax='".$Fax."',website='".$Website."',advertising='".$Advertising."',payment='".$Payment."',description='".$Description."',notes='".$Notes."'",$this->TableID."=".$ID);
@@ -460,7 +460,7 @@ public function MakeRegs($Mode="list")
 		$this->ConfigureSearchRequest();
 		echo $this->InsertSearchResults();
 	}
-	
+
 	public function InsertSpecialties()
 	{
 		$this->execQuery('DELETE','relation_doctor_specialty','doctor_id = '.$this->ID);
@@ -492,7 +492,7 @@ public function MakeRegs($Mode="list")
 			$this->execQuery('insert','relation_doctor_specialty','doctor_id,specialty_id',$Fields);
 			//echo $this->lastQuery().'<br><br>';
 		}
-			
+
 	}
 
 	public function InsertOfficeInfo($DeleteInfo=0)
@@ -503,7 +503,7 @@ public function MakeRegs($Mode="list")
 		{
 			$this->execQuery('DELETE','doctor_office',"doctor_id=".$this->ID);
 		}
-		
+
 		if($_POST['service']==1)
 		{
 			// OFFICES
@@ -519,16 +519,16 @@ public function MakeRegs($Mode="list")
 					$Offices[$I]['fax']			= $_POST['fax_'.$I];
 					// $Offices[$I]['email']		= $_POST['email_'.$I];
 					$Offices[$I]['phone']		= $_POST['phone_'.$I];
-	
+
 					if($I==1)
 						$Offices[$I]['main_office']			= 'Y';
 					else
 						$Offices[$I]['main_office']			= 'N';
-	
+
 					// LOCATION DATA
 					$Offices[$I]['lat']			= $_POST['map'.$I.'_lat'];
 					$Offices[$I]['lng']			= $_POST['map'.$I.'_lng'];
-	
+
 					$Offices[$I]['address']		= $_POST['map'.$I.'_address_short'];
 					if(!$Offices[$I]['address'])
 						$Offices[$I]['address']	= $_POST['address_'.$I];
@@ -537,71 +537,74 @@ public function MakeRegs($Mode="list")
 					$Offices[$I]['postal_code']	= $_POST['map'.$I.'_postal_code'];
 					if(!$Offices[$I]['postal_code'])
 						$Offices[$I]['postal_code']= $_POST['postal_code_'.$I];
-	
+
 					$Offices[$I]['zone_short']		= $_POST['map'.$I.'_zone_short'];
-					$Offices[$I]['region_short']	= $_POST['map'.$I.'_region_short'];
-					$Offices[$I]['province_short']	= $_POST['map'.$I.'_province_short'];
+					// $Offices[$I]['region_short']	= $_POST['map'.$I.'_region_short'];
+					$Offices[$I]['province_short']	= str_replace( 'Pcia de ', '', $_POST['map'.$I.'_province_short']) ;
 					$Offices[$I]['country_short']	= $_POST['map'.$I.'_country_short'];
-	
+
 					$Offices[$I]['zone']		= $_POST['map'.$I.'_zone'];
-					$Offices[$I]['region'] 		= $_POST['map'.$I.'_region'];
-					$Offices[$I]['province']	= $_POST['map'.$I.'_province'];
+					// $Offices[$I]['region'] 		= $_POST['map'.$I.'_region'];
+					$Offices[$I]['province']	= str_replace( 'Provincia de ', '', $_POST['map'.$I.'_province']) ;
 					$Offices[$I]['country']		= $_POST['map'.$I.'_country'];
-					
+
 					if(!$Offices[$I]['zone_short'])
 						$Offices[$I]['zone_short'] = $Offices[$I]['zone'];
-					if(!$Offices[$I]['region_short'])
-						$Offices[$I]['region_short'] = $Offices[$I]['region'];
+					// if(!$Offices[$I]['region_short'])
+					// 	$Offices[$I]['region_short'] = $Offices[$I]['region'];
 					if(!$Offices[$I]['province_short'])
 						$Offices[$I]['province_short'] = $Offices[$I]['province'];
-					
+
 					// INSERT NEW LOCATIONS
-	
+
 					// COUNTRY
-					$DBQ = $this->fetchAssoc('geolocation_country','country_id as id',"name='".$Offices[$I]['country']."'");
+					$DBQ = $this->fetchAssoc('geolocation_country','country_id as id'," name='" . $Offices[ $I ][ 'country' ]. "' OR short_name='" . $Offices[ $I ][ 'country_short' ] . "' OR name='" . $Offices[ $I ][ 'country_short' ]. "' OR short_name='" . $Offices[ $I ][ 'country' ] . "' ");
 					if($DBQ[0]['id'])
 					{
 						$Offices[$I]['country_id'] = $DBQ[0]['id'];
 					}else{
+
 						// INSERT NEW COUNTRY
 						$this->execQuery('INSERT','geolocation_country','name,short_name',"'".$Offices[$I]['country']."','".$Offices[$I]['country_short']."'");
 						$Offices[$I]['country_id'] = $this->GetInsertId();
 					}
-	
+
 					//PROVINCE
-					$DBQ = $this->fetchAssoc('geolocation_province','province_id as id',"country_id = ".$Offices[$I]['country_id']." AND ( name='".$Offices[$I]['province_short']."' OR short_name='".$Offices[$I]['province_short']."')");
+					$DBQ = $this->fetchAssoc('geolocation_province','province_id as id',"country_id = ".$Offices[$I]['country_id']." AND ( name='".$Offices[$I]['province']."' OR name='".$Offices[$I]['province_short']."' OR short_name='".$Offices[$I]['province']."' OR short_name='".$Offices[$I]['province_short']."')");
 					if($DBQ[0]['id'])
 					{
 						$Offices[$I]['province_id'] = $DBQ[0]['id'];
 					}else{
+
 						// INSERT NEW PROVINCE
-						$this->execQuery('INSERT','geolocation_province','name,short_name,country_id',"'".$Offices[$I]['province']."','".$Offices[$I]['province_short']."',".$Offices[$I]['country_id']);
-						$Offices[$I]['province_id'] = $this->GetInsertId();
+						$this->execQuery( 'INSERT', 'geolocation_province', 'name,short_name,country_id', "'" . $Offices[ $I ][ 'province' ] . "','" . $Offices[ $I ][ 'province_short' ] . "'," . $Offices[ $I ][ 'country_id' ] );
+						$Offices[ $I ][ 'province_id' ] = $this->GetInsertId();
+
 					}
-	
-					//REGION
-					$DBQ = $this->fetchAssoc('geolocation_region','region_id as id',"country_id = ".$Offices[$I]['country_id']." AND province_id = ".$Offices[$I]['province_id']." AND (name='".$Offices[$I]['region']."' OR short_name='".$Offices[$I]['region']."')");
-					if($DBQ[0]['id'])
-					{
-						$Offices[$I]['region_id'] = $DBQ[0]['id'];
-					}else{
-						// INSERT NEW REGION
-						$this->execQuery('INSERT','geolocation_region','name,short_name,country_id,province_id',"'".$Offices[$I]['region']."','".$Offices[$I]['region_short']."',".$Offices[$I]['country_id'].",".$Offices[$I]['province_id']);
-						$Offices[$I]['region_id'] = $this->GetInsertId();
-					}
-	
+
+					// //REGION
+					// $DBQ = $this->fetchAssoc('geolocation_region','region_id as id',"country_id = ".$Offices[$I]['country_id']." AND province_id = ".$Offices[$I]['province_id']." AND ( name='".$Offices[$I]['region']."' OR short_name='".$Offices[$I]['region']."' OR name='".$Offices[$I]['region_short']."' OR short_name='".$Offices[$I]['region_short']."' )");
+					// if($DBQ[0]['id'])
+					// {
+					// 	$Offices[$I]['region_id'] = $DBQ[0]['id'];
+					// }else{
+					// 	// INSERT NEW REGION
+					// 	$this->execQuery('INSERT','geolocation_region','name,short_name,country_id,province_id',"'".$Offices[$I]['region']."','".$Offices[$I]['region_short']."',".$Offices[$I]['country_id'].",".$Offices[$I]['province_id']);
+					// 	$Offices[$I]['region_id'] = $this->GetInsertId();
+					// }
+
 					//ZONE
-					$DBQ = $this->fetchAssoc('geolocation_zone','zone_id as id',"country_id = ".$Offices[$I]['country_id']." AND province_id = ".$Offices[$I]['province_id']." AND region_id = ".$Offices[$I]['region_id']." AND (name='".$Offices[$I]['zone']."' OR short_name='".$Offices[$I]['zone']."' )");
+					$DBQ = $this->fetchAssoc('geolocation_zone','zone_id as id',"country_id = ".$Offices[$I]['country_id']." AND province_id = ".$Offices[$I]['province_id']." AND ( name='".$Offices[$I]['zone']."' OR short_name='".$Offices[$I]['zone']."' OR name='".$Offices[$I]['zone_short']."' OR short_name='".$Offices[$I]['zone_short']."' ) ");
 					if($DBQ[0]['id'])
 					{
 						$Offices[$I]['zone_id'] = $DBQ[0]['id'];
 					}else{
 						// INSERT NEW ZONE
-						$this->execQuery('INSERT','geolocation_zone','name,short_name,country_id,province_id,region_id',"'".$Offices[$I]['zone']."','".$Offices[$I]['zone_short']."',".$Offices[$I]['country_id'].",".$Offices[$I]['province_id'].",".$Offices[$I]['region_id']);
+						$this->execQuery('INSERT','geolocation_zone','name,short_name,country_id,province_id',"'".$Offices[$I]['zone']."','".$Offices[$I]['zone_short']."',".$Offices[$I]['country_id'].",".$Offices[$I]['province_id']);
 						$Offices[$I]['zone_id'] = $this->GetInsertId();
 					}
-	
-					$this->execQuery("INSERT","doctor_office","doctor_id,country_id,province_id,region_id,zone_id,address,floor,apartment,phone,timetable,fax,postal_code,lat,lng",$this->ID.",".$Offices[$I]['country_id'].",".$Offices[$I]['province_id'].",".$Offices[$I]['region_id'].",".$Offices[$I]['zone_id'].",'".$Offices[$I]['address']."','".$Offices[$I]['floor']."','".$Offices[$I]['apartment']."','".$Offices[$I]['phone']."','".$Offices[$I]['timetable']."','".$Offices[$I]['fax']."','".$Offices[$I]['postal_code']."',".$Offices[$I]['lat'].",".$Offices[$I]['lng']);
+
+					$this->execQuery("INSERT","doctor_office","doctor_id,country_id,province_id,zone_id,address,floor,apartment,phone,timetable,fax,postal_code,lat,lng",$this->ID.",".$Offices[$I]['country_id'].",".$Offices[$I]['province_id'].",".$Offices[$I]['zone_id'].",'".$Offices[$I]['address']."','".$Offices[$I]['floor']."','".$Offices[$I]['apartment']."','".$Offices[$I]['phone']."','".$Offices[$I]['timetable']."','".$Offices[$I]['fax']."','".$Offices[$I]['postal_code']."',".$Offices[$I]['lat'].",".$Offices[$I]['lng']);
 					//echo $this->lastQuery();
 					//$OfficeID 		= $this->GetInsertId();
 				}
