@@ -6,7 +6,7 @@
 
   if($_POST['action']=='fillzone')
   {
-    $Zones = $DB->fetchAssoc('geolocation_zone','zone_id,name','province_id='.addslashes($_POST['value']),'name');
+    $Zones = $DB->fetchAssoc('geolocation_zone','zone_id,name','province_id='.addslashes($_POST['value']) . " AND name <> ''",'name');
     if(count($Zones)>0)
       echo '<option selected value="">Cualquier Barrio/Zona</option>';
     foreach($Zones as $Zone)

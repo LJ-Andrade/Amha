@@ -24,16 +24,30 @@
           <div class="container">
             <div class="row">
               <p>
-                Todos los consultorios que la A.M.H.A. ofrece son atendidos por m&eacute;dicos que han sido formados en la
-                Instituci&oacute;n y que hoy conforman su cuerpo docente (Profesores Titulares, Profesores Adjuntos, docentes Adscriptos).
-                 A la par, algunos m&eacute;dicos que tambi&eacute;n son ex alumnos de la A.M.H.A. han sido debidamente autorizados por su idoneidad
-                  por el Cuerpo docente, para tal fin. En ellos se atienden bebés, niños, adolescentes, adultos, mujeres embarazadas y ancianos.<br><br>
+                Todos los consultorios que la A.M.H.A. ofrece son atendidos por m&eacute;dicos que se han formados en la
+                Instituci&oacute;n y que, hoy, forman parte del cuerpo docente.
+                En ellos se atienden bebés, niños, adloescentes, adultos, mujeres embarazadas y ancianos<br><br>
+                <b>Hacé tus consultas médicas en nuestros consultorios privados</b><br><br>
+                <!-- <b>Ud. puede atenderse en :</b><br> -->
 
-                <b>Ud. puede atenderse en :</b><br>
-
-                SEDE CENTRAL<br>
-                CONSULTORIOS CHARCAS<br>
                 <hr class="hrStrong">
+
+                <br>
+
+                <h4><b>En Consultorios Charcas</b></h4>
+
+                <p>
+                  <br>
+                  <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
+                  <br>
+                  <b>Turnos:</b> (011) 4963-1841 | 4962-6812 <br>
+                  <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
+                  <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 12.00 a 20.00 hs.<br><br>
+
+                </p>
+
+                <hr class="hrStrong">
+                <br>
                 <h4><b>En la Sede Central</b></h4><br>
 
                 <b>Atenci&oacute;n a cargo de las C&aacute;tedras:</b> Profesor Titular, Profesor Adjunto y docente Adscripto.<br>
@@ -69,18 +83,18 @@
                 <br>
               </p>
 
-              <hr class="hrStrong">
-              <h4><b>En Consultorios Charcas</b></h4>
+              <!-- <hr class="hrStrong">
+              <h4><b>En Consultorios Charcas</b></h4> -->
               <!--<hr>-->
               <!--<h4>Consultorios Privados</h4>-->
               <!--<hr>-->
-              <p>
+              <!-- <p> -->
                 <!--<b>Consultorios de extensión de c&aacute;tedra:</b> Atiende un profesional que puede estar acompa&ntilde;ado por uno o-->
                 <!--dos m&eacute;dicos que se est&aacute;n formando como home&oacute;patas, el paciente ser&aacute; notificado con anticipaci&oacute;n. <br><br>-->
-                <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
+                <!-- <b>Consultorios privados:</b> Recibir&aacute; una consulta privada entre paciente y profesional. <br>
                 <b>Turnos:</b> (011) 4963-1841 | 4962-6812 <br>
                 <b>Direcci&oacute;n:</b> Charcas 2744 2&deg; dpto 6 <br>
-                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 12.00 a 20.00 hs.<br><br>
+                <b>Horarios de atenci&oacute;n:</b>  Lunes a Viernes de 12.00 a 20.00 hs.<br><br> -->
 
 
                 <!--<b>Lunes</b><br>-->
