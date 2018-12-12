@@ -19,11 +19,11 @@
               </div>
             </a>
 
-            <a href="curso_agrohomeopatia.php">
+            <!-- <a href="curso_agrohomeopatia.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Agrohomeopatía</p>
               </div>
-            </a>
+            </a> -->
 
           </div><!-- /Row -->
         </div><!-- /contentContainer -->

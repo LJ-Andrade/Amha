@@ -13,12 +13,12 @@
         <!-- Home main menu -->
         <div class="row homeMenu">
           <div class="row">
-            <a href="../../../actas"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
+            <a href="carreras.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
             <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span class="DarkColor">CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>
           <div class="row">
-            <!--<a href="agenda.php">--><a href="curso_agrohomeopatia.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span><!--AGENDA: CONSULTORIOS Y FARMACIAS--></span></div></a>
+            <!--<a href="agenda.php">--><a href="nuevas_carreras.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm2R1C"><span><!--AGENDA: CONSULTORIOS Y FARMACIAS--></span></div></a>
             <a href="carrera_de_farmacia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R2C"><span class="DarkColor">CURSO DE FARMACIA HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_odontoestomatologia_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R2C"><span class="DarkColor">CARRERA DE ODONTOLOG&Iacute;A Y ESTOMATOLOG&Iacute;A HOMEOP&Aacute;TICA</span></div></a>
           </div>
@@ -138,17 +138,17 @@
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
 
-                  <a href="contacto.php">
-                  <img class="card-img" src="../../../skin/images/body/menu/precios_congelados.jpg" alt="Congelá los precios">
-                  <h3 class="card-title">Válido hasta Diciembre</h3>
+                  <a href="congreso_login.php">
+                  <img class="card-img" src="../../../skin/images/body/menu/actas.jpg" alt="Descargá las actas">
+                  <h3 class="card-title">Descargá las actas</h3>
                 </a>
               </div>
             </div>
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <a href="contacto.php">
+                <a href="formulario_preinscripcion.php">
                   <img class="card-img" src="../../../skin/images/body/menu/charlainformativa.jpg" alt="Charla Informativa">
-                  <h3 class="card-title">¡Inscribite!</h3>
+                  <h3 class="card-title">Dejanos tu mail y te informaremos</h3>
                 </a>
               </div>
             </div>
@@ -180,7 +180,8 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/inscripcion_mayo.jpg" alt="Abierta la Inscripcion a Carreras"> -->
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/ateneosweb.jpg" alt="Ateneos">
-                  <h3 class="card-title">Conocé las fechas 2018</h3>
+                  <!-- <h3 class="card-title">Conocé las fechas 2019</h3> -->
+                  <h3 class="card-title">Fechas 2019 - a confirmar</h3>
                 </a>
               </div>
             </div>
@@ -192,7 +193,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/item3home2.jpg" alt="Amha Carrera Docente"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/item3home2.jpg" alt="Amha Carrera Docente">
                   <!-- <h3 class="card-title">Conocer m&aacute;s sobre ella</h3> -->
-                  <h3 class="card-title">Informate</h3>
+                  <h3 class="card-title">Fechas 2019 - a confirmar</h3>
                 </a>
               </div>
             </div>

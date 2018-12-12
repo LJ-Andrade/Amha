@@ -14,6 +14,7 @@
           <div class="sectionTits"><h1 class="txC">Cursos y Carreras</h1></div>
           <div class="row txC">
             <a href="cursos2018.php"><div class="col-xs-12 linkWrapper"><p>Cursos 2018</p></div></a>
+            <a href="nuevas_carreras.php"><div class="col-xs-12 linkWrapper"><p>Nuevas Carreras</p></div></a>
             <a href="carreras.php"><div class="col-xs-12 linkWrapper"><p>Carreras</p></div></a>
             <a href="cursos.php"><div class="col-xs-12 linkWrapper"><p>Cursos</p></div></a>
             <a href="formulario_preinscripcion.php"><div class="col-xs-12 linkWrapper"><p>Formulario de pre-inscripci&oacute;n</p></div></a>

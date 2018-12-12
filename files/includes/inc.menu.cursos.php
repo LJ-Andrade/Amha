@@ -5,10 +5,7 @@
       <li class="
       <?php
         switch ($currentPage) {
-          case 'curso_diagnostico.php';
-            echo 'active';
-          break;
-          case 'curso_agrohomeopatia.php';
+          case 'curso_diagnostico.php':
             echo 'active';
           break;
           } ?>
@@ -18,27 +15,22 @@
         <ul class="leftDDcursos2018 animated fadeIn Hidden">
           <a href="curso_diagnostico.php"><li class="floatDD <?php echo $currentPage == 'curso_diagnostico.php' ? 'active' : ''; ?>">Diagnóstico del medicamento por la biotipología</li></a>
         </ul>
-        <ul class="leftDDcursos2018 animated fadeIn Hidden">
+        <!-- <ul class="leftDDcursos2018 animated fadeIn Hidden">
           <a href="curso_agrohomeopatia.php"><li class="floatDD <?php echo $currentPage == 'curso_agrohomeopatia.php' ? 'active' : ''; ?>">Agrohomeopatía</li></a>
-        </ul>
+        </ul> -->
+      <a href="nuevas_carreras.php"><li class="<?php echo $currentPage == 'nuevas_carreras.php' ? 'active' : ''; ?>">Nuevas Carreras</li></a>
       <li class="
       <?php
         switch ($currentPage) {
-          case 'carreras.php';
-            echo 'active';
-            break;
-          case 'carrera_de_medicina_homeopatica.php';
-            echo 'active';
-            break;
+          case 'carreras.php':
+          case 'carrera_de_medicina_homeopatica.php':
           case 'carrera_de_odontoestomatologia_homeopatica.php';
-            echo 'active';
-            break;
           case 'carrera_de_veterinaria_homeopatica.php';
-            echo 'active';
-            break;
           case 'carrera_de_farmacia_homeopatica.php';
+          case 'carrera_agrohomeopatia.php';
+          case 'carrera_odontologia_intensiva.php';
             echo 'active';
-            break;
+          break;
 
           } ?>
           "><a href="carreras.php">Carreras</a>
@@ -49,31 +41,21 @@
           <a href="carrera_de_odontoestomatologia_homeopatica.php"><li class="floatDD <?php echo $currentPage == 'carrera_de_odontoestomatologia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</li></a>
           <a href="carrera_de_veterinaria_homeopatica.php"><li class="floatDD <?php echo $currentPage == 'carrera_de_veterinaria_homeopatica.php' ? 'active' : ''; ?>">Carrera de Veterinaria Homeop&aacute;tica</li></a>
           <a href="carrera_de_farmacia_homeopatica.php"><li class="floatDD <?php echo $currentPage == 'carrera_de_farmacia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Farmacia Homeop&aacute;tica</li></a>
+          <a href="carrera_agrohomeopatia.php"><li class="floatDD <?php echo $currentPage == 'carrera_agrohomeopatia.php' ? 'active' : ''; ?>">Carrera de Agrohomeopatía</li></a>
+          <a href="carrera_odontologia_intensiva.php"><li class="floatDD <?php echo $currentPage == 'carrera_odontologia_intensiva.php' ? 'active' : ''; ?>">Carrera de Odontología Homeopática Intensiva</li></a>
         </ul>
       <li class="
       <?php
         switch ($currentPage) {
-          case 'cursos.php';
+          case 'cursos.php':
+          case 'carrera_de_medicina_homeopatica_3_en_1.php':
+          case 'practica_homeopatica_para_alumnos_libres.php':
+          case 'cursos_deteoriapractica.php':
+          case 'odontoestomatologia_veterinaria_homeopatica.php':
+          case 'cursos_libres_para_alumnos_y_socios.php':
+          case 'odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php':
             echo 'active';
-            break;
-          case 'carrera_de_medicina_homeopatica_3_en_1.php';
-            echo 'active';
-            break;
-          case 'practica_homeopatica_para_alumnos_libres.php';
-            echo 'active';
-            break;
-          case 'cursos_deteoriapractica.php';
-            echo 'active';
-            break;
-          case 'odontoestomatologia_veterinaria_homeopatica.php';
-            echo 'active';
-            break;
-          case 'cursos_libres_para_alumnos_y_socios.php';
-            echo 'active';
-            break;
-          case 'odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php';
-            echo 'active';
-            break;
+          break;
           } ?>
       "><a href="cursos.php">Cursos de Posgrado</a>
         <span id="openDDcursos" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
@@ -102,7 +84,7 @@
       <li class="
       <?php
         switch ($currentPage) {
-          case 'curso_diagnostico.php';
+          case 'curso_diagnostico.php':
             echo 'active';
             break;
           } ?>
@@ -115,25 +97,15 @@
       <li class="
       <?php
         switch ($currentPage) {
-          case 'carreras.php';
+          case 'carreras.php':
+          case 'carrera_de_medicina_homeopatica.php':
+          case 'carrera_de_odontoestomatologia_homeopatica.php':
+          case 'carrera_de_veterinaria_homeopatica.php':
+          case 'carrera_de_farmacia_homeopatica.php':
+          case 'carrera_agrohomeopatia.php';
+          case 'carrera_odontologia_intensiva.php';
             echo 'active';
-            break;
-          case 'carrera_de_medicina_homeopatica.php';
-            echo 'active';
-            break;
-          case 'carrera_de_odontoestomatologia_homeopatica.php';
-            echo 'active';
-            break;
-          case 'carrera_de_veterinaria_homeopatica.php';
-            echo 'active';
-            break;
-          case 'carrera_de_farmacia_homeopatica.php';
-            echo 'active';
-            break;
-
-          default:
-            '';
-            break;
+          break;
           } ?>
           "><a href="carreras.php">Carreras</a>
         <span id="openDDcarreras2" class="leftFloatDDArrow"><i class="fa fa-angle-double-down"></i></span>
@@ -143,6 +115,8 @@
           <a href="carrera_de_odontoestomatologia_homeopatica.php"><li class="floatDD <?php echo $currentPage == 'carrera_de_odontoestomatologia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</li></a>
           <a href="carrera_de_veterinaria_homeopatica.php"><li class="floatDD <?php echo $currentPage == 'carrera_de_veterinaria_homeopatica.php' ? 'active' : ''; ?>">Carrera de Veterinaria Homeop&aacute;tica</li></a>
           <a href="carrera_de_farmacia_homeopatica.php"><li class="floatDD <?php echo $currentPage == 'carrera_de_farmacia_homeopatica.php' ? 'active' : ''; ?>">Carrera de Farmacia Homeop&aacute;tica</li></a>
+          <a href="carrera_agrohomeopatia.php"><li class="floatDD <?php echo $currentPage == 'carrera_agrohomeopatia.php' ? 'active' : ''; ?>">Carrera de Agrohomeopatía</li></a>
+          <a href="carrera_odontologia_intensiva.php"><li class="floatDD <?php echo $currentPage == 'carrera_odontologia_intensiva.php' ? 'active' : ''; ?>">Carrera de Odontología Homeopática Intensiva</li></a>
         </ul>
       <li class="
       <?php
@@ -164,10 +138,6 @@
             break;
           case 'odontoestomatologia_y_veterinaria_homeopatica_2_en_1.php';
             echo 'active';
-            break;
-
-          default:
-            '';
             break;
           } ?>
       "><a href="cursos.php">Cursos de Posgrado</a>

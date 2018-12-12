@@ -82,7 +82,7 @@ if( $_POST[ 'user' ] && $_POST[ 'password' ] )
           <div class="sociosLogin">
             <div class="row txC">
               <p>
-                Dejamos a su disposición las actas de los trabajos expuestos en el 12º Congreso FAMHA.<br>Las mismas estarán disponibles hasta Febrero de 2018
+                Dejamos a su disposición las actas de los trabajos expuestos en el 12º Congreso FAMHA.<br>Las mismas estarán disponibles hasta Febrero de 2019
               </p>
             </div>
             <div class="row">

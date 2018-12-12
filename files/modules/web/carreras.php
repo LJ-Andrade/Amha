@@ -33,6 +33,16 @@
                 <p>Carrera de Farmacia Homeop&aacute;tica</p>
               </div>
             </a>
+            <a href="carrera_agrohomeopatia.php">
+              <div class="col-xs-12 linkWrapper">
+                <p>Carrera de Agrohomeopatía</p>
+              </div>
+            </a>
+            <a href="carrera_odontologia_intensiva.php">
+              <div class="col-xs-12 linkWrapper">
+                <p>Carrera de Odontología Homeopática Intensiva</p>
+              </div>
+            </a>
           </div><!-- /Row -->
         </div><!-- /contentContainer -->
         <?php include('sidebar.php'); ?><!-- Right Sidebar -->
