@@ -96,6 +96,8 @@
             <li><a href='carrera_de_odontoestomatologia_homeopatica.php'>Carrera de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas</a></li>
             <li><a href='carrera_de_veterinaria_homeopatica.php'>Carrera de Veterinaria Homeop&aacute;tica</a></li>
             <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Farmacia Homeop&aacute;tica</a></li>
+            <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Agrohomeopat&iacute;a</a></li>
+            <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Odontología Homeopática Intensiva</a></li>
           </ul>
         </li>
         <li><a href='cursos.php'>Cursos de Posgrado</a>
