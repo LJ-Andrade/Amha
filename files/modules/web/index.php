@@ -13,7 +13,7 @@
         <!-- Home main menu -->
         <div class="row homeMenu">
           <div class="row">
-            <a href="carreras.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
+            <a href="carrera_odontologia_intensiva.php"><div class="col-md-6 col-sm-12 col-xs-12 hmMenu hm1R1C"><span></span></div></a></a>
             <a href="carrera_de_medicina_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm2R3C"><span class="DarkColor">CARRERA DE <br> MEDICINA  <br> HOMEOP&Aacute;TICA</span></div></a>
             <a href="carrera_de_veterinaria_homeopatica.php"><div class="col-md-3 col-sm-6 col-xs-12 hmMenu hm1R3C"><span>CARRERA DE VETERINARIA HOMEOP&Aacute;TICA </span></div></a>
           </div>

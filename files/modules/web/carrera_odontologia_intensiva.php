@@ -20,7 +20,7 @@
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h1 class="txC">Odontología Homeopática Intensiva</h1>
+              <h1 class="txC">Curso Intensivo de Odontología y Estomatología Homeopática</h1>
               <hr>
               <p class="txL">
                 <b>Dirigido a:</b> Odontólogos
@@ -32,7 +32,7 @@
                 <b>Requisitos:</b> Ser odontólogo.
                 <br>
                 <br>
-                <h4 class="txC"><strong>PROGRAMA ODONTOLOGÍA HOMEOPÁTICA INTENSIVA</strong></h4>
+                <h4 class="txC"><strong>PROGRAMA DEL CURSO INTENSIVO DE ODONTOLOGÍA Y ESTOMATOLOGÍA HOMEOPÁTICA</strong></h4>
                 <br>
                 <strong>OBJETIVO:</strong> Capacitar al Odontólogo en el manejo homeopático de la patología aguda y crónica del aparato estomatognático.
                 <br>

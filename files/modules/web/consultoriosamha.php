@@ -26,7 +26,7 @@
               <p>
                 Todos los consultorios que la A.M.H.A. ofrece son atendidos por m&eacute;dicos que se han formados en la
                 Instituci&oacute;n y que, hoy, forman parte del cuerpo docente.
-                En ellos se atienden bebés, niños, adloescentes, adultos, mujeres embarazadas y ancianos<br><br>
+                En ellos se atienden bebés, niños, adolescentes, adultos, mujeres embarazadas y ancianos<br><br>
                 <b>Hacé tus consultas médicas en nuestros consultorios privados</b><br><br>
                 <!-- <b>Ud. puede atenderse en :</b><br> -->
 
@@ -67,7 +67,9 @@
                 <br>
                 <b>Martes</b><br>
                 De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dra. Eva Blaho<br>
-                De 9:30 a 12:00 hs - Cátedra de Odontología y Estomatología<br>
+                <!-- De 9:30 a 12:00 hs - Cátedra de Odontología y Estomatología<br> -->
+                <!-- De 9:30 a 12:00 hs - Cátedra de la Profesora Titular Dra. Silvia Aschkar<br> -->
+                De 9:30 a 12:00 hs - Cátedra de Odontología y Estomatología Titular Dra. Silvia Asckar<br>
                 De 16:30 a 18:00 hs - Cátedra del Profesor Titular Dr. Ángel Minotti<br>
                 <br>
                 <b>Miércoles</b><br>

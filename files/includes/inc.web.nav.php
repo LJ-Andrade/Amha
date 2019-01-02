@@ -78,16 +78,15 @@
       </li>
       <li class=" <?php echo $currentPage == 'cursos_y_carreras.php' ? 'active' : ''; ?>"><a href='cursos_y_carreras.php'>CURSOS Y CARRERAS</a>
         <ul>
-          <li><a href='cursos2018.php'>Cursos 2018</a>
-            <ul>
+          <li><a href='cursos2019.php'>Cursos 2019</a>
+            <!-- <ul>
               <li><a href='curso_diagnostico.php'>Diagnóstico del medicamento por la biotipología</a></li>
-              <!-- <li><a href='curso_agrohomeopatia.php'>Agrohomeopatía</a></li> -->
-            </ul>
+            </ul> -->
           </li>
           <li><a href='nuevas_carreras.php'>Nuevas Carreras</a>
             <!-- <ul>
               <li><a href='curso_agrohomeopatia.php'>Agrohomeopatía</a></li>
-              <li><a href='curso_diagnostico.php'>Odontología Homeopática Intensiva</a></li>
+              <li><a href='curso_diagnostico.php'>Odontología y Estomatología Homeopática Intensiva</a></li>
             </ul> -->
           </li>
         <li><a href='carreras.php'>Carreras</a>
@@ -97,7 +96,7 @@
             <li><a href='carrera_de_veterinaria_homeopatica.php'>Carrera de Veterinaria Homeop&aacute;tica</a></li>
             <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Farmacia Homeop&aacute;tica</a></li>
             <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Agrohomeopat&iacute;a</a></li>
-            <li><a href='carrera_de_farmacia_homeopatica.php'>Carrera de Odontología Homeopática Intensiva</a></li>
+            <li><a href='carrera_odontologia_intensiva.php'>Curso Intensivo de Odontología y Estomatología Homeopática</a></li>
           </ul>
         </li>
         <li><a href='cursos.php'>Cursos de Posgrado</a>

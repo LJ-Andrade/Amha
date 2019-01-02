@@ -40,7 +40,7 @@
             </a>
             <a href="carrera_odontologia_intensiva.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Carrera de Odontología Homeopática Intensiva</p>
+                <p>Curso Intensivo de Odontología y Estomatología Homeopática</p>
               </div>
             </a>
           </div><!-- /Row -->

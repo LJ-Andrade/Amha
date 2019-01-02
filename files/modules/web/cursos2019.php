@@ -13,11 +13,12 @@
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
           <div class="sectionTits"><h1 class="txC">Cursos 2018</h1></div>
           <div class="row txC">
-            <a href="curso_diagnostico.php">
+
+            <!-- <a href="curso_diagnostico.php">
               <div class="col-xs-12 linkWrapper">
                 <p>Diagnóstico del medicamento por la biotipología</p>
               </div>
-            </a>
+            </a> -->
 
             <!-- <a href="curso_agrohomeopatia.php">
               <div class="col-xs-12 linkWrapper">
