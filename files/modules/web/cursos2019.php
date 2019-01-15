@@ -11,20 +11,20 @@
     <div class="mainWrapper">
       <div class="container mainContainer"><!-- Content inside this div -->
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
-          <div class="sectionTits"><h1 class="txC">Cursos 2018</h1></div>
+          <div class="sectionTits"><h1 class="txC">Cursos 2019</h1></div>
           <div class="row txC">
 
-            <!-- <a href="curso_diagnostico.php">
+            <a href="curso_semana_homeopatia.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Diagnóstico del medicamento por la biotipología</p>
+                <p>Semana de la homeopatía</p>
               </div>
-            </a> -->
+            </a>
 
-            <!-- <a href="curso_agrohomeopatia.php">
+            <a href="odontoestomatologia_veterinaria_homeopatica.php">
               <div class="col-xs-12 linkWrapper">
-                <p>Agrohomeopatía</p>
+                <p>Curso para extranjeros</p>
               </div>
-            </a> -->
+            </a>
 
           </div><!-- /Row -->
         </div><!-- /contentContainer -->

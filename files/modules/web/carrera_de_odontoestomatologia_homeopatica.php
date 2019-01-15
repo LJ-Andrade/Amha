@@ -26,6 +26,8 @@
               <b>Duraci&oacute;n:</b> 2 a&ntilde;os<br>
               <b>D&iacute;as de cursada:</b> Lunes<br>
               <b>Comienza:</b> Abril - <b>Finaliza:</b> Noviembre<br>
+              <b>Fecha de inicio 1er año:</b> 26/04<br>
+              <b>Fecha de inicio 2do año:</b> 12/04<br>
               <b>Requisitos:</b> Ser odont&oacute;logo. <br>
               Presentar fotocopia autenticada y en tama&ntilde;o reducido de ambas caras del t&iacute;tulo y fotocopia de ambas caras de la matr&iacute;cula. <br>
               Fotos carnet: 2 (dos)<br>

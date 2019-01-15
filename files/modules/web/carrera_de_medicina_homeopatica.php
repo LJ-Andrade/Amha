@@ -26,7 +26,11 @@
               <b>Dirigido a:</b> M&eacute;dicos<br>
               <b>Duraci&oacute;n:</b> 3 a&ntilde;os.<br>
               <b>D&iacute;as de cursada:</b> Viernes y s&aacute;bados.<br>
-              <b>Comienza:</b> Mes de Abril -  Finaliza: Mes de Noviembre<br>
+              <b>Comienza:</b> Mes de Abril -  <b>Finaliza:</b> Mes de Noviembre<br>
+              <b>Fecha de inicio 1er año:</b> 26/04<br>
+              <b>Fecha de inicio 2do año:</b> 12/04<br>
+              <b>Fecha de inicio 3er año:</b> 05/04<br>
+
               <h5>OBJETIVOS DEL CURSO REGULAR DE PRIMER A&Ntilde;O</h5>
               Introducci&oacute;n a la Doctrina y Filosof&iacute;a homeop&aacute;ticas.
               <br>Sus principios fundamentales:<br>

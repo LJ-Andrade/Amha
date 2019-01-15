@@ -40,6 +40,8 @@
                 <br>
                 <b>Comienza:</b> Mes de Abril - <b>Finaliza:</b> Mes de Noviembre
                 <br>
+                <b>Fecha de inicio:</b> Sábado 06 de abril de 2019
+                <br>
                 <br>
                 <h4 class="txC"><strong>¿Qué es la Agrohomeopatía?</strong></h4>
                 <br>

@@ -13,7 +13,7 @@
         <div class="col-lg-9 col-md-12 col-xs-12 contentContainer">
           <div class="sectionTits"><h1 class="txC">Cursos y Carreras</h1></div>
           <div class="row txC">
-            <a href="cursos2018.php"><div class="col-xs-12 linkWrapper"><p>Cursos 2018</p></div></a>
+            <a href="cursos2019.php"><div class="col-xs-12 linkWrapper"><p>Cursos 2019</p></div></a>
             <a href="nuevas_carreras.php"><div class="col-xs-12 linkWrapper"><p>Nuevas Carreras</p></div></a>
             <a href="carreras.php"><div class="col-xs-12 linkWrapper"><p>Carreras</p></div></a>
             <a href="cursos.php"><div class="col-xs-12 linkWrapper"><p>Cursos</p></div></a>
