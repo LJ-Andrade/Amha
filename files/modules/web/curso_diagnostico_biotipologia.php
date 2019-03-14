@@ -20,20 +20,18 @@
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h1 class="txC">Semana de la homeopatía</h1>
+              <h1 class="txC">Diagnóstico del medicamento por la biotipología - Casos Clínicos</h1>
               <hr>
-              Del 1º al 5 de Junio de 2019 de 9 a 13 hs y de 14.30 a 18.30 hs<br>
-              <br>
-              <b>Próximamente habrá más información</b><br>
 
-              <!-- Comienza martes 4 de septiembre de 14.30 a 16.30<br>Un martes por mes - continúa en 2019<br>
+              Comienza Martes 1 de Abril de 14.30 a 16.30<br>Un martes por mes<br>
               <br>
               <b>Lugar: </b>AMHA -Asociación Médica Homeopática Argentina<br>
               <br>
-              <b>Inscripción: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" target="_blank">escuela@amha.org.ar</a></b> - (011) 4827-2907<br>
+              <b>Inscripción:</b> Secretaría de la escuela AMHA<!--<a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" target="_blank">escuela@amha.org.ar</a></b> - (011) 4827-2907--><br>
               <br>
               <p>Diagnóstico del medicamento por el estudio del color del cabello, los ojos y la tez, la expresión del rostro, la implantación de las cejas, pestañas, tamaño de los ojos, la altura, diámetro del cuello, posición de los hombros y brazos, conformación del tórax, el tono muscular, el tamaño del cráneo, el abdomen, la forma de caminar, las alteraciones ungueales, la forma de los dientes, el tamaño de las manos y dedos.</p>
-              <br> -->
+              <br>
+              <b>Para inscripciones y consultar valores, enviar un email a <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" target="_blank">escuela@amha.org.ar</a> o llamar al (011) 4827-2907</b>
 
               <!--<b>Arancel:</b> CONSULTAR<br> $ 7.280.-<br>-->
               <!--<ol>-->

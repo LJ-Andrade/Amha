@@ -81,26 +81,28 @@
                             <h2>Comit&eacute; Directivo</h2>
                             <hr>
                             <p class="card-text">
-                              <b>Director:</b> Dr. Adolfo Campanelli<br>
-                              <b>Subdirector:</b> Dr. Andr&eacute;s Carmody<br>
-                              <b>Secretario de Medicina:</b> Dr. Lucas Yraola<br>
-                              <b>Prosecretaria de Medicina:</b> Dra. Carolina Alonso<br>
+                              <b>Director:</b> Dr. Lucas Yraola<br>
+                              <b>Subdirector:</b> Dr. Gustavo Martello<br>
+                              <b>Secretaria de Medicina:</b> Dra. Astrid Motura<br>
+                              <b>Prosecretaria de Medicina:</b> Dra. Julieta Campanelli<br>
                               <b>Secretaria de Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas<!--Odontoestomatolog&iacute;a-->:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Secretario de Medicina Veterinaria:</b> Vet. Dr. Horacio De Medio<br>
                               <b>Secretaria de Farmacia:</b> Farm. Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
-                              <b>Directora de Ateneos:</b> Dra. Astrid Motura
+                              <b>Directora de Ateneos:</b> Dra. Astrid Motura<br>
+                              <b>Secretaria Administrativa de la Escuela:</b> Sra. Marta Lugo
                             </p><br>
                             <h2>Campus Virtual</h2>
                             <hr>
                             <p class="card-text">
                               <!--<b>Coordinaci&oacute;n General:</b> Dra. Eva Blaho<br>-->
-                              <b>Foro 1° a&ntilde;o:</b> Dra. Astrid Motura<br>
-                              <b>Foro 2° a&ntilde;o:</b> Dra. Elena Figari<br>
+                              <b>Foro 1° a&ntilde;o:</b> Dr. Esteban Busto<br>
+                              <b>Foro 2° a&ntilde;o:</b> Dra. Patricia Atenor<br>
                               <b>Foro 3° a&ntilde;o:</b> Dr. Lucas Yraola<br>
                               <b>Foro Odontolog&iacute;a y Estomatolog&iacute;a Homeop&aacute;ticas:</b> Dra. Marina Gal&aacute;n<br>
                               <b>Foro Farmacia:</b> Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
-                              <b>Foro Graduados:</b> Dr. Adolfo Campanelli<br>
-                              <b>Foro Mar del Plata:</b> Dra. Silvia Mercado
+                              <b>Foro Agrohomeopatía:</b> Dr. Gustavo Martello<br>
+                              <b>Foro Graduados:</b> Dr. Adolfo Campanelli
+                              <!-- <b>Foro Mar del Plata:</b> Dra. Silvia Mercado -->
                             </p><br>
                             <h2>Departamento de Investigaci&oacute;n</h2>
                             <hr>
@@ -121,7 +123,7 @@
                               Dra. Astrid Motura<br>
                               <!--Dr. Guillermo Mur<br>-->
                               <!--Dr. Jos&eacute; De Robertis<br>-->
-                              Dra. Mariana Tamini<br>
+                              <!-- Dra. Mariana Tamini<br> -->
                               Dra Diana O. Cabrera<br>
                               <br>
                               <b>&Aacute;rea Investigaci&oacute;n Hist&oacute;rica:</b> Dr. Adolfo Campanelli<br><br>
@@ -140,11 +142,12 @@
                             Dr. Eduardo A. Yahbes<br>
                             Dr. Mario Draiman<br>
                             Dr. &Aacute;ngel O. Minotti<br>
+                            Dr. Juan Carlos Pellegrino<br>
                             <br>
 
                               <p class="card-text">
                               <b>Profesores Titulares</b><br>
-                              Dr. Juan Carlos Pellegrino<br>
+                              <!-- Dr. Juan Carlos Pellegrino<br> -->
                               Dr. Roque Penna<br>
                               <!--Dr. Ra&uacute;l Gustavo Pirra<br>-->
                               Dra. Eva Blaho<br>
@@ -154,47 +157,55 @@
                               Dra. Viviana Tachella<br>
                               Dr. Roberto Luis D&iacute;az Campos<br>
                               Dra. Laura Svirnovsky<br><br>
+                              Dr. Andr&eacute;s Carmody<br>
+                              Dra. Silvia Aschkar<br>
+                              Dr. Gustavo Martello<br>
 
                               <b>Profesores Adjuntos</b><br>
                               Dra. Ruth Faingold<br>
                               Dra. Mar&iacute;a Isabel Messia<br>
-                              Dr. Jorge Antonio Traverso<br>
+                              <!-- Dr. Jorge Antonio Traverso<br> -->
                               Dra. M&oacute;nica Prunell<br>
                               Dr. Francisco Goldstein Herman<br>
-                              Dra. Silvia Aschkar<br>
+                              <!-- Dra. Silvia Aschkar<br> -->
                               Dra. Elena Figari<br>
-                              Dr. Andr&eacute;s Carmody<br>
-                              Dr. Gustavo Martello<br>
+                              <!-- Dr. Andr&eacute;s Carmody<br> -->
+                              <!-- Dr. Gustavo Martello<br> -->
                               Dr. Adolfo Campanelli<br>
                               Dr. Lucas Yraola<br>
                               Dr. Roberto Zald&uacute;a<br>
+                              Dra. Astrid Motura<br>
+                              Dr. Jos&eacute; De Robertis<br>
 
                               </p>
                               <p class="card-text">
                               <b>Docentes Adscriptos</b><br>
-                              Dra. Astrid Motura<br>
-                              Dr. Jos&eacute; De Robertis<br>
                               Dra. Mariana Tamini<br>
                               Dr. Gustavo Valy<br>
                               Dra. Patricia Atenor<br>
                               <!--Dra. Nilda Grzesko<br>-->
                               <!--Dra. Liliana Szab&oacute;<br>-->
                               Dra. Carolina Alonso<br>
+                              Dra. Neomí Rivas<br>
                               Dr. Mariano Ortolani<br>
                               Dr. Esteban Busto<br>
+                              Dra. Julieta Campanelli<br>
                               </p>
                               <p class="card-text">
                               <p>
                                 <b>Docente Libre:</b> Dra. Nora Taubin<br><br>
                                 <b>Profesor Titular de Veterinaria Homeop&aacute;tica:</b><br> Dr. Horacio De Medio<br>
-                                <!--<b>Docente Adscripto de Veterinaria Homeop&aacute;tica:</b><br> Dr. Carlos Angeleri<br>-->
-                                <b>Profesora Titular de Farmacia Homeop&aacute;tica:</b><br> Farm. Ana Mar&iacute;a Fern&aacute;ndez<br>
+                                <b>Docente Adscripta de Veterinaria Homeop&aacute;tica:</b><br> Dra. Aldana Ponti<br>
+                                <b>Profesora Titular de Farmacia Homeop&aacute;tica:</b><br> Dra. Ana Mar&iacute;a Fern&aacute;ndez<br>
                                 <b>Prof. Extraordinaria de Farmacia Homeop&aacute;tica:</b><br> Farm. Lucía Marchante<br>
-                                <!--<b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br>-->
+                                <!-- <b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Paula Spinelli<br> -->
+                                <b>Docente Adscripta de Farmacia Homeop&aacute;tica:</b><br> Farm. Julieta Servetto<br>
+                                <b>Profesora Titular de Odontolog&iacute;a y Estomatolog&iacute;a<!--Odontoestomatolog&iacute;a--> Homeop&aacute;ticas:</b><br> Dra. Silvia Aschkar<br>
                                 <!--<b>Profesor Titular de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto D&iacute;az Campos<br>-->
-                                <b>Profesora Titular de Odontolog&iacute;a y Estomatolog&iacute;a<!--Odontoestomatolog&iacute;a--> Homeop&aacute;ticas:</b><br> <!--Dra. Viviana Tachella--><br>
                                 <!--<b>Profesor Adjunto a Cargo de Odontoestomatolog&iacute;a Homeop&aacute;tica:</b><br> Dr. Roberto Diaz Campos<br>-->
                                 <b>Docente Adscripta de Odontolog&iacute;a y Estomatolog&iacute;a<!--Odontoestomatolog&iacute;a--> Homeop&aacute;ticas:</b><br> Dra. Marina Gal&aacute;n<br>
+                                <b>Profesor Titular de Agrohomeopatía:</b><br> Dr. Gustavo Martello<br>
+                                <b>Profesora Adjunta de Agrohomeopatía:</b><br> Dra. Astrid Motura<br>
                               </p>
                               </p>
                           </div>

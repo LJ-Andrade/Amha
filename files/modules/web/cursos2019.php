@@ -26,6 +26,12 @@
               </div>
             </a>
 
+            <a href="curso_diagnostico_biotipologia.php">
+              <div class="col-xs-12 linkWrapper">
+                <p>Diagnóstico del medicamento por la biotipología - Casos Clínicos</p>
+              </div>
+            </a>
+
           </div><!-- /Row -->
         </div><!-- /contentContainer -->
         <?php include('sidebar.php'); ?><!-- Right Sidebar -->
