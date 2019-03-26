@@ -38,9 +38,9 @@
                             <b>Tesorera:</b> Dra. Silvia Aschkar<br>
                             <b>Vocal primero:</b> Dra. Laura Svirnovsky<br>
                             <b>Vocal segundo:</b> Dra. Mariana Tamini<br>
-                            <b>Vocal suplente:</b> Dr. José De Robertis<br>
+                            <b>Vocal suplente:</b> Dr. Gustavo Valy<br>
                             <b>Director de Consultorios Externos:</b> Dr. Andr&eacute;s Carmody<br>
-                            <b>Director de Biblioteca:</b> Dr. Adolfo Campanelli<br>
+                            <b>Director de Biblioteca:</b> Dra. Elena Figari<br>
                             <b>Directora Revista Homeopat&iacute;a:</b> Dra. Eva Blaho<br>
                             <b>Director Revista Homeopat&iacute;a para Todos:</b> Dr. Andr&eacute;s Carmody<br>
                             <b>&Aacute;rea Socios:</b> Dra. Laura Svirnovsky<br>
@@ -54,7 +54,7 @@
                             <p>
                               <b>Tribunal de Honor</b><br>
                               Dr. Mario Draiman<br>
-                              Dr. &Aacute;ngel Minotti<br>
+                              Dr. Eduardo Yahbes<br>
                               Dr. Juan Carlos Pellegrino<br>
                               Dr. Roque Penna<br>
                               Vet. Dr. Horacio De Medio<br>
