@@ -22,9 +22,10 @@
             <div class="row">
               <h1 class="txC">Semana de la homeopatía</h1>
               <hr>
-              Del 1º al 5 de Junio de 2019 de 9 a 13 hs y de 14.30 a 18.30 hs<br>
+              <!-- Del 1º al 5 de Junio de 2019 de 9 a 13 hs y de 14.30 a 18.30 hs<br> -->
+              Del 2 al 6 de septiembre<br>
               <br>
-              <b>Próximamente habrá más información</b><br>
+              <b>Actualización en medicina homeopática. De la teoría a la práctica</b><br>
 
               <!-- Comienza martes 4 de septiembre de 14.30 a 16.30<br>Un martes por mes - continúa en 2019<br>
               <br>

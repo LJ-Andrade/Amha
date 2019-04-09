@@ -181,7 +181,7 @@
                   <!-- <img class="card-img" src="../../../skin/images/body/menu/agrohomeopatia.jpg" alt="Primera jornada de Agrohomeopatía"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/ateneosweb.jpg" alt="Ateneos">
                   <!-- <h3 class="card-title">Conocé las fechas 2019</h3> -->
-                  <h3 class="card-title">Fechas 2019 - a confirmar</h3>
+                  <h3 class="card-title">5 de Abril 2019</h3>
                 </a>
               </div>
             </div>

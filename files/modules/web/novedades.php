@@ -19,6 +19,75 @@
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
+                  <h5><b>Dr. Eugenio CANDEGABE</b> - Profesor Extraordinario de la EMHA Tomás Pablo Paschero</h5>
+                </div>
+                <div class="accordionInfo">
+                  <hr>
+                  <p class="justify">
+                    Falleció el 23 de Marzo de 2019<br>
+                  </p>
+                  <p class="justify">
+                    Gran aflicción ha causado en la familia homeopática del mundo la partida de nuestro gran maestro, el Dr. Eugenio Candegabe a los 95 años de edad.<br>
+                    <br>
+                    El Dr. Candegabe integraba la generación dorada de la Homeopatía que
+significó el afianzamiento de esta medicina en nuestro país, alcanzando el brillo
+y el prestigio internacional que identifica a la Homeopatía Argentina. Integró el
+selecto grupo de maestros como el Dr.Tomás Pablo Paschero, de quien se
+decía discípulo, del Dr. Francisco Xavier Eyzayaga, del Dr. Bernardo Vijnovsky,
+y otros, quienes sentaron las bases de nuestra realidad homeopática actual.<br>
+                    <br>
+                    Concurriendo a la Cátedra del Dr. Eyzayaga, allá por la década del 70, él
+siempre se ufanaba de haber convencido al Dr. Candegabe, con quien eran
+compañeros en el Hospital, para que se animara a descubrir nuestra medicina
+y así lo había logrado, destacándose luego el Dr. Eugenio por abrazarla y por
+un entusiasmo e idoneidad apasionantes, que lo llevó a ser maestro de
+maestros y alcanzar renombre internacional. Claro que en esa época poco
+conocimiento tenía personalmente de él, ya que hacía poco se había
+producido la secesión de la Escuela y la conformación de otra con los Dres.
+Paschero y Candegabe.<br>
+                      <br>
+Sin embargo a partir de 1986 en que concretamos un acercamiento a
+través de los Congresos Unificados de las Escuelas Homeopáticas Argentinas
+y más aún con la constitución de la Federación de Asociaciones Médicas
+Homeopáticas Argentinas en 1995, comencé a conocerlo, a presenciar sus
+clases y presentaciones donde nos fascinaba con su didáctica y carisma y nos
+adentraba en la trama profunda de los medicamentos, de la dinámica mental y
+funcional, la intencionalidad de los síntomas, del síndrome mínimo
+característico, de la materia médica comparada, conceptos todos luego
+concretados en su libro “La Materia Médica Comparada” y que a mí me inspiró
+como base para escribir las “Personalidades Homeopáticas”. Pero no
+solamente estas exposiciones teóricas nos deslumbraban sino también y muy
+especialmente cuando nos contaba sus anécdotas y casos clínicos.<br>
+                    <br>
+                    Sin tener una relación profunda y por contactos esporádicos, casi
+siempre relacionados con Congresos y Jornadas, tuvimos charlas personales y
+desarrollamos una gran empatía. El Dr. Eugenio siempre fue componedor.
+Recuerdo en los primeros acercamientos entre las escuelas la existencia de
+recelos y desconfianzas y ciertas diferencias doctrinarias, nunca significativas,
+en las que él mediaba por la unión y afirmaba “que en vez de oponer conceptos
+debíamos sumarlos.”.<br>
+                    <br>
+                    En este sentido, también destaco a su hijo Marcelo, actual presidente de
+la EMHA Tomás Pablo Paschero, quien ha recibido la antorcha de su padre,
+tanto por su capacidad profesional como por el gran cariño que nos une, y que
+ha hecho cada vez más profunda la relación entre ambas Escuelas.<br>
+                    <br>
+                    El Dr. Eugenio Candegabe nos ha dejado pero sólo físicamente. Su
+presencia perdurará en nosotros y sus enseñanzas en todos quienes nos
+sigan, para siempre.<br>
+                    <br>
+                    Un gran abrazo para nuestros hermanos de la EMHA y en especial para
+sus deudos, su esposa Sarita y su hijo Marcelo.<br>
+                    <br>
+                  </p>
+                  <p class="txR">Dr. Mario Draiman<p>
+                </div>
+              </div>
+              <!-- New -->
+
+              <!-- New -->
+              <div class="col-md-12 infoContainer accordion">
+                <div class="accordionTitle">
                   <h5>CURSO: <b>"DIAGNÓSTICO DEL MEDICAMENTO POR LA BIOTIPOLOGIA – CASOS CLÍNICOS"</b></h5>
                 </div>
                 <div class="accordionInfo">
