@@ -83,10 +83,10 @@
                 <a href="../../../skin/files/carreras/carrera-medicina-programa.pdf" target="_blank">
                   <img src="../../../skin/images/body/icons/pdficon.png" alt="" /> <br>
                   <span class="margLeft0">Descargar Programa</span></a></div>
-              <div class="col-md-4 downloadPdf txC">
+              <!-- <div class="col-md-4 downloadPdf txC">
                 <a href="../../../skin/files/carreras/carrera-medicina-calendario.pdf" target="_blank">
                   <img src="../../../skin/images/body/icons/pdficon.png" alt="" /><br>
-                   <span class="margLeft0">Descargar Calendario</span></a></div>
+                   <span class="margLeft0">Descargar Calendario</span></a></div> -->
               <div class="col-md-4 margTop20 txC">
                 <a href="formulario_preinscripcion.php#top" target="_blank"><button type="button" class="btn mainBtn">Inscribirse</button></a>
               </div>

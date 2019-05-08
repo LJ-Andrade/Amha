@@ -146,9 +146,11 @@
             </div>
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <a href="formulario_preinscripcion.php">
+                <a href="contacto.php">
+                <!-- <a href="formulario_preinscripcion.php"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/charlainformativa.jpg" alt="Charla Informativa">
-                  <h3 class="card-title">22 de Marzo a las 18 hs.</h3>
+                  <h3 class="card-title">Click para más información</h3>
+                  <!-- <h3 class="card-title">22 de Marzo a las 18 hs.</h3> -->
                 </a>
               </div>
             </div>
