@@ -49,7 +49,7 @@
           <div class="sectionTits"><h1 class=" txC">Contacto</h1></div><hr>
           <div class="row amhaContacto">
             <div class="col-md-12">
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <h4><b>Sede Central</b></h4>
                 <p>ESCUELA DE POSGRADO Y <br>ATENCI&Oacute;N M&Eacute;DICA EN C&Aacute;TEDRA<br>
                 <b>Juncal 2884 - (C1425AYJ)</b><br> Recoleta, Buenos Aires, Argentina<br>
@@ -58,14 +58,14 @@
                 <b>D&iacute;as y horarios:</b><br> De lunes a viernes de 9.00hs a 16.00hs</p>
               </div>
               <hr class="hrMobile">
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <h4><b>Consultorio M&eacute;dico</b></h4>
                 <p>Consultorios privados de los m&eacute;dicos de la A.M.H.A.<br>
                 <b>Charcas 2744 - piso 2 departamento "6"</b><br> Barrio Norte, Buenos Aires, Argentina<br>
                 <b>Tel:</b> (011) 4963-1841 /4962-6812<br>
 		            <b>D&iacute;as y horarios:</b> Lunes a Viernes de 9 a 20hs.
               </div>
-              <hr class="hrMobile">
+              <!-- <hr class="hrMobile">
               <div class="col-md-4">
                 <h4><b>Sede Mar del Plata</b></h4>
                 <p>Carrera de Medicina Homeop&aacute;tica<br> Curso Regular y Carrera de Veterinaria Homeopática<br>
@@ -73,7 +73,7 @@
                 <b>Tel:</b> (0223) 476-3545<br>
                 <b>Mail:</b> marianoortolani@hotmail.com<br>
                 <b>D&iacute;as y horarios:</b><br> De Lunes a viernes de 9 a 20 hs.</p>
-              </div>
+              </div> -->
               <hr class="hrMobile">
               <div class="row">
                 <div class="col-md-8">

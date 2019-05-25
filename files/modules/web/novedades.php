@@ -261,7 +261,7 @@ sus deudos, su esposa Sarita y su hijo Marcelo.<br>
                 </div>
               </div><!-- 3-->
               <!-- New -->
-              <div class="col-md-12 infoContainer accordion">
+              <!-- <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
                   <h5><b>Cursos Mar del Plata</b></h5>
                 </div>
@@ -282,7 +282,7 @@ sus deudos, su esposa Sarita y su hijo Marcelo.<br>
                     <b>D&iacute;as y horarios:</b> De Lunes a viernes de 9 a  20 hs. de Lunes a viernes<br><br>
                   </p>
                 </div>
-              </div><!-- 4-->
+              </div> -->
               <!-- New -->
               <div class="col-md-12 infoContainer accordion">
                 <div class="accordionTitle">
