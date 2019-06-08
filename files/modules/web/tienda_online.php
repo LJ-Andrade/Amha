@@ -38,7 +38,7 @@
                     "price"=>"8",
                     "new"=>false,
                     "paypal"=>"GUWA9H6G7FQ2J",
-                    "mercadopago"=>"229260528-462c6d99-eee3-4587-ac9f-0eb9f2759693");
+                    "mercadopago"=>"229260528-50646736-10f3-4aa9-b9e9-21bfb092b0c2");
   $Books[] = array(
                     "title"=>"DICCIONARIO DE RUBROS RELACIONADOS",
                     "author"=>"Dr. Jorge Casale",
@@ -201,38 +201,49 @@ Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas p
                     "paypal"=>"W3BUS8UX9TZXW",
                     "mercadopago"=>"229260528-dedafe90-79c5-4046-8bfb-2a9c31b62a33");
   $Books[] = array(
-                    "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 1",
+                    "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 1 - TOMO 2 - TOMO 3",
                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
-                    "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica.jpg",
+                    "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica0.jpg",
                     "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
                    Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
 Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
-                    "price"=>"100",
+                    "price"=>"45",
                     "new"=>false,
-                    "paypal"=>"5WGQ5PJSZVQ6Y",
-                    "mercadopago"=>"229260528-f4a3ada5-c295-4450-8118-e782ca099523");
-  $Books[] = array(
-                    "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 2",
-                    "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
-                    "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica2.jpg",
-                    "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
-                   Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
-Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
-                    "price"=>"100",
-                    "new"=>false,
-                    "paypal"=>"AKC4QRYNMLNXQ",
-                    "mercadopago"=>"229260528-aedd716a-6026-496e-8457-9b8d08b2320b");
-  $Books[] = array(
-                    "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 3",
-                    "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
-                    "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica3.jpg",
-                    "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
-                   Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
-Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
-                    "price"=>"100",
-                    "new"=>false,
-                    "paypal"=>"3WA2WTE2HX8CW",
-                    "mercadopago"=>"229260528-f04e610c-807c-4a07-b488-bfeba175c892");
+                    "paypal"=>"WEDB5GQD2JL2N",
+                    "mercadopago"=>"");
+//   $Books[] = array(
+//                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 1",
+//                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
+//                     "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica.jpg",
+//                     "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
+//                    Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
+// Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
+//                     "price"=>"100",
+//                     "new"=>false,
+//                     "paypal"=>"5WGQ5PJSZVQ6Y",
+//                     "mercadopago"=>"229260528-f4a3ada5-c295-4450-8118-e782ca099523");
+//   $Books[] = array(
+//                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 2",
+//                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
+//                     "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica2.jpg",
+//                     "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
+//                    Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
+// Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
+//                     "price"=>"100",
+//                     "new"=>false,
+//                     "paypal"=>"AKC4QRYNMLNXQ",
+//                     "mercadopago"=>"229260528-aedd716a-6026-496e-8457-9b8d08b2320b");
+//   $Books[] = array(
+//                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 3",
+//                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
+//                     "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica3.jpg",
+//                     "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
+//                    Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
+// Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
+//                     "price"=>"100",
+//                     "new"=>false,
+//                     "paypal"=>"3WA2WTE2HX8CW",
+//                     "mercadopago"=>"229260528-f04e610c-807c-4a07-b488-bfeba175c892");
   $Books[] = array(
                     "title"=>"TRATAMIENTO HOMEOP&Aacute;TICO DE LAS AFECCIONES Y ENFERMEDADES AGUDAS",
                     "author"=>"Dr. Bernardo Vijnovsky",
@@ -240,7 +251,7 @@ Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para
                     "description"=>"Este libro se usa en la pr&aacute;ctica m&eacute;dica de todos los d&iacute;as y de todo momento, tanto en el consultorio como en la consulta telef&oacute;nica o a la cabecera del paciente.
 Su finalidad es orientar acerca del o de los medicamentos que puedan resolver una situaci&oacute;n aguda que pueda presentar el paciente.
 A tal efecto, detalla los cuadros agudos m&aacute;s frecuentes en la pr&aacute;ctica y los medicamentos afines presentados con sus peculiaridades distintivas para cada uno de los casos.",
-                    "price"=>"28",
+                    "price"=>"22",
                     "new"=>false,
                     "paypal"=>"C2JX4748Z555S",
                     "mercadopago"=>"229260528-176eb897-71ab-4304-9333-2cc9cc9e8543");
