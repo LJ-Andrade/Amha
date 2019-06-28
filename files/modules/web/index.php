@@ -146,7 +146,7 @@
             </div>
             <div class="col-sm-4 itemHome2">
               <div class="card card-block">
-                <a href="contacto.php">
+                <a href="curso_semana_homeopatia.php">
                 <!-- <a href="formulario_preinscripcion.php"> -->
                   <img class="card-img" src="../../../skin/images/body/menu/charlainformativa.jpg" alt="Charla Informativa">
                   <h3 class="card-title">Click para más información</h3>

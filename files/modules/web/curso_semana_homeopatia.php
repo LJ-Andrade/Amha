@@ -20,21 +20,21 @@
           <!-- Content inside this div -->
           <div class="container textSection">
             <div class="row">
-              <h1 class="txC">Semana de la homeopatía</h1>
+              <h1 class="txC">SEMANA DE LA HOMEOPATÍA - JORNADAS INTENSIVAS DE LA TEORÍA A LA PRÁCTICA </h1>
               <hr>
               <!-- Del 1º al 5 de Junio de 2019 de 9 a 13 hs y de 14.30 a 18.30 hs<br> -->
-              Del 2 al 6 de septiembre<br>
+              <b>Del 02 al 09 de Septiembre de 2019</b><br>
               <br>
-              <b>Actualización en medicina homeopática. De la teoría a la práctica</b><br>
-
-              <!-- Comienza martes 4 de septiembre de 14.30 a 16.30<br>Un martes por mes - continúa en 2019<br>
+              <p>Debido a la excelente repercusión obtenida en el Congreso de la FAMHA organizado por la Asociación Médica Homeopática Argentina en octubre de 2018, y con el objetivo de satisfacer la demanda de colegas de mantener un fluído  contacto, la AMHA ha decidido realizar "LA SEMANA DE LA HOMEOPATÍA".<br>
+              La misma se llevará a cabo del 2 al 6 de septiembre en nuestra Institución.<br>
+              En su transcurso nuestros docentes efectuaran  disertaciones especiales, contaremos con invitados de otras escuelas, y se realizarán intercambios de conocimientos y experiencias.<br>
+              Los esperamos!</p><br>
+              <b>DESCARGÁ EL PROGRAMA COMPLETO HACIENDO <a href="../../../skin/files/conferences/semana_homeopatia.pdf" target="_blank">CLICK AQUÍ</a></b><br>
               <br>
-              <b>Lugar: </b>AMHA -Asociación Médica Homeopática Argentina<br>
+              <u><b>INCRIPCIÓN E INFORMACIÓN:</b></u><br>
+              Mail: <b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" target="_blank">escuela@amha.org.ar</a></b><br>
+              Teléfono: <b>(011) 4827-2907<br>
               <br>
-              <b>Inscripción: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escuela@amha.org.ar" target="_blank">escuela@amha.org.ar</a></b> - (011) 4827-2907<br>
-              <br>
-              <p>Diagnóstico del medicamento por el estudio del color del cabello, los ojos y la tez, la expresión del rostro, la implantación de las cejas, pestañas, tamaño de los ojos, la altura, diámetro del cuello, posición de los hombros y brazos, conformación del tórax, el tono muscular, el tamaño del cráneo, el abdomen, la forma de caminar, las alteraciones ungueales, la forma de los dientes, el tamaño de las manos y dedos.</p>
-              <br> -->
 
               <!--<b>Arancel:</b> CONSULTAR<br> $ 7.280.-<br>-->
               <!--<ol>-->
