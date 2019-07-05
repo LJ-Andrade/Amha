@@ -204,10 +204,10 @@ Al final del libro el autor incluye un Repertorio de patolog&iacute;as curadas p
                     "title"=>"TRATADO DE MATERIA M&Eacute;DICA - TOMO 1 - TOMO 2 - TOMO 3",
                     "author"=>"Dr. Bernardo Vijnovsky (1912-1996)",
                     "image"=>"../../../skin/images/products/tratadodemateriamedicahomeopatica0.jpg",
-                    "description"=>"Este tratado de Materia M&Eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
+                    "description"=>"Este tratado de Materia M&eacute;dica Homeop&aacute;tica fue escrito originalmente en castellano por el Dr. Bernardo Vijnovsky, quien fuera
                    Profesor titular de Medicina Homeop&aacute;tica, Presidente y Profesor Extraordinario de la AMHA. <br>
 Es un libro de consulta y aprendizaje obligado, tanto para estudiantes como para m&eacute;dicos  home&oacute;patas. Es tal vez el compendio m&aacute;s completo existente con la mayor&iacute;a de medicamentos conocidos. Tiene adem&aacute;s la ventaja de clasificar los s&iacute;ntomas seg&uacute;n su importancia para cada  medicamento, con 1, 2 &oacute; 3 puntos, lo cual habilita entender con facilidad la f&aacute;rmacodinamia del mismo. As&iacute; mismo evita tener que recurrir simult&aacute;neamente a la consulta de diez o quince Materias M&eacute;dicas ya que aqu&iacute; se abarca r&aacute;pidamente lo esencial de cada medicamento.",
-                    "price"=>"45",
+                    "price"=>"200",
                     "new"=>false,
                     "paypal"=>"WEDB5GQD2JL2N",
                     "mercadopago"=>"");
